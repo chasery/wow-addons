@@ -1,0 +1,46 @@
+
+TradeSkillMaster_MailingDB = {
+	["g@ @sendDelay"] = 0.5,
+	["g@ @sendItemsIndividually"] = false,
+	["_scopeKeys"] = {
+		["char"] = {
+			"Vonyc - Proudmoore", -- [1]
+			"Amethizz - Proudmoore", -- [2]
+		},
+		["factionrealm"] = {
+			"Alliance - Proudmoore", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"Proudmoore", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+		["inbox"] = true,
+	},
+	["_hash"] = 3711258,
+	["g@ @inboxMessages"] = true,
+	["g@ @defaultMailTab"] = true,
+	["c@Vonyc - Proudmoore@goldMailTarget"] = "",
+	["_currentProfile"] = {
+		["Amethizz - Proudmoore"] = "Default",
+		["Vonyc - Proudmoore"] = "Default",
+	},
+	["g@ @resendDelay"] = 1,
+	["c@Amethizz - Proudmoore@goldKeepAmount"] = 1000000,
+	["f@Alliance - Proudmoore@deMailTarget"] = "",
+	["c@Amethizz - Proudmoore@goldMailTarget"] = "",
+	["g@ @defaultPage"] = 1,
+	["g@ @deleteEmptyNPCMail"] = false,
+	["g@ @openMailSound"] = "TSM_NO_SOUND",
+	["g@ @displayMoneyCollected"] = true,
+	["g@ @sendMessages"] = true,
+	["g@ @keepMailSpace"] = 0,
+	["g@ @showReloadBtn"] = true,
+	["g@ @autoCheck"] = true,
+	["g@ @deMaxQuality"] = 2,
+	["_version"] = 1,
+	["c@Vonyc - Proudmoore@goldKeepAmount"] = 1000000,
+}

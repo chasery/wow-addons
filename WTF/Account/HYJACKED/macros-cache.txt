@@ -1,0 +1,49 @@
+VER 3 000000000000000E "Extra Action" "Spell_Nature_SlowingTotem"
+/click ExtraActionButton1
+END
+VER 3 000000000000003E "Levitate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help][] Levitate
+END
+VER 3 0000000000000041 "Shadow CC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift]Mind Control; Shackle Undead
+END
+VER 3 0000000000000027 "Shadow Dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Mass Dispel; [mod:alt] Purify Disease; Dispel Magic
+END
+VER 3 0000000000000040 "Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cancelaura Dispersion
+/cast Silence
+END
+VER 3 0000000000000028 "SW:D" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Dispersion
+/cast [@mouseover,harm][] Shadow Word: Death
+END
+VER 3 0000000000000020 "SW:P" "SPELL_SHADOW_SHADOWWORDPAIN"
+#showtooltip
+/cast [@mouseover,harm][] Shadow Word: Pain
+END
+VER 3 000000000000002D "T45 CC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Dispersion
+/cast Mind Bomb
+END
+VER 3 0000000000000022 "Vampiric Touch" "SPELL_HOLY_STOICISM"
+#showtooltip
+/cast [@mouseover,harm][] Vampiric Touch
+END
+VER 3 000000000000003F "Void Eruption" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cancelaura Dispersion
+/cast Void Eruption
+END
+VER 3 000000000000002E "XP Banners" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Battle Standard of Coordination
+/use Standard of Unity
+/use Banner of Cooperation
+END

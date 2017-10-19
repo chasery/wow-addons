@@ -1,0 +1,25 @@
+changeset:   677:6cf0fca6ebdb
+tag:         tip
+user:        Tercio
+date:        Sun Oct 01 21:03:47 2017 -0300
+summary:     - lib folder renamed.
+
+
+changeset:   676:8f7230c2e02e
+user:        Tercio
+date:        Wed Sep 27 17:59:04 2017 -0300
+summary:     - Rolling back to Mercurial repository.
+
+
+changeset:   675:899e13d626a1
+user:        Tercio
+date:        Tue Sep 19 12:56:32 2017 -0300
+summary:     - testing the mercurial repo packpager.
+
+
+changeset:   674:3939641c0fe0
+user:        Tercio
+date:        Wed Jul 26 10:14:37 2017 -0300
+summary:     - packpager, hello?
+
+
