@@ -1,0 +1,18 @@
+"$(git status --porcelain | grep '^??' | cut -c4-)" 
+.build.info
+.curseclient
+.patch.result
+.product.db
+BlizzardError.exe
+Cache/
+Data/
+Errors/
+Launcher.db
+Logs/
+Utils/
+WoW.mfil
+World of Warcraft Launcher.exe
+Wow-64.exe
+Wow.exe
+dbghelp.dll
+exception-failed.txt
