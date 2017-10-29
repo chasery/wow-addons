@@ -7,11 +7,8 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v7.3.0.4771",
-	["SoloTablesSaved"] = {
-		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
-		["Mode"] = 1,
-	},
+	["last_version"] = "v7.3.0.4830",
+	["force_font_outline"] = "",
 	["tabela_instancias"] = {
 	},
 	["local_instances_config"] = {
@@ -63,13 +60,13 @@ _detalhes_database = {
 	},
 	["last_instance_time"] = 0,
 	["active_profile"] = "Amethizz-Proudmoore",
-	["last_realversion"] = 126,
+	["last_realversion"] = 127,
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -102,8 +99,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
 			["dps"] = 0,
+			["author"] = "Details! Team",
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -180,12 +177,7 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -193,13 +185,12 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["use_spark"] = true,
-			["y"] = -4.577636718750e-005,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -211,7 +202,13 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["author"] = "Details! Team",
+			["y"] = -4.577636718750e-005,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
@@ -224,11 +221,18 @@ _detalhes_database = {
 		["frame"] = {
 		},
 	},
-	["announce_firsthit"] = {
-		["enabled"] = true,
-		["channel"] = "SELF",
+	["mythic_dungeon_currentsaved"] = {
+		["dungeon_name"] = "",
+		["started"] = false,
+		["segment_id"] = 0,
+		["ej_id"] = 0,
+		["started_at"] = 0,
+		["run_id"] = 0,
+		["level"] = 0,
+		["dungeon_zone_id"] = 0,
+		["previous_boss_killed_at"] = 0,
 	},
-	["combat_counter"] = 14,
+	["combat_counter"] = 44,
 	["combat_id"] = 0,
 	["savedStyles"] = {
 	},
@@ -237,7 +241,10 @@ _detalhes_database = {
 		["channel"] = "SELF",
 		["reverse"] = false,
 	},
-	["last_day"] = "19",
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
 	["announce_deaths"] = {
 		["enabled"] = false,
 		["last_hits"] = 1,
@@ -276,7 +283,7 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 1,
+		["combat_counter"] = 16,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -284,21 +291,52 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
-			["frags_total"] = 0,
 			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["data_inicio"] = 0,
+		["end_time"] = 1071.123,
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["overall_refreshed"] = true,
+		["CombatSkillCache"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+		},
+		["start_time"] = 1071.123,
+		["TimeData"] = {
 		},
 		["totals_grupo"] = {
 			0, -- [1]
@@ -307,66 +345,29 @@ _detalhes_database = {
 				0, -- [1]
 				[0] = 0,
 				["alternatepower"] = 0,
-				[3] = 0,
 				[6] = 0,
+				[3] = 0,
 			}, -- [3]
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
 				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
-				["cc_break"] = 0,
-				["dead"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
 			}, -- [4]
 		},
-		["frags_need_refresh"] = false,
-		["__call"] = {
-		},
-		["PhaseData"] = {
-			{
-				1, -- [1]
-				1, -- [2]
-			}, -- [1]
-			["damage_section"] = {
-			},
-			["heal_section"] = {
-			},
-			["heal"] = {
-			},
-			["damage"] = {
-			},
-		},
-		["hasSaved"] = true,
-		["frags"] = {
-		},
-		["data_fim"] = 0,
-		["data_inicio"] = 0,
-		["CombatSkillCache"] = {
-		},
-		["player_last_events"] = {
-		},
-		["start_time"] = 0,
-		["TimeData"] = {
-		},
-		["overall_refreshed"] = true,
+	},
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
 	},
 	["character_data"] = {
-		["logons"] = 7,
+		["logons"] = 21,
 	},
-	["force_font_outline"] = "",
-	["mythic_dungeon_currentsaved"] = {
-		["dungeon_name"] = "",
-		["started"] = false,
-		["segment_id"] = 0,
-		["ej_id"] = 0,
-		["started_at"] = 0,
-		["run_id"] = 0,
-		["level"] = 0,
-		["dungeon_zone_id"] = 0,
-		["previous_boss_killed_at"] = 0,
-	},
+	["last_day"] = "28",
 	["announce_cooldowns"] = {
 		["enabled"] = false,
 		["ignored_cooldowns"] = {

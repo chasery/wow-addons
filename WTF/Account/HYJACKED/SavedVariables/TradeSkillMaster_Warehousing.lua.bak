@@ -6,22 +6,24 @@ TradeSkillMaster_WarehousingDB = {
 		["char"] = {
 			"Vonyc - Proudmoore", -- [1]
 			"Amethizz - Proudmoore", -- [2]
-		},
-		["factionrealm"] = {
-			"Alliance - Proudmoore", -- [1]
-		},
-		["profile"] = {
-			"Default", -- [1]
+			"Hootzpah - Proudmoore", -- [3]
 		},
 		["realm"] = {
 			"Proudmoore", -- [1]
 		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["factionrealm"] = {
+			"Alliance - Proudmoore", -- [1]
+		},
 	},
-	["_version"] = 1,
 	["f@Alliance - Proudmoore@BagState"] = {
 	},
+	["_version"] = 1,
 	["_currentProfile"] = {
-		["Amethizz - Proudmoore"] = "Default",
+		["Hootzpah - Proudmoore"] = "Default",
 		["Vonyc - Proudmoore"] = "Default",
+		["Amethizz - Proudmoore"] = "Default",
 	},
 }

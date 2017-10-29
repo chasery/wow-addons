@@ -1,6 +1,7 @@
 
 Details_StreamerDB = {
 	["characters"] = {
+		["Hootzpah - Proudmoore"] = "Vonyc - Proudmoore",
 		["Vonyc - Proudmoore"] = "Vonyc - Proudmoore",
 		["Amethizz - Proudmoore"] = "Vonyc - Proudmoore",
 	},
@@ -35,12 +36,7 @@ Details_StreamerDB = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -48,13 +44,8 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["y"] = -4.577636718750e-005,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -66,7 +57,17 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["author"] = "Details! Team",
+			["font_size"] = 10,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["y"] = -4.577636718750e-005,
+			["use_spark"] = true,
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},

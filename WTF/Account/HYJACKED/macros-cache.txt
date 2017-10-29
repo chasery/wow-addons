@@ -1,9 +1,25 @@
+VER 3 0000000000000045 "Balance CC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift, @focus]Entangling Roots; Typhoon
+END
 VER 3 000000000000000E "Extra Action" "Spell_Nature_SlowingTotem"
 /click ExtraActionButton1
+END
+VER 3 0000000000000046 "Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help][] Innervate
 END
 VER 3 000000000000003E "Levitate" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, help][] Levitate
+END
+VER 3 0000000000000042 "Moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm][] Moonfire
+END
+VER 3 0000000000000047 "Rebirth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover, help][] Rebirth
 END
 VER 3 0000000000000041 "Shadow CC" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -18,6 +34,14 @@ VER 3 0000000000000040 "Silence" "INV_MISC_QUESTIONMARK"
 /cancelaura Dispersion
 /cast Silence
 END
+VER 3 0000000000000044 "Starfall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Starfall
+END
+VER 3 0000000000000043 "Sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm][] Sunfire
+END
 VER 3 0000000000000028 "SW:D" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cancelaura Dispersion
@@ -31,6 +55,14 @@ VER 3 000000000000002D "T45 CC" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cancelaura Dispersion
 /cast Mind Bomb
+END
+VER 3 0000000000000049 "TSMMacro" "Achievement_Faction_GoldenLotus"
+/click TSMAuctioningCancelButton
+/click TSMCraftNextButton
+/click TSMShoppingCancelConfirmationButton
+/click TSMAuctioningPostButton
+/click TSMShoppingBuyoutButton
+/click TSMShoppingBuyoutConfirmationButton
 END
 VER 3 0000000000000022 "Vampiric Touch" "SPELL_HOLY_STOICISM"
 #showtooltip

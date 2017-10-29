@@ -1,112 +1,69 @@
-VER 3 0000000000000036 "Beacon of Faith" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000045 "Balance CC" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover,help][] Beacon of Faith
-END
-VER 3 0000000000000032 "Binding Heal" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@mouseover,help][] Binding Heal
-END
-VER 3 0000000000000033 "Clairty Will" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@mouseover,help][] Clarity of Will
-END
-VER 3 000000000000003C "Disc Atonement" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:shift] Penance; Smite
-END
-VER 3 000000000000002A "Dispersion" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cancelaura dispersion
-/cast Dispersion 
-END
-VER 3 0000000000000035 "Divine Storm" "INV_MISC_QUESTIONMARK"
-#showtooltip Divine Storm
-/use Potion of Mogu Power
-/cast Avenging Wrath
-/cast Holy Avenger
-/cast Divine Storm
-END
-VER 3 000000000000002C "Enchanting" "INV_MISC_QUESTIONMARK"
-#show enchanting
-/script DoTradeSkill(GetTradeSkillSelectionIndex());
-/run GetMouseFocus():Click()
-/script ReplaceEnchant();
-/click StaticPopup1Button1
+/cast [mod:shift, @focus]Entangling Roots; Typhoon
 END
 VER 3 000000000000000E "Extra Action" "Spell_Nature_SlowingTotem"
 /click ExtraActionButton1
 END
-VER 3 000000000000002B "Fear Ward" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000046 "Innervate" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover,help][] Fear Ward
-END
-VER 3 0000000000000031 "Guardian Spirit" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@mouseover,help][] Guardian Spirit
-END
-VER 3 0000000000000037 "Heal SW:P" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@focustarget,harm][] Shadow Word: Pain
-END
-VER 3 000000000000003A "Holy Atonement" "INV_MISC_QUESTIONMARK"
-#showtooltip Holy Fire
-/cast [mod:shift] Holy Fire; Smite
-END
-VER 3 000000000000003B "Horn of Cen" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][] Horn of Cenarius
+/cast [@mouseover, help][] Innervate
 END
 VER 3 000000000000003E "Levitate" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, help][] Levitate
 END
-VER 3 000000000000003D "LoT" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000042 "Moonfire" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover,help][] Light of T'uure
+/cast [@mouseover,harm][] Moonfire
 END
-VER 3 0000000000000024 "Mind Blast" "INV_MISC_QUESTIONMARK"
-#showtooltip Mind Blast
-/use Draenic Intellect Potion
-/cast [@mouseover,harm][] Mind Blast
-END
-VER 3 0000000000000023 "Mind Flay" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000047 "Rebirth" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover,harm][] Mind Flay
+/cast [@mouseover, help][] Rebirth
 END
-VER 3 0000000000000039 "Purge the Wicked" "INV_MISC_QUESTIONMARK"
+VER 3 0000000000000041 "Shadow CC" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [@mouseover,exists,nodead][]Purge the Wicked
-END
-VER 3 0000000000000030 "Saving Grace" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@mouseover,help][] Saving Grace
-END
-VER 3 000000000000002D "Shadow CC" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [mod:shift]Mind Control; [mod:alt]Shackle Undead; Psychic Scream
+/cast [mod:shift]Mind Control; Shackle Undead
 END
 VER 3 0000000000000027 "Shadow Dispel" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [mod:shift] Mass Dispel; [mod:alt] Purify Disease; Dispel Magic
 END
+VER 3 0000000000000040 "Silence" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cancelaura Dispersion
+/cast Silence
+END
+VER 3 0000000000000044 "Starfall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Starfall
+END
+VER 3 0000000000000043 "Sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm][] Sunfire
+END
 VER 3 0000000000000028 "SW:D" "INV_MISC_QUESTIONMARK"
 #showtooltip
+/cancelaura Dispersion
 /cast [@mouseover,harm][] Shadow Word: Death
 END
 VER 3 0000000000000020 "SW:P" "SPELL_SHADOW_SHADOWWORDPAIN"
 #showtooltip
 /cast [@mouseover,harm][] Shadow Word: Pain
 END
-VER 3 0000000000000034 "Temp Verd" "INV_MISC_QUESTIONMARK"
-#showtooltip Templar's Verdict
-/use Potion of Mogu Power
-/cast Avenging Wrath
-/cast Holy Avenger
-/cast Templar's Verdict
+VER 3 000000000000002D "T45 CC" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Dispersion
+/cast Mind Bomb
 END
 VER 3 0000000000000022 "Vampiric Touch" "SPELL_HOLY_STOICISM"
 #showtooltip
 /cast [@mouseover,harm][] Vampiric Touch
+END
+VER 3 000000000000003F "Void Eruption" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cancelaura Dispersion
+/cast Void Eruption
 END
 VER 3 000000000000002E "XP Banners" "INV_MISC_QUESTIONMARK"
 #showtooltip
