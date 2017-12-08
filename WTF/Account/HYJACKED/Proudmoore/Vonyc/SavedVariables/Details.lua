@@ -7,9 +7,9 @@ _detalhes_database = {
 		["tabelas"] = {
 		},
 	},
-	["last_version"] = "v7.3.0.4830",
+	["last_version"] = "v7.3.0.4912",
 	["character_data"] = {
-		["logons"] = 43,
+		["logons"] = 45,
 	},
 	["tabela_instancias"] = {
 	},
@@ -49,6 +49,24 @@ _detalhes_database = {
 		}, -- [1]
 	},
 	["cached_talents"] = {
+		["Player-5-0ADAAED8"] = {
+			22799, -- [1]
+			22416, -- [2]
+			22767, -- [3]
+			21865, -- [4]
+			22494, -- [5]
+			22547, -- [6]
+			21868, -- [7]
+		},
+		["Player-5-0ABB451A"] = {
+			17601, -- [1]
+			22438, -- [2]
+			22431, -- [3]
+			22558, -- [4]
+			22433, -- [5]
+			21202, -- [6]
+			22180, -- [7]
+		},
 		["Player-5-0ADC4303"] = {
 			22316, -- [1]
 			21751, -- [2]
@@ -58,8 +76,26 @@ _detalhes_database = {
 			21720, -- [6]
 			22312, -- [7]
 		},
+		["Player-60-09D43EE9"] = {
+			22313, -- [1]
+			22316, -- [2]
+			22094, -- [3]
+			21751, -- [4]
+			21755, -- [5]
+			21719, -- [6]
+			21637, -- [7]
+		},
+		["Player-9-09C8CF49"] = {
+			22120, -- [1]
+			22121, -- [2]
+			19239, -- [3]
+			22124, -- [4]
+			22133, -- [5]
+			19249, -- [6]
+			19236, -- [7]
+		},
 	},
-	["last_instance_id"] = 1676,
+	["last_instance_id"] = 1477,
 	["announce_interrupts"] = {
 		["enabled"] = false,
 		["whisper"] = "",
@@ -67,15 +103,15 @@ _detalhes_database = {
 		["custom"] = "",
 		["next"] = "",
 	},
-	["last_instance_time"] = 1508298706,
+	["last_instance_time"] = 1509313419,
 	["active_profile"] = "Vonyc-Proudmoore",
-	["last_realversion"] = 127,
+	["last_realversion"] = 128,
 	["ignore_nicktag"] = false,
 	["plugin_database"] = {
 		["DETAILS_PLUGIN_TINY_THREAT"] = {
 			["updatespeed"] = 1,
-			["showamount"] = false,
 			["animate"] = false,
+			["showamount"] = false,
 			["useplayercolor"] = false,
 			["useclasscolors"] = false,
 			["author"] = "Details! Team",
@@ -108,8 +144,8 @@ _detalhes_database = {
 			["annouce"] = true,
 			["dpshistory"] = {
 			},
-			["author"] = "Details! Team",
 			["dps"] = 0,
+			["author"] = "Details! Team",
 			["level"] = 1,
 			["enabled"] = true,
 		},
@@ -186,12 +222,7 @@ _detalhes_database = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -199,8 +230,12 @@ _detalhes_database = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["use_spark"] = true,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -212,129 +247,24 @@ _detalhes_database = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
 			["y"] = -4.577636718750e-005,
-			["use_spark"] = true,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},
 	},
+	["benchmark_db"] = {
+		["frame"] = {
+		},
+	},
+	["last_encounter"] = "Sisters of the Moon",
 	["nick_tag_cache"] = {
-		[180623672] = {
-			"Squeeks", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Default", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-ArcaneStorm", -- [4]
-			{
-				0.129609375, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			8, -- [7]
-		},
-		["nextreset"] = 1509314424,
 		["last_version"] = 9,
-		[178854118] = {
-			"Zappytits", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Bronjahm", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-Rain", -- [4]
-			{
-				0.078125, -- [1]
-				0.970703125, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			3, -- [7]
-		},
-		[180620038] = {
-			"Spookith", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Default", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-ArcaneStorm", -- [4]
-			{
-				0.129609375, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			5, -- [7]
-		},
-		[173629679] = {
-			"Raven", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Asira Dawnslayer", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-Darkness", -- [4]
-			{
-				0.080078125, -- [1]
-				0.931640625, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			15, -- [7]
-		},
-		[179662312] = {
-			"Bigdicklock", -- [1]
-			false, -- [2]
-			false, -- [3]
-			false, -- [4]
-			false, -- [5]
-			false, -- [6]
-			3, -- [7]
-		},
-		[180045082] = {
-			"Wheelchair", -- [1]
-			false, -- [2]
-			false, -- [3]
-			false, -- [4]
-			false, -- [5]
-			false, -- [6]
-			8, -- [7]
-		},
 		[182207235] = {
 			"Tentacleporn", -- [1]
 			false, -- [2]
@@ -344,38 +274,11 @@ _detalhes_database = {
 			false, -- [6]
 			2, -- [7]
 		},
-		[180670260] = {
-			"Asdasdasd", -- [1]
-			"Interface\\EncounterJournal\\UI-EJ-BOSS-Baron Ashbury", -- [2]
-			{
-				0, -- [1]
-				1, -- [2]
-				0, -- [3]
-				1, -- [4]
-			}, -- [3]
-			"Interface\\PetBattles\\Weather-BurntEarth", -- [4]
-			{
-				0.087890625, -- [1]
-				0.916015625, -- [2]
-				1, -- [3]
-				0, -- [4]
-			}, -- [5]
-			{
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-			}, -- [6]
-			9, -- [7]
-		},
+		["nextreset"] = 1513300982,
 	},
-	["benchmark_db"] = {
-		["frame"] = {
-		},
-	},
-	["last_encounter"] = "Sisters of the Moon",
-	["last_day"] = "25",
-	["combat_counter"] = 921,
-	["combat_id"] = 549,
+	["last_day"] = "29",
+	["combat_counter"] = 1021,
+	["combat_id"] = 634,
 	["savedStyles"] = {
 	},
 	["announce_prepots"] = {
@@ -432,7 +335,7 @@ _detalhes_database = {
 		},
 		["alternate_power"] = {
 		},
-		["combat_counter"] = 911,
+		["combat_counter"] = 1019,
 		["totals"] = {
 			0, -- [1]
 			0, -- [2]
@@ -446,10 +349,10 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
@@ -462,11 +365,12 @@ _detalhes_database = {
 		["__call"] = {
 		},
 		["data_inicio"] = 0,
-		["end_time"] = 556.081,
-		["hasSaved"] = true,
+		["end_time"] = 2077825.468,
 		["frags"] = {
 		},
 		["data_fim"] = 0,
+		["CombatSkillCache"] = {
+		},
 		["totals_grupo"] = {
 			0, -- [1]
 			0, -- [2]
@@ -480,34 +384,31 @@ _detalhes_database = {
 			{
 				["buff_uptime"] = 0,
 				["ress"] = 0,
-				["cooldowns_defensive"] = 0,
-				["dispell"] = 0,
-				["interrupt"] = 0,
 				["debuff_uptime"] = 0,
+				["cooldowns_defensive"] = 0,
+				["interrupt"] = 0,
+				["dispell"] = 0,
 				["cc_break"] = 0,
 				["dead"] = 0,
 			}, -- [4]
 		},
-		["CombatSkillCache"] = {
+		["start_time"] = 2077825.468,
+		["TimeData"] = {
 		},
 		["PhaseData"] = {
 			{
 				1, -- [1]
 				1, -- [2]
 			}, -- [1]
-			["damage_section"] = {
-			},
 			["heal_section"] = {
 			},
 			["heal"] = {
 			},
+			["damage_section"] = {
+			},
 			["damage"] = {
 			},
 		},
-		["start_time"] = 556.081,
-		["TimeData"] = {
-		},
-		["overall_refreshed"] = true,
 	},
 	["force_font_outline"] = "",
 	["SoloTablesSaved"] = {
@@ -534,6 +435,14 @@ _detalhes_database = {
 		["channel"] = "SELF",
 	},
 	["cached_specs"] = {
+		["Player-5-0ADAAED8"] = 577,
 		["Player-5-0ADC4303"] = 258,
+		["Player-5-0ABB451A"] = 66,
+		["Player-5-0AAD8858"] = 262,
+		["Player-5-0A0F2EF7"] = 72,
+		["Player-60-09D43EE9"] = 258,
+		["Player-5-0660A268"] = 258,
+		["Player-5-0AE030FE"] = 260,
+		["Player-9-09C8CF49"] = 260,
 	},
 }

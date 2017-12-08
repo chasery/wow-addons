@@ -4,38 +4,35 @@ WeakAurasSaved = {
 		["Sephuz's Secret"] = {
 			[208052] = 645145,
 		},
-		["Mark of the Claw"] = {
-			[190909] = 625999,
+		["Wax and Wane"] = {
+			[239952] = 136096,
+		},
+		["Fulminating Pulse"] = {
+			[253520] = 514018,
 		},
 		["Drums of Fury"] = {
 			[178207] = 133841,
 		},
-		["Voidform"] = {
-			[194249] = 1386550,
+		["Torment of Flames"] = {
+			[243968] = 236220,
 		},
 		["Spectral Owl"] = {
 			[242570] = 237241,
 		},
-		["Time Warp"] = {
-			[80353] = 458224,
+		["Shocked"] = {
+			[250224] = 132871,
 		},
-		["Vampiric Embrace"] = {
-			[15286] = 136230,
+		["Marked Prey"] = {
+			[244042] = 458727,
 		},
 		["Potion of Prolonged Power"] = {
 			[229206] = 967532,
 		},
-		["Mind Quickening"] = {
-			[240673] = 132886,
+		["Felshield"] = {
+			[244910] = 135796,
 		},
-		["Twist of Fate"] = {
-			[123254] = 237566,
-		},
-		["Starfall"] = {
-			[191034] = 236168,
-		},
-		["Nefarious Pact"] = {
-			[225774] = 840195,
+		["Solar Solstice"] = {
+			[252767] = 1033487,
 		},
 		["Oneth's Intuition"] = {
 			[209406] = 429383,
@@ -43,95 +40,389 @@ WeakAurasSaved = {
 		["Shocklight"] = {
 			[252801] = 460953,
 		},
-		["Concordance of the Legionfall"] = {
-			[242586] = 1585421,
-		},
-		["Heroism"] = {
-			[32182] = 132313,
+		["Apocalypse Protocol"] = {
+			[246516] = 135796,
 		},
 		["Devil's Due"] = {
 			[225776] = 236299,
 		},
+		["Brutality of the Legion"] = {
+			[255742] = 463568,
+		},
+		["Malice of the Legion"] = {
+			[255744] = 463570,
+		},
+		["Slumber Gas"] = {
+			[247565] = 135798,
+		},
+		["Fervor of the Legion"] = {
+			[253261] = 468265,
+		},
+		["Rush of Knowledge"] = {
+			[256828] = 1729932,
+		},
+		["Rain of Fel"] = {
+			[248332] = 135797,
+		},
+		["Fel Wake"] = {
+			[248795] = 135800,
+		},
+		["Ruiner"] = {
+			[246840] = 135798,
+		},
+		["Chaos Pulse"] = {
+			[257974] = 135803,
+		},
+		["Torment of Fel"] = {
+			[243980] = 841221,
+		},
+		["Necrotic Embrace"] = {
+			[244094] = 1029009,
+		},
+		["Heroism"] = {
+			[32182] = 132313,
+		},
+		["Voidform"] = {
+			[194249] = 1386550,
+		},
 		["Oneth's Overconfidence"] = {
 			[209407] = 1052602,
 		},
+		["Nefarious Pact"] = {
+			[225774] = 840195,
+		},
+		["Dark Fissure"] = {
+			[244005] = 136201,
+		},
+		["Chilled Blood"] = {
+			[245586] = 576310,
+		},
+		["Twist of Fate"] = {
+			[123254] = 237566,
+		},
+		["Misery"] = {
+			[243961] = 460857,
+		},
+		["Fiery Detonation"] = {
+			[244709] = 135818,
+		},
+		["Starfall"] = {
+			[191034] = 236168,
+		},
+		["Mind Quickening"] = {
+			[240673] = 132886,
+		},
+		["Stasis Trap"] = {
+			[247641] = 132887,
+		},
+		["Mark of the Claw"] = {
+			[190909] = 625999,
+		},
+		["Orb of Frost"] = {
+			[253697] = 629077,
+		},
+		["Vampiric Embrace"] = {
+			[15286] = 136230,
+		},
+		["Shivan Pact"] = {
+			[253203] = 574999,
+		},
+		["Time Warp"] = {
+			[80353] = 458224,
+		},
+		["Concordance of the Legionfall"] = {
+			[242586] = 1585421,
+			[243096] = 1585421,
+		},
+		["Torment of Frost"] = {
+			[243977] = 236209,
+		},
+		["Entropic Blast"] = {
+			[253290] = 135799,
+		},
+		["Empowered Pulse Grenade"] = {
+			[250006] = 1117883,
+		},
 	},
 	["login_squelch_time"] = 10,
+	["registered"] = {
+	},
+	["frame"] = {
+		["xOffset"] = -205.83349609375,
+		["width"] = 646.666748046875,
+		["height"] = 516.166564941406,
+		["yOffset"] = -258.166625976563,
+	},
 	["displays"] = {
-		["Void Tendril Timer"] = {
-			["outline"] = "OUTLINE",
-			["fontSize"] = 13,
+		["UN - Soulbomb (P4)"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
 			["disjunctive"] = "all",
-			["displayText"] = "%c",
-			["customText"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction()\n    if glb_wa_void_T_timer > 0 then\n        local time = GetTime()\n        local timer = 10 - ((time) - (glb_wa_void_T_timer))\n        if timer >= 0 then\n            \n            return string.format(\"%.1f\", timer)\n        else\n            glb_wa_void_T_timer = 0\n            glb_wa_void_T_counter = 0\n            \n        end\n        \n    else\n        glb_wa_void_T_timer = 0\n        glb_wa_void_T_counter = 0\n        \n        return \"\"\n        \n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-			["yOffset"] = -11.999938964844,
-			["regionType"] = "text",
-			["parent"] = "Priest - Shadow: Void Tendril Tracker",
-			["xOffset"] = 0,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
 			["activeTriggerMode"] = -10,
 			["customTextUpdate"] = "update",
-			["init_completed"] = 1,
 			["actions"] = {
 				["start"] = {
-				},
-				["finish"] = {
-					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_timer = 0\nglb_wa_void_T_counter = 0\nglb_wa_void_T_table = {}",
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "6095",
 					["do_custom"] = false,
+					["sound"] = "Sound\\Creature\\CThun\\CThunYouWillDie.ogg",
+					["message_type"] = "SAY",
 				},
 				["init"] = {
-					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_timer = 0",
-					["do_custom"] = true,
+					["do_custom"] = false,
+				},
+				["finish"] = {
 				},
 			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Soulbomb", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					251570, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "UN - Soulbomb (P4)",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "status",
+						["subeventSuffix"] = "_CAST_START",
+						["percenthealth"] = "40",
+						["event"] = "Health",
+						["unit"] = "boss1",
+						["unevent"] = "auto",
+						["subeventPrefix"] = "SPELL",
+						["use_unit"] = true,
+						["use_percenthealth"] = true,
+						["percenthealth_operator"] = "<=",
+						["use_specific_unit"] = true,
+					},
+					["untrigger"] = {
+						["use_specific_unit"] = true,
+						["unit"] = "boss1",
+					},
+				}, -- [1]
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["init_started"] = 1,
-			["animation"] = {
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Insanity Bar - Text - Right 2"] = {
+			["outline"] = "OUTLINE",
+			["fontSize"] = 14,
+			["xOffset"] = 204,
+			["displayText"] = "%c",
+			["customText"] = "function()\n    local health = UnitHealth(\"target\")\n    local time = GetTime()\n    local text\n    local oldhealth\n    if oldhealth ~= health then\n        oldhealth = health\n        if health == UnitHealthMax(\"target\") then -- THiS BLOCK IS GOOD\n            health0, time0, mhealth, mtime = nil\n            text = \" - - \"\n            return text\n        end\n        \n        if not health0 then -- GOOD\n            health0, time0 = health, time\n            mhealth, mtime = health, time\n            return\n        end\n        \n        mhealth = (mhealth + health) * .5\n        mtime = (mtime + time) * .5\n        \n        if mhealth >= health0 then\n            text = \" - - \"\n            health0, time0, mhealth, mtime =nil\n        else\n            time = health * (time0 - mtime) / (mhealth - health0)\n            if (time <= 60) then\n                text = format(\"%0.2d\",time)           \n            elseif (time > 60) then\n                text = format(\"%d:%0.2d\",time / 60, time % 60)\n            end\n            return text\n        end\n    end\nend",
+			["untrigger"] = {
+			},
+			["regionType"] = "text",
+			["color"] = {
+				1, -- [1]
+				0.9843137254902, -- [2]
+				0.9921568627451, -- [3]
+				1, -- [4]
+			},
+			["activeTriggerMode"] = 0,
+			["customTextUpdate"] = "update",
+			["init_completed"] = 1,
+			["actions"] = {
 				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "shrink",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
 				},
 				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "shrink",
+					["sound"] = " custom",
+					["do_sound"] = false,
+				},
+				["init"] = {
 				},
 			},
-			["justify"] = "CENTER",
-			["selfPoint"] = "BOTTOM",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["id"] = "Insanity Bar - Text - Right 2",
+			["justify"] = "RIGHT",
+			["selfPoint"] = "RIGHT",
+			["additional_triggers"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["frameStrata"] = 6,
+			["anchorFrameType"] = "SCREEN",
 			["trigger"] = {
 				["type"] = "status",
-				["use_alwaystrue"] = true,
+				["custom_hide"] = "timed",
 				["unevent"] = "auto",
-				["event"] = "Conditions",
+				["use_percentpower"] = false,
+				["use_power"] = true,
+				["event"] = "Power",
+				["subeventPrefix"] = "SPELL",
 				["use_unit"] = true,
-				["debuffType"] = "HELPFUL",
+				["powertype"] = 13,
 				["spellIds"] = {
 				},
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
 				["names"] = {
 				},
-				["subeventPrefix"] = "SPELL",
-				["subeventSuffix"] = "_CAST_START",
-				["unit"] = "player",
-				["custom_hide"] = "timed",
+				["use_powertype"] = true,
+				["debuffType"] = "HELPFUL",
 			},
-			["anchorFrameType"] = "SCREEN",
-			["frameStrata"] = 1,
-			["width"] = 10.6666584014893,
-			["anchorPoint"] = "CENTER",
-			["font"] = "Friz Quadrata TT",
+			["font"] = "PT Sans Narrow",
 			["numTriggers"] = 1,
-			["id"] = "Void Tendril Timer",
-			["height"] = 13.3332872390747,
+			["width"] = 11.4999980926514,
+			["height"] = 14.1666269302368,
 			["conditions"] = {
 			},
 			["load"] = {
@@ -147,14 +438,1198 @@ WeakAurasSaved = {
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
+						["PRIEST"] = true,
 					},
 				},
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
+						[3] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
 					},
 				},
 				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Insanity Bar",
+		},
+		["FH (M) - Mythic Debuffs"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Sound\\Creature\\KazRogal\\CAV_Kaz_Mark02.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Shadowtouched", -- [1]
+					"Flametouched", -- [2]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244055, -- [1]
+					244054, -- [2]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["single"] = "mythic",
+					["multi"] = {
+						["mythic"] = true,
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH (M) - Mythic Debuffs",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["IM - Charged Blasts"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Charged Blasts", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					247716, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "IM - Charged Blasts",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["PK - Collapsing World"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "11482",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "243983",
+				["duration"] = "8",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["spellName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["unevent"] = "timed",
+				["subeventSuffix"] = "_CAST_SUCCESS",
+				["names"] = {
+					"Reality Tear", -- [1]
+				},
+				["sourceName"] = "",
+				["event"] = "Combat Log",
+				["name"] = "Collapsing World",
+				["use_spellName"] = false,
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244016, -- [1]
+				},
+				["use_sourceUnit"] = true,
+				["type"] = "event",
+				["custom_hide"] = "timed",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 1022950,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "PK - Collapsing World",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["FH - Double Debuffs"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = 0,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "6095",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Siphoned", -- [1]
+					"Weight of Darkness", -- [2]
+				},
+				["spellIds"] = {
+					248819, -- [1]
+					244071, -- [2]
+				},
+				["debuffType"] = "HARMFUL",
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 615100,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "BOTH",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["spellIds"] = {
+							248815, -- [1]
+						},
+						["custom_hide"] = "timed",
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+							"Enflamed", -- [1]
+						},
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH - Double Debuffs",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["FH - Molten Touch"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Molten Touch", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244086, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135860,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "FH - Molten Touch",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["HC (M) - Extracting "] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "254130",
+				["duration"] = "10",
+				["names"] = {
+					"Shock Grenade", -- [1]
+					"Shocked", -- [2]
+				},
+				["debuffType"] = "HARMFUL",
+				["use_sourceName"] = false,
+				["type"] = "event",
+				["unevent"] = "timed",
+				["spellName"] = "",
+				["use_unit"] = true,
+				["event"] = "Combat Log",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244737, -- [1]
+					244748, -- [2]
+				},
+				["use_spellName"] = false,
+				["name"] = "Extract Interloper",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2070",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["single"] = "mythic",
+					["multi"] = {
+						["mythic"] = true,
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 1321546,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["desaturate"] = false,
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["xOffset"] = 0,
+			["text1"] = "BAT",
+			["id"] = "HC (M) - Extracting ",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["subeventPrefix"] = "SPELL",
+						["type"] = "aura",
+						["spellIds"] = {
+							244172, -- [1]
+						},
+						["subeventSuffix"] = "_CAST_START",
+						["unit"] = "player",
+						["names"] = {
+							"Psychic Assault", -- [1]
+						},
+						["event"] = "Health",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["sound_type"] = "Play",
+								["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+								["sound_channel"] = "Master",
+							},
+							["property"] = "sound",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["cooldown"] = true,
+			["yOffset"] = 0,
+		},
+		["Nefarious Pact"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Nefarious Pact", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
 					["multi"] = {
 					},
 				},
@@ -166,11 +1641,1175 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["stickyDuration"] = false,
+			["text2Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["numTriggers"] = 1,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["text2FontSize"] = 24,
+			["text1FontFlags"] = "OUTLINE",
+			["width"] = 40,
+			["text1"] = "%c",
+			["text2Enabled"] = false,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "Nefarious Pact",
+			["text1Containment"] = "INSIDE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["text2Point"] = "CENTER",
+			["untrigger"] = {
+			},
+			["inverse"] = false,
+			["parent"] = "Balance - Procs",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["disjunctive"] = "all",
+		},
+		["PK - Corrupt"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Corrupt", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					245040, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Corrupt",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["KG - Demolish"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Demolish", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					246706, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "KG - Demolish",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["KG - Phase 2 Timer"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["specificUnit"] = "boss1",
+				["custom_hide"] = "timed",
+				["spellName"] = "Focused Blast",
+				["sourceName"] = "",
+				["unit"] = "member",
+				["unevent"] = "timed",
+				["use_specific_unit"] = true,
+				["use_sourceName"] = false,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					246516, -- [1]
+				},
+				["names"] = {
+					"Apocalypse Protocol", -- [1]
+				},
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "KG - Phase 2 Timer",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["EO (M) - Feedback"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Feedback - Foul Steps", -- [1]
+					"Feedback - Burning Embers", -- [2]
+					"Feedback - Targeted", -- [3]
+					"Feedback - Arcane Singularity", -- [4]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					249014, -- [1]
+					249015, -- [2]
+					249016, -- [3]
+					249017, -- [4]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2075",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "EO (M) - Feedback",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["VARIMATHRAS "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "VARIMATHRAS ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["Shocklight"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 12,
+			["disjunctive"] = "all",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text1Enabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Shocklight", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["text1Font"] = "Friz Quadrata TT",
+			["stickyDuration"] = false,
+			["text2Containment"] = "INSIDE",
+			["icon"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["glow"] = false,
+			["text2FontSize"] = 24,
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["xOffset"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "Shocklight",
+			["parent"] = "Balance - Procs",
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["untrigger"] = {
+			},
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["text1Containment"] = "INSIDE",
+		},
+		["Insanity Bar - Main Bar 2"] = {
+			["sparkWidth"] = 10,
+			["stacksSize"] = 12,
+			["xOffset"] = -6.1035156250e-005,
+			["stacksFlags"] = "None",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["rotateText"] = "NONE",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+					["do_custom"] = false,
+					["glow_frame"] = "WeakAuras:Insanity Bar - Main Bar",
+				},
+				["finish"] = {
+					["sound_channel"] = "SFX",
+					["sound"] = " custom",
+					["do_sound"] = false,
+				},
+				["init"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["icon_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "CENTER",
+			["barColor"] = {
+				0.38039215686275, -- [1]
+				0, -- [2]
+				0.75686274509804, -- [3]
+				1, -- [4]
+			},
+			["desaturate"] = false,
+			["sparkOffsetY"] = 0,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["ROGUE"] = true,
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						true, -- [1]
+						[3] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -179,16 +2818,8342 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["timerColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["useAdjustededMin"] = false,
+			["regionType"] = "aurabar",
+			["stacks"] = false,
+			["sparkDesaturate"] = false,
+			["init_completed"] = 1,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Friz Quadrata TT",
+			["borderOffset"] = 1,
+			["spark"] = false,
+			["timerFont"] = "Friz Quadrata TT",
+			["alpha"] = 1,
+			["borderInset"] = 1,
+			["textColor"] = {
+				1, -- [1]
+				0.99607843137255, -- [2]
+				0.98039215686274, -- [3]
+				1, -- [4]
+			},
+			["borderBackdrop"] = "None",
+			["color"] = {
+			},
+			["customText"] = "-- Insanity Bar -- By Twintop - Illidan-US, 2016/07/27\nfunction()\n    return \"\";\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			["untrigger"] = {
+			},
+			["activeTriggerMode"] = 0,
+			["sparkRotationMode"] = "AUTO",
+			["textSize"] = 18,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["duration"] = ".75",
+					["alphaType"] = "alphaPulse",
+					["colorB"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+					["use_alpha"] = false,
+					["type"] = "custom",
+					["scaley"] = 1,
+					["alpha"] = 0.3,
+					["colorA"] = 1,
+					["y"] = 0,
+					["x"] = 0,
+					["scalex"] = 1,
+					["colorType"] = "custom",
+					["colorFunc"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n    \n    WA_Insanity_Bar_Color_Bar_Status1 = WA_Insanity_Bar_Color_Bar_Status1 or \"FF763BAF\";\n    WA_Insanity_Bar_Color_Bar_Status2 = WA_Insanity_Bar_Color_Bar_Status2 or \"FF5C2F89\";\n    WA_Insanity_Bar_Color_Bar_Status3 = WA_Insanity_Bar_Color_Bar_Status3 or\"FF431863\";\n    WA_Insanity_Bar_Color_Bar_Status3_Warning = WA_Insanity_Bar_Color_Bar_Status3_Warning or\"FFFFFF00\";\n    WA_Insanity_Bar_Color_Bar_Status3_End = WA_Insanity_Bar_Color_Bar_Status3_End or\"FFFF0000\";\n    \n    WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks or 0;\n    WA_Voidform_Current_Insanity = WA_Voidform_Current_Insanity or 0;\n    \n    local specGroup = GetActiveSpecGroup();\n    local isLotVSelected = select(4, GetTalentInfo(7, 1, specGroup));\n    local a = 1;\n    local r = 0;\n    local g = 0;\n    local b = 0;\n    \n    if WA_Voidform_Drain_Stacks > 0 then\n        local haste = UnitSpellHaste(\"player\") / 100;\n        \n        local gcd = 1.5 / (1 + haste);\n        \n        if gcd < 0.75 then\n            \n            gcd = 0.75;\n            \n        end\n        \n        if gcd > WA_Voidform_Remaining_Time then        \n            \n            r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status3_End);  \n            \n        elseif gcd*2 > WA_Voidform_Remaining_Time then\n            \n            r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status3_Warning);  \n            \n        else\n            \n            r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status3);  \n            \n        end\n        \n        \n    elseif WA_Voidform_Current_Insanity == 100 or (isLotVSelected and WA_Voidform_Current_Insanity >= 65) then\n        \n        r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status2);\n        \n    else\n        \n        r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status1);\n        \n    end\n    \n    return r/255, g/255, b/255, a/255;\nend",
+					["rotate"] = 0,
+					["use_color"] = true,
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["type"] = "status",
+				["custom_hide"] = "timed",
+				["unevent"] = "auto",
+				["use_percentpower"] = false,
+				["use_power"] = true,
+				["event"] = "Power",
+				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
+				["powertype"] = 13,
+				["spellIds"] = {
+				},
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["names"] = {
+				},
+				["use_powertype"] = true,
+				["debuffType"] = "HELPFUL",
+			},
+			["text"] = false,
+			["stickyDuration"] = false,
+			["icon"] = false,
+			["backgroundColor"] = {
+				0.054901960784314, -- [1]
+				0.054901960784314, -- [2]
+				0.054901960784314, -- [3]
+				0, -- [4]
+			},
+			["disjunctive"] = "any",
+			["sparkColor"] = {
+				0.95294117647059, -- [1]
+				0.94117647058823, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["height"] = 26,
+			["timerFlags"] = "OUTLINE",
+			["timer"] = false,
+			["sparkBlendMode"] = "ADD",
+			["backdropColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.31410133838654, -- [4]
+			},
+			["numTriggers"] = 1,
+			["auto"] = true,
+			["zoom"] = 0,
+			["width"] = 407,
+			["barInFront"] = true,
+			["border"] = true,
+			["borderEdge"] = "1 Pixel",
+			["displayTextLeft"] = " ",
+			["borderSize"] = 1,
+			["additional_triggers"] = {
+			},
+			["icon_side"] = "RIGHT",
+			["textFlags"] = "None",
+			["timerSize"] = 18,
+			["sparkHeight"] = 30,
+			["useAdjustededMax"] = false,
+			["stacksFont"] = "Friz Quadrata TT",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayTextRight"] = " ",
+			["sparkOffsetX"] = 0,
+			["id"] = "Insanity Bar - Main Bar 2",
+			["sparkHidden"] = "NEVER",
+			["frameStrata"] = 4,
+			["anchorFrameType"] = "SCREEN",
+			["sparkRotation"] = 0,
+			["customTextUpdate"] = "update",
+			["inverse"] = false,
+			["sparkDesature"] = false,
+			["orientation"] = "HORIZONTAL",
+			["conditions"] = {
+			},
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["parent"] = "Priest - Shadow: Insanity Bar",
+		},
+		["FH - Consumed"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BikeHorn.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Consumed", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					245024, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH - Consumed",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["FH - Desolate Gaze"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "11052",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Desolate Gaze", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244768, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "FH - Desolate Gaze",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["EO (M) - Burning Embers"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Burning Embers", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					250691, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2075",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "EO (M) - Burning Embers",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Most Tank Debuffs"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Smouldering", -- [1]
+					"Decay", -- [2]
+					"Exploit Weakness", -- [3]
+					"Reality Tear", -- [4]
+					"Shock Lance", -- [5]
+					"Sever", -- [6]
+					"Empowered Shock Lance", -- [7]
+					"Forging Strike", -- [8]
+					"Flashfreeze", -- [9]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					251445, -- [1]
+					245098, -- [2]
+					244892, -- [3]
+					244016, -- [4]
+					247367, -- [5]
+					247687, -- [6]
+					250255, -- [7]
+					254919, -- [8]
+					245518, -- [9]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["zone"] = "1188",
+				["encounterid"] = "",
+				["use_encounterid"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = true,
+				["use_combat"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["spellIds"] = {
+							244899, -- [1]
+							245990, -- [2]
+							248499, -- [3]
+							258039, -- [4]
+						},
+						["custom_hide"] = "timed",
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+							"Fiery Strike", -- [1]
+							"Taeshalach's Reach", -- [2]
+							"Sweeping Scythe", -- [3]
+							"Deadly Scythe", -- [4]
+						},
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "Most Tank Debuffs",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["GW - Fel Bombardment"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_loop"] = false,
+					["do_message"] = false,
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["message"] = "",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Fel Bombardment", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					246220, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2076",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "GW - Fel Bombardment",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["EO (M) - Arcane Buildup"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "250693",
+				["names"] = {
+					"Arcane Buildup", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					250693, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Arcane Buildup",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2075",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "EO (M) - Arcane Buildup",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Priest - Shadow: Rising TIdes"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Rising Tides", -- [1]
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%s",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Rising TIdes",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["PK (M) - Aegis of Flames"] = {
+			["glow"] = false,
+			["text1FontSize"] = 36,
+			["cooldownTextEnabled"] = true,
 			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_specific_unit"] = true,
+				["specificUnit"] = "122211",
+				["spellName"] = "Focused Blast",
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["unit"] = "member",
+				["unevent"] = "timed",
+				["names"] = {
+					"Aegis of Flames", -- [1]
+				},
+				["use_sourceName"] = false,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					246707, -- [1]
+				},
 				["use_unit"] = true,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 132221,
+			["text2Containment"] = "OUTSIDE",
+			["disjunctive"] = "all",
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text2Point"] = "BOTTOM",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["xOffset"] = 0,
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "PK (M) - Aegis of Flames",
+			["text1FontFlags"] = "OUTLINE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["text1Enabled"] = true,
+		},
+		["AG - Foe Breaker"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Foe Breaker", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244291, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "AG - Foe Breaker",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["EO - Rain of Fel"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["use_sourceName"] = false,
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Rain of Fel", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					248332, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["sourceName"] = "",
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2075",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "EDGE",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "EO - Rain of Fel",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN - Death Fog"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Death Fog", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					248167, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Death Fog",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["Insanity Bar - Non-LotV Marker 2"] = {
+			["color"] = {
+				0.70980392156863, -- [1]
+				0.70980392156863, -- [2]
+				0.70980392156863, -- [3]
+				1, -- [4]
+			},
+			["xOffset"] = 150,
+			["mirror"] = false,
+			["yOffset"] = 0,
+			["regionType"] = "texture",
+			["anchorPoint"] = "CENTER",
+			["blendMode"] = "BLEND",
+			["activeTriggerMode"] = 0,
+			["conditions"] = {
+			},
+			["init_completed"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["colorR"] = 0.52549019607843,
+					["scalex"] = 1.75,
+					["alphaType"] = "alphaPulse",
+					["colorB"] = 1,
+					["colorG"] = 0,
+					["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+					["use_alpha"] = true,
+					["scaley"] = 1.5,
+					["scaleType"] = "pulse",
+					["duration"] = ".5",
+					["duration_type"] = "seconds",
+					["use_color"] = false,
+					["alpha"] = 0.25,
+					["x"] = 0,
+					["y"] = 0,
+					["colorType"] = "straightColor",
+					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
+					["type"] = "custom",
+					["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
+					["rotate"] = 0,
+					["use_scale"] = false,
+					["colorA"] = 1,
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["id"] = "Insanity Bar - Non-LotV Marker 2",
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["use_power"] = true,
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+				["names"] = {
+				},
+				["type"] = "status",
+				["use_health"] = true,
+				["health_operator"] = ">",
+				["power_operator"] = ">=",
+				["debuffType"] = "HELPFUL",
+				["event"] = "Action Usable",
+				["subeventSuffix"] = "_CAST_START",
+				["realSpellName"] = "Void Eruption",
+				["use_spellName"] = true,
+				["health"] = "0",
+				["spellIds"] = {
+				},
+				["unevent"] = "auto",
+				["use_unit"] = true,
+				["power"] = "100",
+				["spellName"] = 228260,
+			},
+			["rotation"] = 0,
+			["frameStrata"] = 6,
+			["width"] = 2,
+			["discrete_rotation"] = 0,
+			["desaturate"] = false,
+			["numTriggers"] = 2,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["names"] = {
+							"Voidform", -- [1]
+						},
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+						["unit"] = "player",
+						["inverse"] = true,
+						["subeventPrefix"] = "SPELL",
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["height"] = 32,
+			["rotate"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["single"] = 19,
+					["multi"] = {
+						[20] = true,
+						[21] = true,
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["PRIEST"] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_talent"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						[3] = true,
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["untrigger"] = {
+				["spellName"] = 228260,
+			},
+		},
+		["VA - Dark Fissure Cast"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "243999",
+				["duration"] = "2",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["sourceName"] = "",
+				["unevent"] = "timed",
+				["names"] = {
+					"Burning Armor", -- [1]
+				},
+				["type"] = "event",
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					231363, -- [1]
+				},
+				["use_spellName"] = false,
+				["use_spellId"] = true,
+				["name"] = "Dark Fissure",
+				["use_sourceUnit"] = true,
+				["spellName"] = "Focused Blast",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2069",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 136201,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "VA - Dark Fissure Cast",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Priest - Shadow: Vampiric Embrace"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Vampiric Embrace", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["single"] = 16,
+					["multi"] = {
+						[16] = true,
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Vampiric Embrace",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["HC - Chaos Pulse"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "257974",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["sourceName"] = "",
+				["spellName"] = "Focused Blast",
+				["unevent"] = "timed",
+				["names"] = {
+					"Invalid Spell ID", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["name"] = "Chaos Pulse",
+				["use_spellId"] = true,
+				["spellIds"] = {
+				},
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["fullscan"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2070",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["icon"] = true,
+			["displayIcon"] = 135803,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["id"] = "HC - Chaos Pulse",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["yOffset"] = 0,
+		},
+		["PK - Poison/Leech"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Leech Essence", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244915, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Poison/Leech",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["AG - Foe Breaker Cast"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["untrigger"] = {
+				["unit"] = "boss1",
+				["use_specific_unit"] = true,
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "245458",
+				["use_specific_unit"] = false,
+				["duration"] = "2.75",
+				["use_specific_sourceUnit"] = true,
+				["subeventPrefix"] = "SPELL",
+				["sourceUnit"] = "boss1",
+				["names"] = {
+					"Ravenous Blaze", -- [1]
+				},
+				["use_power"] = true,
+				["spellName"] = "",
+				["spellIds"] = {
+					254452, -- [1]
+				},
+				["use_spellId"] = true,
+				["use_sourceName"] = false,
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["sourceName"] = "",
+				["power"] = "80",
+				["subeventSuffix"] = "_CAST_START",
+				["power_operator"] = ">",
+				["custom_hide"] = "timed",
+				["event"] = "Combat Log",
+				["use_percentpower"] = true,
+				["type"] = "event",
+				["use_spellName"] = false,
+				["name"] = "Foe Breaker",
+				["use_sourceUnit"] = true,
+				["unit"] = "player",
+				["use_unit"] = true,
+				["percentpower"] = "100",
+				["percentpower_operator"] = "<",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135811,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "TANK",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "event",
+						["spellId"] = "255059",
+						["subeventSuffix"] = "_CAST_START",
+						["unevent"] = "timed",
+						["duration"] = "2.75",
+						["use_specific_sourceUnit"] = true,
+						["subeventPrefix"] = "SPELL",
+						["event"] = "Combat Log",
+						["use_spellId"] = true,
+						["name"] = "Empowered Foe Breaker",
+						["use_sourceUnit"] = true,
+						["use_unit"] = true,
+						["unit"] = "player",
+						["sourceUnit"] = "boss1",
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "AG - Foe Breaker Cast",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["HC - Mine Detonation "] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Entropic Blast", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					253290, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2070",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "HC - Mine Detonation ",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["yOffset"] = 0,
+		},
+		["UN (M) - Unleashed"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Sargeras' Rage", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					257869, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Unleashed",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN - Golganneth's Strength"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Strength of the Sea", -- [1]
+					"Strength of the Sky", -- [2]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					253901, -- [1]
+					253903, -- [2]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Golganneth's Strength",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["VA - Necrotic"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["customText"] = "function()\n    function rangecheck(uId)\n        local range = 0\n        if IsItemInRange(37727, uId) then range = 5\n        elseif IsItemInRange(63427, uId) then range = 8\n        elseif CheckInteractDistance(uId, 3) then range = 10\n        elseif CheckInteractDistance(uId, 2) then range = 11\n        elseif IsItemInRange(32321, uId) then range = 13\n        elseif IsItemInRange(6450, uId) then range = 18\n        elseif IsItemInRange(21519, uId) then range = 22\n        elseif CheckInteractDistance(uId, 1) then range = 30\n        elseif UnitInRange(uId) then range = 43\n        elseif IsItemInRange(116139, uId)  then range = 50\n        elseif IsItemInRange(32825, uId) then range = 60\n        elseif IsItemInRange(35278, uId) then range = 80\n        else range = 1000 end\n        return range\n    end \n    \n    local tooClose = false\n    local player = UnitName(\"player\")\n    for i=1,GetNumGroupMembers() do\n        local name = UnitName(GetRaidRosterInfo(i))\n        if name ~= player and not tooClose then\n            local distance = rangecheck(name)\n            if distance <= 10 then\n                tooClose = true\n            end\n        end\n    end\n    local color\n    local result\n    if tooClose then\n        color = \"FFFFFFFF\"\n        result = string.format(\"|c%s OUT\", color)\n    else\n        color = \"FF00FF00\"\n        result = string.format(\"|c%s SAFE\", color)\n    end\n    \n    return result\nend",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["custom_hide"] = "timed",
+				["names"] = {
+					"Necrotic Embrace", -- [1]
+				},
+				["event"] = "Combat Log",
+				["use_unit"] = true,
+				["subeventSuffix"] = "_CAST_START",
+				["use_specific_unit"] = false,
+				["spellIds"] = {
+					244094, -- [1]
+				},
+				["name"] = "Torment of Fel",
+				["group_count"] = "1",
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
+				["group_countOperator"] = ">=",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2069",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_sound"] = true,
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["text2Containment"] = "INSIDE",
+			["displayIcon"] = 135798,
+			["text1Font"] = "Accidental Presidency",
+			["cooldownTextEnabled"] = true,
+			["numTriggers"] = 1,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["yOffset"] = 0,
+			["desaturate"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 60,
+			["text2Enabled"] = false,
+			["text1"] = "%c",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["zoom"] = 0,
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "VA - Necrotic",
+			["text1FontFlags"] = "OUTLINE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["op"] = "<=",
+						["variable"] = "expirationTime",
+						["value"] = "2",
+					},
+					["changes"] = {
+						{
+							["value"] = true,
+							["property"] = "glow",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["Insanity Bar - Non-LotV Marker 1 2"] = {
+			["color"] = {
+				0.6156862745098, -- [1]
+				0.6156862745098, -- [2]
+				0.6156862745098, -- [3]
+				0.75, -- [4]
+			},
+			["anchorPoint"] = "CENTER",
+			["mirror"] = false,
+			["untrigger"] = {
+				["spellName"] = 228260,
+			},
+			["regionType"] = "texture",
+			["xOffset"] = 203,
+			["blendMode"] = "ADD",
+			["activeTriggerMode"] = 0,
+			["rotate"] = true,
+			["yOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White",
+			["trigger"] = {
+				["use_inverse"] = true,
+				["use_unit"] = true,
+				["use_power"] = true,
+				["debuffType"] = "HELPFUL",
+				["power"] = "100",
+				["spellName"] = 228260,
+				["subeventSuffix"] = "_CAST_START",
+				["type"] = "status",
+				["use_health"] = true,
+				["use_targetRequired"] = false,
+				["power_operator"] = "<",
+				["health_operator"] = ">",
+				["event"] = "Action Usable",
+				["health"] = "0",
+				["realSpellName"] = "Void Eruption",
+				["use_spellName"] = true,
+				["spellIds"] = {
+				},
+				["unit"] = "player",
+				["unevent"] = "auto",
+				["custom_hide"] = "timed",
+				["names"] = {
+				},
+				["subeventPrefix"] = "SPELL",
+			},
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["inverse"] = true,
+						["debuffType"] = "HELPFUL",
+						["spellIds"] = {
+						},
+						["names"] = {
+							"Voidform", -- [1]
+						},
+						["subeventPrefix"] = "SPELL",
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["id"] = "Insanity Bar - Non-LotV Marker 1 2",
+			["rotation"] = 0,
+			["frameStrata"] = 6,
+			["width"] = 1,
+			["discrete_rotation"] = 0,
+			["desaturate"] = false,
+			["numTriggers"] = 2,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["height"] = 32,
+			["conditions"] = {
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["single"] = 19,
+					["multi"] = {
+						[20] = true,
+						[21] = true,
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						[3] = true,
+					},
+				},
+				["use_talent"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Insanity Bar",
+		},
+		["VA - Dark Fissure"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Dark Fissure", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244005, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2069",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["desaturate"] = false,
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "VA - Dark Fissure",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["Oneth's Intuition"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 12,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["spellId"] = "209406",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["debuffType"] = "HELPFUL",
+				["use_spellId"] = true,
+				["name"] = "Oneth's Intuition",
+				["names"] = {
+					"Oneth's Intuition", -- [1]
+				},
+				["unit"] = "player",
+				["fullscan"] = true,
+				["spellIds"] = {
+					209406, -- [1]
+				},
+				["custom_hide"] = "timed",
+			},
+			["text1Containment"] = "INSIDE",
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["glow"] = false,
+			["text2Containment"] = "INSIDE",
+			["desaturate"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 24,
+			["xOffset"] = 0,
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["cooldownTextEnabled"] = true,
+			["id"] = "Oneth's Intuition",
+			["parent"] = "Balance - Procs",
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["yOffset"] = 0,
+			["stickyDuration"] = false,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["text1Enabled"] = true,
+		},
+		["CO - Whirling Saber"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "245627",
+				["duration"] = "1.7",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "event",
+				["unevent"] = "timed",
+				["names"] = {
+					"Burning Armor", -- [1]
+				},
+				["sourceName"] = "",
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					231363, -- [1]
+				},
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["name"] = "Whirling Saber",
+				["use_sourceUnit"] = true,
+				["spellName"] = "",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "122468",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 999952,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "DODGE",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "CO - Whirling Saber",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["PORTAL KEEPER HASABEL "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "PORTAL KEEPER HASABEL ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["Priest - Shadow: Shadowfiend"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["duration"] = "39",
+				["names"] = {
+					"Potion of Deadly Grace", -- [1]
+				},
+				["use_destName"] = false,
+				["use_cloneId"] = false,
+				["custom_hide"] = "timed",
+				["type"] = "event",
+				["subeventSuffix"] = "_CAST_SUCCESS",
+				["subeventPrefix"] = "SPELL",
+				["event"] = "Combat Log",
+				["debuffType"] = "HELPFUL",
+				["unevent"] = "timed",
+				["use_spellName"] = true,
+				["spellIds"] = {
+				},
+				["use_sourceUnit"] = true,
+				["unit"] = "player",
+				["use_destUnit"] = false,
+				["sourceUnit"] = "player",
+				["spellName"] = "Voidling",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["conditions"] = {
+			},
+			["yOffset"] = 0,
+			["text2Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["stickyDuration"] = false,
+			["width"] = 32,
+			["text2FontSize"] = 24,
+			["frameStrata"] = 1,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["xOffset"] = 0,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["id"] = "Priest - Shadow: Shadowfiend",
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["displayIcon"] = 136199,
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+		},
+		["Brutality of the Legion"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 18,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Brutality of the Legion", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["stickyDuration"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["desaturate"] = false,
+			["text2Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Enabled"] = true,
+			["text1FontFlags"] = "OUTLINE",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["numTriggers"] = 1,
+			["cooldownTextEnabled"] = true,
+			["text2FontSize"] = 24,
+			["text1Font"] = "PT Sans Narrow",
+			["width"] = 40,
+			["text1"] = "%c%s",
+			["text2Enabled"] = false,
+			["text2"] = "%p",
+			["zoom"] = 0,
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "Brutality of the Legion",
+			["text1Containment"] = "INSIDE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["icon"] = true,
+			["glow"] = false,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "Balance - Procs",
+		},
+		["Priest - Shadow: Procs & Buffs"] = {
+			["grow"] = "HORIZONTAL",
+			["controlledChildren"] = {
+				"Priest - Shadow: Power Infusion", -- [1]
+				"Priest - Shadow: Twist of Fate", -- [2]
+				"Priest - Shadow: Vampiric Embrace", -- [3]
+				"Priest - Shadow: Concordance of the Legionfall", -- [4]
+				"Priest - Shadow: Mind Quickening", -- [5]
+				"Priest - Shadow: Spear of Anguish", -- [6]
+				"Priest - Shadow: Rising TIdes", -- [7]
+				"Priest - Shadow: Sephuz's Secret", -- [8]
+				"Priest - Shadow: Potion of Prolonged Power", -- [9]
+				"Priest - Shadow: Mark of the Claw", -- [10]
+				"Priest - Shadow: Shadowfiend", -- [11]
+				"Priest - Shadow: Mindbender", -- [12]
+				"Priest - Shadow: Bloodlust", -- [13]
+			},
+			["xOffset"] = 0,
+			["yOffset"] = -155,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["space"] = 3,
+			["url"] = "https://wago.io/rJnIlBdhb/1",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["backgroundInset"] = 0,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["spellIds"] = {
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
 				["unit"] = "player",
 			},
+			["stagger"] = 0,
+			["version"] = 1,
+			["height"] = 32.0000610351563,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = "true",
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animate"] = true,
+			["border"] = "None",
+			["regionType"] = "dynamicgroup",
+			["sort"] = "ascending",
+			["expanded"] = false,
+			["constantFactor"] = "RADIUS",
+			["borderOffset"] = 16,
+			["background"] = "None",
+			["untrigger"] = {
+			},
+			["id"] = "Priest - Shadow: Procs & Buffs",
+			["width"] = 451.999816894531,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["align"] = "CENTER",
+			["rotation"] = 0,
+			["numTriggers"] = 1,
+			["radius"] = 200,
+			["disjunctive"] = "all",
+			["conditions"] = {
+			},
+			["sortHybridTable"] = {
+				false, -- [1]
+				false, -- [2]
+			},
+			["selfPoint"] = "LEFT",
+		},
+		["Insanity Bar - Auspicious Spirits Bar 2"] = {
+			["sparkWidth"] = 8,
+			["stacksSize"] = 12,
+			["xOffset"] = 0,
+			["stacksFlags"] = "None",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["borderColor"] = {
+				0.92156862745098, -- [1]
+				0.90588235294118, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["rotateText"] = "NONE",
+			["backgroundColor"] = {
+				0.92156862745098, -- [1]
+				0.90588235294118, -- [2]
+				1, -- [3]
+				0, -- [4]
+			},
+			["fontFlags"] = "OUTLINE",
+			["icon_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "CENTER",
+			["barColor"] = {
+				1, -- [1]
+				0, -- [2]
+				0.89019607843137, -- [3]
+				1, -- [4]
+			},
+			["desaturate"] = false,
+			["sparkOffsetY"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["single"] = 14,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["ROGUE"] = true,
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						true, -- [1]
+						[3] = true,
+					},
+				},
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["timerColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["useAdjustededMin"] = false,
+			["regionType"] = "aurabar",
+			["stacks"] = false,
+			["sparkDesaturate"] = false,
+			["init_completed"] = 1,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Friz Quadrata TT",
+			["borderOffset"] = 3,
+			["spark"] = false,
+			["timerFont"] = "Friz Quadrata TT",
+			["alpha"] = 1,
+			["borderInset"] = 1,
+			["textColor"] = {
+				1, -- [1]
+				0.99607843137255, -- [2]
+				0.98039215686274, -- [3]
+				1, -- [4]
+			},
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["disjunctive"] = "any",
+			["customText"] = "\n\n",
+			["untrigger"] = {
+			},
+			["activeTriggerMode"] = 0,
+			["sparkRotationMode"] = "AUTO",
+			["displayTextLeft"] = " ",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "alphaPulse",
+					["colorB"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+					["use_alpha"] = false,
+					["type"] = "custom",
+					["scaley"] = 1,
+					["alpha"] = 0.3,
+					["duration"] = ".75",
+					["y"] = 0,
+					["colorType"] = "custom",
+					["x"] = 0,
+					["use_color"] = true,
+					["colorFunc"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n    \n    WA_Insanity_Bar_Color_Text_AS = WA_Insanity_Bar_Color_Text_AS or \"FFDF00FF\";\n    \n    local a = 1;\n    local r = 0;\n    local g = 0;\n    local b = 0;\n    \n    if not (WA_Insanity_Bar_Color_Bar_AS == nil) and not (getRGBAFromString == nil) then\n        r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_AS);\n    end\n    \n    return r/255, g/255, b/255, a/255;\nend",
+					["rotate"] = 0,
+					["colorA"] = 1,
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["use_power"] = true,
+				["unit"] = "player",
+				["powertype"] = 3,
+				["use_powertype"] = true,
+				["custom_hide"] = "timed",
+				["type"] = "custom",
+				["custom_type"] = "status",
+				["use_unit"] = true,
+				["event"] = "Insanity",
+				["unevent"] = "auto",
+				["customDuration"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction()\n    WA_Voidform_Current_Insanity = UnitPower(\"player\", SPELL_POWER_SHADOW_ORBS, forceUpdate);\n    WA_Insanity_Bar_Current_Cast_Gain = WA_Insanity_Bar_Current_Cast_Gain or 0;\n    WA_Insanity_Bar_AS_Gain = 0;\n    local currentSpell = UnitCastingInfo('player');\n    local specGroup = GetActiveSpecGroup();\n    local isFotMSelected = select(4, GetTalentInfo(1, 2, specGroup));\n    local isLotVSelected = select(4, GetTalentInfo(7, 1, specGroup));\n    local PIName = select(2, GetTalentInfo(6, 1, specGroup));\n    local isPIActive = select(11, UnitBuff(\"player\", PIName));\n    local S2MName = select(2, GetTalentInfo(7, 3, specGroup));\n    local isS2MActive = select(11, UnitBuff(\"player\", S2MName));   \n    \n    local totalSAs = 0;    \n    WA_Insanity_Bar_AS_Gain = 0;\n    local color = \"FFFFFFFF\";\n    local insanityColor = \"FFFFFFFF\";\n    local specGroup = GetActiveSpecGroup();\n    local _, _, _, vfCount, _, vfDuration, _, _, _, _, vfSpellId = UnitBuff(\"player\",GetSpellInfo(228264));\n    \n    WA_SA_NUM_UNITS = WA_SA_NUM_UNITS or 0;\n    \n    if WA_SA_NUM_UNITS > 0 then\n        for guid,count in pairs(WA_SA_STATS) do\n            totalSAs = totalSAs + WA_SA_STATS[guid].Count;\n        end\n        \n        if totalSAs > WA_SA_TOTAL then\n            WA_Insanity_Bar_AS_Gain = WA_SA_TOTAL or 0;\n        else\n            WA_Insanity_Bar_AS_Gain = totalSAs or 0;\n        end\n    else\n        WA_Insanity_Bar_AS_Gain = -2;\n    end\n    \n    if WA_Insanity_Bar_AS_Gain <= 0 then\n        WA_Insanity_Bar_AS_Gain = 0;\n    end\n    \n    if WA_Insanity_Bar_AS_Gain == 0 then\n        return 0,0,0,0;\n    end    \n    \n    WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain * 3; \n    \n    if isS2MActive then\n        WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain * 2.0;\n    end   \n    \n    if isPIActive then\n        WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain * 1.25;\n    end\n    \n    return (WA_Voidform_Current_Insanity+WA_Insanity_Bar_Current_Cast_Gain+(WA_Insanity_Bar_AS_Gain)),100,0,0;\nend",
+				["custom"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction()\n    return true;\nend",
+				["spellIds"] = {
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["check"] = "update",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["subeventPrefix"] = "SPELL",
+			},
+			["text"] = false,
+			["stickyDuration"] = false,
+			["icon"] = false,
+			["zoom"] = 0,
+			["textSize"] = 18,
+			["timer"] = false,
+			["height"] = 26,
+			["timerFlags"] = "OUTLINE",
+			["color"] = {
+			},
+			["sparkBlendMode"] = "ADD",
+			["backdropColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 2,
+			["useAdjustededMax"] = false,
+			["sparkRotation"] = 0,
+			["width"] = 407,
+			["stacksFont"] = "Friz Quadrata TT",
+			["border"] = false,
+			["borderEdge"] = "Blizzard Tooltip",
+			["sparkColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["borderSize"] = 3,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "status",
+						["unevent"] = "auto",
+						["use_power"] = true,
+						["event"] = "Power",
+						["use_unit"] = true,
+						["powertype"] = 13,
+						["unit"] = "player",
+						["subeventSuffix"] = "_CAST_START",
+						["use_percentpower"] = false,
+						["use_powertype"] = true,
+						["subeventPrefix"] = "SPELL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["icon_side"] = "RIGHT",
+			["sparkOffsetX"] = 0,
+			["timerSize"] = 18,
+			["sparkHeight"] = 26,
+			["auto"] = true,
+			["textFlags"] = "None",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["displayTextRight"] = " ",
+			["barInFront"] = true,
+			["id"] = "Insanity Bar - Auspicious Spirits Bar 2",
+			["sparkHidden"] = "NEVER",
+			["frameStrata"] = 2,
+			["anchorFrameType"] = "SCREEN",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["inverse"] = false,
+			["sparkDesature"] = false,
+			["orientation"] = "HORIZONTAL",
+			["conditions"] = {
+			},
+			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+			["parent"] = "Priest - Shadow: Insanity Bar",
+		},
+		["HC - Felshield"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Felshield", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244910, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2070",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["frameStrata"] = 5,
+			["xOffset"] = 0,
+			["text1"] = "SAFE",
+			["id"] = "HC - Felshield",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["text2Point"] = "BOTTOM",
+		},
+		["KG - Decimation"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Decimation", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					246687, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "KG - Decimation",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["VA - Marked Prey"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "11052",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Marked Prey", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244042, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2069",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "VA - Marked Prey",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["KG - Reverb Strike"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "254926",
+				["duration"] = "1.2",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "event",
+				["unevent"] = "timed",
+				["names"] = {
+					"Burning Armor", -- [1]
+				},
+				["sourceName"] = "",
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					231363, -- [1]
+				},
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["name"] = "Reverberating Strike",
+				["use_sourceUnit"] = true,
+				["spellName"] = "Focused Blast",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["single"] = "mythic",
+					["multi"] = {
+						["mythic"] = true,
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+						["HEALER"] = true,
+						["DAMAGER"] = true,
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135814,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "KG - Reverb Strike",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN - Uninterruptable"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "253021",
+				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
+				["spellName"] = "Focused Blast",
+				["use_specific_unit"] = false,
+				["sourceName"] = "",
+				["names"] = {
+					"Inevitability", -- [1]
+				},
+				["unevent"] = "timed",
+				["use_sourceName"] = false,
+				["unit"] = "target",
+				["event"] = "Chat Message",
+				["spellIds"] = {
+					253021, -- [1]
+				},
+				["use_spellName"] = true,
+				["use_spellId"] = true,
+				["name"] = "Inevitability",
+				["custom_hide"] = "timed",
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["fullscan"] = true,
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Uninterruptable",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["PK - Everburning Flames"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Everburning Flames", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244613, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "IT'S LIT",
+			["id"] = "PK - Everburning Flames",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN - Cosmic Smash"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "6241",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Cosmic Smash", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					252634, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Cosmic Smash",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["KG - Annihilation"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\huh_1.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "246664",
+				["duration"] = "6",
+				["use_specific_sourceUnit"] = true,
+				["names"] = {
+					"Annihilation", -- [1]
+					"Empowered Annihilation", -- [2]
+				},
+				["custom_hide"] = "timed",
+				["debuffType"] = "HARMFUL",
+				["unit"] = "player",
+				["sourceName"] = "",
+				["subeventSuffix"] = "_CAST_SUCCESS",
+				["unevent"] = "timed",
+				["use_unit"] = true,
+				["use_sourceName"] = false,
+				["event"] = "Combat Log",
+				["name"] = "Annihilation",
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["spellIds"] = {
+					244761, -- [1]
+					245287, -- [2]
+				},
+				["use_sourceUnit"] = true,
+				["type"] = "event",
+				["spellName"] = "",
+				["sourceUnit"] = "123906",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2076",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+						["normal"] = true,
+						["lfr"] = true,
+						["heroic"] = true,
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 840404,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "SOAK",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "KG - Annihilation",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["ANTORAN HIGH COMMAND "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "ANTORAN HIGH COMMAND ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["CO - Chilled Blood"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["cooldownTextEnabled"] = true,
+			["customText"] = "function()\n    local spell = GetSpellInfo(245586)\n    local value = select(17, UnitDebuff(\"player\", spell))\n    \n    if value then\n        return aura_env.abvnum(value)\n    end\nend",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+					["do_custom"] = false,
+					["do_sound"] = false,
+				},
+				["init"] = {
+					["custom"] = "function aura_env.abvnum(n)\n    local n_abs = math.abs(n)\n    if n_abs >= 1e9 then\n        return string.format(\"%.1fb\", n/1e9)\n    elseif n_abs >= 1e6 then\n        return string.format(\"%.1fm\", n/1e6)\n    elseif n_abs >= 1e5 then\n        return string.format(\"%.1fk\", n/1e3)\n    elseif n_abs >= 1e3 then\n        local left,num,right = string.match(n,'^([^%d]*%d)(%d*)(.-)$')\n        return left..(num:reverse():gsub('(%d%d%d)','%1,'):reverse())..right\n    else\n        return math.floor (n * 100 + 0.5) / 100\n    end\nend\n\n\n\n\n\n",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["spellId"] = "245586",
+				["subeventSuffix"] = "_CAST_START",
+				["custom_hide"] = "timed",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["debuffType"] = "HARMFUL",
+				["subcount"] = true,
+				["spellIds"] = {
+					238442, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Chilled Blood",
+				["names"] = {
+					"Spear of Anguish", -- [1]
+				},
+				["unit"] = "player",
+				["fullscan"] = true,
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["icon"] = true,
+			["text2Containment"] = "OUTSIDE",
+			["numTriggers"] = 1,
+			["text1Font"] = "Accidental Presidency",
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["width"] = 60,
+			["frameStrata"] = 5,
+			["text2FontSize"] = 30,
+			["xOffset"] = 0,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["id"] = "CO - Chilled Blood",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["disjunctive"] = "any",
+		},
+		["KIN'GAROTH "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "KIN'GAROTH ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["FELHOUNDS OF SARGERAS "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "FELHOUNDS OF SARGERAS ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["GW - Decimation"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Decimation", -- [1]
+					"Empowered Decimation", -- [2]
+					"Haywire Decimation", -- [3]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244399, -- [1]
+					245294, -- [2]
+					246919, -- [3]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2076",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "GW - Decimation",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["CO - Norgannon Immunity "] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BikeHorn.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["specificUnit"] = "123503",
+				["spellName"] = "Focused Blast",
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["use_specific_unit"] = true,
+				["unevent"] = "timed",
+				["names"] = {
+					"Visage of the Titan", -- [1]
+				},
+				["use_sourceName"] = false,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					249863, -- [1]
+				},
+				["unit"] = "member",
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "CO - Norgannon Immunity ",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN - Swirly Scythe "] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "248165",
+				["duration"] = "3",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["names"] = {
+				},
+				["type"] = "event",
+				["use_sourceName"] = false,
+				["unevent"] = "timed",
+				["sourceName"] = "",
+				["spellName"] = "",
+				["event"] = "Combat Log",
+				["name"] = "Cone of Death",
+				["use_spellName"] = false,
+				["use_spellId"] = true,
+				["spellIds"] = {
+				},
+				["use_sourceUnit"] = true,
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 1778227,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "NEW SCYTHE",
+			["id"] = "UN - Swirly Scythe ",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN (M) - Sargeras' Rage"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BikeHorn.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Unleashed Rage", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					257911, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Sargeras' Rage",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["PK - Felsilk Wrap"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "Help me!",
+					["do_message"] = true,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Felsilk Wrap", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244949, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["frameStrata"] = 5,
+			["xOffset"] = 0,
+			["text1"] = "STUN",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Felsilk Wrap",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["text2Point"] = "BOTTOM",
 		},
 		["Insanity Bar - Border - Insanity Ready 2"] = {
 			["sparkWidth"] = 10,
@@ -478,7 +11443,977 @@ WeakAurasSaved = {
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["parent"] = "Priest - Shadow: Insanity Bar",
 		},
-		["Priest - Shadow: Mindbender"] = {
+		["IM - Stasis Trap"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "Dispel me!",
+					["do_message"] = true,
+					["do_sound"] = true,
+					["sound_kit_id"] = "6240",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Stasis Trap", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					247641, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "STUN",
+			["id"] = "IM - Stasis Trap",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["T21: Antorus, the Burning Throne"] = {
+			["grow"] = "LEFT",
+			["controlledChildren"] = {
+				"Most Tank Debuffs", -- [1]
+				"GAROTHI WORLDBREAKER ", -- [2]
+				"GW - Fel Bombardment", -- [3]
+				"GW - Decimation", -- [4]
+				"GW - Annihilation", -- [5]
+				"GW (M) - Annihilation", -- [6]
+				"GW - Eradication", -- [7]
+				"FELHOUNDS OF SARGERAS ", -- [8]
+				"FH - Split Bosses", -- [9]
+				"FH - Molten Touch", -- [10]
+				"FH - Enflamed", -- [11]
+				"FH - Double Debuffs", -- [12]
+				"FH - Enflamed+", -- [13]
+				"FH - Siphoned/Weight", -- [14]
+				"FH - Molten Flares", -- [15]
+				"FH - Desolate Gaze", -- [16]
+				"FH - Singed", -- [17]
+				"FH - Consumed", -- [18]
+				"FH (M) - Mythic Debuffs", -- [19]
+				"FH (M) - Burning", -- [20]
+				"ANTORAN HIGH COMMAND ", -- [21]
+				"HC (M) - Shocked", -- [22]
+				"HC (M) - Extracting ", -- [23]
+				"HC - Felshield", -- [24]
+				"HC - Psychic Assault ", -- [25]
+				"HC - Fusillade ", -- [26]
+				"HC - Mine Detonation ", -- [27]
+				"HC - Chaos Pulse", -- [28]
+				"HC - Psychic Scarring", -- [29]
+				"PORTAL KEEPER HASABEL ", -- [30]
+				"PK - Poison/Leech", -- [31]
+				"PK - Cloying Shadows", -- [32]
+				"PK - Caustic Slime", -- [33]
+				"PK - Everburning Flames", -- [34]
+				"PK - Mind Fog", -- [35]
+				"PK - Delusions", -- [36]
+				"PK - Hungering Gloom", -- [37]
+				"PK - Corrupt", -- [38]
+				"PK - Howling Shadows", -- [39]
+				"PK - Collapsing World", -- [40]
+				"PK - Felsilk Wrap", -- [41]
+				"PK (M) - Aegis of Flames", -- [42]
+				"PK - Acidic Web", -- [43]
+				"PK - Fiery Detonation", -- [44]
+				"EONAR THE LIFE-BINDER ", -- [45]
+				"EO (M) - Burning Embers", -- [46]
+				"EO (M) - Foul Steps", -- [47]
+				"EO (M) - Arcane Buildup", -- [48]
+				"EO - Rain of Fel", -- [49]
+				"EO - Fel Wake", -- [50]
+				"EO (M) - Feedback", -- [51]
+				"IMONAR THE SOULHUNTER ", -- [52]
+				"IM - Empowered Pulse", -- [53]
+				"IM - Asleep", -- [54]
+				"IM - Charged Blasts", -- [55]
+				"IM - Shocked", -- [56]
+				"IM - Shrapnel Blast", -- [57]
+				"IM - Stasis Trap", -- [58]
+				"IM - Conflagration", -- [59]
+				"IM - Seared Skin", -- [60]
+				"IM - Infernal Rockets", -- [61]
+				"KIN'GAROTH ", -- [62]
+				"KG - Forging Cast", -- [63]
+				"KG - Reverb Strike", -- [64]
+				"KG - Ruiner Cast", -- [65]
+				"KG (M) - Demolished", -- [66]
+				"KG - Decimation", -- [67]
+				"KG - Demolish", -- [68]
+				"KG - Annihilation", -- [69]
+				"KG - Ruiner", -- [70]
+				"KG - Phase 2 Timer", -- [71]
+				"VARIMATHRAS ", -- [72]
+				"VA - Necrotic", -- [73]
+				"VA (M) - Echoes of Doom", -- [74]
+				"VA - Marked Prey", -- [75]
+				"VA - Dark Fissure Cast", -- [76]
+				"VA - Misery", -- [77]
+				"VA - Dark Fissure", -- [78]
+				"VA - Torment", -- [79]
+				"COVEN OF SHIVARRA ", -- [80]
+				"CO - Split Bosses", -- [81]
+				"CO (M) - Cosmic Glare", -- [82]
+				"CO - Whirling Saber", -- [83]
+				"CO - Fulminating Pulse", -- [84]
+				"CO - Storm Timer", -- [85]
+				"CO - Chilled Blood", -- [86]
+				"CO - Norgannon Immunity ", -- [87]
+				"CO - Orb of Frost", -- [88]
+				"CO - Spectral Army", -- [89]
+				"AGGRAMAR ", -- [90]
+				"AG - Foe Breaker Cast", -- [91]
+				"AG - Flame Rend", -- [92]
+				"AG - Searing Tempest", -- [93]
+				"AG - Foe Breaker", -- [94]
+				"AG - Scorching/Ravenous", -- [95]
+				"AG - Wake of Flame", -- [96]
+				"AG - Wake of Flame Cast", -- [97]
+				"AG - Blazing Eruption", -- [98]
+				"AG - Catalyzing Presence", -- [99]
+				"AG (M) - Catalyzed", -- [100]
+				"AG - Molten Remnants", -- [101]
+				"AG - Energy Alert", -- [102]
+				"ARGUS THE UNMAKER ", -- [103]
+				"UN - Cone of Death", -- [104]
+				"UN - Soulblight", -- [105]
+				"UN - Golganneth's Strength", -- [106]
+				"UN - Golganneth's Gifts", -- [107]
+				"UN - Avatar of Aggramar", -- [108]
+				"UN - Swirly Scythe ", -- [109]
+				"UN - Soulburst", -- [110]
+				"UN - Aggramar's Boon", -- [111]
+				"UN - Soulbomb (P2)", -- [112]
+				"UN - Soulbomb (P4)", -- [113]
+				"UN - Ember of Rage", -- [114]
+				"UN - Cosmic Ray", -- [115]
+				"UN - Uninterruptable", -- [116]
+				"UN - Vulnerability", -- [117]
+				"UN - Cosmic Smash", -- [118]
+				"UN - Titanforge", -- [119]
+				"UN - Death Fog", -- [120]
+				"UN - Soul Detonation ", -- [121]
+				"UN (M) - Grasp", -- [122]
+				"UN (M) - Chains/Sentence", -- [123]
+				"UN (M) - Punishment", -- [124]
+				"UN (M) - Shattered Bonds", -- [125]
+				"UN (M) - Crushing", -- [126]
+				"UN (M) - Sargeras' Fear", -- [127]
+				"UN (M) - Unleashed", -- [128]
+				"UN (M) - Sargeras' Rage", -- [129]
+			},
+			["disjunctive"] = "all",
+			["yOffset"] = -45.40771484375,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["space"] = 2,
+			["url"] = "https://wago.io/Vyfk0e9-X/190",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["backgroundInset"] = 0,
+			["selfPoint"] = "RIGHT",
+			["trigger"] = {
+				["unit"] = "player",
+				["type"] = "aura",
+				["spellIds"] = {
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desc"] = "Author: Chrissinger (US-Turalyon)                              twitter.com/mfwchris",
+			["stagger"] = 0,
+			["version"] = 190,
+			["height"] = 60,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animate"] = false,
+			["border"] = "None",
+			["regionType"] = "dynamicgroup",
+			["sort"] = "none",
+			["expanded"] = false,
+			["constantFactor"] = "RADIUS",
+			["borderOffset"] = 16,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["additional_triggers"] = {
+			},
+			["id"] = "T21: Antorus, the Burning Throne",
+			["align"] = "CENTER",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = -148.044311523438,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["rotation"] = 0,
+			["width"] = 7346.99981689453,
+			["conditions"] = {
+			},
+			["background"] = "None",
+			["untrigger"] = {
+			},
+		},
+		["PK - Mind Fog"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Mind Fog", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					245099, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Mind Fog",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["Wax and Wane"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 18,
+			["cooldownTextEnabled"] = true,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Wax and Wane", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Balance - Procs",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["selfPoint"] = "CENTER",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Font"] = "PT Sans Narrow",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["glow"] = false,
+			["text2FontSize"] = 24,
+			["icon"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c%s",
+			["frameStrata"] = 1,
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "Wax and Wane",
+			["zoom"] = 0,
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["text1Enabled"] = true,
+			["disjunctive"] = "all",
+			["numTriggers"] = 1,
+			["untrigger"] = {
+			},
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["stickyDuration"] = false,
+		},
+		["Balance - Starfall Remaining"] = {
+			["sparkWidth"] = 10,
+			["stacksSize"] = 12,
+			["xOffset"] = 0,
+			["stacksFlags"] = "None",
+			["yOffset"] = -202,
+			["anchorPoint"] = "CENTER",
+			["sparkRotation"] = 180,
+			["rotateText"] = "NONE",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+					["custom"] = "\n\n",
+					["do_custom"] = false,
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["icon_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "BOTTOM",
+			["barColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["desaturate"] = false,
+			["sparkOffsetY"] = 0,
+			["load"] = {
+				["use_petbattle"] = false,
+				["use_never"] = false,
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["DRUID"] = true,
+					},
+				},
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["level"] = "10",
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = true,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+						true, -- [1]
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["level_operator"] = ">=",
+				["use_zone"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["timerColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["useAdjustededMin"] = false,
+			["regionType"] = "aurabar",
+			["stacks"] = false,
+			["texture"] = "ElvUI Norm",
+			["textFont"] = "Friz Quadrata TT",
+			["borderOffset"] = 0,
+			["spark"] = true,
+			["timerFont"] = "Friz Quadrata TT",
+			["alpha"] = 1,
+			["borderInset"] = 1,
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["borderBackdrop"] = "None",
+			["color"] = {
+			},
+			["barInFront"] = false,
+			["activeTriggerMode"] = 0,
+			["sparkRotationMode"] = "MANUAL",
+			["displayTextLeft"] = "%n",
+			["init_started"] = 1,
+			["sparkTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Moon",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["names"] = {
+					"Starfall", -- [1]
+				},
+				["spellIds"] = {
+					191034, -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+			},
+			["text"] = false,
+			["sparkMirror"] = false,
+			["stickyDuration"] = false,
+			["sparkColor"] = {
+				0.93725490196078, -- [1]
+				1, -- [2]
+				0.96862745098039, -- [3]
+				1, -- [4]
+			},
+			["zoom"] = 0,
+			["desc"] = "Starfall bar.  Nothing fancy.",
+			["borderColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				1, -- [4]
+			},
+			["height"] = 14,
+			["timerFlags"] = "None",
+			["inverse"] = false,
+			["sparkBlendMode"] = "ADD",
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["textSize"] = 12,
+			["textFlags"] = "None",
+			["anchorFrameType"] = "SELECTFRAME",
+			["auto"] = true,
+			["anchorFrameFrame"] = "WeakAuras:AP_Bar",
+			["border"] = true,
+			["borderEdge"] = "1 Pixel",
+			["sparkHidden"] = "NEVER",
+			["borderSize"] = 1,
+			["stacksFont"] = "Friz Quadrata TT",
+			["icon_side"] = "RIGHT",
+			["displayTextRight"] = "%p",
+			["useAdjustededMax"] = false,
+			["sparkHeight"] = 10,
+			["timer"] = false,
+			["disjunctive"] = "any",
+			["stacksColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["timerSize"] = 12,
+			["backgroundColor"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.400000035762787, -- [4]
+			},
+			["additional_triggers"] = {
+			},
+			["id"] = "Balance - Starfall Remaining",
+			["frameStrata"] = 2,
+			["width"] = 408,
+			["untrigger"] = {
+			},
+			["sparkOffsetX"] = 0,
+			["numTriggers"] = 1,
+			["sparkDesature"] = false,
+			["orientation"] = "HORIZONTAL",
+			["conditions"] = {
+			},
+			["customTextUpdate"] = "update",
+			["icon"] = false,
+		},
+		["Priest - Shadow: Concordance of the Legionfall"] = {
 			["glow"] = false,
 			["text1FontSize"] = 12,
 			["cooldownTextEnabled"] = true,
@@ -489,56 +12424,5839 @@ WeakAurasSaved = {
 			["customTextUpdate"] = "update",
 			["icon"] = true,
 			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Concordance of the Legionfall", -- [1]
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["single"] = 16,
+					["multi"] = {
+						[16] = true,
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Concordance of the Legionfall",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
 				},
 				["main"] = {
 					["duration_type"] = "seconds",
 					["type"] = "none",
 				},
 				["finish"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
+				},
+			},
+		},
+		["Malice of the Legion"] = {
+			["glow"] = false,
+			["text1FontSize"] = 18,
+			["parent"] = "Balance - Procs",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 			},
 			["trigger"] = {
-				["duration"] = "24",
-				["names"] = {
-					"Potion of Deadly Grace", -- [1]
-				},
-				["use_destName"] = false,
-				["custom_hide"] = "timed",
-				["type"] = "event",
-				["unevent"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["event"] = "Combat Log",
-				["debuffType"] = "HELPFUL",
-				["subeventSuffix"] = "_CAST_SUCCESS",
-				["use_spellName"] = true,
+				["type"] = "aura",
+				["spellId"] = "253261",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["name"] = "Fervor of the Legion",
+				["use_spellId"] = true,
 				["spellIds"] = {
 				},
-				["use_sourceUnit"] = true,
-				["unit"] = "player",
-				["use_destUnit"] = false,
-				["sourceUnit"] = "player",
-				["spellName"] = "Mindbender",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Malice of the Legion", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
+			["text1Point"] = "CENTER",
 			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["height"] = 40,
 			["load"] = {
 				["talent2"] = {
 					["multi"] = {
 					},
 				},
 				["talent"] = {
-					["single"] = 18,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["stickyDuration"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Font"] = "PT Sans Narrow",
+			["icon"] = true,
+			["untrigger"] = {
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["text2FontSize"] = 24,
+			["text1Enabled"] = true,
+			["width"] = 40,
+			["text1"] = "%c%s",
+			["text2Enabled"] = false,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "Malice of the Legion",
+			["text1Containment"] = "INSIDE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["cooldownTextEnabled"] = true,
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["FH - Singed"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Singed", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244091, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH - Singed",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["Potion of Prolonged Power"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 12,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["spellId"] = "229206",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["fullscan"] = true,
+				["use_spellId"] = true,
+				["name"] = "Potion of Prolonged Power",
+				["spellIds"] = {
+					229206, -- [1]
+				},
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["names"] = {
+					"Potion of Prolonged Power", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["text1Containment"] = "INSIDE",
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["disjunctive"] = "all",
+			["text2Containment"] = "INSIDE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["text1Font"] = "Friz Quadrata TT",
+			["icon"] = true,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["numTriggers"] = 1,
+			["xOffset"] = 0,
+			["text2FontSize"] = 24,
+			["text1FontFlags"] = "OUTLINE",
+			["width"] = 40,
+			["text1"] = "%c",
+			["text2Enabled"] = false,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["cooldownTextEnabled"] = true,
+			["id"] = "Potion of Prolonged Power",
+			["glow"] = false,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["parent"] = "Balance - Procs",
+			["desaturate"] = false,
+			["inverse"] = false,
+			["untrigger"] = {
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["stickyDuration"] = false,
+		},
+		["Fever of the Legion"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 18,
+			["cooldownTextEnabled"] = true,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["spellId"] = "253261",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["name"] = "Fervor of the Legion",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					253261, -- [1]
+				},
+				["fullscan"] = true,
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Fervor of the Legion", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["text1Font"] = "PT Sans Narrow",
+			["parent"] = "Balance - Procs",
+			["text2Containment"] = "INSIDE",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "CENTER",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1FontFlags"] = "OUTLINE",
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["glow"] = false,
+			["text2FontSize"] = 24,
+			["icon"] = true,
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c%s",
+			["frameStrata"] = 1,
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "Fever of the Legion",
+			["zoom"] = 0,
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["text1Enabled"] = true,
+			["disjunctive"] = "all",
+			["numTriggers"] = 1,
+			["untrigger"] = {
+			},
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["stickyDuration"] = false,
+		},
+		["Insanity Bar - Text - Middle 2"] = {
+			["outline"] = "OUTLINE",
+			["fontSize"] = 14,
+			["parent"] = "Priest - Shadow: Insanity Bar",
+			["displayText"] = "%c",
+			["customText"] = "function()\n    WA_Insanity_Bar_Color_Text_Current = WA_Insanity_Bar_Color_Text_Current or \"FFC2A3E0\";\n    WA_Insanity_Bar_Color_Text_Incoming = WA_Insanity_Bar_Color_Text_Incoming or \"FFFFFFFF\";\n    WA_Insanity_Bar_Color_Text_AS = WA_Insanity_Bar_Color_Text_AS or \"FFDF00FF\";\n    \n    WA_Voidform_Current_Insanity = UnitPower(\"player\", SPELL_POWER_SHADOW_ORBS, forceUpdate);\n    WA_Insanity_Bar_Current_Cast_Gain = WA_Insanity_Bar_Current_Cast_Gain or 0;\n    local Current_Cast_Gain = WA_Insanity_Bar_Current_Cast_Gain or 0;\n    WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain or 0;\n    WA_Insanity_Bar_Current_Cast_MindSear_Flag = WA_Insanity_Bar_Current_Cast_MindSear_Flag or 0;\n    \n    local specGroup = GetActiveSpecGroup();\n    local isFotMSelected = select(4, GetTalentInfo(1, 2, specGroup));   \n    local PIName = select(2, GetTalentInfo(6, 1, specGroup));\n    local isPIActive = select(11, UnitBuff(\"player\", PIName));\n    local S2MName = select(2, GetTalentInfo(7, 3, specGroup));\n    local isS2MActive = select(11, UnitBuff(\"player\", S2MName));\n    \n    if isPIActive or isFotMActive then\n        Current_Cast_Gain = string.format(\"%.2f\", Current_Cast_Gain);        \n    else\n        Current_Cast_Gain = string.format(\"%.0f\", Current_Cast_Gain);            \n    end\n    \n    \n    if isFotMSelected or isPIActive then\n        \n        if (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) and (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.2f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%.2f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        else\n            \n            return string.format(\"|c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);        \n        end\n        \n    else\n        \n        if (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) and (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.0f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%.0f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity)\n            ;\n        else\n            return string.format(\"|c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);        \n        end\n        \n    end\n    \nend",
+			["untrigger"] = {
+			},
+			["regionType"] = "text",
+			["yOffset"] = 0,
+			["xOffset"] = 0,
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["init_completed"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["anchorPoint"] = "CENTER",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "status",
+				["unevent"] = "auto",
+				["custom_hide"] = "timed",
+				["use_power"] = true,
+				["event"] = "Power",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+				},
+				["powertype"] = 13,
+				["spellIds"] = {
+				},
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["use_unit"] = true,
+				["use_powertype"] = true,
+				["debuffType"] = "HELPFUL",
+			},
+			["justify"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["id"] = "Insanity Bar - Text - Middle 2",
+			["width"] = 11.4999980926514,
+			["frameStrata"] = 6,
+			["anchorFrameType"] = "SCREEN",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["font"] = "PT Sans Narrow",
+			["numTriggers"] = 1,
+			["additional_triggers"] = {
+			},
+			["height"] = 14.1666269302368,
+			["conditions"] = {
+			},
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						[3] = true,
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["disjunctive"] = "all",
+		},
+		["UN - Soulblight"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Soulblight", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					248396, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["desaturate"] = false,
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["frameStrata"] = 5,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "UN - Soulblight",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Solar Solstice"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Solar Solstice", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["stickyDuration"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["disjunctive"] = "all",
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
+			["parent"] = "Balance - Procs",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["untrigger"] = {
+			},
+			["text2FontSize"] = 24,
+			["text2Point"] = "CENTER",
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["text1Containment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "Solar Solstice",
+			["text2"] = "%p",
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["text1Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
+			["numTriggers"] = 1,
+			["text1FontFlags"] = "OUTLINE",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["desaturate"] = false,
+		},
+		["CO - Spectral Army"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "2727",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Spectral Army of Norgannon", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					245921, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "CO - Spectral Army",
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["UN (M) - Grasp"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Grasp of the Unmaker", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					258373, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Grasp",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Rush of Knowledge"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text2Font"] = "Friz Quadrata TT",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Rush of Knowledge", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["stickyDuration"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["disjunctive"] = "all",
+			["text2Containment"] = "INSIDE",
+			["text1Enabled"] = true,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["icon"] = true,
+			["parent"] = "Balance - Procs",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["untrigger"] = {
+			},
+			["text2FontSize"] = 24,
+			["text2Point"] = "CENTER",
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["text1Containment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["xOffset"] = 0,
+			["id"] = "Rush of Knowledge",
+			["text2"] = "%p",
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["text1Font"] = "Friz Quadrata TT",
+			["cooldownTextEnabled"] = true,
+			["numTriggers"] = 1,
+			["text1FontFlags"] = "OUTLINE",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["desaturate"] = false,
+		},
+		["FH - Siphoned/Weight"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Siphoned", -- [1]
+					"Weight of Darkness", -- [2]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					248819, -- [1]
+					244071, -- [2]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "STACK",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["inverse"] = true,
+						["debuffType"] = "HARMFUL",
+						["spellIds"] = {
+							248815, -- [1]
+						},
+						["names"] = {
+							"Enflamed", -- [1]
+						},
+						["subeventPrefix"] = "SPELL",
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH - Siphoned/Weight",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Devil's Due"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 12,
+			["disjunctive"] = "all",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Devil's Due", -- [1]
+				},
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["text1Containment"] = "INSIDE",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["glow"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text2FontSize"] = 24,
+			["xOffset"] = 0,
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text2Font"] = "Friz Quadrata TT",
+			["id"] = "Devil's Due",
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["stickyDuration"] = false,
+			["parent"] = "Balance - Procs",
+			["numTriggers"] = 1,
+			["untrigger"] = {
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+		},
+		["GW (M) - Annihilation"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\huh_1.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "244294",
+				["duration"] = "10",
+				["use_specific_sourceUnit"] = true,
+				["names"] = {
+					"Annihilation", -- [1]
+					"Empowered Annihilation", -- [2]
+				},
+				["custom_hide"] = "timed",
+				["debuffType"] = "HARMFUL",
+				["unit"] = "player",
+				["sourceName"] = "",
+				["subeventSuffix"] = "_CAST_SUCCESS",
+				["unevent"] = "timed",
+				["use_unit"] = true,
+				["use_sourceName"] = false,
+				["event"] = "Combat Log",
+				["name"] = "Annihilation",
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["spellIds"] = {
+					244761, -- [1]
+					245287, -- [2]
+				},
+				["use_sourceUnit"] = true,
+				["type"] = "event",
+				["spellName"] = "",
+				["sourceUnit"] = "122778",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2076",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_difficulty"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["single"] = "mythic",
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 840404,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "SOAK",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HELPFUL",
+						["spellIds"] = {
+							246965, -- [1]
+						},
+						["specificUnit"] = "122778",
+						["unit"] = "member",
+						["names"] = {
+							"Haywire", -- [1]
+						},
+						["use_specific_unit"] = true,
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "GW (M) - Annihilation",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Void Tendril Counter"] = {
+			["glow"] = false,
+			["text1FontSize"] = 13,
+			["cooldownTextEnabled"] = true,
+			["customText"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction()\n    local time = GetTime()\n    \n    i = 0\n    repeat\n        i = i + 1\n        if glb_wa_void_T_table[i] and glb_wa_void_T_table[i][\"spawnTime\"] then\n            if time - glb_wa_void_T_table[i][\"spawnTime\"] >=10 then\n                glb_wa_void_T_counter = glb_wa_void_T_counter - 1\n                glb_wa_void_T_table[i][\"spawnTime\"] = nil\n                glb_wa_void_T_table[i][\"guid\"] = nil\n                break\n            end\n            \n            \n        end\n        \n        \n        \n    until i == 10\n    \n    if glb_wa_void_T_counter > 0 then \n        return glb_wa_void_T_counter \n    else \n        return \"\" \n    end\nend\n\n\n",
+			["untrigger"] = {
+				["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction()\n    if glb_wa_void_T_counter <= 0 then \n        glb_wa_void_T_counter = 0\n        return true \n    end \nend",
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["custom"] = "\n\n",
+					["do_custom"] = false,
+				},
+				["finish"] = {
+					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_counter = 0\nglb_wa_void_T_timer = 0\nglb_wa_void_T_table = {}\n\n\n\n",
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_counter = 0\nglb_wa_void_T_timer = 0\nglb_wa_void_T_table = {}",
+					["do_custom"] = true,
+				},
+			},
+			["text1Enabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "shrink",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "shrink",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["type"] = "custom",
+				["custom_type"] = "event",
+				["debuffType"] = "HELPFUL",
+				["duration"] = "10",
+				["event"] = "Combat Log",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+				},
+				["unit"] = "player",
+				["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction(e, ...)\n    \n    local type = select(2,...)\n    local cName = select(5,...)\n    local charName = UnitName(\"player\")\n    \n    if  type == \"SPELL_SUMMON\" and cName == charName then\n        \n        cttv = select(13,...)\n        cttvId = GetSpellInfo(193371)\n        if cttv == cttvId then \n            voidId = select(8,...)\n            vtName = select(9,...)\n            glb_wa_void_T_counter = glb_wa_void_T_counter + 1\n            --print(glb_wa_void_T_counter..\") spawn: \"..voidId)\n            if glb_wa_void_T_table[glb_wa_void_T_counter] == nil then      \n                glb_wa_void_T_table[glb_wa_void_T_counter] = {}\n            end\n            \n            glb_wa_void_T_table[glb_wa_void_T_counter][\"guid\"] = voidId\n            glb_wa_void_T_timer = GetTime()\n            glb_wa_void_T_table[glb_wa_void_T_counter][\"spawnTime\"] = glb_wa_void_T_timer\n            \n        end\n        \n        \n        --[[elseif type == \"SPELL_AURA_REMOVED\" and cName == vtName then\n        \n        voidID_remove = select(4,...)\n        \n        i = 0\n        repeat\n            i = i + 1\n            if glb_wa_void_T_table[i][\"guid\"] == nil or glb_wa_void_T_table[i][\"spawnTime\"] == nil then\n            else\n                \n                if glb_wa_void_T_table[i][\"guid\"] == voidID_remove then \n                    --print(i..\") despawn: \"..voidID_remove) \n                    if GetTime() - glb_wa_void_T_table[i][\"spawnTime\"] >=10 then\n                        glb_wa_void_T_counter = glb_wa_void_T_counter - 1\n                        glb_wa_void_T_table[i][\"spawnTime\"] = nil\n                        glb_wa_void_T_table[i][\"guid\"] = nil\n                        break\n                    end\n                    \n                end\n            end\n            \n        until i == 10]]\n        \n        \n    end\n    \n    if glb_wa_void_T_counter > 0 then return true else return false end\n    \nend\n\n\n\n\n",
+				["subeventSuffix"] = "_CAST_START",
+				["spellIds"] = {
+				},
+				["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
+				["unevent"] = "timed",
+				["custom_hide"] = "custom",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "TOP",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 36,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Void Tendril Tracker",
+			["yOffset"] = 0,
+			["conditions"] = {
+			},
+			["text2Containment"] = "INSIDE",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["stickyDuration"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["width"] = 36,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%c",
+			["auto"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["id"] = "Void Tendril Counter",
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = 0,
+			["text1Containment"] = "INSIDE",
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["displayIcon"] = 237569,
+			["selfPoint"] = "CENTER",
+			["icon"] = true,
+		},
+		["AG (M) - Catalyzed"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Catalyzed", -- [1]
+				},
+				["spellName"] = "Focused Blast",
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["use_specific_unit"] = false,
+				["unevent"] = "timed",
+				["unit"] = "target",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					247091, -- [1]
+				},
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "TOP",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 348567,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "AG (M) - Catalyzed",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Priest - Shadow: Bloodlust"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Time Warp", -- [1]
+					"Bloodlust", -- [2]
+					"Heroism", -- [3]
+					"Ancient Hysteria", -- [4]
+					"Drums of Rage", -- [5]
+					"Drums of Fury", -- [6]
+					"Netherwinds", -- [7]
+					"Drums of the Mountain", -- [8]
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Bloodlust",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["IM - Seared Skin"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "2727",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Seared Skin", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					254181, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "IM - Seared Skin",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["VA (M) - Echoes of Doom"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "55587",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Echoes of Doom", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					248732, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2069",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "VA (M) - Echoes of Doom",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN (M) - Shattered Bonds"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Shattered Bonds", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					258000, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Shattered Bonds",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["UN (M) - Sargeras' Fear"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Sargeras' Fear", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					257931, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Sargeras' Fear",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["EO (M) - Foul Steps"] = {
+			["glow"] = false,
+			["text1FontSize"] = 36,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Foul Steps", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					250140, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2075",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "EO (M) - Foul Steps",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["text2Point"] = "BOTTOM",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["PK - Caustic Slime"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Caustic Slime", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244849, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Caustic Slime",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["HC - Psychic Assault "] = {
+			["glow"] = false,
+			["text1FontSize"] = 36,
+			["xOffset"] = -360.99963378906,
+			["customText"] = "function()\n    if aura_env.startTime and aura_env.startTime > 0 then\n        return string.format(\"%.0f\", (GetTime() - aura_env.startTime))\n    end\n    return \"\"\nend",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = 0,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["custom"] = "aura_env.startTime = GetTime()",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["custom"] = "WeakAuras.ScanEvents('WA_DK_BREATH_OF_SINDRAGOSA_END', (GetTime() - aura_env.startTime))",
+					["do_custom"] = true,
+				},
+				["init"] = {
+				},
+			},
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Psychic Assault", -- [1]
+				},
+				["spellIds"] = {
+					244172, -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = true,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60.000053405762,
+			["yOffset"] = 273.99984741211,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["single"] = "DEATHKNIGHT",
+					["multi"] = {
+						["DEATHKNIGHT"] = true,
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["level"] = "100",
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["single"] = 20,
+					["multi"] = {
+						[20] = true,
+						[21] = true,
+					},
+				},
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+						[2] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["level_operator"] = "==",
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["encounterid"] = "2070",
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2Containment"] = "INSIDE",
+			["text1Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["desc"] = "Displays an icon with the current duration of BoS",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60.000316619873,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["text2"] = " ",
+			["auto"] = true,
+			["icon"] = true,
+			["id"] = "HC - Psychic Assault ",
+			["text1FontFlags"] = "OUTLINE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["Insanity Bar - Non-LotV Marker 1"] = {
+			["color"] = {
+				0.6156862745098, -- [1]
+				0.6156862745098, -- [2]
+				0.6156862745098, -- [3]
+				0.75, -- [4]
+			},
+			["mirror"] = false,
+			["untrigger"] = {
+				["spellName"] = 228260,
+			},
+			["anchorPoint"] = "CENTER",
+			["xOffset"] = 150,
+			["blendMode"] = "ADD",
+			["activeTriggerMode"] = 0,
+			["yOffset"] = 0,
+			["conditions"] = {
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["use_inverse"] = true,
+				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["spellName"] = 228260,
+				["power"] = "100",
+				["type"] = "status",
+				["use_health"] = true,
+				["subeventSuffix"] = "_CAST_START",
+				["power_operator"] = "<",
+				["unit"] = "player",
+				["event"] = "Action Usable",
+				["spellIds"] = {
+				},
+				["realSpellName"] = "Void Eruption",
+				["use_spellName"] = true,
+				["health"] = "0",
+				["health_operator"] = ">",
+				["unevent"] = "auto",
+				["use_targetRequired"] = false,
+				["custom_hide"] = "timed",
+				["use_power"] = true,
+			},
+			["width"] = 1,
+			["selfPoint"] = "CENTER",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["inverse"] = true,
+						["custom_hide"] = "timed",
+						["subeventPrefix"] = "SPELL",
+						["names"] = {
+							"Voidform", -- [1]
+						},
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["rotation"] = 0,
+			["frameStrata"] = 6,
+			["anchorFrameType"] = "SCREEN",
+			["discrete_rotation"] = 0,
+			["desaturate"] = false,
+			["numTriggers"] = 2,
+			["id"] = "Insanity Bar - Non-LotV Marker 1",
+			["height"] = 32,
+			["rotate"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["single"] = 19,
+					["multi"] = {
+						[20] = true,
+						[21] = true,
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["PRIEST"] = true,
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_talent"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						[3] = true,
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "texture",
+		},
+		["UN (M) - Punishment"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Collective Punishment", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					258026, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Punishment",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["FH (M) - Burning"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "2727",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Burning Remnant", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					245022, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["single"] = "mythic",
+					["multi"] = {
+						["mythic"] = true,
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH (M) - Burning",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["UN - Titanforge"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Titanforged", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					257215, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Titanforge",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["EO - Fel Wake"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "2727",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Fel Wake", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					248795, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2075",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "EO - Fel Wake",
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["IM - Asleep"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Sleep Canister", -- [1]
+					"Slumber Gas", -- [2]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					255029, -- [1]
+					247565, -- [2]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "IM - Asleep",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["AGGRAMAR "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "AGGRAMAR ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["IMONAR THE SOULHUNTER "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "IMONAR THE SOULHUNTER ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["Priest - Shadow: Sephuz's Secret"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Sephuz's Secret", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Sephuz's Secret",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["IM - Shocked"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Shocked", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					250224, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "IM - Shocked",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["yOffset"] = 0,
+		},
+		["EONAR THE LIFE-BINDER "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "EONAR THE LIFE-BINDER ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["Priest - Shadow: Twist of Fate"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Twist of Fate", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
@@ -565,25 +18283,26 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
 			["actions"] = {
 				["start"] = {
 				},
@@ -592,23 +18311,345 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["conditions"] = {
-			},
-			["yOffset"] = 0,
+			["text1Containment"] = "INSIDE",
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["yOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Twist of Fate",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["KG - Ruiner"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["do_message"] = false,
+					["do_custom"] = false,
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["sound_kit_id"] = "2727",
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\wilhelm.ogg",
+					["message"] = "",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Ruiner", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					246840, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "KG - Ruiner",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["GAROTHI WORLDBREAKER "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
 			["text2Point"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
@@ -617,29 +18658,5549 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
-			["width"] = 32,
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
 			["text2FontSize"] = 24,
-			["frameStrata"] = 1,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["xOffset"] = 0,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
 			["zoom"] = 0,
+			["id"] = "GAROTHI WORLDBREAKER ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["yOffset"] = 0,
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["PK - Hungering Gloom"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Hungering Gloom", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					245075, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Hungering Gloom",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Priest - Shadow: Insanity Bar"] = {
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["controlledChildren"] = {
+				"Insanity Bar - Options and Trigger 2", -- [1]
+				"Insanity Bar - Text - Left 2", -- [2]
+				"Insanity Bar - Text - Middle 2", -- [3]
+				"Insanity Bar - Text - Right 2", -- [4]
+				"Insanity Bar - Border - Insanity Ready 2", -- [5]
+				"Insanity Bar - Main Bar 2", -- [6]
+				"Insanity Bar - Casting Bar 2", -- [7]
+				"Insanity Bar - Auspicious Spirits Bar 2", -- [8]
+				"Insanity Bar - Non-LotV Marker 1 2", -- [9]
+				"Insanity Bar - Non-LotV Marker 2 2", -- [10]
+				"Insanity Bar - LotV Marker 1 2", -- [11]
+				"Insanity Bar - LotV Marker 2 2", -- [12]
+			},
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["disjunctive"] = "all",
+			["border"] = false,
+			["yOffset"] = -188,
+			["regionType"] = "group",
+			["borderSize"] = 16,
+			["xOffset"] = 0,
+			["activeTriggerMode"] = -10,
+			["anchorPoint"] = "CENTER",
+			["url"] = "https://wago.io/rJD8ySOhW/1",
+			["expanded"] = false,
+			["untrigger"] = {
+			},
+			["additional_triggers"] = {
+			},
+			["borderOffset"] = 5,
+			["trigger"] = {
+				["unit"] = "player",
+				["type"] = "aura",
+				["spellIds"] = {
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
+			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Priest - Shadow: Insanity Bar",
+			["version"] = 1,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["borderColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["borderInset"] = 11,
+			["numTriggers"] = 1,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["conditions"] = {
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = "true",
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["borderEdge"] = "None",
+		},
+		["CO - Storm Timer"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["specificUnit"] = "122467",
+				["custom_hide"] = "timed",
+				["spellName"] = "Focused Blast",
+				["sourceName"] = "",
+				["unit"] = "member",
+				["unevent"] = "timed",
+				["use_specific_unit"] = true,
+				["use_sourceName"] = false,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					252861, -- [1]
+				},
+				["names"] = {
+					"Storm of Darkness", -- [1]
+				},
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "CO - Storm Timer",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["FH - Molten Flares"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_specific_unit"] = false,
+				["group_count"] = "0",
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["group_countOperator"] = ">",
+				["type"] = "aura",
+				["names"] = {
+					"Molten Touch", -- [1]
+				},
+				["unevent"] = "timed",
+				["unit"] = "group",
+				["use_sourceName"] = false,
+				["event"] = "Chat Message",
+				["name"] = "Burning Armor",
+				["use_spellName"] = true,
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244086, -- [1]
+				},
+				["use_unit"] = true,
+				["spellName"] = "Focused Blast",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceName"] = "",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135815,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "FH - Molten Flares",
+			["desaturate"] = false,
 			["text2"] = "%p",
 			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["inverse"] = true,
+						["debuffType"] = "HARMFUL",
+						["spellIds"] = {
+							244086, -- [1]
+						},
+						["names"] = {
+							"Molten Touch", -- [1]
+						},
+						["subeventPrefix"] = "SPELL",
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["IM - Infernal Rockets"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Infernal Rockets", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					248255, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
 			["text1FontFlags"] = "OUTLINE",
-			["id"] = "Priest - Shadow: Mindbender",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "IM - Infernal Rockets",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["UN - Golganneth's Gifts"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Gift of the Sky", -- [1]
+					"Gift of the Sea", -- [2]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					258646, -- [1]
+					258647, -- [2]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "UN - Golganneth's Gifts",
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["cooldownTextEnabled"] = true,
+		},
+		["UN - Cosmic Ray"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "11052",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Cosmic Ray", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					252729, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Cosmic Ray",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Void Tendril Timer"] = {
+			["outline"] = "OUTLINE",
+			["fontSize"] = 13,
+			["disjunctive"] = "all",
+			["displayText"] = "%c",
+			["customText"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction()\n    if glb_wa_void_T_timer > 0 then\n        local time = GetTime()\n        local timer = 10 - ((time) - (glb_wa_void_T_timer))\n        if timer >= 0 then\n            \n            return string.format(\"%.1f\", timer)\n        else\n            glb_wa_void_T_timer = 0\n            glb_wa_void_T_counter = 0\n            \n        end\n        \n    else\n        glb_wa_void_T_timer = 0\n        glb_wa_void_T_counter = 0\n        \n        return \"\"\n        \n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			["yOffset"] = -11.999938964844,
+			["regionType"] = "text",
+			["parent"] = "Priest - Shadow: Void Tendril Tracker",
+			["xOffset"] = 0,
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["init_completed"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_timer = 0\nglb_wa_void_T_counter = 0\nglb_wa_void_T_table = {}",
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_timer = 0",
+					["do_custom"] = true,
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["init_started"] = 1,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "shrink",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "shrink",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+			["justify"] = "CENTER",
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "status",
+				["use_alwaystrue"] = true,
+				["unevent"] = "auto",
+				["event"] = "Conditions",
+				["use_unit"] = true,
+				["debuffType"] = "HELPFUL",
+				["spellIds"] = {
+				},
+				["names"] = {
+				},
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+			},
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 10.6666584014893,
+			["anchorPoint"] = "CENTER",
+			["font"] = "Friz Quadrata TT",
+			["numTriggers"] = 1,
+			["id"] = "Void Tendril Timer",
+			["height"] = 13.3332872390747,
+			["conditions"] = {
+			},
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["untrigger"] = {
+				["use_unit"] = true,
+				["unit"] = "player",
+			},
+		},
+		["Priest - Shadow: Potion of Prolonged Power"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Potion of Deadly Grace", -- [1]
+					"Potion of Prolonged Power", -- [2]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
 			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Potion of Prolonged Power",
+			["text1FontFlags"] = "OUTLINE",
 			["text2Enabled"] = false,
 			["anchorFrameType"] = "SCREEN",
 			["text2Font"] = "Friz Quadrata TT",
-			["text1Containment"] = "INSIDE",
+			["xOffset"] = 0,
 			["numTriggers"] = 1,
 			["disjunctive"] = "all",
 			["init_started"] = 1,
-			["displayIcon"] = 136214,
+			["conditions"] = {
+			},
 			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["Spectral Owl"] = {
+			["text2Point"] = "CENTER",
+			["text1FontSize"] = 12,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
 			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["unit"] = "player",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Spectral Owl", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["yOffset"] = 0,
+			["text2Containment"] = "INSIDE",
+			["stickyDuration"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["disjunctive"] = "all",
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["numTriggers"] = 1,
+			["text2Font"] = "Friz Quadrata TT",
+			["text2FontSize"] = 24,
+			["xOffset"] = 0,
+			["width"] = 40,
+			["text1"] = "%c",
+			["text2Enabled"] = false,
+			["text2"] = "%p",
+			["zoom"] = 0,
+			["auto"] = true,
+			["text1FontFlags"] = "OUTLINE",
+			["id"] = "Spectral Owl",
+			["glow"] = false,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["cooldownTextEnabled"] = true,
+			["text1Containment"] = "INSIDE",
+			["inverse"] = false,
+			["parent"] = "Balance - Procs",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+		},
+		["PK - Delusions"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\huh_1.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Delusions", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					245050, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "Zzz",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Delusions",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["IM - Empowered Pulse"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "14766",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Empowered Pulse Grenade", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					250006, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "IM - Empowered Pulse",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["yOffset"] = 0,
+		},
+		["UN - Soulbomb (P2)"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Soulbomb", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					251570, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "status",
+						["unevent"] = "auto",
+						["percenthealth"] = "40",
+						["event"] = "Health",
+						["unit"] = "boss1",
+						["subeventPrefix"] = "SPELL",
+						["use_specific_unit"] = true,
+						["subeventSuffix"] = "_CAST_START",
+						["use_percenthealth"] = true,
+						["percenthealth_operator"] = ">",
+						["use_unit"] = true,
+					},
+					["untrigger"] = {
+						["unit"] = "boss1",
+						["use_specific_unit"] = true,
+					},
+				}, -- [1]
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Soulbomb (P2)",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["HC - Psychic Scarring"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Psychic Scarring", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244388, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2070",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "HC - Psychic Scarring",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["CO - Split Bosses"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "bounce",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["specificUnit"] = "122467",
+				["spellName"] = "Focused Blast",
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["use_specific_unit"] = false,
+				["unevent"] = "timed",
+				["names"] = {
+					"Shivan Pact", -- [1]
+				},
+				["use_sourceName"] = false,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					253203, -- [1]
+				},
+				["unit"] = "target",
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["desaturate"] = false,
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "CO - Split Bosses",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["Concordance of the Legionfall"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["parent"] = "Balance - Procs",
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["spellIds"] = {
+				},
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Concordance of the Legionfall", -- [1]
+				},
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 40,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["untrigger"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownTextEnabled"] = true,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["inverse"] = false,
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text1"] = "%c",
+			["frameStrata"] = 1,
+			["xOffset"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "Concordance of the Legionfall",
+			["text2Font"] = "Friz Quadrata TT",
+			["text2Enabled"] = false,
+			["width"] = 40,
+			["text1Font"] = "Friz Quadrata TT",
+			["disjunctive"] = "all",
+			["numTriggers"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+		},
+		["AG - Scorching/Ravenous"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Scorching Blaze", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					245994, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 1,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["sound_type"] = "Play",
+								["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+								["sound_channel"] = "Master",
+							},
+							["property"] = "sound",
+						}, -- [1]
+						{
+							["value"] = true,
+							["property"] = "glow",
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["desaturate"] = false,
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "AG - Scorching/Ravenous",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["unevent"] = "auto",
+						["event"] = "Chat Message",
+						["unit"] = "player",
+						["spellIds"] = {
+							254452, -- [1]
+						},
+						["names"] = {
+							"Ravenous Blaze", -- [1]
+						},
+						["subeventPrefix"] = "SPELL",
+						["subeventSuffix"] = "_CAST_START",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["displayIcon"] = 135734,
+			["cooldown"] = true,
+			["cooldownTextEnabled"] = true,
+		},
+		["GW - Eradication"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "11482",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "244969",
+				["duration"] = "5.5",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["names"] = {
+				},
+				["type"] = "event",
+				["use_sourceName"] = false,
+				["unevent"] = "timed",
+				["sourceName"] = "",
+				["spellName"] = "",
+				["event"] = "Combat Log",
+				["name"] = "Eradication",
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["spellIds"] = {
+				},
+				["use_sourceUnit"] = true,
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2076",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["single"] = "mythic",
+					["multi"] = {
+						["mythic"] = true,
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 348567,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "RUN",
+			["id"] = "GW - Eradication",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["AG - Blazing Eruption"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Blazing Eruption", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244912, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "AG - Blazing Eruption",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["AG - Catalyzing Presence"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\huh_1.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Catalyzing Presence", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["spellName"] = "Focused Blast",
+				["sourceName"] = "",
+				["use_unit"] = true,
+				["unevent"] = "timed",
+				["use_specific_unit"] = false,
+				["unit"] = "target",
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244901, -- [1]
+				},
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 348567,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "AG - Catalyzing Presence",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["KG (M) - Demolished"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Demolished", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					249535, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "KG (M) - Demolished",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["GW - Annihilation"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\huh_1.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "244294",
+				["duration"] = "6",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["spellName"] = "",
+				["unit"] = "player",
+				["sourceName"] = "",
+				["type"] = "event",
+				["unevent"] = "timed",
+				["subeventSuffix"] = "_CAST_SUCCESS",
+				["use_sourceName"] = false,
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					244761, -- [1]
+					245287, -- [2]
+				},
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["name"] = "Annihilation",
+				["use_sourceUnit"] = true,
+				["names"] = {
+					"Annihilation", -- [1]
+					"Empowered Annihilation", -- [2]
+				},
+				["custom_hide"] = "timed",
+				["sourceUnit"] = "122778",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2076",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+						["normal"] = true,
+						["lfr"] = true,
+						["heroic"] = true,
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 840404,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "SOAK",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "GW - Annihilation",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["CO (M) - Cosmic Glare"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Cosmic Glare", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					250757, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "CO (M) - Cosmic Glare",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Priest - Shadow: Void Tendril Tracker"] = {
+			["backdropColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["controlledChildren"] = {
+				"Void Tendril Counter", -- [1]
+				"Void Tendril Timer", -- [2]
+			},
+			["borderBackdrop"] = "Blizzard Tooltip",
+			["disjunctive"] = "all",
+			["border"] = false,
+			["untrigger"] = {
+			},
+			["regionType"] = "group",
+			["borderSize"] = 16,
+			["activeTriggerMode"] = -10,
+			["yOffset"] = 0,
+			["url"] = "https://wago.io/H1GixBd3-/1",
+			["expanded"] = false,
+			["borderEdge"] = "None",
+			["borderColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["borderOffset"] = 5,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["selfPoint"] = "BOTTOMLEFT",
+			["id"] = "Priest - Shadow: Void Tendril Tracker",
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["spellIds"] = {
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["unit"] = "player",
+			},
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["numTriggers"] = 1,
+			["borderInset"] = 11,
+			["version"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["anchorPoint"] = "CENTER",
+			["conditions"] = {
+			},
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = "true",
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["xOffset"] = -140,
+		},
+		["PK - Acidic Web"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Acidic Web", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					246208, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "ROOT",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Acidic Web",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["CO - Fulminating Pulse"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Fulminating Pulse", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					253520, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "CO - Fulminating Pulse",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["IM - Shrapnel Blast"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Shrapnel Blast", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					247949, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "IM - Shrapnel Blast",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["CO - Orb of Frost"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Orb of Frost", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					253697, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2073",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "CO - Orb of Frost",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Priest - Shadow: Mind Quickening"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+					"Mind Quickening", -- [1]
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["text1Containment"] = "INSIDE",
+			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text2Point"] = "CENTER",
+			["stickyDuration"] = false,
+			["text2FontSize"] = 24,
+			["width"] = 32,
+			["init_completed"] = 1,
+			["text1"] = "%s",
+			["frameStrata"] = 1,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = true,
+			["text1Font"] = "Friz Quadrata TT",
+			["id"] = "Priest - Shadow: Mind Quickening",
+			["text1FontFlags"] = "OUTLINE",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["xOffset"] = 0,
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
+			["init_started"] = 1,
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+		},
+		["AG - Flame Rend"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "any",
+			["untrigger"] = {
+				["use_specific_unit"] = true,
+				["unit"] = "boss1",
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "245463",
+				["names"] = {
+					"Ravenous Blaze", -- [1]
+				},
+				["duration"] = "2.75",
+				["use_specific_sourceUnit"] = true,
+				["subeventPrefix"] = "SPELL",
+				["sourceUnit"] = "boss1",
+				["use_specific_unit"] = false,
+				["use_power"] = true,
+				["custom_hide"] = "timed",
+				["name"] = "Flame Rend",
+				["use_spellName"] = false,
+				["sourceName"] = "",
+				["spellName"] = "",
+				["unevent"] = "timed",
+				["use_sourceName"] = false,
+				["power"] = "80",
+				["subeventSuffix"] = "_CAST_START",
+				["power_operator"] = ">",
+				["debuffType"] = "HARMFUL",
+				["event"] = "Combat Log",
+				["use_percentpower"] = true,
+				["type"] = "event",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					254452, -- [1]
+				},
+				["use_sourceUnit"] = true,
+				["unit"] = "player",
+				["use_unit"] = true,
+				["percentpower"] = "100",
+				["percentpower_operator"] = "<",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 460698,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "RAID",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "event",
+						["spellId"] = "255058",
+						["subeventSuffix"] = "_CAST_START",
+						["use_sourceRaidFlags"] = false,
+						["duration"] = "2.75",
+						["event"] = "Combat Log",
+						["use_unit"] = true,
+						["unevent"] = "timed",
+						["use_spellId"] = true,
+						["name"] = "Empowered Flame Rend",
+						["use_sourceUnit"] = true,
+						["use_specific_sourceUnit"] = true,
+						["subeventPrefix"] = "SPELL",
+						["sourceUnit"] = "boss1",
+						["unit"] = "player",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "AG - Flame Rend",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["HC - Fusillade "] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "244625",
+				["duration"] = "5",
+				["use_unit"] = true,
+				["unit"] = "player",
+				["debuffType"] = "HARMFUL",
+				["type"] = "event",
+				["use_sourceName"] = false,
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "",
+				["sourceName"] = "",
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					244910, -- [1]
+				},
+				["use_spellName"] = false,
+				["use_spellId"] = true,
+				["name"] = "Fusillade",
+				["use_sourceUnit"] = false,
+				["names"] = {
+					"Felshield", -- [1]
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "player",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2070",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135804,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "HC - Fusillade ",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["AG - Wake of Flame Cast"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "244693",
+				["duration"] = "2",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["sourceName"] = "",
+				["unevent"] = "timed",
+				["names"] = {
+					"Wake of Flame", -- [1]
+				},
+				["type"] = "event",
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					244736, -- [1]
+				},
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["name"] = "Wake of Flame",
+				["use_sourceUnit"] = true,
+				["spellName"] = "",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 524795,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "DODGE",
+			["id"] = "AG - Wake of Flame Cast",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
 		},
 		["Insanity Bar - Casting Bar 2"] = {
 			["sparkWidth"] = 8,
@@ -870,18 +24431,18 @@ WeakAurasSaved = {
 						["type"] = "status",
 						["custom_hide"] = "timed",
 						["subeventSuffix"] = "_CAST_START",
-						["use_unit"] = true,
+						["subeventPrefix"] = "SPELL",
 						["use_power"] = true,
 						["event"] = "Power",
-						["names"] = {
-						},
+						["use_unit"] = true,
 						["use_percentpower"] = false,
 						["powertype"] = 13,
 						["spellIds"] = {
 						},
 						["unevent"] = "auto",
 						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
+						["names"] = {
+						},
 						["use_powertype"] = true,
 						["fullscan"] = true,
 					},
@@ -909,1056 +24470,14 @@ WeakAurasSaved = {
 			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 			["parent"] = "Priest - Shadow: Insanity Bar",
 		},
-		["Priest - Shadow: Bloodlust"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["names"] = {
-					"Time Warp", -- [1]
-					"Bloodlust", -- [2]
-					"Heroism", -- [3]
-					"Ancient Hysteria", -- [4]
-					"Drums of Rage", -- [5]
-					"Drums of Fury", -- [6]
-					"Netherwinds", -- [7]
-					"Drums of the Mountain", -- [8]
-				},
-				["spellIds"] = {
-				},
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Bloodlust",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
-		},
-		["Nefarious Pact"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["unit"] = "player",
-				["spellIds"] = {
-				},
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Nefarious Pact", -- [1]
-				},
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "CENTER",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 40,
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Balance - Procs",
-			["disjunctive"] = "all",
-			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["untrigger"] = {
-			},
-			["stickyDuration"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["numTriggers"] = 1,
-			["text1Font"] = "Friz Quadrata TT",
-			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
-			["width"] = 40,
-			["text1"] = "%c",
-			["text2Enabled"] = false,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["id"] = "Nefarious Pact",
-			["text1FontFlags"] = "OUTLINE",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["xOffset"] = 0,
-			["text1Containment"] = "INSIDE",
-			["inverse"] = false,
-			["text2Point"] = "CENTER",
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["Priest - Shadow: Concordance of the Legionfall"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["names"] = {
-					"Concordance of the Legionfall", -- [1]
-				},
-				["spellIds"] = {
-				},
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["single"] = 16,
-					["multi"] = {
-						[16] = true,
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Concordance of the Legionfall",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
-		},
-		["Priest - Shadow: Power Infusion"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["names"] = {
-					"Power Infusion", -- [1]
-				},
-				["spellIds"] = {
-				},
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["single"] = 16,
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_talent"] = true,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Power Infusion",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
-		},
-		["Potion of Prolonged Power"] = {
-			["text2Point"] = "CENTER",
-			["text1FontSize"] = 12,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["spellId"] = "229206",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-				["fullscan"] = true,
-				["use_spellId"] = true,
-				["name"] = "Potion of Prolonged Power",
-				["spellIds"] = {
-					229206, -- [1]
-				},
-				["custom_hide"] = "timed",
-				["unit"] = "player",
-				["names"] = {
-					"Potion of Prolonged Power", -- [1]
-				},
-				["debuffType"] = "HELPFUL",
-			},
-			["text1Containment"] = "INSIDE",
-			["text1Point"] = "CENTER",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 40,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["icon"] = true,
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
-			["untrigger"] = {
-			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stickyDuration"] = false,
-			["disjunctive"] = "all",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["numTriggers"] = 1,
-			["text1Font"] = "Friz Quadrata TT",
-			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
-			["width"] = 40,
-			["text1"] = "%c",
-			["text2Enabled"] = false,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["xOffset"] = 0,
-			["id"] = "Potion of Prolonged Power",
-			["text1FontFlags"] = "OUTLINE",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["cooldownTextEnabled"] = true,
-			["glow"] = false,
-			["inverse"] = false,
-			["parent"] = "Balance - Procs",
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-		},
-		["Insanity Bar - Non-LotV Marker 1 2"] = {
-			["color"] = {
-				0.6156862745098, -- [1]
-				0.6156862745098, -- [2]
-				0.6156862745098, -- [3]
-				0.75, -- [4]
-			},
-			["anchorPoint"] = "CENTER",
-			["mirror"] = false,
-			["untrigger"] = {
-				["spellName"] = 228260,
-			},
-			["regionType"] = "texture",
-			["xOffset"] = 203,
-			["blendMode"] = "ADD",
-			["activeTriggerMode"] = 0,
-			["rotate"] = true,
-			["yOffset"] = 0,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White",
-			["trigger"] = {
-				["use_inverse"] = true,
-				["use_unit"] = true,
-				["use_power"] = true,
-				["spellName"] = 228260,
-				["power"] = "100",
-				["custom_hide"] = "timed",
-				["subeventSuffix"] = "_CAST_START",
-				["type"] = "status",
-				["use_health"] = true,
-				["use_targetRequired"] = false,
-				["power_operator"] = "<",
-				["health_operator"] = ">",
-				["event"] = "Action Usable",
-				["health"] = "0",
-				["realSpellName"] = "Void Eruption",
-				["use_spellName"] = true,
-				["spellIds"] = {
-				},
-				["unit"] = "player",
-				["unevent"] = "auto",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["subeventPrefix"] = "SPELL",
-			},
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "aura",
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["unit"] = "player",
-						["inverse"] = true,
-						["debuffType"] = "HELPFUL",
-						["spellIds"] = {
-						},
-						["names"] = {
-							"Voidform", -- [1]
-						},
-						["subeventPrefix"] = "SPELL",
-						["custom_hide"] = "timed",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["width"] = 1,
-			["selfPoint"] = "CENTER",
-			["id"] = "Insanity Bar - Non-LotV Marker 1 2",
-			["rotation"] = 0,
-			["frameStrata"] = 6,
-			["desaturate"] = false,
-			["discrete_rotation"] = 0,
-			["anchorFrameType"] = "SCREEN",
-			["numTriggers"] = 2,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["height"] = 32,
-			["conditions"] = {
-			},
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["talent"] = {
-					["single"] = 19,
-					["multi"] = {
-						[20] = true,
-						[21] = true,
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["PRIEST"] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[3] = true,
-					},
-				},
-				["use_talent"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Insanity Bar",
-		},
-		["Insanity Bar - Text - Middle 2"] = {
-			["outline"] = "OUTLINE",
-			["fontSize"] = 14,
-			["disjunctive"] = "all",
-			["displayText"] = "%c",
-			["customText"] = "function()\n    WA_Insanity_Bar_Color_Text_Current = WA_Insanity_Bar_Color_Text_Current or \"FFC2A3E0\";\n    WA_Insanity_Bar_Color_Text_Incoming = WA_Insanity_Bar_Color_Text_Incoming or \"FFFFFFFF\";\n    WA_Insanity_Bar_Color_Text_AS = WA_Insanity_Bar_Color_Text_AS or \"FFDF00FF\";\n    \n    WA_Voidform_Current_Insanity = UnitPower(\"player\", SPELL_POWER_SHADOW_ORBS, forceUpdate);\n    WA_Insanity_Bar_Current_Cast_Gain = WA_Insanity_Bar_Current_Cast_Gain or 0;\n    local Current_Cast_Gain = WA_Insanity_Bar_Current_Cast_Gain or 0;\n    WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain or 0;\n    WA_Insanity_Bar_Current_Cast_MindSear_Flag = WA_Insanity_Bar_Current_Cast_MindSear_Flag or 0;\n    \n    local specGroup = GetActiveSpecGroup();\n    local isFotMSelected = select(4, GetTalentInfo(1, 2, specGroup));   \n    local PIName = select(2, GetTalentInfo(6, 1, specGroup));\n    local isPIActive = select(11, UnitBuff(\"player\", PIName));\n    local S2MName = select(2, GetTalentInfo(7, 3, specGroup));\n    local isS2MActive = select(11, UnitBuff(\"player\", S2MName));\n    \n    if isPIActive or isFotMActive then\n        Current_Cast_Gain = string.format(\"%.2f\", Current_Cast_Gain);        \n    else\n        Current_Cast_Gain = string.format(\"%.0f\", Current_Cast_Gain);            \n    end\n    \n    \n    if isFotMSelected or isPIActive then\n        \n        if (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) and (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.2f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%.2f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        else\n            \n            return string.format(\"|c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);        \n        end\n        \n    else\n        \n        if (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) and (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.0f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_Current_Cast_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity) then\n            \n            return string.format(\"|c%s%s|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Incoming, Current_Cast_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);\n            \n        elseif (WA_Insanity_Bar_AS_Gain > 0 and WA_Insanity_Bar_Show_Right_Incoming_AS_Insanity) then\n            \n            return string.format(\"|c%s%.0f|r + |c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_AS, WA_Insanity_Bar_AS_Gain, WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity)\n            ;\n        else\n            return string.format(\"|c%s%.0f%%|r\", WA_Insanity_Bar_Color_Text_Current, WA_Voidform_Current_Insanity);        \n        end\n        \n    end\n    \nend",
-			["untrigger"] = {
-			},
-			["regionType"] = "text",
-			["yOffset"] = 0,
-			["xOffset"] = 0,
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["init_completed"] = 1,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["anchorPoint"] = "CENTER",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "status",
-				["unevent"] = "auto",
-				["custom_hide"] = "timed",
-				["use_power"] = true,
-				["event"] = "Power",
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-				},
-				["powertype"] = 13,
-				["spellIds"] = {
-				},
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["use_unit"] = true,
-				["use_powertype"] = true,
-				["debuffType"] = "HELPFUL",
-			},
-			["justify"] = "CENTER",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["id"] = "Insanity Bar - Text - Middle 2",
-			["width"] = 11.4999980926514,
-			["frameStrata"] = 6,
-			["anchorFrameType"] = "SCREEN",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["font"] = "PT Sans Narrow",
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
-			["height"] = 14.1666269302368,
-			["conditions"] = {
-			},
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["PRIEST"] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[3] = true,
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Insanity Bar",
-		},
 		["Insanity Bar - Non-LotV Marker 2 2"] = {
+			["color"] = {
+				0.70980392156863, -- [1]
+				0.70980392156863, -- [2]
+				0.70980392156863, -- [3]
+				1, -- [4]
+			},
 			["xOffset"] = 203,
-			["parent"] = "Priest - Shadow: Insanity Bar",
 			["untrigger"] = {
 				["spellName"] = 228260,
 			},
@@ -2001,7 +24520,7 @@ WeakAurasSaved = {
 					},
 				}, -- [1]
 			},
-			["width"] = 2,
+			["anchorFrameType"] = "SCREEN",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2062,9 +24581,9 @@ WeakAurasSaved = {
 			},
 			["rotation"] = 0,
 			["frameStrata"] = 6,
-			["desaturate"] = false,
+			["width"] = 2,
 			["discrete_rotation"] = 0,
-			["anchorFrameType"] = "SCREEN",
+			["desaturate"] = false,
 			["numTriggers"] = 2,
 			["selfPoint"] = "CENTER",
 			["height"] = 32,
@@ -2108,16 +24627,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -2127,76 +24646,109 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["color"] = {
-				0.70980392156863, -- [1]
-				0.70980392156863, -- [2]
-				0.70980392156863, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "Priest - Shadow: Insanity Bar",
 		},
-		["Shocklight"] = {
-			["text2Point"] = "CENTER",
-			["text1FontSize"] = 12,
-			["disjunctive"] = "all",
-			["yOffset"] = 0,
+		["KG - Forging Cast"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
 			["anchorPoint"] = "CENTER",
 			["activeTriggerMode"] = -10,
 			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
 				},
 				["finish"] = {
 				},
-				["init"] = {
-				},
 			},
-			["text1Enabled"] = true,
+			["text2Font"] = "Accidental Presidency",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
 					["type"] = "none",
 				},
 				["main"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 				["finish"] = {
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
 					["type"] = "none",
 				},
 			},
 			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["unit"] = "player",
-				["spellIds"] = {
-				},
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
+				["spellId"] = "254919",
+				["duration"] = "1.2",
+				["use_specific_sourceUnit"] = true,
 				["names"] = {
-					"Shocklight", -- [1]
+					"Burning Armor", -- [1]
 				},
-				["debuffType"] = "HELPFUL",
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["sourceName"] = "",
+				["use_sourceName"] = false,
+				["unevent"] = "timed",
+				["use_unit"] = true,
+				["type"] = "event",
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					231363, -- [1]
+				},
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["name"] = "Forging Strike",
+				["use_sourceUnit"] = true,
+				["spellName"] = "Focused Blast",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
 			},
 			["desaturate"] = false,
-			["text1Point"] = "CENTER",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
 			["text2FontFlags"] = "OUTLINE",
-			["height"] = 40,
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
 			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+						["TANK"] = true,
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
 				["talent2"] = {
 					["multi"] = {
 					},
 				},
+				["use_level"] = false,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
+				["use_role"] = false,
+				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -2204,15 +24756,12 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
+				["difficulty"] = {
 					["multi"] = {
 					},
 				},
+				["use_realm"] = false,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
 					["multi"] = {
 					},
 				},
@@ -2220,64 +24769,436 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["text1Font"] = "Friz Quadrata TT",
-			["stickyDuration"] = false,
-			["text2Containment"] = "INSIDE",
+			["yOffset"] = 0,
 			["icon"] = true,
+			["displayIcon"] = 236253,
+			["text2Containment"] = "OUTSIDE",
+			["disjunctive"] = "all",
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Containment"] = "INSIDE",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["inverse"] = false,
-			["cooldownTextEnabled"] = true,
-			["text2FontSize"] = 24,
-			["glow"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["text1FontFlags"] = "OUTLINE",
 			["text2"] = "%p",
-			["auto"] = true,
-			["xOffset"] = 0,
-			["id"] = "Shocklight",
+			["auto"] = false,
 			["zoom"] = 0,
-			["text2Enabled"] = false,
-			["width"] = 40,
-			["parent"] = "Balance - Procs",
+			["id"] = "KG - Forging Cast",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["numTriggers"] = 1,
-			["untrigger"] = {
-			},
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
+			["text1Enabled"] = true,
+		},
+		["UN (M) - Crushing"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "6241",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Crushing Fear", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					257930, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
 			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Crushing",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["FH - Enflamed"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Enflamed", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					248815, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "FH - Enflamed",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["inverse"] = true,
+						["debuffType"] = "HARMFUL",
+						["spellIds"] = {
+							248819, -- [1]
+							244071, -- [2]
+						},
+						["names"] = {
+							"Siphoned", -- [1]
+							"Weight of Darkness", -- [2]
+						},
+						["subeventPrefix"] = "SPELL",
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
 		},
 		["Priest - Shadow: Spear of Anguish"] = {
 			["glow"] = false,
@@ -2340,19 +25261,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -2416,113 +25337,66 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
 				},
 				["main"] = {
 					["duration_type"] = "seconds",
 					["type"] = "none",
 				},
 				["finish"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
 				},
 			},
 		},
-		["Insanity Bar - Main Bar 2"] = {
-			["sparkWidth"] = 10,
-			["stacksSize"] = 12,
-			["xOffset"] = -6.1035156250e-005,
-			["stacksFlags"] = "None",
-			["yOffset"] = 0,
+		["COVEN OF SHIVARRA "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
 			["anchorPoint"] = "CENTER",
-			["borderColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["rotateText"] = "NONE",
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-					["glow_action"] = "show",
-					["do_custom"] = false,
-					["glow_frame"] = "WeakAuras:Insanity Bar - Main Bar",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
 				},
-				["finish"] = {
-					["sound_channel"] = "SFX",
-					["sound"] = " custom",
-					["do_sound"] = false,
+				["spellIds"] = {
 				},
-				["init"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
-			["icon_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["selfPoint"] = "CENTER",
-			["barColor"] = {
-				0.38039215686275, -- [1]
-				0, -- [2]
-				0.75686274509804, -- [3]
-				1, -- [4]
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
 			},
 			["desaturate"] = false,
-			["sparkOffsetY"] = 0,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
 			["load"] = {
-				["talent2"] = {
+				["ingroup"] = {
 					["multi"] = {
 					},
 				},
 				["use_never"] = false,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
 				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["ROGUE"] = true,
-						["PRIEST"] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						true, -- [1]
-						[3] = true,
-					},
-				},
-				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
+				["use_encounterid"] = true,
 				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
 					["multi"] = {
 					},
 				},
@@ -2530,64 +25404,90 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
 			},
-			["timerColor"] = {
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
+			["text2Containment"] = "INSIDE",
+			["xOffset"] = 0,
+			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["useAdjustededMin"] = false,
-			["regionType"] = "aurabar",
-			["stacks"] = false,
-			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Friz Quadrata TT",
-			["borderOffset"] = 1,
-			["spark"] = false,
-			["timerFont"] = "Friz Quadrata TT",
-			["alpha"] = 1,
-			["borderInset"] = 1,
-			["textColor"] = {
+			["numTriggers"] = 1,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
 				1, -- [1]
-				0.99607843137255, -- [2]
-				0.98039215686274, -- [3]
+				1, -- [2]
+				1, -- [3]
 				1, -- [4]
 			},
-			["borderBackdrop"] = "None",
+			["regionType"] = "icon",
+			["text1FontFlags"] = "OUTLINE",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
+			["text2Enabled"] = false,
+			["text2Font"] = "Friz Quadrata TT",
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "COVEN OF SHIVARRA ",
+			["stickyDuration"] = false,
+			["frameStrata"] = 1,
+			["width"] = 1,
 			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
-			["customText"] = "-- Insanity Bar -- By Twintop - Illidan-US, 2016/07/27\nfunction()\n    return \"\";\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-			["untrigger"] = {
-			},
-			["activeTriggerMode"] = 0,
-			["sparkRotationMode"] = "AUTO",
-			["textSize"] = 18,
+			["yOffset"] = 0,
+			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
 					["duration_type"] = "seconds",
 				},
 				["main"] = {
-					["colorR"] = 1,
-					["duration"] = ".75",
-					["alphaType"] = "alphaPulse",
-					["colorB"] = 1,
-					["colorG"] = 1,
-					["alphaFunc"] = "function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
-					["use_alpha"] = false,
-					["type"] = "custom",
-					["scaley"] = 1,
-					["alpha"] = 0.3,
-					["colorA"] = 1,
-					["y"] = 0,
-					["x"] = 0,
-					["scalex"] = 1,
-					["colorType"] = "custom",
-					["colorFunc"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n    \n    WA_Insanity_Bar_Color_Bar_Status1 = WA_Insanity_Bar_Color_Bar_Status1 or \"FF763BAF\";\n    WA_Insanity_Bar_Color_Bar_Status2 = WA_Insanity_Bar_Color_Bar_Status2 or \"FF5C2F89\";\n    WA_Insanity_Bar_Color_Bar_Status3 = WA_Insanity_Bar_Color_Bar_Status3 or\"FF431863\";\n    WA_Insanity_Bar_Color_Bar_Status3_Warning = WA_Insanity_Bar_Color_Bar_Status3_Warning or\"FFFFFF00\";\n    WA_Insanity_Bar_Color_Bar_Status3_End = WA_Insanity_Bar_Color_Bar_Status3_End or\"FFFF0000\";\n    \n    WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks or 0;\n    WA_Voidform_Current_Insanity = WA_Voidform_Current_Insanity or 0;\n    \n    local specGroup = GetActiveSpecGroup();\n    local isLotVSelected = select(4, GetTalentInfo(7, 1, specGroup));\n    local a = 1;\n    local r = 0;\n    local g = 0;\n    local b = 0;\n    \n    if WA_Voidform_Drain_Stacks > 0 then\n        local haste = UnitSpellHaste(\"player\") / 100;\n        \n        local gcd = 1.5 / (1 + haste);\n        \n        if gcd < 0.75 then\n            \n            gcd = 0.75;\n            \n        end\n        \n        if gcd > WA_Voidform_Remaining_Time then        \n            \n            r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status3_End);  \n            \n        elseif gcd*2 > WA_Voidform_Remaining_Time then\n            \n            r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status3_Warning);  \n            \n        else\n            \n            r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status3);  \n            \n        end\n        \n        \n    elseif WA_Voidform_Current_Insanity == 100 or (isLotVSelected and WA_Voidform_Current_Insanity >= 65) then\n        \n        r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status2);\n        \n    else\n        \n        r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_Status1);\n        \n    end\n    \n    return r/255, g/255, b/255, a/255;\nend",
-					["rotate"] = 0,
-					["use_color"] = true,
+					["type"] = "none",
 					["duration_type"] = "seconds",
 				},
 				["finish"] = {
@@ -2595,15 +25495,446 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+		},
+		["PK - Fiery Detonation"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
 			["trigger"] = {
-				["type"] = "status",
+				["spellId"] = "231363",
+				["names"] = {
+					"Fiery Detonation", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
 				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244709, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["cooldownTextEnabled"] = true,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Fiery Detonation",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["yOffset"] = 0,
+		},
+		["AG - Wake of Flame"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BikeHorn.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Wake of Flame", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244736, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "AG - Wake of Flame",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["Insanity Bar - Options and Trigger 2"] = {
+			["outline"] = "OUTLINE",
+			["fontSize"] = 14,
+			["disjunctive"] = "any",
+			["displayText"] = "%c",
+			["customText"] = "\n\n",
+			["untrigger"] = {
+			},
+			["regionType"] = "text",
+			["yOffset"] = 0,
+			["activeTriggerMode"] = 0,
+			["customTextUpdate"] = "update",
+			["xOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+					["custom"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\n------------------------------------------------------\n-- This is where you can customize the look and feel of the Insanity Bar.\n-- Colors are in the following format: Hexdecimal, AlphaRedGreenBlue, I.E.: AARRGGBB\n-- If you make edits to the following values and the Insanity Bar works, DO NOT expect support! I am not responsible for any issues that result from changes made after import.\n-- You have been warned!\n------------------------------------------------------\n-- AFTER YOU ALTER THESE VARIABLES, do /console reloadui\n------------------------------------------------------\n\n---- BAR LAYOUT / LOOK AND FEEL ----\n\n-- Bar and Text Colors\n\nWA_Insanity_Bar_Color_Bar_Status1 = \"FFC2A3E0\"; --Unable to trigger Voidform\nWA_Insanity_Bar_Color_Bar_Status2 = \"FF5C2F89\"; --Can trigger Voidform\nWA_Insanity_Bar_Color_Bar_Status2_Flash = \"FFAA1863\"; --Can trigger Voidform - Bar Flash Color\nWA_Insanity_Bar_Color_Bar_Status3 = \"FF763BAF\"; --Currently in Voidform\nWA_Insanity_Bar_Color_Bar_Status3_Warning = \"FFFFFF00\"; --You will fall out of Voidform within the next 2 GCDs if you don't generate Insanity quickly!\nWA_Insanity_Bar_Color_Bar_Status3_End = \"FFFF0000\"; --You will fall out of Voidform within the next GCD if you don't generate Insanity quickly!\nWA_Insanity_Bar_Color_Bar_Incoming = \"FF9b9b9b\"; --Incoming Insanity from a hardcast\nWA_Insanity_Bar_Color_Bar_AS = \"FFDF73FF\"; --Incoming Insanity from Auspicious Spirits\nWA_Insanity_Bar_Color_Text_Current = \"FFFFFFFF\"; --Text color of the current amount of Insanity\nWA_Insanity_Bar_Color_Text_Incoming = \"FFFFFFFF\"; --Text color of the incoming Insanity value from a hardcast\nWA_Insanity_Bar_Color_Text_AS = \"FFDFFFFF\"; --Text color of the incoming Insanity value from Auspicious Spirits\nWA_Insanity_Bar_Color_Text_Left = \"00FFFFFF\"; --Text color of the information on the left side of the bar\nWA_Insanity_Bar_Color_Text_Middle = \"00FFFFFF\"; --Text color of the information in the middle of the bar during Voidform\n\n-- Bar Width and Height\n\nWA_Insanity_Bar_Width = 300; --Width of the bar, in pixels. Minimum 100px.\nWA_Insanity_Bar_Height = 19; --Height of the bar, in pixels. Minimum 1px.\n\n\n---- BAR TEXT ----\n\n-- All Bar Text\n\nWA_Insanity_Bar_Font_Size = 12; --Font size of all bar text. Minimum 4.\n\n-- Left Bar Text\nWA_Insanity_Bar_Show_Left_Lingering_Insanity_Left = false; --Show Lingering Insanity stacks on left side of bar next to Haste% when not in Voidform. Old style (pre 7.1.5) display.\nWA_Insanity_Bar_Show_Left_Voidform_Incoming_Stacks = false; --Show the number of incoming stacks of Voidform based on the expected remaining duration of Voidform.\n\n-- Middle Bar Text\nWA_Insanity_Bar_Show_Middle_Lingering_Insanity_Stacks_Middle = fasle; --Show Lingering Insanity stacks remaining in middle of the bar when not in Voidform.\nWA_Insanity_Bar_Show_Middle_Lingering_Insanity_Time_Middle = false; --Show Lingering Insanity effective duration remaining in middle of the bar when not in Voidform.\nWA_Insanity_Bar_Show_Middle_Voidform_Time_Remaining = false; --Show the amount of time, in seconds, that your current Voidform is expected to last based on current Insanity levels.\nWA_Insanity_Bar_Show_Middle_Voidform_Current_Drain = false; --Show the current Insanity drain based on Insanity Drain Stacks, in Insanity/sec.\n\n-- Right Bar Text\nWA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity = false; --Show the amount of incoming Insanity from hardcasted spells.\nWA_Insanity_Bar_Show_Right_Incoming_AS_Insanity = false; --Show the amount of incoming Insanity from Auspicious Spirits. Requires Twintop's Auspicious Spirits Tracker WA -- https://wago.io/EJBhpyJE-\n\n\n---- OTHER OPTIONS ----\n\nWA_Insanity_Bar_Voidform_Summary = false; --Print out a summary of your Voidform to chat when you exit.\nWA_Insanity_Bar_S2M_Summary = true; --Print out a summary of your Surrender to Madness to chat when you die. Horribly.\nWA_Insanity_Bar_S2M_Wilhelm = true; --Play the Wilhelm Scream when you die in Surrender to Madness\n\n----------------------------------\n----------------------------------\n-- DO NOT EDIT BELOW THIS LINE! --\n----------------------------------\n----------------------------------\n\nlocal c_v, c_b, c_d, c_t = GetBuildInfo();\nWA_Insanity_Bar_v_major, WA_Insanity_Bar_v_minor, WA_Insanity_Bar_v_bf = strsplit(\".\", c_v, 3);\n\ngetRGBAFromString = function(s) \n    local _a = 1;\n    local _r = 0;\n    local _g = 1;\n    local _b = 0;\n    \n    if not (s == nil) then\n        \n        _a = tonumber(string.sub(s, 1, 2), 16);\n        _r = tonumber(string.sub(s, 3, 4), 16);\n        _g = tonumber(string.sub(s, 5, 6), 16);\n        _b = tonumber(string.sub(s, 7, 8), 16);\n        \n    end\n    \n    return _r, _g, _b, _a;\nend\n\nWA_Insanity_Drain = function(stacks)\n    local pct = 1.00;\n    WA_Voidform_T20_Count = WA_Voidform_T20_Count or 0;\n    if WA_Voidform_T20_Count >= 4 then\n        local specGroup = GetActiveSpecGroup();\n        local S2MName = select(2, GetTalentInfo(7, 3, specGroup));\n        local isS2MActive = select(11, UnitBuff(\"player\", S2MName));\n        if isS2MActive then\n            pct = 0.95;\n        else\n            pct = 0.90;\n        end\n    end    \n    \n    return (6.0 + ((stacks - 1) * (2 / 3))) * pct;\nend\n\nWA_Insanity_getRemainingTimeAndStackCount = function()         \n    WA_Voidform_Current_Insanity = WA_Voidform_Current_Insanity or 0;\n    WA_Voidform_Previous_Check_Time = WA_Voidform_Previous_Check_Time or 0;\n    WA_Voidform_VoidTorrent_Offset = WA_Voidform_VoidTorrent_Offset or 0;\n    WA_Voidform_Dispersion_Offset = WA_Voidform_Dispersion_Offset or 0;\n    WA_Voidform_Start_Time = WA_Voidform_Start_Time or 0;\n    WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks or 0;\n    WA_Voidform_Remaining_Time = WA_Voidform_Remaining_Time or 0;\n    WA_Voidform_Current_Drain_Rate =  WA_Voidform_Current_Drain_Rate or 0;\n    \n    local currentTime = GetTime();\n    WA_Voidform_Current_Insanity = UnitPower(\"player\", SPELL_POWER_SHADOW_ORBS, forceUpdate);\n    local _, _, _, vfCount, _, vfDuration, _, _, _, _, vfSpellId = UnitBuff(\"player\",GetSpellInfo(228264));\n    \n    if vfSpellId == nil then\n        WA_Voidform_Drain_Stacks = 0;\n        WA_Voidform_Current_Drain_Rate = 0;\n        return 0, 0, 0;\n    else\n        local down, up, lagHome, lagWorld = GetNetStats();\n        local TimeDiff = currentTime - WA_Voidform_Previous_Stack_Time;        \n        local remainingInsanity = tonumber(WA_Voidform_Current_Insanity);\n        \n        local remainingTime = 0;        \n        local moreStacks = 0;\n        local latency = lagWorld / 1000;\n        local workingStack = WA_Voidform_Drain_Stacks;\n        local startingStack = workingStack;\n        local drainPct = 1.0;\n        \n        if (remainingInsanity > 0) then\n            while (remainingInsanity > 0)\n            do\n                moreStacks = moreStacks+1;\n                local insanityDrain = WA_Insanity_Drain(workingStack);\n                local stackTime = 1.0;\n                \n                if workingStack == startingStack then\n                    \n                    stackTime = 1.0 - TimeDiff + latency;\n                    \n                end\n                \n                \n                if (stackTime > 0) then                    \n                    if (insanityDrain * stackTime) >= remainingInsanity then                       \n                        stackTime = remainingInsanity / insanityDrain;\n                        remainingInsanity = 0;\n                    else\n                        remainingInsanity = remainingInsanity - (insanityDrain * stackTime);\n                    end\n                    \n                    remainingTime = remainingTime + stackTime;\n                end               \n                \n                workingStack = workingStack + 1;\n            end\n        end       \n        \n        WA_Voidform_Remaining_Time = remainingTime;\n        WA_Voidform_Current_Drain_Rate = WA_Insanity_Drain(WA_Voidform_Drain_Stacks);\n        \n        return remainingTime, vfCount, moreStacks;\n    end  \nend\n\nif WA_Insanity_Bar_Width <= 100 then\n    WA_Insanity_Bar_Width = 547;\nend\n\nif WA_Insanity_Bar_Height <= 1 then\n    WA_Insanity_Bar_Height = 26;\nend\n\nif WA_Insanity_Bar_Font_Size <= 4 then\n    WA_Insanity_Bar_Font_Size = 18;\nend\n\n\n\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Border - Insanity Ready\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Main Bar\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Casting Bar\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Auspicious Spirits Bar\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Border - Insanity Ready\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Main Bar\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Casting Bar\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Auspicious Spirits Bar\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Left\"][\"xOffset\"] = -(WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Middle\"][\"xOffset\"] = 0;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Right\"][\"xOffset\"] = (WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Left\"][\"fontSize\"] = WA_Insanity_Bar_Font_Size;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Middle\"][\"fontSize\"] = WA_Insanity_Bar_Font_Size;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Right\"][\"fontSize\"] = WA_Insanity_Bar_Font_Size;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Non-LotV Marker 1\"][\"xOffset\"] = (WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Non-LotV Marker 2\"][\"xOffset\"] = (WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - LotV Marker 1\"][\"xOffset\"] = (WA_Insanity_Bar_Width*0.15);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - LotV Marker 2\"][\"xOffset\"] = (WA_Insanity_Bar_Width*0.15);\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+					["do_custom"] = true,
+				},
+				["finish"] = {
+					["do_sound"] = false,
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["selfPoint"] = "BOTTOM",
+			["id"] = "Insanity Bar - Options and Trigger 2",
+			["justify"] = "LEFT",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "custom",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["subeventPrefix"] = "SPELL",
+						["events"] = "COMBAT_LOG_EVENT_UNFILTERED PLAYER_REGEN_DISABLED PLAYER_REGEN_ENABLED UNIT_AURA",
+						["check"] = "event",
+						["custom_type"] = "status",
+						["custom"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction(event,time,type,_,sourceGUID,sourcename,_,_,destGUID,destname,_,_,spellid,spellname,_,_,_,_,_,_,_,spellcritical,_,_,_,_)\n    local CurrentTime = GetTime();\n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" or event == \"COMBAT_LOG_EVENT\" then\n        \n        WA_Voidform_Total_Stacks = WA_Voidform_Total_Stacks or 0;\n        WA_Voidform_Previous_Stack_Time = WA_Voidform_Previous_Stack_Time or 0;\n        WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks or 0;\n        WA_Voidform_VoidTorrent_Stacks = WA_Voidform_VoidTorrent_Stacks or 0;\n        WA_Voidform_Dispersion_Stacks = WA_Voidform_Dispersion_Stacks or 0;\n        WA_Insanity_Bar_LI_Last_Tick = WA_Insanity_Bar_LI_Last_Tick or 0;\n        WA_Insanity_Bar_LI_Last_Count = WA_Insanity_Bar_LI_Last_Count or 0;\n        \n        local _, _, _, liCount, _, liDuration, _, _, _, _, liSpellId = UnitBuff(\"player\",GetSpellInfo(197937));\n        \n        local T20_head = 0;\n        if IsEquippedItem(147165) then\n            T20_head = 1;\n        end\n        \n        local T20_shoulder = 0;\n        if IsEquippedItem(147168) then\n            T20_shoulder = 1;\n        end\n        \n        local T20_back = 0;\n        if IsEquippedItem(147163) then\n            T20_back = 1;\n        end\n        \n        local T20_chest = 0;\n        if IsEquippedItem(147167) then\n            T20_chest = 1;\n        end\n        \n        local T20_hands = 0;\n        if IsEquippedItem(147164) then\n            T20_hands = 1;\n        end\n        \n        local T20_legs = 0;\n        if IsEquippedItem(147166) then\n            T20_legs = 1;\n        end\n        \n        WA_Voidform_T20_Count = T20_head + T20_shoulder + T20_back + T20_chest + T20_hands + T20_legs;\n        \n        \n        if liCount ~= nil and liCount > 0 then\n            \n            if WA_Insanity_Bar_LI_Last_Count ~= liCount then\n                \n                WA_Insanity_Bar_LI_Last_Count = liCount;\n                WA_Insanity_Bar_LI_Last_Tick = CurrentTime;\n                \n            end\n            \n        end\n        \n        if WA_Voidform_Total_Stacks >= 100 then\n            \n            if (CurrentTime - WA_Voidform_Previous_Stack_Time) >= 1 then\n                \n                WA_Voidform_Previous_Stack_Time = CurrentTime;\n                WA_Voidform_Total_Stacks = WA_Voidform_Total_Stacks + 1;\n                \n                \n                if WA_Voidform_VoidTorrent_Start == nil and WA_Voidform_Dispersion_Start == nil then\n                    \n                    WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks + 1;\n                    \n                elseif WA_Voidform_VoidTorrent_Start ~= nil then\n                    \n                    WA_Voidform_VoidTorrent_Stacks = WA_Voidform_VoidTorrent_Stacks + 1;\n                    \n                else\n                    \n                    WA_Voidform_Dispersion_Stacks = WA_Voidform_Dispersion_Stacks + 1;\n                    \n                end                \n            end\n            \n        end\n        \n        \n        if sourceGUID == UnitGUID(\"player\") then\n            \n            if spellid == 194249 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Entered Voidform\n                    \n                    WA_Voidform_Previous_Stack_Time = CurrentTime;\n                    WA_Voidform_VoidTorrent_Start = nil;\n                    WA_Voidform_Dispersion_Start = nil;\n                    WA_Voidform_Drain_Stacks = 1;\n                    WA_Voidform_Start_Time = CurrentTime;\n                    WA_Voidform_Total_Stacks = 1;\n                    WA_Voidform_VoidTorrent_Stacks = 0;\n                    WA_Voidform_Dispersion_Stacks = 0;\n                    \n                elseif type == \"SPELL_AURA_APPLIED_DOSE\" then -- New Voidform Stack\n                    \n                    WA_Voidform_Previous_Stack_Time = CurrentTime;\n                    WA_Voidform_Total_Stacks = WA_Voidform_Total_Stacks + 1;\n                    \n                    if WA_Voidform_VoidTorrent_Start == nil and WA_Voidform_Dispersion_Start == nil then\n                        \n                        WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks + 1;\n                        \n                    elseif WA_Voidform_VoidTorrent_Start ~= nil then\n                        \n                        WA_Voidform_VoidTorrent_Stacks = WA_Voidform_VoidTorrent_Stacks + 1;\n                        \n                    else\n                        \n                        WA_Voidform_Dispersion_Stacks = WA_Voidform_Dispersion_Stacks + 1;\n                        \n                    end\n                    \n                elseif type == \"SPELL_AURA_REMOVED\" then -- Exited Voidform\n                    if WA_Insanity_Bar_Voidform_Summary == true then\n                        print(\"Voidform Info:\");\n                        print(\"--------------------------\");\n                        print(string.format(\"Voidform Duration: %.2f seconds\", (CurrentTime-WA_Voidform_Start_Time)));\n                        \n                        if WA_Voidform_Total_Stacks > 100 then\n                            print(string.format(\"Voidform Stacks: 100 (+%.0f)\", (WA_Voidform_Total_Stacks-100)));\n                        else\n                            print(string.format(\"Voidform Stacks: %.0f\", WA_Voidform_Total_Stacks));\n                        end\n                        \n                        print(string.format(\"Dispersion Stacks: %.0f\", WA_Voidform_Dispersion_Stacks));\n                        print(string.format(\"Void Torrent Stacks: %.0f\", WA_Voidform_VoidTorrent_Stacks));\n                        print(string.format(\"Final Drain: %.0f stacks; %.1f / sec\", WA_Voidform_Drain_Stacks, WA_Voidform_Current_Drain_Rate));\n                    end\n                    \n                    WA_Voidform_VoidTorrent_Start = nil;\n                    WA_Voidform_Dispersion_Start = nil;\n                    WA_Voidform_Drain_Stacks = 0;\n                    WA_Voidform_Start_Time = nil;\n                    WA_Voidform_Total_Stacks = 0;\n                    WA_Voidform_VoidTorrent_Stacks = 0;\n                    WA_Voidform_Dispersion_Stacks = 0;\n                    \n                end\n                \n            elseif spellid == 205065 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Started channeling Void Torrent\n                    \n                    WA_Voidform_VoidTorrent_Start = CurrentTime;\n                    \n                elseif type == \"SPELL_AURA_REMOVED\" and WA_Voidform_VoidTorrent_Start ~= nil then -- Stopped channeling Void Torrent\n                    \n                    WA_Voidform_VoidTorrent_Start = nil;\n                    \n                end\n                \n            elseif spellid == 47585 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Started channeling Dispersion\n                    \n                    WA_Voidform_Dispersion_Start = CurrentTime;\n                    \n                elseif type == \"SPELL_AURA_REMOVED\" and WA_Voidform_Dispersion_Start ~= nil then -- Stopped channeling Dispersion\n                    \n                    WA_Voidform_Dispersion_Start = nil;\n                    \n                end\n                \n            elseif spellid == 212570 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Gain Surrender to Madness\n                    \n                    WA_Voidform_S2M_Activated = true;\n                    WA_Voidform_S2M_Start = CurrentTime;\n                    \n                end\n                \n            end\n            \n        elseif destGUID == UnitGUID(\"player\") and (type == \"UNIT_DIED\" or type == \"UNIT_DESTROYED\" or type == \"SPELL_INSTAKILL\") and WA_Voidform_S2M_Activated == true then\n            \n            WA_Voidform_S2M_Activated = false;\n            \n            if WA_Insanity_Bar_S2M_Wilhelm == true then\n                PlaySoundFile(\"Interface\\\\AddOns\\\\WeakAuras\\\\PowerAurasMedia\\\\Sounds\\\\wilhelm.ogg\", \"Master\");\n            end\n            \n            if WA_Insanity_Bar_S2M_Summary == true then\n                print(\"Surrender to Madness Info:\");\n                print(\"--------------------------\");\n                print(string.format(\"S2M Duration: %.2f seconds\", (CurrentTime-WA_Voidform_S2M_Start)));\n                print(string.format(\"Voidform Duration: %.2f seconds\", (CurrentTime-WA_Voidform_Start_Time)));\n                \n                if WA_Voidform_Total_Stacks > 100 then\n                    print(string.format(\"Voidform Stacks: 100 (+%.0f)\", (WA_Voidform_Total_Stacks-100)));\n                else\n                    print(string.format(\"Voidform Stacks: %.0f\", WA_Voidform_Total_Stacks));\n                end\n                \n                print(string.format(\"Dispersion Stacks: %.0f\", WA_Voidform_Dispersion_Stacks));\n                print(string.format(\"Void Torrent Stacks: %.0f\", WA_Voidform_VoidTorrent_Stacks));\n                print(string.format(\"Final Drain: %.0f stacks; %.1f / sec\", WA_Voidform_Drain_Stacks, WA_Voidform_Current_Drain_Rate));\n            end\n            \n            WA_Voidform_S2M_Start = nil;\n            WA_Voidform_VoidTorrent_Start = nil;\n            WA_Voidform_Dispersion_Start = nil;\n            WA_Voidform_Drain_Stacks = 0;\n            WA_Voidform_Start_Time = nil;\n            WA_Voidform_Total_Stacks = 0;\n            WA_Voidform_VoidTorrent_Stacks = 0;\n            WA_Voidform_Dispersion_Stacks = 0;\n            \n        end\n        \n    end \nend",
+						["custom_hide"] = "timed",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["width"] = 11.4999980926514,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["anchorPoint"] = "CENTER",
+			["font"] = "PT Sans Narrow",
+			["numTriggers"] = 2,
+			["trigger"] = {
+				["custom_hide"] = "timed",
+				["type"] = "status",
+				["custom_type"] = "status",
 				["unevent"] = "auto",
-				["use_percentpower"] = false,
+				["subeventPrefix"] = "SPELL",
 				["use_power"] = true,
 				["event"] = "Power",
-				["subeventPrefix"] = "SPELL",
 				["use_unit"] = true,
+				["use_percentpower"] = false,
 				["powertype"] = 13,
 				["spellIds"] = {
 				},
@@ -2614,299 +25945,11 @@ WeakAurasSaved = {
 				["use_powertype"] = true,
 				["debuffType"] = "HELPFUL",
 			},
-			["text"] = false,
-			["stickyDuration"] = false,
-			["icon"] = false,
-			["backgroundColor"] = {
-				0.054901960784314, -- [1]
-				0.054901960784314, -- [2]
-				0.054901960784314, -- [3]
-				0, -- [4]
-			},
-			["disjunctive"] = "any",
-			["sparkColor"] = {
-				0.95294117647059, -- [1]
-				0.94117647058823, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["height"] = 26,
-			["timerFlags"] = "OUTLINE",
-			["timer"] = false,
-			["sparkBlendMode"] = "ADD",
-			["backdropColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.31410133838654, -- [4]
-			},
-			["numTriggers"] = 1,
-			["auto"] = true,
-			["zoom"] = 0,
-			["width"] = 407,
-			["barInFront"] = true,
-			["border"] = true,
-			["borderEdge"] = "1 Pixel",
-			["displayTextLeft"] = " ",
-			["borderSize"] = 1,
-			["additional_triggers"] = {
-			},
-			["icon_side"] = "RIGHT",
-			["textFlags"] = "None",
-			["timerSize"] = 18,
-			["sparkHeight"] = 30,
-			["useAdjustededMax"] = false,
-			["stacksFont"] = "Friz Quadrata TT",
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["displayTextRight"] = " ",
-			["sparkOffsetX"] = 0,
-			["id"] = "Insanity Bar - Main Bar 2",
-			["sparkHidden"] = "NEVER",
-			["frameStrata"] = 4,
-			["anchorFrameType"] = "SCREEN",
-			["sparkRotation"] = 0,
-			["customTextUpdate"] = "update",
-			["inverse"] = false,
-			["sparkDesature"] = false,
-			["orientation"] = "HORIZONTAL",
+			["height"] = 14.1666269302368,
 			["conditions"] = {
 			},
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["parent"] = "Priest - Shadow: Insanity Bar",
-		},
-		["Void Tendril Counter"] = {
-			["glow"] = false,
-			["text1FontSize"] = 13,
-			["cooldownTextEnabled"] = true,
-			["customText"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction()\n    local time = GetTime()\n    \n    i = 0\n    repeat\n        i = i + 1\n        if glb_wa_void_T_table[i] and glb_wa_void_T_table[i][\"spawnTime\"] then\n            if time - glb_wa_void_T_table[i][\"spawnTime\"] >=10 then\n                glb_wa_void_T_counter = glb_wa_void_T_counter - 1\n                glb_wa_void_T_table[i][\"spawnTime\"] = nil\n                glb_wa_void_T_table[i][\"guid\"] = nil\n                break\n            end\n            \n            \n        end\n        \n        \n        \n    until i == 10\n    \n    if glb_wa_void_T_counter > 0 then \n        return glb_wa_void_T_counter \n    else \n        return \"\" \n    end\nend\n\n\n",
-			["untrigger"] = {
-				["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction()\n    if glb_wa_void_T_counter <= 0 then \n        glb_wa_void_T_counter = 0\n        return true \n    end \nend",
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-					["custom"] = "\n\n",
-					["do_custom"] = false,
-				},
-				["finish"] = {
-					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_counter = 0\nglb_wa_void_T_timer = 0\nglb_wa_void_T_table = {}\n\n\n\n",
-					["do_custom"] = false,
-				},
-				["init"] = {
-					["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nglb_wa_void_T_counter = 0\nglb_wa_void_T_timer = 0\nglb_wa_void_T_table = {}",
-					["do_custom"] = true,
-				},
-			},
-			["text1Enabled"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "shrink",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "shrink",
-				},
-			},
-			["trigger"] = {
-				["type"] = "custom",
-				["custom_type"] = "event",
-				["debuffType"] = "HELPFUL",
-				["duration"] = "10",
-				["event"] = "Combat Log",
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-				},
-				["unit"] = "player",
-				["custom"] = "-----------------------------------------------------------------\n--- Spinalcrack's Void Tendril Counter -- www.howtopriest.com ---\n-----------------------------------------------------------------\n\nfunction(e, ...)\n    \n    local type = select(2,...)\n    local cName = select(5,...)\n    local charName = UnitName(\"player\")\n    \n    if  type == \"SPELL_SUMMON\" and cName == charName then\n        \n        cttv = select(13,...)\n        cttvId = GetSpellInfo(193371)\n        if cttv == cttvId then \n            voidId = select(8,...)\n            vtName = select(9,...)\n            glb_wa_void_T_counter = glb_wa_void_T_counter + 1\n            --print(glb_wa_void_T_counter..\") spawn: \"..voidId)\n            if glb_wa_void_T_table[glb_wa_void_T_counter] == nil then      \n                glb_wa_void_T_table[glb_wa_void_T_counter] = {}\n            end\n            \n            glb_wa_void_T_table[glb_wa_void_T_counter][\"guid\"] = voidId\n            glb_wa_void_T_timer = GetTime()\n            glb_wa_void_T_table[glb_wa_void_T_counter][\"spawnTime\"] = glb_wa_void_T_timer\n            \n        end\n        \n        \n        --[[elseif type == \"SPELL_AURA_REMOVED\" and cName == vtName then\n        \n        voidID_remove = select(4,...)\n        \n        i = 0\n        repeat\n            i = i + 1\n            if glb_wa_void_T_table[i][\"guid\"] == nil or glb_wa_void_T_table[i][\"spawnTime\"] == nil then\n            else\n                \n                if glb_wa_void_T_table[i][\"guid\"] == voidID_remove then \n                    --print(i..\") despawn: \"..voidID_remove) \n                    if GetTime() - glb_wa_void_T_table[i][\"spawnTime\"] >=10 then\n                        glb_wa_void_T_counter = glb_wa_void_T_counter - 1\n                        glb_wa_void_T_table[i][\"spawnTime\"] = nil\n                        glb_wa_void_T_table[i][\"guid\"] = nil\n                        break\n                    end\n                    \n                end\n            end\n            \n        until i == 10]]\n        \n        \n    end\n    \n    if glb_wa_void_T_counter > 0 then return true else return false end\n    \nend\n\n\n\n\n",
-				["subeventSuffix"] = "_CAST_START",
-				["spellIds"] = {
-				},
-				["events"] = "COMBAT_LOG_EVENT_UNFILTERED",
-				["unevent"] = "timed",
-				["custom_hide"] = "custom",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "TOP",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 36,
 			["load"] = {
 				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Void Tendril Tracker",
-			["yOffset"] = 0,
-			["conditions"] = {
-			},
-			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["text2Point"] = "CENTER",
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["stickyDuration"] = false,
-			["text2Font"] = "Friz Quadrata TT",
-			["text2FontSize"] = 24,
-			["width"] = 36,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%c",
-			["auto"] = false,
-			["text1FontFlags"] = "OUTLINE",
-			["id"] = "Void Tendril Counter",
-			["text1Font"] = "Friz Quadrata TT",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["xOffset"] = 0,
-			["text1Containment"] = "INSIDE",
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["displayIcon"] = 237569,
-			["selfPoint"] = "CENTER",
-			["icon"] = true,
-		},
-		["Priest - Shadow: Procs & Buffs"] = {
-			["grow"] = "HORIZONTAL",
-			["controlledChildren"] = {
-				"Priest - Shadow: Power Infusion", -- [1]
-				"Priest - Shadow: Twist of Fate", -- [2]
-				"Priest - Shadow: Vampiric Embrace", -- [3]
-				"Priest - Shadow: Concordance of the Legionfall", -- [4]
-				"Priest - Shadow: Mind Quickening", -- [5]
-				"Priest - Shadow: Spear of Anguish", -- [6]
-				"Priest - Shadow: Rising TIdes", -- [7]
-				"Priest - Shadow: Sephuz's Secret", -- [8]
-				"Priest - Shadow: Potion of Prolonged Power", -- [9]
-				"Priest - Shadow: Mark of the Claw", -- [10]
-				"Priest - Shadow: Shadowfiend", -- [11]
-				"Priest - Shadow: Mindbender", -- [12]
-				"Priest - Shadow: Bloodlust", -- [13]
-			},
-			["xOffset"] = 0,
-			["yOffset"] = -155,
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["space"] = 3,
-			["url"] = "https://wago.io/rJnIlBdhb/1",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["backgroundInset"] = 0,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["trigger"] = {
-				["subeventPrefix"] = "SPELL",
-				["type"] = "aura",
-				["spellIds"] = {
-				},
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["unit"] = "player",
-			},
-			["stagger"] = 0,
-			["version"] = 1,
-			["height"] = 32.0000610351563,
-			["load"] = {
-				["ingroup"] = {
 					["multi"] = {
 					},
 				},
@@ -2917,144 +25960,30 @@ WeakAurasSaved = {
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = "true",
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["animate"] = true,
-			["border"] = "None",
-			["regionType"] = "dynamicgroup",
-			["sort"] = "ascending",
-			["expanded"] = false,
-			["constantFactor"] = "RADIUS",
-			["borderOffset"] = 16,
-			["background"] = "None",
-			["untrigger"] = {
-			},
-			["id"] = "Priest - Shadow: Procs & Buffs",
-			["width"] = 451.999816894531,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["align"] = "CENTER",
-			["rotation"] = 0,
-			["numTriggers"] = 1,
-			["radius"] = 200,
-			["disjunctive"] = "all",
-			["conditions"] = {
-			},
-			["sortHybridTable"] = {
-				false, -- [1]
-				false, -- [2]
-			},
-			["selfPoint"] = "CENTER",
-		},
-		["Insanity Bar - Auspicious Spirits Bar 2"] = {
-			["sparkWidth"] = 8,
-			["stacksSize"] = 12,
-			["xOffset"] = 0,
-			["stacksFlags"] = "None",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["borderColor"] = {
-				0.92156862745098, -- [1]
-				0.90588235294118, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["rotateText"] = "NONE",
-			["backgroundColor"] = {
-				0.92156862745098, -- [1]
-				0.90588235294118, -- [2]
-				1, -- [3]
-				0, -- [4]
-			},
-			["fontFlags"] = "OUTLINE",
-			["icon_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["selfPoint"] = "CENTER",
-			["barColor"] = {
-				1, -- [1]
-				0, -- [2]
-				0.89019607843137, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
-			["sparkOffsetY"] = 0,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["talent"] = {
-					["single"] = 14,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["ROGUE"] = true,
 						["PRIEST"] = true,
 					},
 				},
 				["spec"] = {
 					["single"] = 3,
 					["multi"] = {
-						true, -- [1]
 						[3] = true,
 					},
 				},
-				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
+				["use_class"] = true,
 				["race"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -3062,9 +25991,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
-				["role"] = {
+				["ingroup"] = {
 					["multi"] = {
 					},
 				},
@@ -3073,187 +26000,204 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["timerColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["useAdjustededMin"] = false,
-			["regionType"] = "aurabar",
-			["stacks"] = false,
-			["sparkDesaturate"] = false,
-			["init_completed"] = 1,
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Friz Quadrata TT",
-			["borderOffset"] = 3,
-			["spark"] = false,
-			["timerFont"] = "Friz Quadrata TT",
-			["alpha"] = 1,
-			["borderInset"] = 1,
-			["textColor"] = {
-				1, -- [1]
-				0.99607843137255, -- [2]
-				0.98039215686274, -- [3]
-				1, -- [4]
-			},
-			["borderBackdrop"] = "Blizzard Tooltip",
+			["parent"] = "Priest - Shadow: Insanity Bar",
+		},
+		["VA - Torment"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
 			["disjunctive"] = "any",
-			["customText"] = "\n\n",
 			["untrigger"] = {
 			},
-			["activeTriggerMode"] = 0,
-			["sparkRotationMode"] = "AUTO",
-			["displayTextLeft"] = " ",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["colorR"] = 1,
-					["scalex"] = 1,
-					["alphaType"] = "alphaPulse",
-					["colorB"] = 1,
-					["colorG"] = 1,
-					["alphaFunc"] = "function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
-					["use_alpha"] = false,
-					["type"] = "custom",
-					["scaley"] = 1,
-					["alpha"] = 0.3,
-					["duration"] = ".75",
-					["y"] = 0,
-					["colorType"] = "custom",
-					["x"] = 0,
-					["use_color"] = true,
-					["colorFunc"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n    \n    WA_Insanity_Bar_Color_Text_AS = WA_Insanity_Bar_Color_Text_AS or \"FFDF00FF\";\n    \n    local a = 1;\n    local r = 0;\n    local g = 0;\n    local b = 0;\n    \n    if not (WA_Insanity_Bar_Color_Bar_AS == nil) and not (getRGBAFromString == nil) then\n        r, g, b, a = getRGBAFromString(WA_Insanity_Bar_Color_Bar_AS);\n    end\n    \n    return r/255, g/255, b/255, a/255;\nend",
-					["rotate"] = 0,
-					["colorA"] = 1,
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["trigger"] = {
-				["use_power"] = true,
-				["unit"] = "player",
-				["powertype"] = 3,
-				["use_powertype"] = true,
-				["custom_hide"] = "timed",
-				["type"] = "custom",
-				["custom_type"] = "status",
-				["use_unit"] = true,
-				["event"] = "Insanity",
-				["unevent"] = "auto",
-				["customDuration"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction()\n    WA_Voidform_Current_Insanity = UnitPower(\"player\", SPELL_POWER_SHADOW_ORBS, forceUpdate);\n    WA_Insanity_Bar_Current_Cast_Gain = WA_Insanity_Bar_Current_Cast_Gain or 0;\n    WA_Insanity_Bar_AS_Gain = 0;\n    local currentSpell = UnitCastingInfo('player');\n    local specGroup = GetActiveSpecGroup();\n    local isFotMSelected = select(4, GetTalentInfo(1, 2, specGroup));\n    local isLotVSelected = select(4, GetTalentInfo(7, 1, specGroup));\n    local PIName = select(2, GetTalentInfo(6, 1, specGroup));\n    local isPIActive = select(11, UnitBuff(\"player\", PIName));\n    local S2MName = select(2, GetTalentInfo(7, 3, specGroup));\n    local isS2MActive = select(11, UnitBuff(\"player\", S2MName));   \n    \n    local totalSAs = 0;    \n    WA_Insanity_Bar_AS_Gain = 0;\n    local color = \"FFFFFFFF\";\n    local insanityColor = \"FFFFFFFF\";\n    local specGroup = GetActiveSpecGroup();\n    local _, _, _, vfCount, _, vfDuration, _, _, _, _, vfSpellId = UnitBuff(\"player\",GetSpellInfo(228264));\n    \n    WA_SA_NUM_UNITS = WA_SA_NUM_UNITS or 0;\n    \n    if WA_SA_NUM_UNITS > 0 then\n        for guid,count in pairs(WA_SA_STATS) do\n            totalSAs = totalSAs + WA_SA_STATS[guid].Count;\n        end\n        \n        if totalSAs > WA_SA_TOTAL then\n            WA_Insanity_Bar_AS_Gain = WA_SA_TOTAL or 0;\n        else\n            WA_Insanity_Bar_AS_Gain = totalSAs or 0;\n        end\n    else\n        WA_Insanity_Bar_AS_Gain = -2;\n    end\n    \n    if WA_Insanity_Bar_AS_Gain <= 0 then\n        WA_Insanity_Bar_AS_Gain = 0;\n    end\n    \n    if WA_Insanity_Bar_AS_Gain == 0 then\n        return 0,0,0,0;\n    end    \n    \n    WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain * 3; \n    \n    if isS2MActive then\n        WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain * 2.0;\n    end   \n    \n    if isPIActive then\n        WA_Insanity_Bar_AS_Gain = WA_Insanity_Bar_AS_Gain * 1.25;\n    end\n    \n    return (WA_Voidform_Current_Insanity+WA_Insanity_Bar_Current_Cast_Gain+(WA_Insanity_Bar_AS_Gain)),100,0,0;\nend",
-				["custom"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction()\n    return true;\nend",
-				["spellIds"] = {
-				},
-				["subeventSuffix"] = "_CAST_START",
-				["check"] = "update",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["subeventPrefix"] = "SPELL",
-			},
-			["text"] = false,
-			["stickyDuration"] = false,
-			["icon"] = false,
-			["zoom"] = 0,
-			["textSize"] = 18,
-			["timer"] = false,
-			["height"] = 26,
-			["timerFlags"] = "OUTLINE",
-			["color"] = {
-			},
-			["sparkBlendMode"] = "ADD",
-			["backdropColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["numTriggers"] = 2,
-			["useAdjustededMax"] = false,
-			["sparkRotation"] = 0,
-			["width"] = 407,
-			["stacksFont"] = "Friz Quadrata TT",
-			["border"] = false,
-			["borderEdge"] = "Blizzard Tooltip",
-			["sparkColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["borderSize"] = 3,
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "status",
-						["unevent"] = "auto",
-						["use_power"] = true,
-						["event"] = "Power",
-						["use_unit"] = true,
-						["powertype"] = 13,
-						["unit"] = "player",
-						["subeventSuffix"] = "_CAST_START",
-						["use_percentpower"] = false,
-						["use_powertype"] = true,
-						["subeventPrefix"] = "SPELL",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["icon_side"] = "RIGHT",
-			["sparkOffsetX"] = 0,
-			["timerSize"] = 18,
-			["sparkHeight"] = 26,
-			["auto"] = true,
-			["textFlags"] = "None",
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["displayTextRight"] = " ",
-			["barInFront"] = true,
-			["id"] = "Insanity Bar - Auspicious Spirits Bar 2",
-			["sparkHidden"] = "NEVER",
-			["frameStrata"] = 2,
-			["anchorFrameType"] = "SCREEN",
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
 			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
 				},
 				["finish"] = {
 				},
-				["init"] = {
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
 				},
 			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Torment of Fel", -- [1]
+					"Torment of Flames", -- [2]
+					"Torment of Frost", -- [3]
+					"Torment of Shadows", -- [4]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					243980, -- [1]
+					243968, -- [2]
+					243977, -- [3]
+					243973, -- [4]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2069",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "VA - Torment",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
 			["inverse"] = false,
-			["sparkDesature"] = false,
-			["orientation"] = "HORIZONTAL",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
-			["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-			["parent"] = "Priest - Shadow: Insanity Bar",
+			["cooldown"] = true,
+			["icon"] = true,
 		},
 		["Balance - Procs"] = {
 			["grow"] = "HORIZONTAL",
 			["controlledChildren"] = {
 				"Nefarious Pact", -- [1]
-				"Devil's Due", -- [2]
-				"Spectral Owl", -- [3]
-				"Shocklight", -- [4]
-				"Concordance of the Legionfall", -- [5]
-				"Potion of Prolonged Power", -- [6]
-				"Oneth's Overconfidence", -- [7]
-				"Oneth's Intuition", -- [8]
+				"Solar Solstice", -- [2]
+				"Rush of Knowledge", -- [3]
+				"Brutality of the Legion", -- [4]
+				"Wax and Wane", -- [5]
+				"Fever of the Legion", -- [6]
+				"Malice of the Legion", -- [7]
+				"Devil's Due", -- [8]
+				"Spectral Owl", -- [9]
+				"Shocklight", -- [10]
+				"Concordance of the Legionfall", -- [11]
+				"Potion of Prolonged Power", -- [12]
+				"Oneth's Overconfidence", -- [13]
+				"Oneth's Intuition", -- [14]
 			},
 			["xOffset"] = -1.6666259765625,
 			["untrigger"] = {
@@ -3271,7 +26215,7 @@ WeakAurasSaved = {
 				},
 			},
 			["backgroundInset"] = 0,
-			["selfPoint"] = "CENTER",
+			["selfPoint"] = "LEFT",
 			["trigger"] = {
 				["type"] = "aura",
 				["spellIds"] = {
@@ -3360,487 +26304,94 @@ WeakAurasSaved = {
 				},
 			},
 			["disjunctive"] = "all",
-			["width"] = 333.999938964844,
+			["width"] = 82,
 		},
-		["Priest - Shadow: Mind Quickening"] = {
+		["FH - Split Bosses"] = {
 			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
 			["untrigger"] = {
 			},
 			["anchorPoint"] = "CENTER",
 			["activeTriggerMode"] = -10,
 			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["names"] = {
-					"Mind Quickening", -- [1]
-				},
-				["spellIds"] = {
-				},
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
 			["actions"] = {
 				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
 				},
 				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%s",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Mind Quickening",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
-		},
-		["Priest - Shadow: Void Tendril Tracker"] = {
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["controlledChildren"] = {
-				"Void Tendril Counter", -- [1]
-				"Void Tendril Timer", -- [2]
-			},
-			["borderBackdrop"] = "Blizzard Tooltip",
-			["disjunctive"] = "all",
-			["border"] = false,
-			["untrigger"] = {
-			},
-			["regionType"] = "group",
-			["borderSize"] = 16,
-			["activeTriggerMode"] = -10,
-			["yOffset"] = 0,
-			["url"] = "https://wago.io/H1GixBd3-/1",
-			["expanded"] = false,
-			["borderEdge"] = "None",
-			["borderColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["borderOffset"] = 5,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["selfPoint"] = "BOTTOMLEFT",
-			["id"] = "Priest - Shadow: Void Tendril Tracker",
-			["trigger"] = {
-				["subeventPrefix"] = "SPELL",
-				["type"] = "aura",
-				["spellIds"] = {
-				},
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["unit"] = "player",
-			},
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["numTriggers"] = 1,
-			["borderInset"] = 11,
-			["version"] = 1,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["anchorPoint"] = "CENTER",
-			["conditions"] = {
-			},
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = "true",
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["xOffset"] = -140,
-		},
-		["Priest - Shadow: Rising TIdes"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["names"] = {
-					"Rising Tides", -- [1]
-				},
-				["spellIds"] = {
-				},
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%s",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Rising TIdes",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
-		},
-		["Balance - Starfall Remaining"] = {
-			["sparkWidth"] = 10,
-			["stacksSize"] = 12,
-			["xOffset"] = 0,
-			["stacksFlags"] = "None",
-			["yOffset"] = -202,
-			["anchorPoint"] = "CENTER",
-			["sparkRotation"] = 180,
-			["rotateText"] = "NONE",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-					["custom"] = "\n\n",
 					["do_custom"] = false,
 				},
+				["finish"] = {
+				},
 			},
-			["fontFlags"] = "OUTLINE",
-			["icon_color"] = {
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "bounce",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_specific_unit"] = false,
+				["specificUnit"] = "122467",
+				["spellName"] = "Focused Blast",
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["unit"] = "target",
+				["unevent"] = "timed",
+				["use_unit"] = true,
+				["use_sourceName"] = false,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					246057, -- [1]
+				},
+				["names"] = {
+					"Sargeras' Blessing", -- [1]
+				},
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["selfPoint"] = "BOTTOM",
-			["barColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["desaturate"] = false,
-			["sparkOffsetY"] = 0,
 			["load"] = {
-				["use_petbattle"] = false,
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
 				["use_never"] = false,
-				["class"] = {
-					["single"] = "DRUID",
-					["multi"] = {
-						["DRUID"] = true,
-					},
-				},
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["level"] = "10",
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
 				["size"] = {
 					["multi"] = {
 					},
@@ -3849,22 +26400,172 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_level"] = true,
+				["use_level"] = false,
 				["talent"] = {
 					["multi"] = {
 					},
 				},
 				["spec"] = {
-					["single"] = 1,
 					["multi"] = {
-						true, -- [1]
+					},
+				},
+				["race"] = {
+					["multi"] = {
 					},
 				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["desaturate"] = false,
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH - Split Bosses",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["cooldownTextEnabled"] = true,
+		},
+		["Priest - Shadow: Mindbender"] = {
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = true,
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["duration"] = "24",
+				["names"] = {
+					"Potion of Deadly Grace", -- [1]
+				},
+				["use_destName"] = false,
+				["custom_hide"] = "timed",
+				["type"] = "event",
+				["unevent"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["event"] = "Combat Log",
+				["debuffType"] = "HELPFUL",
+				["subeventSuffix"] = "_CAST_SUCCESS",
+				["use_spellName"] = true,
+				["spellIds"] = {
+				},
+				["use_sourceUnit"] = true,
+				["unit"] = "player",
+				["use_destUnit"] = false,
+				["sourceUnit"] = "player",
+				["spellName"] = "Mindbender",
+			},
+			["desaturate"] = false,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 32,
+			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["single"] = 18,
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
 				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
 					["multi"] = {
 					},
 				},
@@ -3876,145 +26577,1194 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["level_operator"] = ">=",
-				["use_zone"] = false,
-				["race"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["timerColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["actions"] = {
+				["start"] = {
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
 			},
-			["useAdjustededMin"] = false,
-			["regionType"] = "aurabar",
-			["stacks"] = false,
-			["texture"] = "ElvUI Norm",
-			["textFont"] = "Friz Quadrata TT",
-			["borderOffset"] = 0,
-			["spark"] = true,
-			["timerFont"] = "Friz Quadrata TT",
-			["alpha"] = 1,
-			["borderInset"] = 1,
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["conditions"] = {
 			},
-			["borderBackdrop"] = "None",
+			["yOffset"] = 0,
+			["text2Containment"] = "INSIDE",
 			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
-			["barInFront"] = false,
-			["activeTriggerMode"] = 0,
-			["sparkRotationMode"] = "MANUAL",
-			["displayTextLeft"] = "%n",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["stickyDuration"] = false,
+			["width"] = 32,
+			["text2FontSize"] = 24,
+			["frameStrata"] = 1,
+			["init_completed"] = 1,
+			["text1"] = "%c",
+			["xOffset"] = 0,
+			["zoom"] = 0,
+			["text2"] = "%p",
+			["auto"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["id"] = "Priest - Shadow: Mindbender",
+			["text1Font"] = "Friz Quadrata TT",
+			["text2Enabled"] = false,
+			["anchorFrameType"] = "SCREEN",
+			["text2Font"] = "Friz Quadrata TT",
+			["text1Containment"] = "INSIDE",
+			["numTriggers"] = 1,
+			["disjunctive"] = "all",
 			["init_started"] = 1,
-			["sparkTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Moon",
+			["displayIcon"] = 136214,
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
+		},
+		["PK - Cloying Shadows"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
 					["type"] = "none",
 				},
 				["main"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 				["finish"] = {
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
 					["type"] = "none",
 				},
 			},
 			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Cloying Shadows", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					245118, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
 				["type"] = "aura",
 				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["names"] = {
-					"Starfall", -- [1]
-				},
-				["spellIds"] = {
-					191034, -- [1]
-				},
-				["debuffType"] = "HELPFUL",
 				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
-				["custom_hide"] = "timed",
 			},
-			["text"] = false,
-			["sparkMirror"] = false,
-			["stickyDuration"] = false,
-			["sparkColor"] = {
-				0.93725490196078, -- [1]
-				1, -- [2]
-				0.96862745098039, -- [3]
-				1, -- [4]
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
 			},
-			["zoom"] = 0,
-			["desc"] = "Starfall bar.  Nothing fancy.",
-			["borderColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				1, -- [4]
-			},
-			["height"] = 14,
-			["timerFlags"] = "None",
-			["inverse"] = false,
-			["sparkBlendMode"] = "ADD",
-			["backdropColor"] = {
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
 				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
 				1, -- [4]
 			},
-			["textSize"] = 12,
-			["textFlags"] = "None",
-			["anchorFrameType"] = "SELECTFRAME",
-			["auto"] = true,
-			["anchorFrameFrame"] = "WeakAuras:AP_Bar",
-			["border"] = true,
-			["borderEdge"] = "1 Pixel",
-			["sparkHidden"] = "NEVER",
-			["borderSize"] = 1,
-			["stacksFont"] = "Friz Quadrata TT",
-			["icon_side"] = "RIGHT",
-			["displayTextRight"] = "%p",
-			["useAdjustededMax"] = false,
-			["sparkHeight"] = 10,
-			["timer"] = false,
-			["disjunctive"] = "any",
-			["stacksColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["timerSize"] = 12,
-			["backgroundColor"] = {
-				0, -- [1]
-				0, -- [2]
-				0, -- [3]
-				0.400000035762787, -- [4]
-			},
-			["id"] = "Balance - Starfall Remaining",
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
 			["additional_triggers"] = {
 			},
-			["frameStrata"] = 2,
-			["width"] = 408,
-			["untrigger"] = {
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
-			["sparkOffsetX"] = 0,
-			["numTriggers"] = 1,
-			["sparkDesature"] = false,
-			["orientation"] = "HORIZONTAL",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "PK - Cloying Shadows",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["FH - Enflamed+"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = 0,
 			["customTextUpdate"] = "update",
-			["icon"] = false,
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Enflamed", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					248815, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2074",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["unit"] = "player",
+						["spellIds"] = {
+							248819, -- [1]
+							244071, -- [2]
+						},
+						["custom_hide"] = "timed",
+						["names"] = {
+							"Siphoned", -- [1]
+							"Weight of Darkness", -- [2]
+						},
+						["subeventPrefix"] = "SPELL",
+						["debuffType"] = "HARMFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "FH - Enflamed+",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["AG - Energy Alert"] = {
+			["glow"] = false,
+			["text1FontSize"] = 36,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+				["unit"] = "boss1",
+				["use_specific_unit"] = true,
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = true,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\huh_1.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_power"] = true,
+				["use_unit"] = true,
+				["subeventPrefix"] = "SPELL",
+				["use_specific_unit"] = true,
+				["unit"] = "boss1",
+				["sourceName"] = "",
+				["subeventSuffix"] = "_CAST_START",
+				["spellName"] = "Focused Blast",
+				["spellIds"] = {
+					231363, -- [1]
+				},
+				["type"] = "status",
+				["use_spellName"] = true,
+				["power"] = "80",
+				["power_operator"] = ">",
+				["unevent"] = "auto",
+				["event"] = "Power",
+				["use_percentpower"] = true,
+				["names"] = {
+					"Burning Armor", -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["use_sourceName"] = false,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["percentpower"] = "100",
+				["percentpower_operator"] = "<",
+			},
+			["desaturate"] = true,
+			["progressPrecision"] = 0,
+			["text1Point"] = "CENTER",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["stickyDuration"] = false,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["op"] = ">",
+						["variable"] = "power",
+						["value"] = "90",
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["sound_type"] = "Play",
+								["sound_kit_id"] = "28924",
+								["sound"] = " KitID",
+								["sound_channel"] = "Master",
+							},
+							["property"] = "sound",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["text2Containment"] = "OUTSIDE",
+			["text2Point"] = "BOTTOM",
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["yOffset"] = 0,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Enabled"] = true,
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["xOffset"] = 0,
+			["text1"] = "%p",
+			["additional_triggers"] = {
+			},
+			["selfPoint"] = "CENTER",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "AG - Energy Alert",
+			["text1FontFlags"] = "OUTLINE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["text1Containment"] = "INSIDE",
+			["icon"] = true,
+			["inverse"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["displayIcon"] = 510053,
+			["cooldown"] = true,
+			["cooldownTextEnabled"] = true,
+		},
+		["AG - Molten Remnants"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "2727",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+					["preset"] = "pulse",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Molten Remnants", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					245916, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "AG - Molten Remnants",
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["cooldownTextEnabled"] = true,
+		},
+		["UN - Avatar of Aggramar"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "124",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Avatar of Aggramar", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					255199, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Avatar of Aggramar",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["HC (M) - Shocked"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_sound"] = false,
+					["message_type"] = "SAY",
+					["do_custom"] = false,
+					["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+					["do_message"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Shock Grenade", -- [1]
+					"Shocked", -- [2]
+				},
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["custom_hide"] = "timed",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					244737, -- [1]
+					244748, -- [2]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2070",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["variable"] = "show",
+						["value"] = 1,
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["sound_type"] = "Play",
+								["sound"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Sounds\\sonar.ogg",
+								["sound_channel"] = "Master",
+							},
+							["property"] = "sound",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "HC (M) - Shocked",
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["displayIcon"] = 135734,
+			["cooldown"] = true,
+			["cooldownTextEnabled"] = true,
 		},
 		["Oneth's Overconfidence"] = {
 			["glow"] = false,
@@ -4099,10 +27849,6 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["text1Font"] = "Friz Quadrata TT",
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["text2Font"] = "Friz Quadrata TT",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4110,7 +27856,24 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["icon"] = true,
+			["text2Containment"] = "INSIDE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["text1Font"] = "Friz Quadrata TT",
 			["yOffset"] = 0,
+			["parent"] = "Balance - Procs",
 			["text2Color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4119,472 +27882,129 @@ WeakAurasSaved = {
 			},
 			["regionType"] = "icon",
 			["numTriggers"] = 1,
-			["parent"] = "Balance - Procs",
-			["text2FontSize"] = 24,
 			["cooldownTextEnabled"] = true,
+			["text2FontSize"] = 24,
+			["xOffset"] = 0,
 			["width"] = 40,
 			["text1"] = "%c",
 			["text2Enabled"] = false,
 			["zoom"] = 0,
 			["text2"] = "%p",
 			["auto"] = true,
-			["xOffset"] = 0,
+			["text1FontFlags"] = "OUTLINE",
 			["id"] = "Oneth's Overconfidence",
-			["text1FontFlags"] = "OUTLINE",
+			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["anchorFrameType"] = "SCREEN",
-			["stickyDuration"] = false,
 			["text2Point"] = "CENTER",
-			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["init_started"] = 1,
+			["inverse"] = false,
+			["text1Containment"] = "INSIDE",
 			["conditions"] = {
 			},
 			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
+			["text2Font"] = "Friz Quadrata TT",
 		},
-		["Insanity Bar - Options and Trigger 2"] = {
-			["outline"] = "OUTLINE",
-			["fontSize"] = 14,
+		["AG - Searing Tempest"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
 			["disjunctive"] = "any",
-			["displayText"] = "%c",
-			["customText"] = "\n\n",
 			["untrigger"] = {
+				["use_specific_unit"] = true,
+				["unit"] = "boss1",
 			},
-			["regionType"] = "text",
-			["yOffset"] = 0,
-			["activeTriggerMode"] = 0,
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
 			["customTextUpdate"] = "update",
-			["xOffset"] = 0,
 			["actions"] = {
 				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "11482",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
 				},
 				["init"] = {
-					["custom"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\n------------------------------------------------------\n-- This is where you can customize the look and feel of the Insanity Bar.\n-- Colors are in the following format: Hexdecimal, AlphaRedGreenBlue, I.E.: AARRGGBB\n-- If you make edits to the following values and the Insanity Bar works, DO NOT expect support! I am not responsible for any issues that result from changes made after import.\n-- You have been warned!\n------------------------------------------------------\n-- AFTER YOU ALTER THESE VARIABLES, do /console reloadui\n------------------------------------------------------\n\n---- BAR LAYOUT / LOOK AND FEEL ----\n\n-- Bar and Text Colors\n\nWA_Insanity_Bar_Color_Bar_Status1 = \"FFC2A3E0\"; --Unable to trigger Voidform\nWA_Insanity_Bar_Color_Bar_Status2 = \"FF5C2F89\"; --Can trigger Voidform\nWA_Insanity_Bar_Color_Bar_Status2_Flash = \"FFAA1863\"; --Can trigger Voidform - Bar Flash Color\nWA_Insanity_Bar_Color_Bar_Status3 = \"FF763BAF\"; --Currently in Voidform\nWA_Insanity_Bar_Color_Bar_Status3_Warning = \"FFFFFF00\"; --You will fall out of Voidform within the next 2 GCDs if you don't generate Insanity quickly!\nWA_Insanity_Bar_Color_Bar_Status3_End = \"FFFF0000\"; --You will fall out of Voidform within the next GCD if you don't generate Insanity quickly!\nWA_Insanity_Bar_Color_Bar_Incoming = \"FF9b9b9b\"; --Incoming Insanity from a hardcast\nWA_Insanity_Bar_Color_Bar_AS = \"FFDF73FF\"; --Incoming Insanity from Auspicious Spirits\nWA_Insanity_Bar_Color_Text_Current = \"FFFFFFFF\"; --Text color of the current amount of Insanity\nWA_Insanity_Bar_Color_Text_Incoming = \"FFFFFFFF\"; --Text color of the incoming Insanity value from a hardcast\nWA_Insanity_Bar_Color_Text_AS = \"FFDFFFFF\"; --Text color of the incoming Insanity value from Auspicious Spirits\nWA_Insanity_Bar_Color_Text_Left = \"00FFFFFF\"; --Text color of the information on the left side of the bar\nWA_Insanity_Bar_Color_Text_Middle = \"00FFFFFF\"; --Text color of the information in the middle of the bar during Voidform\n\n-- Bar Width and Height\n\nWA_Insanity_Bar_Width = 300; --Width of the bar, in pixels. Minimum 100px.\nWA_Insanity_Bar_Height = 19; --Height of the bar, in pixels. Minimum 1px.\n\n\n---- BAR TEXT ----\n\n-- All Bar Text\n\nWA_Insanity_Bar_Font_Size = 12; --Font size of all bar text. Minimum 4.\n\n-- Left Bar Text\nWA_Insanity_Bar_Show_Left_Lingering_Insanity_Left = false; --Show Lingering Insanity stacks on left side of bar next to Haste% when not in Voidform. Old style (pre 7.1.5) display.\nWA_Insanity_Bar_Show_Left_Voidform_Incoming_Stacks = false; --Show the number of incoming stacks of Voidform based on the expected remaining duration of Voidform.\n\n-- Middle Bar Text\nWA_Insanity_Bar_Show_Middle_Lingering_Insanity_Stacks_Middle = fasle; --Show Lingering Insanity stacks remaining in middle of the bar when not in Voidform.\nWA_Insanity_Bar_Show_Middle_Lingering_Insanity_Time_Middle = false; --Show Lingering Insanity effective duration remaining in middle of the bar when not in Voidform.\nWA_Insanity_Bar_Show_Middle_Voidform_Time_Remaining = false; --Show the amount of time, in seconds, that your current Voidform is expected to last based on current Insanity levels.\nWA_Insanity_Bar_Show_Middle_Voidform_Current_Drain = false; --Show the current Insanity drain based on Insanity Drain Stacks, in Insanity/sec.\n\n-- Right Bar Text\nWA_Insanity_Bar_Show_Right_Incoming_Casting_Insanity = false; --Show the amount of incoming Insanity from hardcasted spells.\nWA_Insanity_Bar_Show_Right_Incoming_AS_Insanity = false; --Show the amount of incoming Insanity from Auspicious Spirits. Requires Twintop's Auspicious Spirits Tracker WA -- https://wago.io/EJBhpyJE-\n\n\n---- OTHER OPTIONS ----\n\nWA_Insanity_Bar_Voidform_Summary = false; --Print out a summary of your Voidform to chat when you exit.\nWA_Insanity_Bar_S2M_Summary = true; --Print out a summary of your Surrender to Madness to chat when you die. Horribly.\nWA_Insanity_Bar_S2M_Wilhelm = true; --Play the Wilhelm Scream when you die in Surrender to Madness\n\n----------------------------------\n----------------------------------\n-- DO NOT EDIT BELOW THIS LINE! --\n----------------------------------\n----------------------------------\n\nlocal c_v, c_b, c_d, c_t = GetBuildInfo();\nWA_Insanity_Bar_v_major, WA_Insanity_Bar_v_minor, WA_Insanity_Bar_v_bf = strsplit(\".\", c_v, 3);\n\ngetRGBAFromString = function(s) \n    local _a = 1;\n    local _r = 0;\n    local _g = 1;\n    local _b = 0;\n    \n    if not (s == nil) then\n        \n        _a = tonumber(string.sub(s, 1, 2), 16);\n        _r = tonumber(string.sub(s, 3, 4), 16);\n        _g = tonumber(string.sub(s, 5, 6), 16);\n        _b = tonumber(string.sub(s, 7, 8), 16);\n        \n    end\n    \n    return _r, _g, _b, _a;\nend\n\nWA_Insanity_Drain = function(stacks)\n    local pct = 1.00;\n    WA_Voidform_T20_Count = WA_Voidform_T20_Count or 0;\n    if WA_Voidform_T20_Count >= 4 then\n        local specGroup = GetActiveSpecGroup();\n        local S2MName = select(2, GetTalentInfo(7, 3, specGroup));\n        local isS2MActive = select(11, UnitBuff(\"player\", S2MName));\n        if isS2MActive then\n            pct = 0.95;\n        else\n            pct = 0.90;\n        end\n    end    \n    \n    return (6.0 + ((stacks - 1) * (2 / 3))) * pct;\nend\n\nWA_Insanity_getRemainingTimeAndStackCount = function()         \n    WA_Voidform_Current_Insanity = WA_Voidform_Current_Insanity or 0;\n    WA_Voidform_Previous_Check_Time = WA_Voidform_Previous_Check_Time or 0;\n    WA_Voidform_VoidTorrent_Offset = WA_Voidform_VoidTorrent_Offset or 0;\n    WA_Voidform_Dispersion_Offset = WA_Voidform_Dispersion_Offset or 0;\n    WA_Voidform_Start_Time = WA_Voidform_Start_Time or 0;\n    WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks or 0;\n    WA_Voidform_Remaining_Time = WA_Voidform_Remaining_Time or 0;\n    WA_Voidform_Current_Drain_Rate =  WA_Voidform_Current_Drain_Rate or 0;\n    \n    local currentTime = GetTime();\n    WA_Voidform_Current_Insanity = UnitPower(\"player\", SPELL_POWER_SHADOW_ORBS, forceUpdate);\n    local _, _, _, vfCount, _, vfDuration, _, _, _, _, vfSpellId = UnitBuff(\"player\",GetSpellInfo(228264));\n    \n    if vfSpellId == nil then\n        WA_Voidform_Drain_Stacks = 0;\n        WA_Voidform_Current_Drain_Rate = 0;\n        return 0, 0, 0;\n    else\n        local down, up, lagHome, lagWorld = GetNetStats();\n        local TimeDiff = currentTime - WA_Voidform_Previous_Stack_Time;        \n        local remainingInsanity = tonumber(WA_Voidform_Current_Insanity);\n        \n        local remainingTime = 0;        \n        local moreStacks = 0;\n        local latency = lagWorld / 1000;\n        local workingStack = WA_Voidform_Drain_Stacks;\n        local startingStack = workingStack;\n        local drainPct = 1.0;\n        \n        if (remainingInsanity > 0) then\n            while (remainingInsanity > 0)\n            do\n                moreStacks = moreStacks+1;\n                local insanityDrain = WA_Insanity_Drain(workingStack);\n                local stackTime = 1.0;\n                \n                if workingStack == startingStack then\n                    \n                    stackTime = 1.0 - TimeDiff + latency;\n                    \n                end\n                \n                \n                if (stackTime > 0) then                    \n                    if (insanityDrain * stackTime) >= remainingInsanity then                       \n                        stackTime = remainingInsanity / insanityDrain;\n                        remainingInsanity = 0;\n                    else\n                        remainingInsanity = remainingInsanity - (insanityDrain * stackTime);\n                    end\n                    \n                    remainingTime = remainingTime + stackTime;\n                end               \n                \n                workingStack = workingStack + 1;\n            end\n        end       \n        \n        WA_Voidform_Remaining_Time = remainingTime;\n        WA_Voidform_Current_Drain_Rate = WA_Insanity_Drain(WA_Voidform_Drain_Stacks);\n        \n        return remainingTime, vfCount, moreStacks;\n    end  \nend\n\nif WA_Insanity_Bar_Width <= 100 then\n    WA_Insanity_Bar_Width = 547;\nend\n\nif WA_Insanity_Bar_Height <= 1 then\n    WA_Insanity_Bar_Height = 26;\nend\n\nif WA_Insanity_Bar_Font_Size <= 4 then\n    WA_Insanity_Bar_Font_Size = 18;\nend\n\n\n\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Border - Insanity Ready\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Main Bar\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Casting Bar\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Auspicious Spirits Bar\"][\"width\"] = WA_Insanity_Bar_Width;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Border - Insanity Ready\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Main Bar\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Casting Bar\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Auspicious Spirits Bar\"][\"height\"] = WA_Insanity_Bar_Height;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Left\"][\"xOffset\"] = -(WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Middle\"][\"xOffset\"] = 0;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Right\"][\"xOffset\"] = (WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Left\"][\"fontSize\"] = WA_Insanity_Bar_Font_Size;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Middle\"][\"fontSize\"] = WA_Insanity_Bar_Font_Size;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Text - Right\"][\"fontSize\"] = WA_Insanity_Bar_Font_Size;\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Non-LotV Marker 1\"][\"xOffset\"] = (WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - Non-LotV Marker 2\"][\"xOffset\"] = (WA_Insanity_Bar_Width/2);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - LotV Marker 1\"][\"xOffset\"] = (WA_Insanity_Bar_Width*0.15);\nWeakAurasSaved[\"displays\"][\"Insanity Bar - LotV Marker 2\"][\"xOffset\"] = (WA_Insanity_Bar_Width*0.15);\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
-					["do_custom"] = true,
+					["do_custom"] = false,
 				},
 				["finish"] = {
-					["do_sound"] = false,
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["selfPoint"] = "BOTTOM",
-			["id"] = "Insanity Bar - Options and Trigger 2",
-			["justify"] = "LEFT",
+			["text2Font"] = "Accidental Presidency",
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
 				},
 				["main"] = {
 					["type"] = "none",
 					["duration_type"] = "seconds",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
 				},
 			},
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "custom",
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["subeventPrefix"] = "SPELL",
-						["events"] = "COMBAT_LOG_EVENT_UNFILTERED PLAYER_REGEN_DISABLED PLAYER_REGEN_ENABLED UNIT_AURA",
-						["check"] = "event",
-						["custom_type"] = "status",
-						["custom"] = "-- Insanity Bar -- By Twintop - Illidan-US - 2017/06/13\n-- HowToPriest Thread -- https://howtopriest.com/viewtopic.php?f=104&t=8339\n-- WAGO.IO Link -- https://wago.io/4yfC0kJVW\nfunction(event,time,type,_,sourceGUID,sourcename,_,_,destGUID,destname,_,_,spellid,spellname,_,_,_,_,_,_,_,spellcritical,_,_,_,_)\n    local CurrentTime = GetTime();\n    if event == \"COMBAT_LOG_EVENT_UNFILTERED\" or event == \"COMBAT_LOG_EVENT\" then\n        \n        WA_Voidform_Total_Stacks = WA_Voidform_Total_Stacks or 0;\n        WA_Voidform_Previous_Stack_Time = WA_Voidform_Previous_Stack_Time or 0;\n        WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks or 0;\n        WA_Voidform_VoidTorrent_Stacks = WA_Voidform_VoidTorrent_Stacks or 0;\n        WA_Voidform_Dispersion_Stacks = WA_Voidform_Dispersion_Stacks or 0;\n        WA_Insanity_Bar_LI_Last_Tick = WA_Insanity_Bar_LI_Last_Tick or 0;\n        WA_Insanity_Bar_LI_Last_Count = WA_Insanity_Bar_LI_Last_Count or 0;\n        \n        local _, _, _, liCount, _, liDuration, _, _, _, _, liSpellId = UnitBuff(\"player\",GetSpellInfo(197937));\n        \n        local T20_head = 0;\n        if IsEquippedItem(147165) then\n            T20_head = 1;\n        end\n        \n        local T20_shoulder = 0;\n        if IsEquippedItem(147168) then\n            T20_shoulder = 1;\n        end\n        \n        local T20_back = 0;\n        if IsEquippedItem(147163) then\n            T20_back = 1;\n        end\n        \n        local T20_chest = 0;\n        if IsEquippedItem(147167) then\n            T20_chest = 1;\n        end\n        \n        local T20_hands = 0;\n        if IsEquippedItem(147164) then\n            T20_hands = 1;\n        end\n        \n        local T20_legs = 0;\n        if IsEquippedItem(147166) then\n            T20_legs = 1;\n        end\n        \n        WA_Voidform_T20_Count = T20_head + T20_shoulder + T20_back + T20_chest + T20_hands + T20_legs;\n        \n        \n        if liCount ~= nil and liCount > 0 then\n            \n            if WA_Insanity_Bar_LI_Last_Count ~= liCount then\n                \n                WA_Insanity_Bar_LI_Last_Count = liCount;\n                WA_Insanity_Bar_LI_Last_Tick = CurrentTime;\n                \n            end\n            \n        end\n        \n        if WA_Voidform_Total_Stacks >= 100 then\n            \n            if (CurrentTime - WA_Voidform_Previous_Stack_Time) >= 1 then\n                \n                WA_Voidform_Previous_Stack_Time = CurrentTime;\n                WA_Voidform_Total_Stacks = WA_Voidform_Total_Stacks + 1;\n                \n                \n                if WA_Voidform_VoidTorrent_Start == nil and WA_Voidform_Dispersion_Start == nil then\n                    \n                    WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks + 1;\n                    \n                elseif WA_Voidform_VoidTorrent_Start ~= nil then\n                    \n                    WA_Voidform_VoidTorrent_Stacks = WA_Voidform_VoidTorrent_Stacks + 1;\n                    \n                else\n                    \n                    WA_Voidform_Dispersion_Stacks = WA_Voidform_Dispersion_Stacks + 1;\n                    \n                end                \n            end\n            \n        end\n        \n        \n        if sourceGUID == UnitGUID(\"player\") then\n            \n            if spellid == 194249 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Entered Voidform\n                    \n                    WA_Voidform_Previous_Stack_Time = CurrentTime;\n                    WA_Voidform_VoidTorrent_Start = nil;\n                    WA_Voidform_Dispersion_Start = nil;\n                    WA_Voidform_Drain_Stacks = 1;\n                    WA_Voidform_Start_Time = CurrentTime;\n                    WA_Voidform_Total_Stacks = 1;\n                    WA_Voidform_VoidTorrent_Stacks = 0;\n                    WA_Voidform_Dispersion_Stacks = 0;\n                    \n                elseif type == \"SPELL_AURA_APPLIED_DOSE\" then -- New Voidform Stack\n                    \n                    WA_Voidform_Previous_Stack_Time = CurrentTime;\n                    WA_Voidform_Total_Stacks = WA_Voidform_Total_Stacks + 1;\n                    \n                    if WA_Voidform_VoidTorrent_Start == nil and WA_Voidform_Dispersion_Start == nil then\n                        \n                        WA_Voidform_Drain_Stacks = WA_Voidform_Drain_Stacks + 1;\n                        \n                    elseif WA_Voidform_VoidTorrent_Start ~= nil then\n                        \n                        WA_Voidform_VoidTorrent_Stacks = WA_Voidform_VoidTorrent_Stacks + 1;\n                        \n                    else\n                        \n                        WA_Voidform_Dispersion_Stacks = WA_Voidform_Dispersion_Stacks + 1;\n                        \n                    end\n                    \n                elseif type == \"SPELL_AURA_REMOVED\" then -- Exited Voidform\n                    if WA_Insanity_Bar_Voidform_Summary == true then\n                        print(\"Voidform Info:\");\n                        print(\"--------------------------\");\n                        print(string.format(\"Voidform Duration: %.2f seconds\", (CurrentTime-WA_Voidform_Start_Time)));\n                        \n                        if WA_Voidform_Total_Stacks > 100 then\n                            print(string.format(\"Voidform Stacks: 100 (+%.0f)\", (WA_Voidform_Total_Stacks-100)));\n                        else\n                            print(string.format(\"Voidform Stacks: %.0f\", WA_Voidform_Total_Stacks));\n                        end\n                        \n                        print(string.format(\"Dispersion Stacks: %.0f\", WA_Voidform_Dispersion_Stacks));\n                        print(string.format(\"Void Torrent Stacks: %.0f\", WA_Voidform_VoidTorrent_Stacks));\n                        print(string.format(\"Final Drain: %.0f stacks; %.1f / sec\", WA_Voidform_Drain_Stacks, WA_Voidform_Current_Drain_Rate));\n                    end\n                    \n                    WA_Voidform_VoidTorrent_Start = nil;\n                    WA_Voidform_Dispersion_Start = nil;\n                    WA_Voidform_Drain_Stacks = 0;\n                    WA_Voidform_Start_Time = nil;\n                    WA_Voidform_Total_Stacks = 0;\n                    WA_Voidform_VoidTorrent_Stacks = 0;\n                    WA_Voidform_Dispersion_Stacks = 0;\n                    \n                end\n                \n            elseif spellid == 205065 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Started channeling Void Torrent\n                    \n                    WA_Voidform_VoidTorrent_Start = CurrentTime;\n                    \n                elseif type == \"SPELL_AURA_REMOVED\" and WA_Voidform_VoidTorrent_Start ~= nil then -- Stopped channeling Void Torrent\n                    \n                    WA_Voidform_VoidTorrent_Start = nil;\n                    \n                end\n                \n            elseif spellid == 47585 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Started channeling Dispersion\n                    \n                    WA_Voidform_Dispersion_Start = CurrentTime;\n                    \n                elseif type == \"SPELL_AURA_REMOVED\" and WA_Voidform_Dispersion_Start ~= nil then -- Stopped channeling Dispersion\n                    \n                    WA_Voidform_Dispersion_Start = nil;\n                    \n                end\n                \n            elseif spellid == 212570 then\n                \n                if type == \"SPELL_AURA_APPLIED\" then -- Gain Surrender to Madness\n                    \n                    WA_Voidform_S2M_Activated = true;\n                    WA_Voidform_S2M_Start = CurrentTime;\n                    \n                end\n                \n            end\n            \n        elseif destGUID == UnitGUID(\"player\") and (type == \"UNIT_DIED\" or type == \"UNIT_DESTROYED\" or type == \"SPELL_INSTAKILL\") and WA_Voidform_S2M_Activated == true then\n            \n            WA_Voidform_S2M_Activated = false;\n            \n            if WA_Insanity_Bar_S2M_Wilhelm == true then\n                PlaySoundFile(\"Interface\\\\AddOns\\\\WeakAuras\\\\PowerAurasMedia\\\\Sounds\\\\wilhelm.ogg\", \"Master\");\n            end\n            \n            if WA_Insanity_Bar_S2M_Summary == true then\n                print(\"Surrender to Madness Info:\");\n                print(\"--------------------------\");\n                print(string.format(\"S2M Duration: %.2f seconds\", (CurrentTime-WA_Voidform_S2M_Start)));\n                print(string.format(\"Voidform Duration: %.2f seconds\", (CurrentTime-WA_Voidform_Start_Time)));\n                \n                if WA_Voidform_Total_Stacks > 100 then\n                    print(string.format(\"Voidform Stacks: 100 (+%.0f)\", (WA_Voidform_Total_Stacks-100)));\n                else\n                    print(string.format(\"Voidform Stacks: %.0f\", WA_Voidform_Total_Stacks));\n                end\n                \n                print(string.format(\"Dispersion Stacks: %.0f\", WA_Voidform_Dispersion_Stacks));\n                print(string.format(\"Void Torrent Stacks: %.0f\", WA_Voidform_VoidTorrent_Stacks));\n                print(string.format(\"Final Drain: %.0f stacks; %.1f / sec\", WA_Voidform_Drain_Stacks, WA_Voidform_Current_Drain_Rate));\n            end\n            \n            WA_Voidform_S2M_Start = nil;\n            WA_Voidform_VoidTorrent_Start = nil;\n            WA_Voidform_Dispersion_Start = nil;\n            WA_Voidform_Drain_Stacks = 0;\n            WA_Voidform_Start_Time = nil;\n            WA_Voidform_Total_Stacks = 0;\n            WA_Voidform_VoidTorrent_Stacks = 0;\n            WA_Voidform_Dispersion_Stacks = 0;\n            \n        end\n        \n    end \nend",
-						["custom_hide"] = "timed",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["width"] = 11.4999980926514,
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["anchorPoint"] = "CENTER",
-			["font"] = "PT Sans Narrow",
-			["numTriggers"] = 2,
 			["trigger"] = {
-				["custom_hide"] = "timed",
-				["type"] = "status",
-				["custom_type"] = "status",
-				["unevent"] = "auto",
-				["use_unit"] = true,
-				["use_power"] = true,
-				["event"] = "Power",
+				["spellId"] = "245301",
 				["names"] = {
+					"Ravenous Blaze", -- [1]
 				},
-				["use_percentpower"] = false,
-				["powertype"] = 13,
-				["spellIds"] = {
-				},
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
+				["duration"] = "6",
+				["use_specific_sourceUnit"] = true,
 				["subeventPrefix"] = "SPELL",
-				["use_powertype"] = true,
-				["debuffType"] = "HELPFUL",
-			},
-			["height"] = 14.1666269302368,
-			["conditions"] = {
-			},
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["PRIEST"] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[3] = true,
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Insanity Bar",
-		},
-		["Oneth's Intuition"] = {
-			["text2Point"] = "CENTER",
-			["text1FontSize"] = 12,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text2Font"] = "Friz Quadrata TT",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["spellId"] = "209406",
+				["sourceUnit"] = "boss1",
+				["use_specific_unit"] = false,
+				["use_power"] = true,
+				["custom_hide"] = "timed",
+				["name"] = "Searing Tempest",
+				["use_spellName"] = false,
+				["sourceName"] = "",
+				["spellName"] = "",
+				["unevent"] = "timed",
+				["use_sourceName"] = false,
+				["power"] = "80",
 				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-				["debuffType"] = "HELPFUL",
+				["power_operator"] = ">",
+				["debuffType"] = "HARMFUL",
+				["event"] = "Combat Log",
+				["use_percentpower"] = true,
+				["type"] = "event",
 				["use_spellId"] = true,
-				["name"] = "Oneth's Intuition",
-				["names"] = {
-					"Oneth's Intuition", -- [1]
-				},
-				["unit"] = "player",
-				["fullscan"] = true,
 				["spellIds"] = {
-					209406, -- [1]
+					254452, -- [1]
 				},
-				["custom_hide"] = "timed",
-			},
-			["text1Containment"] = "INSIDE",
-			["text1Point"] = "CENTER",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 40,
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["text1Enabled"] = true,
-			["desaturate"] = false,
-			["text2Containment"] = "INSIDE",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["stickyDuration"] = false,
-			["disjunctive"] = "all",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["inverse"] = false,
-			["glow"] = false,
-			["text2FontSize"] = 24,
-			["text1Font"] = "Friz Quadrata TT",
-			["anchorFrameType"] = "SCREEN",
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["text1FontFlags"] = "OUTLINE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["xOffset"] = 0,
-			["id"] = "Oneth's Intuition",
-			["text2"] = "%p",
-			["text2Enabled"] = false,
-			["width"] = 40,
-			["cooldownTextEnabled"] = true,
-			["parent"] = "Balance - Procs",
-			["numTriggers"] = 1,
-			["yOffset"] = 0,
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = false,
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-		},
-		["Insanity Bar - LotV Marker 2 2"] = {
-			["color"] = {
-				0.70980392156863, -- [1]
-				0.70980392156863, -- [2]
-				0.70980392156863, -- [3]
-				1, -- [4]
-			},
-			["xOffset"] = 61,
-			["anchorPoint"] = "CENTER",
-			["mirror"] = false,
-			["untrigger"] = {
-				["spellName"] = 228260,
-			},
-			["regionType"] = "texture",
-			["rotate"] = true,
-			["blendMode"] = "BLEND",
-			["activeTriggerMode"] = 0,
-			["yOffset"] = 0,
-			["init_completed"] = 1,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
-					["scalex"] = 1.75,
-					["alphaType"] = "alphaPulse",
-					["colorA"] = 1,
-					["colorG"] = 0,
-					["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
-					["use_alpha"] = false,
-					["scaley"] = 1.5,
-					["scaleType"] = "pulse",
-					["colorB"] = 1,
-					["use_scale"] = false,
-					["use_color"] = false,
-					["alpha"] = 0.75,
-					["colorType"] = "straightColor",
-					["y"] = 0,
-					["x"] = 0,
-					["type"] = "custom",
-					["colorR"] = 0.52549019607843,
-					["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
-					["rotate"] = 0,
-					["duration"] = ".5",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "aura",
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["names"] = {
-							"Voidform", -- [1]
-						},
-						["inverse"] = true,
-						["custom_hide"] = "timed",
-						["unit"] = "player",
-						["subeventPrefix"] = "SPELL",
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["desaturate"] = false,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["use_power"] = true,
+				["use_sourceUnit"] = true,
 				["unit"] = "player",
-				["spellName"] = 228260,
-				["custom_hide"] = "timed",
-				["power"] = "60",
-				["type"] = "status",
-				["use_health"] = true,
-				["health_operator"] = ">",
-				["power_operator"] = ">=",
 				["use_unit"] = true,
-				["event"] = "Action Usable",
-				["unevent"] = "auto",
-				["realSpellName"] = "Void Eruption",
-				["use_spellName"] = true,
-				["health"] = "0",
-				["spellIds"] = {
-				},
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["subeventPrefix"] = "SPELL",
+				["percentpower"] = "100",
+				["percentpower_operator"] = "<",
 			},
-			["rotation"] = 0,
-			["frameStrata"] = 6,
-			["anchorFrameType"] = "SCREEN",
-			["discrete_rotation"] = 0,
-			["width"] = 2,
-			["numTriggers"] = 2,
-			["id"] = "Insanity Bar - LotV Marker 2 2",
-			["height"] = 32,
-			["conditions"] = {
-			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
 					},
 				},
 				["use_never"] = false,
-				["talent"] = {
-					["single"] = 19,
+				["encounterid"] = "2063",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
 					["multi"] = {
 					},
 				},
@@ -4592,24 +28012,22 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "PRIEST",
+				["use_level"] = false,
+				["talent"] = {
 					["multi"] = {
-						["PRIEST"] = true,
 					},
 				},
 				["spec"] = {
-					["single"] = 3,
 					["multi"] = {
-						[3] = true,
 					},
 				},
-				["use_talent"] = true,
+				["use_zoneId"] = false,
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
-				["race"] = {
+				["use_realm"] = false,
+				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -4617,654 +28035,91 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
+				["race"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
+				["use_combat"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["size"] = {
+				["class"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["parent"] = "Priest - Shadow: Insanity Bar",
-		},
-		["Devil's Due"] = {
-			["text2Point"] = "CENTER",
-			["text1FontSize"] = 12,
-			["disjunctive"] = "all",
 			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135826,
+			["text2Containment"] = "OUTSIDE",
 			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 2,
 			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-				["spellIds"] = {
-				},
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Devil's Due", -- [1]
-				},
-				["unit"] = "player",
-				["custom_hide"] = "timed",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
 			},
-			["desaturate"] = false,
-			["text1Point"] = "CENTER",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 40,
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["untrigger"] = {
-			},
-			["icon"] = true,
-			["text2Containment"] = "INSIDE",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
+			["regionType"] = "icon",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["parent"] = "Balance - Procs",
-			["text1Containment"] = "INSIDE",
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["inverse"] = false,
-			["cooldownTextEnabled"] = true,
-			["text2FontSize"] = 24,
-			["glow"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["text1FontFlags"] = "OUTLINE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["xOffset"] = 0,
-			["id"] = "Devil's Due",
-			["text2"] = "%p",
+			["width"] = 60,
+			["text2FontSize"] = 30,
 			["text2Enabled"] = false,
-			["width"] = 40,
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Font"] = "Friz Quadrata TT",
-			["numTriggers"] = 1,
-			["stickyDuration"] = false,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-		},
-		["Insanity Bar - LotV Marker 1 2"] = {
-			["parent"] = "Priest - Shadow: Insanity Bar",
-			["color"] = {
-				0.70980392156863, -- [1]
-				0.70980392156863, -- [2]
-				0.70980392156863, -- [3]
-				1, -- [4]
-			},
-			["mirror"] = false,
-			["untrigger"] = {
-				["spellName"] = 228260,
-			},
-			["anchorPoint"] = "CENTER",
-			["regionType"] = "texture",
-			["blendMode"] = "BLEND",
-			["activeTriggerMode"] = 0,
-			["rotate"] = true,
-			["yOffset"] = 0,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-				["init"] = {
-				},
-			},
-			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border",
-			["selfPoint"] = "CENTER",
-			["id"] = "Insanity Bar - LotV Marker 1 2",
-			["desaturate"] = false,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["trigger"] = {
-				["use_power"] = true,
-				["use_unit"] = true,
-				["use_inverse"] = true,
-				["custom_hide"] = "timed",
-				["spellName"] = 228260,
-				["unevent"] = "auto",
-				["type"] = "status",
-				["use_health"] = true,
-				["power"] = "60",
-				["power_operator"] = "<",
-				["health_operator"] = ">",
-				["event"] = "Action Usable",
-				["unit"] = "player",
-				["realSpellName"] = "Void Eruption",
-				["use_spellName"] = true,
-				["health"] = "0",
-				["spellIds"] = {
-				},
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["subeventPrefix"] = "SPELL",
-			},
-			["rotation"] = 0,
-			["frameStrata"] = 6,
-			["anchorFrameType"] = "SCREEN",
-			["discrete_rotation"] = 0,
-			["width"] = 2,
-			["numTriggers"] = 2,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "RUN",
 			["additional_triggers"] = {
 				{
 					["trigger"] = {
-						["type"] = "aura",
+						["type"] = "event",
+						["spellId"] = "255061",
+						["unevent"] = "timed",
+						["duration"] = "6",
+						["event"] = "Combat Log",
+						["use_unit"] = true,
 						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["names"] = {
-							"Voidform", -- [1]
-						},
-						["inverse"] = true,
-						["custom_hide"] = "timed",
-						["subeventPrefix"] = "SPELL",
-						["spellIds"] = {
-						},
+						["use_spellId"] = true,
+						["name"] = "Empowered Searing Tempest",
+						["use_sourceUnit"] = true,
+						["use_specific_sourceUnit"] = true,
 						["unit"] = "player",
-						["debuffType"] = "HELPFUL",
+						["sourceUnit"] = "boss1",
+						["subeventPrefix"] = "SPELL",
 					},
 					["untrigger"] = {
 					},
 				}, -- [1]
 			},
-			["height"] = 32,
-			["conditions"] = {
-			},
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["talent"] = {
-					["single"] = 19,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["PRIEST"] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[3] = true,
-					},
-				},
-				["use_talent"] = true,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["xOffset"] = 61,
-		},
-		["Insanity Bar - Non-LotV Marker 2"] = {
-			["color"] = {
-				0.70980392156863, -- [1]
-				0.70980392156863, -- [2]
-				0.70980392156863, -- [3]
-				1, -- [4]
-			},
-			["xOffset"] = 150,
-			["mirror"] = false,
-			["yOffset"] = 0,
-			["regionType"] = "texture",
-			["anchorPoint"] = "CENTER",
-			["blendMode"] = "BLEND",
-			["activeTriggerMode"] = 0,
-			["conditions"] = {
-			},
-			["init_completed"] = 1,
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["colorR"] = 0.52549019607843,
-					["scalex"] = 1.75,
-					["alphaType"] = "alphaPulse",
-					["colorB"] = 1,
-					["colorG"] = 0,
-					["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
-					["use_alpha"] = true,
-					["scaley"] = 1.5,
-					["scaleType"] = "pulse",
-					["duration"] = ".5",
-					["duration_type"] = "seconds",
-					["use_color"] = false,
-					["alpha"] = 0.25,
-					["x"] = 0,
-					["y"] = 0,
-					["colorType"] = "straightColor",
-					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
-					["type"] = "custom",
-					["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
-					["rotate"] = 0,
-					["use_scale"] = false,
-					["colorA"] = 1,
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["trigger"] = {
-				["use_power"] = true,
-				["unit"] = "player",
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
-				["names"] = {
-				},
-				["type"] = "status",
-				["use_health"] = true,
-				["health_operator"] = ">",
-				["power_operator"] = ">=",
-				["debuffType"] = "HELPFUL",
-				["event"] = "Action Usable",
-				["subeventSuffix"] = "_CAST_START",
-				["realSpellName"] = "Void Eruption",
-				["use_spellName"] = true,
-				["health"] = "0",
-				["spellIds"] = {
-				},
-				["unevent"] = "auto",
-				["use_unit"] = true,
-				["power"] = "100",
-				["spellName"] = 228260,
-			},
-			["anchorFrameType"] = "SCREEN",
-			["selfPoint"] = "CENTER",
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "aura",
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["names"] = {
-							"Voidform", -- [1]
-						},
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-						["unit"] = "player",
-						["inverse"] = true,
-						["subeventPrefix"] = "SPELL",
-						["custom_hide"] = "timed",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["rotation"] = 0,
-			["frameStrata"] = 6,
-			["width"] = 2,
-			["discrete_rotation"] = 0,
 			["desaturate"] = false,
-			["numTriggers"] = 2,
-			["id"] = "Insanity Bar - Non-LotV Marker 2",
-			["height"] = 32,
-			["rotate"] = true,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["talent"] = {
-					["single"] = 19,
-					["multi"] = {
-						[20] = true,
-						[21] = true,
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["PRIEST"] = true,
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_talent"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["use_spec"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[3] = true,
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["untrigger"] = {
-				["spellName"] = 228260,
-			},
-		},
-		["Priest - Shadow: Potion of Prolonged Power"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["unit"] = "player",
-				["spellIds"] = {
-				},
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Potion of Deadly Grace", -- [1]
-					"Potion of Prolonged Power", -- [2]
-				},
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
 			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Potion of Prolonged Power",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "AG - Searing Tempest",
 			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
+			["icon"] = true,
 		},
-		["Priest - Shadow: Sephuz's Secret"] = {
+		["Priest - Shadow: Power Infusion"] = {
 			["glow"] = false,
 			["text1FontSize"] = 12,
 			["cooldownTextEnabled"] = true,
@@ -5280,167 +28135,15 @@ WeakAurasSaved = {
 				["type"] = "aura",
 				["subeventSuffix"] = "_CAST_START",
 				["event"] = "Health",
-				["unit"] = "player",
+				["names"] = {
+					"Power Infusion", -- [1]
+				},
 				["spellIds"] = {
 				},
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Sephuz's Secret", -- [1]
-				},
-				["subeventPrefix"] = "SPELL",
 				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Sephuz's Secret",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
-		},
-		["Priest - Shadow: Twist of Fate"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
 				["unit"] = "player",
-				["spellIds"] = {
-				},
 				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Twist of Fate", -- [1]
-				},
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
 			["text1Point"] = "BOTTOMRIGHT",
@@ -5448,330 +28151,12 @@ WeakAurasSaved = {
 			["height"] = 32,
 			["load"] = {
 				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_talent"] = true,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["parent"] = "Priest - Shadow: Procs & Buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["text1Containment"] = "INSIDE",
-			["text2Containment"] = "INSIDE",
-			["yOffset"] = 0,
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["inverse"] = false,
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["text2Point"] = "CENTER",
-			["stickyDuration"] = false,
-			["text2FontSize"] = 24,
-			["width"] = 32,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = true,
-			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Twist of Fate",
-			["text1FontFlags"] = "OUTLINE",
-			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text2Font"] = "Friz Quadrata TT",
-			["xOffset"] = 0,
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["animation"] = {
-				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
-				},
-			},
-		},
-		["Insanity Bar - Non-LotV Marker 1"] = {
-			["color"] = {
-				0.6156862745098, -- [1]
-				0.6156862745098, -- [2]
-				0.6156862745098, -- [3]
-				0.75, -- [4]
-			},
-			["mirror"] = false,
-			["untrigger"] = {
-				["spellName"] = 228260,
-			},
-			["anchorPoint"] = "CENTER",
-			["xOffset"] = 150,
-			["blendMode"] = "ADD",
-			["activeTriggerMode"] = 0,
-			["yOffset"] = 0,
-			["conditions"] = {
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["additional_triggers"] = {
-				{
-					["trigger"] = {
-						["type"] = "aura",
-						["subeventSuffix"] = "_CAST_START",
-						["event"] = "Health",
-						["unit"] = "player",
-						["inverse"] = true,
-						["custom_hide"] = "timed",
-						["subeventPrefix"] = "SPELL",
-						["names"] = {
-							"Voidform", -- [1]
-						},
-						["spellIds"] = {
-						},
-						["debuffType"] = "HELPFUL",
-					},
-					["untrigger"] = {
-					},
-				}, -- [1]
-			},
-			["width"] = 1,
-			["selfPoint"] = "CENTER",
-			["id"] = "Insanity Bar - Non-LotV Marker 1",
-			["rotation"] = 0,
-			["frameStrata"] = 6,
-			["anchorFrameType"] = "SCREEN",
-			["discrete_rotation"] = 0,
-			["desaturate"] = false,
-			["numTriggers"] = 2,
-			["trigger"] = {
-				["use_inverse"] = true,
-				["use_unit"] = true,
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-				},
-				["spellName"] = 228260,
-				["custom_hide"] = "timed",
-				["power"] = "100",
-				["type"] = "status",
-				["use_health"] = true,
-				["subeventSuffix"] = "_CAST_START",
-				["power_operator"] = "<",
-				["unit"] = "player",
-				["event"] = "Action Usable",
-				["spellIds"] = {
-				},
-				["realSpellName"] = "Void Eruption",
-				["use_spellName"] = true,
-				["health"] = "0",
-				["health_operator"] = ">",
-				["unevent"] = "auto",
-				["use_targetRequired"] = false,
-				["debuffType"] = "HELPFUL",
-				["use_power"] = true,
-			},
-			["height"] = 32,
-			["rotate"] = true,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["talent"] = {
-					["single"] = 19,
-					["multi"] = {
-						[20] = true,
-						[21] = true,
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["PRIEST"] = true,
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_talent"] = false,
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["use_spec"] = true,
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[3] = true,
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "texture",
-		},
-		["Priest - Shadow: Vampiric Embrace"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["unit"] = "player",
-				["spellIds"] = {
-				},
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Vampiric Embrace", -- [1]
-				},
-				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["load"] = {
-				["ingroup"] = {
 					["multi"] = {
 					},
 				},
 				["talent"] = {
 					["single"] = 16,
 					["multi"] = {
-						[16] = true,
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
 					},
 				},
 				["spec"] = {
@@ -5779,10 +28164,16 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["talent2"] = {
+				["class"] = {
+					["single"] = "PRIEST",
 					["multi"] = {
 					},
 				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -5791,19 +28182,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -5853,7 +28244,7 @@ WeakAurasSaved = {
 			["text2"] = "%p",
 			["auto"] = true,
 			["text1Font"] = "Friz Quadrata TT",
-			["id"] = "Priest - Shadow: Vampiric Embrace",
+			["id"] = "Priest - Shadow: Power Infusion",
 			["text1FontFlags"] = "OUTLINE",
 			["text2Enabled"] = false,
 			["anchorFrameType"] = "SCREEN",
@@ -5867,92 +28258,103 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
 				},
 				["main"] = {
 					["duration_type"] = "seconds",
 					["type"] = "none",
 				},
 				["finish"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
 				},
 			},
 		},
-		["Priest - Shadow: Shadowfiend"] = {
+		["VA - Misery"] = {
 			["glow"] = false,
-			["text1FontSize"] = 12,
-			["cooldownTextEnabled"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
 			["untrigger"] = {
 			},
 			["anchorPoint"] = "CENTER",
 			["activeTriggerMode"] = -10,
 			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["animation"] = {
+			["actions"] = {
 				["start"] = {
-					["type"] = "preset",
-					["duration_type"] = "seconds",
-					["preset"] = "fade",
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
 				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
+				["init"] = {
+					["do_custom"] = false,
 				},
 				["finish"] = {
-					["type"] = "preset",
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
 				},
 			},
 			["trigger"] = {
-				["duration"] = "39",
+				["spellId"] = "231363",
 				["names"] = {
-					"Potion of Deadly Grace", -- [1]
+					"Misery", -- [1]
 				},
-				["use_destName"] = false,
-				["use_cloneId"] = false,
 				["custom_hide"] = "timed",
-				["type"] = "event",
-				["subeventSuffix"] = "_CAST_SUCCESS",
-				["subeventPrefix"] = "SPELL",
-				["event"] = "Combat Log",
-				["debuffType"] = "HELPFUL",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
 				["unevent"] = "timed",
-				["use_spellName"] = true,
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
 				["spellIds"] = {
+					243961, -- [1]
 				},
-				["use_sourceUnit"] = true,
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
 				["unit"] = "player",
-				["use_destUnit"] = false,
-				["sourceUnit"] = "player",
-				["spellName"] = "Voidling",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
 			},
 			["desaturate"] = false,
-			["text1Point"] = "BOTTOMRIGHT",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
 			["text2FontFlags"] = "OUTLINE",
-			["height"] = 32,
-			["parent"] = "Priest - Shadow: Procs & Buffs",
+			["height"] = 60,
+			["yOffset"] = 0,
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
 					},
 				},
-				["talent"] = {
+				["use_never"] = false,
+				["encounterid"] = "2069",
+				["use_encounterid"] = true,
+				["role"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
+				["size"] = {
 					["multi"] = {
 					},
 				},
@@ -5960,10 +28362,1224 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
 				["difficulty"] = {
 					["multi"] = {
 					},
 				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "VA - Misery",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["KG - Ruiner Cast"] = {
+			["glow"] = true,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "246833",
+				["duration"] = "3",
+				["use_specific_sourceUnit"] = true,
+				["names"] = {
+					"Burning Armor", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["sourceName"] = "",
+				["use_sourceName"] = false,
+				["unevent"] = "timed",
+				["use_unit"] = true,
+				["type"] = "event",
+				["event"] = "Combat Log",
+				["spellIds"] = {
+					231363, -- [1]
+				},
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["name"] = "Ruiner",
+				["use_sourceUnit"] = true,
+				["spellName"] = "Focused Blast",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2088",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["use_combat"] = true,
+				["use_zone"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135798,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "KG - Ruiner Cast",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN - Cone of Death"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "pulse",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "248165",
+				["duration"] = "2.5",
+				["use_specific_sourceUnit"] = true,
+				["use_unit"] = true,
+				["debuffType"] = "HARMFUL",
+				["custom_hide"] = "timed",
+				["names"] = {
+				},
+				["sourceName"] = "",
+				["type"] = "event",
+				["unevent"] = "timed",
+				["use_sourceName"] = false,
+				["spellName"] = "",
+				["event"] = "Combat Log",
+				["name"] = "Cone of Death",
+				["use_spellId"] = true,
+				["use_spellName"] = false,
+				["spellIds"] = {
+				},
+				["use_sourceUnit"] = true,
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["sourceUnit"] = "boss1",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+						["HEALER"] = true,
+						["DAMAGER"] = true,
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["use_role"] = false,
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["use_zoneId"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 1060569,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "DODGE",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "UN - Cone of Death",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["PK - Howling Shadows"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "2765",
+					["do_custom"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "grow",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "245504",
+				["duration"] = "3",
+				["names"] = {
+					"Fiery Detonation", -- [1]
+				},
+				["use_cloneId"] = false,
+				["custom_hide"] = "timed",
+				["use_sourceName"] = false,
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["type"] = "event",
+				["event"] = "Combat Log",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					244709, -- [1]
+				},
+				["use_spellName"] = false,
+				["name"] = "Howling Shadows",
+				["sourceName"] = "",
+				["use_unit"] = true,
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["yOffset"] = 0,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2064",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 607852,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "KICK",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = false,
+			["zoom"] = 0,
+			["id"] = "PK - Howling Shadows",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN (M) - Chains/Sentence"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "14766",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\ElvUI\\media\\sounds\\warning.ogg",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Chains of Sargeras", -- [1]
+					"Sentence of Sargeras", -- [2]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					257961, -- [1]
+					257966, -- [2]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["cooldownTextEnabled"] = true,
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["icon"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN (M) - Chains/Sentence",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["parent"] = "T21: Antorus, the Burning Throne",
+		},
+		["IM - Conflagration"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_message"] = false,
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Conflagration", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					250191, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2082",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "IM - Conflagration",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
+		["UN - Aggramar's Boon"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Aggramar's Boon", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					255200, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "TOP",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Aggramar's Boon",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["ARGUS THE UNMAKER "] = {
+			["outline"] = "OUTLINE",
+			["glow"] = false,
+			["text1FontSize"] = 12,
+			["cooldownTextEnabled"] = true,
+			["displayText"] = " ",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["text1Enabled"] = false,
+			["selfPoint"] = "BOTTOM",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["names"] = {
+				},
+				["spellIds"] = {
+				},
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "Accidental Presidency",
+			["text1Containment"] = "INSIDE",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 1,
+			["disjunctive"] = "all",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["use_encounterid"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
 				["race"] = {
 					["multi"] = {
 					},
@@ -5972,46 +29588,26 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
+				["use_zone"] = false,
+				["use_combat"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["size"] = {
-					["multi"] = {
-					},
-				},
+				["use_zoneId"] = false,
 			},
-			["actions"] = {
-				["start"] = {
-				},
-				["init"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["conditions"] = {
-			},
-			["yOffset"] = 0,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["displayIcon"] = 236352,
+			["fontSize"] = 6,
 			["text2Containment"] = "INSIDE",
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["xOffset"] = 0,
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["inverse"] = false,
+			["numTriggers"] = 1,
 			["text2Point"] = "CENTER",
 			["text2Color"] = {
 				1, -- [1]
@@ -6020,92 +29616,29 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["regionType"] = "icon",
-			["stickyDuration"] = false,
-			["width"] = 32,
-			["text2FontSize"] = 24,
-			["frameStrata"] = 1,
-			["init_completed"] = 1,
-			["text1"] = "%c",
-			["xOffset"] = 0,
-			["zoom"] = 0,
-			["text2"] = "%p",
-			["auto"] = false,
 			["text1FontFlags"] = "OUTLINE",
-			["id"] = "Priest - Shadow: Shadowfiend",
-			["text1Font"] = "Friz Quadrata TT",
+			["anchorFrameType"] = "SCREEN",
+			["text2FontSize"] = 24,
 			["text2Enabled"] = false,
-			["anchorFrameType"] = "SCREEN",
 			["text2Font"] = "Friz Quadrata TT",
-			["text1Containment"] = "INSIDE",
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["displayIcon"] = 136199,
-			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
-		},
-		["Priest - Shadow: Insanity Bar"] = {
-			["backdropColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.5, -- [4]
-			},
-			["controlledChildren"] = {
-				"Insanity Bar - Options and Trigger 2", -- [1]
-				"Insanity Bar - Text - Left 2", -- [2]
-				"Insanity Bar - Text - Middle 2", -- [3]
-				"Insanity Bar - Text - Right 2", -- [4]
-				"Insanity Bar - Border - Insanity Ready 2", -- [5]
-				"Insanity Bar - Main Bar 2", -- [6]
-				"Insanity Bar - Casting Bar 2", -- [7]
-				"Insanity Bar - Auspicious Spirits Bar 2", -- [8]
-				"Insanity Bar - Non-LotV Marker 1 2", -- [9]
-				"Insanity Bar - Non-LotV Marker 2 2", -- [10]
-				"Insanity Bar - LotV Marker 1 2", -- [11]
-				"Insanity Bar - LotV Marker 2 2", -- [12]
-			},
-			["borderBackdrop"] = "Blizzard Tooltip",
-			["disjunctive"] = "all",
-			["border"] = false,
-			["yOffset"] = -188,
-			["regionType"] = "group",
-			["borderSize"] = 16,
-			["xOffset"] = 0,
-			["activeTriggerMode"] = -10,
-			["anchorPoint"] = "CENTER",
-			["url"] = "https://wago.io/rJD8ySOhW/1",
-			["expanded"] = false,
-			["untrigger"] = {
-			},
-			["trigger"] = {
-				["unit"] = "player",
-				["type"] = "aura",
-				["spellIds"] = {
-				},
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-			},
-			["borderOffset"] = 5,
-			["id"] = "Priest - Shadow: Insanity Bar",
-			["selfPoint"] = "BOTTOMLEFT",
-			["additional_triggers"] = {
-			},
-			["version"] = 1,
+			["text1"] = " ",
+			["text1Font"] = "Friz Quadrata TT",
+			["auto"] = false,
+			["text2"] = " ",
+			["justify"] = "LEFT",
+			["zoom"] = 0,
+			["id"] = "ARGUS THE UNMAKER ",
+			["stickyDuration"] = false,
 			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["borderColor"] = {
+			["width"] = 1,
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
-				0.5, -- [4]
+				1, -- [4]
 			},
-			["borderInset"] = 11,
-			["numTriggers"] = 1,
+			["yOffset"] = 0,
+			["inverse"] = false,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -6120,6 +29653,9 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
+			["conditions"] = {
+			},
+			["text1Point"] = "BOTTOMRIGHT",
 			["actions"] = {
 				["start"] = {
 				},
@@ -6128,40 +29664,89 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["conditions"] = {
+		},
+		["UN - Ember of Rage"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
 			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["do_message"] = false,
+					["do_sound"] = false,
+					["sound_kit_id"] = "14766",
+					["do_custom"] = false,
+					["sound"] = "Interface\\AddOns\\WeakAuras\\Media\\Sounds\\BikeHorn.ogg",
+					["message_type"] = "SAY",
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Ember of Rage", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					257299, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOMRIGHT",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
 					},
 				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = "true",
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
 					["multi"] = {
 					},
 				},
@@ -6169,7 +29754,482 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
 				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["cooldownTextEnabled"] = true,
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["op"] = "==",
+						["variable"] = "stacks",
+						["value"] = "1",
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["sound_kit_id"] = "6240",
+								["sound_type"] = "Play",
+								["sound"] = " KitID",
+								["sound_channel"] = "Master",
+							},
+							["property"] = "sound",
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["op"] = "==",
+						["variable"] = "stacks",
+						["value"] = "2",
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["sound_kit_id"] = "6240",
+								["sound_type"] = "Play",
+								["sound"] = " KitID",
+								["sound_channel"] = "Master",
+							},
+							["property"] = "sound",
+						}, -- [1]
+					},
+				}, -- [2]
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["op"] = "==",
+						["variable"] = "stacks",
+						["value"] = "3",
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["sound_kit_id"] = "14820",
+								["sound_type"] = "Play",
+								["sound"] = " KitID",
+								["sound_channel"] = "Master",
+							},
+							["property"] = "sound",
+						}, -- [1]
+					},
+				}, -- [3]
+			},
+			["text2Containment"] = "OUTSIDE",
+			["icon"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["text1Enabled"] = true,
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["selfPoint"] = "CENTER",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text1"] = "%s",
+			["additional_triggers"] = {
+			},
+			["text1Containment"] = "INSIDE",
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Ember of Rage",
+			["text1FontFlags"] = "OUTLINE",
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["inverse"] = false,
+			["text2Point"] = "CENTER",
+			["displayIcon"] = 135734,
+			["cooldown"] = true,
+			["yOffset"] = 0,
+		},
+		["UN - Vulnerability"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Arcane Vulnerability", -- [1]
+					"Fire Vulnerability", -- [2]
+					"Frost Vulnerability", -- [3]
+					"Holy Vulnerability", -- [4]
+					"Nature Vulnerability", -- [5]
+					"Physical Vulnerability", -- [6]
+					"Shadow Vulnerability", -- [7]
+				},
+				["custom_hide"] = "timed",
+				["debuffType"] = "HARMFUL",
+				["sourceName"] = "",
+				["use_specific_unit"] = false,
+				["unevent"] = "timed",
+				["unit"] = "target",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					255433, -- [1]
+					255429, -- [2]
+					255425, -- [3]
+					255419, -- [4]
+					255422, -- [5]
+					255418, -- [6]
+					255430, -- [7]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["use_sourceName"] = false,
+				["spellName"] = "Focused Blast",
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Containment"] = "INSIDE",
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["additional_triggers"] = {
+			},
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["id"] = "UN - Vulnerability",
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = false,
+			["icon"] = true,
+		},
+		["Insanity Bar - LotV Marker 1 2"] = {
+			["xOffset"] = 61,
+			["color"] = {
+				0.70980392156863, -- [1]
+				0.70980392156863, -- [2]
+				0.70980392156863, -- [3]
+				1, -- [4]
+			},
+			["mirror"] = false,
+			["untrigger"] = {
+				["spellName"] = 228260,
+			},
+			["regionType"] = "texture",
+			["anchorPoint"] = "CENTER",
+			["blendMode"] = "BLEND",
+			["activeTriggerMode"] = 0,
+			["rotate"] = true,
+			["yOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+				["init"] = {
+				},
+			},
+			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["use_power"] = true,
+				["use_unit"] = true,
+				["use_inverse"] = true,
+				["custom_hide"] = "timed",
+				["spellName"] = 228260,
+				["unevent"] = "auto",
+				["type"] = "status",
+				["use_health"] = true,
+				["power"] = "60",
+				["power_operator"] = "<",
+				["health_operator"] = ">",
+				["event"] = "Action Usable",
+				["unit"] = "player",
+				["realSpellName"] = "Void Eruption",
+				["use_spellName"] = true,
+				["health"] = "0",
+				["spellIds"] = {
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["subeventPrefix"] = "SPELL",
+			},
+			["desaturate"] = false,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["names"] = {
+							"Voidform", -- [1]
+						},
+						["inverse"] = true,
+						["custom_hide"] = "timed",
+						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
+						["unit"] = "player",
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["rotation"] = 0,
+			["frameStrata"] = 6,
+			["anchorFrameType"] = "SCREEN",
+			["discrete_rotation"] = 0,
+			["width"] = 2,
+			["numTriggers"] = 2,
+			["id"] = "Insanity Bar - LotV Marker 1 2",
+			["height"] = 32,
+			["conditions"] = {
+			},
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["talent"] = {
+					["single"] = 19,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						[3] = true,
+					},
+				},
+				["use_talent"] = true,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -6178,7 +30238,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["borderEdge"] = "None",
+			["parent"] = "Priest - Shadow: Insanity Bar",
 		},
 		["Priest - Shadow: Mark of the Claw"] = {
 			["glow"] = false,
@@ -6242,19 +30302,19 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
 				["faction"] = {
 					["multi"] = {
 					},
 				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
 				["use_class"] = true,
 				["size"] = {
 					["multi"] = {
@@ -6318,120 +30378,40 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["animation"] = {
 				["start"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
 				},
 				["main"] = {
 					["duration_type"] = "seconds",
 					["type"] = "none",
 				},
 				["finish"] = {
+					["preset"] = "fade",
 					["type"] = "preset",
 					["duration_type"] = "seconds",
-					["preset"] = "fade",
 				},
 			},
 		},
-		["Concordance of the Legionfall"] = {
-			["glow"] = false,
-			["text1FontSize"] = 12,
-			["parent"] = "Balance - Procs",
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-				["spellIds"] = {
-				},
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Concordance of the Legionfall", -- [1]
-				},
-				["unit"] = "player",
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["text1Point"] = "CENTER",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 40,
-			["load"] = {
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
-					["multi"] = {
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["untrigger"] = {
-			},
-			["text2Containment"] = "INSIDE",
-			["text1Containment"] = "INSIDE",
-			["text1Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
+		["Insanity Bar - LotV Marker 2 2"] = {
+			["parent"] = "Priest - Shadow: Insanity Bar",
+			["color"] = {
+				0.70980392156863, -- [1]
+				0.70980392156863, -- [2]
+				0.70980392156863, -- [3]
 				1, -- [4]
 			},
+			["anchorPoint"] = "CENTER",
+			["mirror"] = false,
+			["untrigger"] = {
+				["spellName"] = 228260,
+			},
+			["regionType"] = "texture",
+			["rotate"] = true,
+			["blendMode"] = "BLEND",
+			["activeTriggerMode"] = 0,
+			["yOffset"] = 0,
+			["init_completed"] = 1,
 			["actions"] = {
 				["start"] = {
 				},
@@ -6440,92 +30420,126 @@ WeakAurasSaved = {
 				["init"] = {
 				},
 			},
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_White_Border",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["scaleFunc"] = "    function(progress, startX, startY, scaleX, scaleY)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\n    end\n  ",
+					["scalex"] = 1.75,
+					["alphaType"] = "alphaPulse",
+					["colorA"] = 1,
+					["colorG"] = 0,
+					["alphaFunc"] = "    function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+					["use_alpha"] = false,
+					["scaley"] = 1.5,
+					["scaleType"] = "pulse",
+					["colorB"] = 1,
+					["use_scale"] = false,
+					["use_color"] = false,
+					["alpha"] = 0.75,
+					["colorType"] = "straightColor",
+					["y"] = 0,
+					["x"] = 0,
+					["type"] = "custom",
+					["colorR"] = 0.52549019607843,
+					["colorFunc"] = "function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
+					["rotate"] = 0,
+					["duration"] = ".5",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
 			},
-			["text2Color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["regionType"] = "icon",
-			["inverse"] = false,
-			["text2Point"] = "CENTER",
-			["text2FontSize"] = 24,
-			["stickyDuration"] = false,
-			["anchorFrameType"] = "SCREEN",
-			["text1"] = "%c",
-			["frameStrata"] = 1,
-			["text1FontFlags"] = "OUTLINE",
-			["text2"] = "%p",
-			["auto"] = true,
-			["xOffset"] = 0,
-			["id"] = "Concordance of the Legionfall",
-			["zoom"] = 0,
-			["text2Enabled"] = false,
-			["width"] = 40,
-			["text2Font"] = "Friz Quadrata TT",
-			["text1Font"] = "Friz Quadrata TT",
-			["numTriggers"] = 1,
-			["disjunctive"] = "all",
-			["init_started"] = 1,
-			["conditions"] = {
-			},
-			["cooldown"] = true,
-			["cooldownTextEnabled"] = true,
-		},
-		["Spectral Owl"] = {
-			["text2Point"] = "CENTER",
-			["text1FontSize"] = 12,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["activeTriggerMode"] = -10,
-			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["text1Enabled"] = true,
-			["selfPoint"] = "CENTER",
 			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
+				["use_power"] = true,
 				["unit"] = "player",
+				["spellName"] = 228260,
+				["custom_hide"] = "timed",
+				["power"] = "60",
+				["type"] = "status",
+				["use_health"] = true,
+				["health_operator"] = ">",
+				["power_operator"] = ">=",
+				["use_unit"] = true,
+				["event"] = "Action Usable",
+				["unevent"] = "auto",
+				["realSpellName"] = "Void Eruption",
+				["use_spellName"] = true,
+				["health"] = "0",
 				["spellIds"] = {
 				},
+				["subeventSuffix"] = "_CAST_START",
 				["debuffType"] = "HELPFUL",
 				["names"] = {
-					"Spectral Owl", -- [1]
 				},
 				["subeventPrefix"] = "SPELL",
-				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
-			["text1Point"] = "CENTER",
-			["text2FontFlags"] = "OUTLINE",
-			["height"] = 40,
+			["selfPoint"] = "CENTER",
+			["id"] = "Insanity Bar - LotV Marker 2 2",
+			["rotation"] = 0,
+			["frameStrata"] = 6,
+			["anchorFrameType"] = "SCREEN",
+			["discrete_rotation"] = 0,
+			["width"] = 2,
+			["numTriggers"] = 2,
+			["additional_triggers"] = {
+				{
+					["trigger"] = {
+						["type"] = "aura",
+						["subeventSuffix"] = "_CAST_START",
+						["event"] = "Health",
+						["names"] = {
+							"Voidform", -- [1]
+						},
+						["inverse"] = true,
+						["custom_hide"] = "timed",
+						["unit"] = "player",
+						["subeventPrefix"] = "SPELL",
+						["spellIds"] = {
+						},
+						["debuffType"] = "HELPFUL",
+					},
+					["untrigger"] = {
+					},
+				}, -- [1]
+			},
+			["height"] = 32,
+			["conditions"] = {
+			},
 			["load"] = {
 				["ingroup"] = {
 					["multi"] = {
 					},
 				},
+				["use_never"] = false,
 				["talent"] = {
+					["single"] = 19,
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
 					["multi"] = {
 					},
 				},
 				["class"] = {
+					["single"] = "PRIEST",
 					["multi"] = {
+						["PRIEST"] = true,
 					},
 				},
+				["spec"] = {
+					["single"] = 3,
+					["multi"] = {
+						[3] = true,
+					},
+				},
+				["use_talent"] = true,
 				["difficulty"] = {
 					["multi"] = {
 					},
@@ -6534,23 +30548,17 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
+				["use_spec"] = true,
 				["faction"] = {
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["use_class"] = true,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
 					["multi"] = {
 					},
 				},
@@ -6559,74 +30567,188 @@ WeakAurasSaved = {
 					},
 				},
 			},
+			["xOffset"] = 61,
+		},
+		["UN - Soulburst"] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
+					["message"] = "",
+					["do_custom"] = false,
+					["do_sound"] = true,
+					["sound_kit_id"] = "14766",
+					["do_message"] = false,
+					["sound"] = " KitID",
+					["message_type"] = "SAY",
 				},
 				["init"] = {
+					["do_custom"] = false,
 				},
 				["finish"] = {
 				},
 			},
-			["parent"] = "Balance - Procs",
-			["text2Containment"] = "INSIDE",
+			["text2Font"] = "Accidental Presidency",
 			["animation"] = {
 				["start"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
 				},
 				["main"] = {
 					["type"] = "none",
 					["duration_type"] = "seconds",
 				},
 				["finish"] = {
-					["type"] = "none",
 					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
 				},
 			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["names"] = {
+					"Soulburst", -- [1]
+				},
+				["event"] = "Chat Message",
+				["use_spellName"] = true,
+				["spellIds"] = {
+					250669, -- [1]
+				},
+				["use_spellId"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zone"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_zoneId"] = false,
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
 			["text1Color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = "OUT",
+			["id"] = "UN - Soulburst",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
 			["stickyDuration"] = false,
-			["disjunctive"] = "all",
-			["text2Color"] = {
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["regionType"] = "icon",
-			["numTriggers"] = 1,
-			["text1Font"] = "Friz Quadrata TT",
-			["text2FontSize"] = 24,
-			["text2Font"] = "Friz Quadrata TT",
-			["width"] = 40,
-			["text1"] = "%c",
-			["text2Enabled"] = false,
-			["text2"] = "%p",
-			["zoom"] = 0,
-			["auto"] = true,
-			["xOffset"] = 0,
-			["id"] = "Spectral Owl",
-			["text1FontFlags"] = "OUTLINE",
-			["frameStrata"] = 1,
-			["anchorFrameType"] = "SCREEN",
-			["glow"] = false,
-			["cooldownTextEnabled"] = true,
-			["inverse"] = false,
-			["text1Containment"] = "INSIDE",
-			["init_started"] = 1,
 			["conditions"] = {
 			},
 			["cooldown"] = true,
-			["yOffset"] = 0,
+			["icon"] = true,
 		},
 		["Insanity Bar - Text - Left 2"] = {
 			["outline"] = "OUTLINE",
 			["fontSize"] = 14,
-			["parent"] = "Priest - Shadow: Insanity Bar",
+			["xOffset"] = -204,
 			["displayText"] = " %c",
 			["customText"] = "function()\n    \n    local haste = UnitSpellHaste(\"player\");\n    local _, _, _, liCount, _, liDuration, _, _, _, _, liSpellId = UnitBuff(\"player\",GetSpellInfo(197937));\n    WA_Insanity_Bar_Color_Text_Left = WA_Insanity_Bar_Color_Text_Left or \"00FFFFFF\";\n    \n    local returnString = string.format(\"|c%s%.2f%%\", WA_Insanity_Bar_Color_Text_Left, haste);\n    \n    if WA_Insanity_getRemainingTimeAndStackCount ~= nil then\n        local remainingTime, stackCount, moreStacks = WA_Insanity_getRemainingTimeAndStackCount();        \n        \n        WA_Insanity_Bar_Color_Text_Left = WA_Insanity_Bar_Color_Text_Left or \"00FFFFFF\";\n        \n        if stackCount > 0 then\n            \n            returnString = returnString .. string.format(\" - %.0f\", stackCount);\n            \n            if WA_Insanity_Bar_Show_Left_Voidform_Incoming_Stacks then\n                \n                returnString = returnString .. string.format(\" (+%.0f)\", moreStacks);\n                \n            end\n            \n            returnString = returnString .. string.format(\" VF\");\n            \n        else\n            \n            if WA_Insanity_Bar_Show_Left_Lingering_Insanity_Left and liCount ~= nil and liCount > 0 then\n                \n                returnString = returnString .. string.format(\" - %.0f LI\", liCount);\n                \n            end \n            \n        end\n    end\n    return returnString;\nend",
 			["untrigger"] = {
@@ -6727,11 +30849,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["pvptalent"] = {
 					["multi"] = {
 					},
 				},
@@ -6739,135 +30858,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
-				["ingroup"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["xOffset"] = -204,
-		},
-		["Insanity Bar - Text - Right 2"] = {
-			["outline"] = "OUTLINE",
-			["fontSize"] = 14,
-			["xOffset"] = 204,
-			["displayText"] = "%c",
-			["customText"] = "function()\n    local health = UnitHealth(\"target\")\n    local time = GetTime()\n    local text\n    local oldhealth\n    if oldhealth ~= health then\n        oldhealth = health\n        if health == UnitHealthMax(\"target\") then -- THiS BLOCK IS GOOD\n            health0, time0, mhealth, mtime = nil\n            text = \" - - \"\n            return text\n        end\n        \n        if not health0 then -- GOOD\n            health0, time0 = health, time\n            mhealth, mtime = health, time\n            return\n        end\n        \n        mhealth = (mhealth + health) * .5\n        mtime = (mtime + time) * .5\n        \n        if mhealth >= health0 then\n            text = \" - - \"\n            health0, time0, mhealth, mtime =nil\n        else\n            time = health * (time0 - mtime) / (mhealth - health0)\n            if (time <= 60) then\n                text = format(\"%0.2d\",time)           \n            elseif (time > 60) then\n                text = format(\"%d:%0.2d\",time / 60, time % 60)\n            end\n            return text\n        end\n    end\nend",
-			["untrigger"] = {
-			},
-			["regionType"] = "text",
-			["color"] = {
-				1, -- [1]
-				0.9843137254902, -- [2]
-				0.9921568627451, -- [3]
-				1, -- [4]
-			},
-			["activeTriggerMode"] = 0,
-			["customTextUpdate"] = "update",
-			["init_completed"] = 1,
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-					["sound"] = " custom",
-					["do_sound"] = false,
-				},
-				["init"] = {
-				},
-			},
-			["yOffset"] = 0,
-			["anchorPoint"] = "CENTER",
-			["id"] = "Insanity Bar - Text - Right 2",
-			["justify"] = "RIGHT",
-			["selfPoint"] = "RIGHT",
-			["additional_triggers"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["frameStrata"] = 6,
-			["anchorFrameType"] = "SCREEN",
-			["trigger"] = {
-				["type"] = "status",
-				["custom_hide"] = "timed",
-				["unevent"] = "auto",
-				["use_percentpower"] = false,
-				["use_power"] = true,
-				["event"] = "Power",
-				["subeventPrefix"] = "SPELL",
-				["use_unit"] = true,
-				["powertype"] = 13,
-				["spellIds"] = {
-				},
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["names"] = {
-				},
-				["use_powertype"] = true,
-				["debuffType"] = "HELPFUL",
-			},
-			["font"] = "PT Sans Narrow",
-			["numTriggers"] = 1,
-			["width"] = 11.4999980926514,
-			["height"] = 14.1666269302368,
-			["conditions"] = {
-			},
-			["load"] = {
-				["talent2"] = {
-					["multi"] = {
-					},
-				},
-				["use_never"] = false,
-				["talent"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["PRIEST"] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 3,
-					["multi"] = {
-						[3] = true,
-					},
-				},
-				["race"] = {
-					["multi"] = {
-					},
-				},
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["faction"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
 				["pvptalent"] = {
-					["multi"] = {
-					},
-				},
-				["difficulty"] = {
 					["multi"] = {
 					},
 				},
@@ -6882,14 +30873,179 @@ WeakAurasSaved = {
 			},
 			["parent"] = "Priest - Shadow: Insanity Bar",
 		},
-	},
-	["registered"] = {
-	},
-	["frame"] = {
-		["xOffset"] = -205.83349609375,
-		["width"] = 646.666748046875,
-		["height"] = 516.166564941406,
-		["yOffset"] = -258.166625976563,
+		["UN - Soul Detonation "] = {
+			["glow"] = false,
+			["text1FontSize"] = 24,
+			["disjunctive"] = "all",
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["message"] = "",
+					["message_type"] = "SAY",
+					["do_message"] = false,
+					["do_custom"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["text2Font"] = "Accidental Presidency",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "slidebottom",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["spellId"] = "231363",
+				["names"] = {
+					"Soul Detonation", -- [1]
+				},
+				["custom_hide"] = "timed",
+				["sourceName"] = "",
+				["debuffType"] = "HARMFUL",
+				["unevent"] = "timed",
+				["spellName"] = "Focused Blast",
+				["use_unit"] = true,
+				["event"] = "Chat Message",
+				["use_spellId"] = true,
+				["spellIds"] = {
+					256899, -- [1]
+				},
+				["use_spellName"] = true,
+				["name"] = "Burning Armor",
+				["unit"] = "player",
+				["use_sourceName"] = false,
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+			},
+			["text1Containment"] = "OUTSIDE",
+			["progressPrecision"] = 0,
+			["text1Point"] = "BOTTOM",
+			["text2FontFlags"] = "OUTLINE",
+			["height"] = 60,
+			["parent"] = "T21: Antorus, the Burning Throne",
+			["load"] = {
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["use_never"] = false,
+				["encounterid"] = "2092",
+				["use_encounterid"] = true,
+				["use_zoneId"] = false,
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["use_level"] = false,
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["use_realm"] = false,
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["use_zone"] = false,
+				["use_combat"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["yOffset"] = 0,
+			["cooldownTextEnabled"] = true,
+			["displayIcon"] = 135734,
+			["text2Containment"] = "OUTSIDE",
+			["text1Enabled"] = true,
+			["text1Font"] = "Accidental Presidency",
+			["numTriggers"] = 1,
+			["selfPoint"] = "CENTER",
+			["text2Color"] = {
+				1, -- [1]
+				0.95294117647059, -- [2]
+				0.015686274509804, -- [3]
+				1, -- [4]
+			},
+			["regionType"] = "icon",
+			["text1Color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["width"] = 60,
+			["text2FontSize"] = 30,
+			["text2Enabled"] = false,
+			["text1FontFlags"] = "OUTLINE",
+			["text1"] = " ",
+			["id"] = "UN - Soul Detonation ",
+			["desaturate"] = false,
+			["text2"] = "%p",
+			["auto"] = true,
+			["zoom"] = 0,
+			["additional_triggers"] = {
+			},
+			["xOffset"] = 0,
+			["frameStrata"] = 1,
+			["anchorFrameType"] = "SCREEN",
+			["stickyDuration"] = false,
+			["text2Point"] = "CENTER",
+			["inverse"] = false,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["conditions"] = {
+			},
+			["cooldown"] = true,
+			["icon"] = true,
+		},
 	},
 	["editor_theme"] = "Monokai",
 }

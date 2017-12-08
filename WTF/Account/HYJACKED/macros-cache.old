@@ -56,6 +56,14 @@ VER 3 000000000000002D "T45 CC" "INV_MISC_QUESTIONMARK"
 /cancelaura Dispersion
 /cast Mind Bomb
 END
+VER 3 0000000000000049 "TSMMacro" "Achievement_Faction_GoldenLotus"
+/click TSMAuctioningCancelButton
+/click TSMCraftNextButton
+/click TSMShoppingCancelConfirmationButton
+/click TSMAuctioningPostButton
+/click TSMShoppingBuyoutButton
+/click TSMShoppingBuyoutConfirmationButton
+END
 VER 3 0000000000000022 "Vampiric Touch" "SPELL_HOLY_STOICISM"
 #showtooltip
 /cast [@mouseover,harm][] Vampiric Touch
