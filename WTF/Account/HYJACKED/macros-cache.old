@@ -1,6 +1,10 @@
 VER 3 0000000000000045 "Balance CC" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [mod:shift, @focus]Entangling Roots; Typhoon
+/cast [mod:shift, @focus]Entangling Roots; [talent:4/1] Mighty Bash; [talent:4/2] Mass Entanglement; [talent:4/3] Typhoon
+END
+VER 3 000000000000004A "Celestial Align" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Celestial Alignment
 END
 VER 3 000000000000000E "Extra Action" "Spell_Nature_SlowingTotem"
 /click ExtraActionButton1
@@ -20,6 +24,10 @@ END
 VER 3 0000000000000047 "Rebirth" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, help][] Rebirth
+END
+VER 3 000000000000004B "Sentinel Medal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Tarnished Sentinel Medallion
 END
 VER 3 0000000000000041 "Shadow CC" "INV_MISC_QUESTIONMARK"
 #showtooltip

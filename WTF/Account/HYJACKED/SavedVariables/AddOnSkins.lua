@@ -19,8 +19,8 @@ AddOnSkinsDB = {
 		},
 		["Amethizz - Proudmoore"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
-			["EmbedMain"] = "Details!",
 			["Blizzard_Transmogrify"] = false,
+			["EmbedMain"] = "Details!",
 			["EmbedSystem"] = true,
 		},
 	},

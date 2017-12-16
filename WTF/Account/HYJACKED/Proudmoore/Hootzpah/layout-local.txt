@@ -6,13 +6,6 @@ X: 0
 Y: 0
 W: 365
 H: 240
-Frame: RaidUtility_ShowButton
-FrameLevel: 1
-Anchor: TOP
-X: -366
-Y: -1
-W: 136
-H: 18
 Frame: SimcCopyFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -20,3 +13,10 @@ X: 0
 Y: 0
 W: 700
 H: 450
+Frame: RaidUtility_ShowButton
+FrameLevel: 1
+Anchor: TOP
+X: -366
+Y: -1
+W: 136
+H: 18

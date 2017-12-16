@@ -1,5 +1,5 @@
 local AddOnName, Engine = ...
-local AddOn = LibStub('AceAddon-3.0'):NewAddon('AddOnSkins', 'AceEvent-3.0')
+local AddOn = LibStub('AceAddon-3.0'):NewAddon('AddOnSkins', 'AceEvent-3.0', 'AceHook-3.0')
 
 Engine[1] = AddOn
 Engine[2] = {}	-- Media
@@ -10,7 +10,7 @@ AddOn.Title = GetAddOnMetadata(AddOnName, 'Title')
 AddOn.Version = GetAddOnMetadata(AddOnName, 'Version')
 AddOn.Authors = GetAddOnMetadata(AddOnName, 'Author'):gsub(", ", "    ")
 AddOn.LSM = LibStub('LibSharedMedia-3.0')
-AddOn.TicketTracker = 'http://git.tukui.org/Azilroka/addonskins'
+AddOn.TicketTracker = 'https://git.tukui.org/Azilroka/AddOnSkins/issues'
 AddOn.MyClass = select(2, UnitClass('player'))
 AddOn.MyName = UnitName('player')
 AddOn.MyRealm = GetRealmName()

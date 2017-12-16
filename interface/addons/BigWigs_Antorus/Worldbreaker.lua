@@ -147,6 +147,9 @@ do
 	function mod:Decimation(args)
 		self:Bar(244410, (self:Mythic() or stage == 1) and 31.6 or 15.8) -- Decimation
 		self:CDBar("decimationImpact", args.spellId == 246919 and 7 or 10, L.decimationImpact, L.decimationImpact_icon) -- 246919 = haywire (mythic)
+		if stage == 1 or self:Mythic() then
+			self:Bar(244761, 15.8) -- Annihilation
+		end
 		decimationCasted = GetTime()
 		isOnMe = nil
 		if not scheduled then
@@ -202,7 +205,7 @@ function mod:WeaponDeath(args)
 	self:Message(240277, "Positive", "Info", CL.interrupted:format(self:SpellName(240277)))
 	self:StopBar(CL.cast:format(self:SpellName(240277)))
 
-	self:Bar(244969, 11) -- Eradication
+	self:Bar(244969, 10) -- Eradication
 	self:Bar(246220, 23.1) -- Fel Bombardment
 
 	if args.mobId == 122778 then -- Annihilator death
