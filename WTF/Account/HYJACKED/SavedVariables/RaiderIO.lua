@@ -8,9 +8,9 @@ RaiderIO_Config = {
 	["disableScoreColors"] = false,
 	["enableLFGTooltips"] = true,
 	["showMainsScore"] = true,
-	["enableWhoTooltips"] = true,
-	["enableWhoMessages"] = true,
 	["showSimpleScoreColors"] = false,
+	["enableWhoMessages"] = true,
+	["enableWhoTooltips"] = true,
 	["enableLFGDropdown"] = true,
 	["enableGuildTooltips"] = true,
 }
