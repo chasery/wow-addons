@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local S = E:GetModule('Skins')
 
 --Cache global variables
@@ -67,7 +67,7 @@ local function SkinScrollBar(frame, thumbTrim)
 				frame.thumbbg:SetTemplate("Default", true, true)
 				frame.thumbbg.backdropTexture:SetVertexColor(0.6, 0.6, 0.6)
 				if frame.trackbg then
-					frame.thumbbg:SetFrameLevel(frame.trackbg:GetFrameLevel())
+					frame.thumbbg:SetFrameLevel(frame.trackbg:GetFrameLevel()+1)
 				end
 			end
 		end

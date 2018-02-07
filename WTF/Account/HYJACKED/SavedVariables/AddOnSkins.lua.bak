@@ -2,13 +2,31 @@
 AddOnSkinsDB = {
 	["profileKeys"] = {
 		["Hootzpah - Proudmoore"] = "Hootzpah - Proudmoore",
-		["Vonyc - Proudmoore"] = "Vonyc - Proudmoore",
+		["Adstedt - Bleeding Hollow"] = "Adstedt - Bleeding Hollow",
+		["Amethizz - Bleeding Hollow"] = "Amethizz - Bleeding Hollow",
 		["Amethizz - Proudmoore"] = "Amethizz - Proudmoore",
+		["Furiousgash - Proudmoore"] = "Furiousgash - Proudmoore",
+		["Vonyc - Proudmoore"] = "Vonyc - Proudmoore",
+		["Anjüna - Proudmoore"] = "Anjüna - Proudmoore",
+		["Closet - Proudmoore"] = "Closet - Proudmoore",
 	},
 	["profiles"] = {
 		["Hootzpah - Proudmoore"] = {
 			["Blizzard_WorldStateCaptureBar"] = false,
 			["Blizzard_Transmogrify"] = false,
+			["EmbedSystem"] = true,
+		},
+		["Adstedt - Bleeding Hollow"] = {
+		},
+		["Amethizz - Bleeding Hollow"] = {
+		},
+		["Amethizz - Proudmoore"] = {
+			["Blizzard_WorldStateCaptureBar"] = false,
+			["EmbedMain"] = "Details!",
+			["Blizzard_Transmogrify"] = false,
+			["EmbedSystem"] = true,
+		},
+		["Furiousgash - Proudmoore"] = {
 			["EmbedSystem"] = true,
 		},
 		["Vonyc - Proudmoore"] = {
@@ -17,10 +35,10 @@ AddOnSkinsDB = {
 			["Blizzard_Transmogrify"] = false,
 			["EmbedSystem"] = true,
 		},
-		["Amethizz - Proudmoore"] = {
-			["Blizzard_WorldStateCaptureBar"] = false,
-			["Blizzard_Transmogrify"] = false,
-			["EmbedMain"] = "Details!",
+		["Anjüna - Proudmoore"] = {
+			["EmbedSystem"] = true,
+		},
+		["Closet - Proudmoore"] = {
 			["EmbedSystem"] = true,
 		},
 	},

@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local LSM = LibStub("LibSharedMedia-3.0")
 local Masque = LibStub("Masque", true)
 
@@ -30,6 +30,7 @@ local RequestBattlefieldScoreData = RequestBattlefieldScoreData
 local SendAddonMessage = SendAddonMessage
 local UnitGroupRolesAssigned = UnitGroupRolesAssigned
 local UnitHasVehicleUI = UnitHasVehicleUI
+local GetNumGroupMembers = GetNumGroupMembers
 local UnitLevel, UnitStat, UnitAttackPower = UnitLevel, UnitStat, UnitAttackPower
 local COMBAT_RATING_RESILIENCE_PLAYER_DAMAGE_TAKEN = COMBAT_RATING_RESILIENCE_PLAYER_DAMAGE_TAKEN
 local ERR_NOT_IN_COMBAT = ERR_NOT_IN_COMBAT
@@ -54,7 +55,7 @@ E.myfaction = select(2, UnitFactionGroup('player'));
 E.myname = UnitName("player");
 E.version = GetAddOnMetadata("ElvUI", "Version");
 E.myrealm = GetRealmName();
-E.wowbuild = select(2, GetBuildInfo()); E.wowbuild = tonumber(E.wowbuild);
+E.wowpatch, E.wowbuild = GetBuildInfo(); E.wowbuild = tonumber(E.wowbuild);
 E.resolution = ({GetScreenResolutions()})[GetCurrentResolution()] or GetCVar("gxWindowedResolution"); --only used for now in our install.lua line 779
 E.screenwidth, E.screenheight = GetPhysicalScreenSize();
 E.isMacClient = IsMacClient();
@@ -453,7 +454,9 @@ end
 function E:UpdateFrameTemplates()
 	for frame in pairs(self["frames"]) do
 		if frame and frame.template and not frame.ignoreUpdates then
-			frame:SetTemplate(frame.template, frame.glossTex);
+			if not frame.ignoreFrameTemplates then
+				frame:SetTemplate(frame.template, frame.glossTex);
+			end
 		else
 			self["frames"][frame] = nil;
 		end
@@ -461,7 +464,9 @@ function E:UpdateFrameTemplates()
 
 	for frame in pairs(self["unitFrameElements"]) do
 		if frame and frame.template and not frame.ignoreUpdates then
-			frame:SetTemplate(frame.template, frame.glossTex);
+			if not frame.ignoreFrameTemplates then
+				frame:SetTemplate(frame.template, frame.glossTex);
+			end
 		else
 			self["unitFrameElements"][frame] = nil;
 		end
@@ -471,8 +476,10 @@ end
 function E:UpdateBorderColors()
 	for frame, _ in pairs(self["frames"]) do
 		if frame and not frame.ignoreUpdates then
-			if frame.template == 'Default' or frame.template == 'Transparent' or frame.template == nil then
-				frame:SetBackdropBorderColor(unpack(self['media'].bordercolor))
+			if not frame.ignoreBorderColors then
+				if frame.template == 'Default' or frame.template == 'Transparent' or frame.template == nil then
+					frame:SetBackdropBorderColor(unpack(self['media'].bordercolor))
+				end
 			end
 		else
 			self["frames"][frame] = nil;
@@ -481,8 +488,10 @@ function E:UpdateBorderColors()
 
 	for frame, _ in pairs(self["unitFrameElements"]) do
 		if frame and not frame.ignoreUpdates then
-			if frame.template == 'Default' or frame.template == 'Transparent' or frame.template == nil then
-				frame:SetBackdropBorderColor(unpack(self['media'].unitframeBorderColor))
+			if not frame.ignoreBorderColors then
+				if frame.template == 'Default' or frame.template == 'Transparent' or frame.template == nil then
+					frame:SetBackdropBorderColor(unpack(self['media'].unitframeBorderColor))
+				end
 			end
 		else
 			self["unitFrameElements"][frame] = nil;
@@ -493,14 +502,16 @@ end
 function E:UpdateBackdropColors()
 	for frame, _ in pairs(self["frames"]) do
 		if frame then
-			if frame.template == 'Default' or frame.template == nil then
-				if frame.backdropTexture then
-					frame.backdropTexture:SetVertexColor(unpack(self['media'].backdropcolor))
-				else
-					frame:SetBackdropColor(unpack(self['media'].backdropcolor))
+			if not frame.ignoreBackdropColors then
+				if frame.template == 'Default' or frame.template == nil then
+					if frame.backdropTexture then
+						frame.backdropTexture:SetVertexColor(unpack(self['media'].backdropcolor))
+					else
+						frame:SetBackdropColor(unpack(self['media'].backdropcolor))
+					end
+				elseif frame.template == 'Transparent' then
+					frame:SetBackdropColor(unpack(self['media'].backdropfadecolor))
 				end
-			elseif frame.template == 'Transparent' then
-				frame:SetBackdropColor(unpack(self['media'].backdropfadecolor))
 			end
 		else
 			self["frames"][frame] = nil;
@@ -509,14 +520,16 @@ function E:UpdateBackdropColors()
 
 	for frame, _ in pairs(self["unitFrameElements"]) do
 		if frame then
-			if frame.template == 'Default' or frame.template == nil then
-				if frame.backdropTexture then
-					frame.backdropTexture:SetVertexColor(unpack(self['media'].backdropcolor))
-				else
-					frame:SetBackdropColor(unpack(self['media'].backdropcolor))
+			if not frame.ignoreBackdropColors then
+				if frame.template == 'Default' or frame.template == nil then
+					if frame.backdropTexture then
+						frame.backdropTexture:SetVertexColor(unpack(self['media'].backdropcolor))
+					else
+						frame:SetBackdropColor(unpack(self['media'].backdropcolor))
+					end
+				elseif frame.template == 'Transparent' then
+					frame:SetBackdropColor(unpack(self['media'].backdropfadecolor))
 				end
-			elseif frame.template == 'Transparent' then
-				frame:SetBackdropColor(unpack(self['media'].backdropfadecolor))
 			end
 		else
 			self["unitFrameElements"][frame] = nil;
@@ -906,6 +919,7 @@ function E:SendMessage()
 	end
 end
 
+local SendRecieveGroupSize = -1 --this is negative one so that the first check will send (if group size is greater than one; specifically for /reload)
 local myRealm = gsub(E.myrealm,'[%s%-]','')
 local myName = E.myname..'-'..myRealm
 local function SendRecieve(_, event, prefix, message, _, sender)
@@ -924,17 +938,23 @@ local function SendRecieve(_, event, prefix, message, _, sender)
 			end
 		end
 	else
-		E.SendMSGTimer = E:ScheduleTimer('SendMessage', 12)
+		local num = GetNumGroupMembers()
+		if num ~= SendRecieveGroupSize then
+			if num > 1 and num > SendRecieveGroupSize then
+				E.SendMSGTimer = E:ScheduleTimer('SendMessage', 12)
+			end
+			SendRecieveGroupSize = num
+		end
 	end
 end
 
 RegisterAddonMessagePrefix('ELVUI_VERSIONCHK')
 
-local f = CreateFrame('Frame')
+local f = CreateFrame("Frame")
 f:RegisterEvent("GROUP_ROSTER_UPDATE")
 --f:RegisterEvent("ADDON_LOADED")
 f:RegisterEvent("CHAT_MSG_ADDON")
-f:SetScript('OnEvent', SendRecieve)
+f:SetScript("OnEvent", SendRecieve)
 
 function E:UpdateAll(ignoreInstall)
 	if not self.initialized then
@@ -976,6 +996,7 @@ function E:UpdateAll(ignoreInstall)
 	AB:UpdateMicroPositionDimensions()
 	AB:Extra_SetAlpha()
 	AB:Extra_SetScale()
+	AB:ToggleDesaturation()
 
 	local bags = E:GetModule('Bags');
 	bags.db = self.db.bags
@@ -998,6 +1019,7 @@ function E:UpdateAll(ignoreInstall)
 
 	local NP = self:GetModule('NamePlates')
 	NP.db = self.db.nameplates
+	NP:StyleFilterInitializeAllFilters()
 	NP:ConfigureAll()
 
 	local DataBars = self:GetModule("DataBars")
@@ -1184,6 +1206,79 @@ function E:UnregisterObjectForVehicleLock(object)
 
 	--Remove object from table
 	E.VehicleLocks[object] = nil
+end
+
+local EventRegister = {}
+local EventFrame = CreateFrame("Frame")
+EventFrame:SetScript("OnEvent", function(self, event, ...)
+	if EventRegister[event] then
+		for object, functions in pairs(EventRegister[event]) do
+			for _, func in ipairs(functions) do
+				--Call the functions that are registered with this object, and pass the object and other arguments back
+				func(object, event, ...)
+			end
+		end
+	end
+end)
+
+--- Registers specified event and adds specified func to be called for the specified object.
+-- Unless all parameters are supplied it will not register.
+-- If the specified object has already been registered for the specified event
+-- then it will just add the specified func to a table of functions that should be called.
+-- When a registered event is triggered, then the registered function is called with
+-- the object as first parameter, then event, and then all the parameters for the event itself.
+-- @param event The event you want to register.
+-- @param object The object you want to register the event for.
+-- @param func The function you want executed for this object.
+function E:RegisterEventForObject(event, object, func)
+	if not event or not object or not func then
+		E:Print("Error. Usage: RegisterEventForObject(event, object, func)")
+		return
+	end
+
+	if not EventRegister[event] then --Check if event has already been registered
+		EventRegister[event] = {}
+		EventFrame:RegisterEvent(event)
+	else
+		if not EventRegister[event][object] then --Check if this object has already been registered
+			EventRegister[event][object] = {func}
+		else
+			tinsert(EventRegister[event][object], func) --Add func that should be called for this object on this event
+		end
+	end
+end
+
+--- Unregisters specified function for the specified object on the specified event.
+-- Unless all parameters are supplied it will not unregister.
+-- @param event The event you want to unregister an object from.
+-- @param object The object you want to unregister a func from.
+-- @param func The function you want unregistered for the object.
+function E:UnregisterEventForObject(event, object, func)
+	if not event or not object or not func then
+		E:Print("Error. Usage: UnregisterEventForObject(event, object, func)")
+		return
+	end
+
+	--Find the specified function for the specified object and remove it from the register
+	if EventRegister[event] and EventRegister[event][object] then
+		for index, registeredFunc in ipairs(EventRegister[event][object]) do
+			if func == registeredFunc then
+				tremove(EventRegister[event][object], index)
+				break
+			end
+		end
+
+		--If this object no longer has any functions registered then remove it from the register
+		if #EventRegister[event][object] == 0 then
+			EventRegister[event][object] = nil
+		end
+
+		--If this event no longer has any objects registered then unregister it and remove it from the register
+		if not next(EventRegister[event]) then
+			EventFrame:UnregisterEvent(event)
+			EventRegister[event] = nil
+		end
+	end
 end
 
 function E:ResetAllUI()
@@ -1484,6 +1579,9 @@ function E:Initialize()
 
 	self:UpdateMedia()
 	self:UpdateFrameTemplates()
+	self:UpdateBorderColors()
+	self:UpdateBackdropColors()
+	self:UpdateStatusBars()
 	self:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED", "CheckRole");
 	self:RegisterEvent("PLAYER_TALENT_UPDATE", "CheckRole");
 	self:RegisterEvent("CHARACTER_POINTS_CHANGED", "CheckRole");

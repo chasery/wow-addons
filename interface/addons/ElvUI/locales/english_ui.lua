@@ -38,6 +38,7 @@ L["Purchase Bags"] = true
 L["Purchase"] = true
 L["Reagent Bank"] = true
 L["Reset Position"] = true
+L["Right Click the bag icon to assign a type of item to this bag."] = true
 L["Show/Hide Reagents"] = true
 L["Sort Tab"] = true --Not used, yet?
 L["Temporary Move"] = true
@@ -104,10 +105,12 @@ L["Main Hand"] = true
 L["Mission(s) Report:"] = true
 L["Mitigation By Level: "] = true
 L["Mobile"] = true
+L["Mov. Speed:"] = true
 L["Naval Mission(s) Report:"] = true
 L["No Guild"] = true
 L["Offhand"] = true
 L["Profit:"] = true
+L["Reset Counters: Hold Shift + Left Click"] = true
 L["Reset Data: Hold Shift + Right Click"] = true
 L["Saved Raid(s)"] = true
 L["Saved Dungeon(s)"] = true
@@ -134,7 +137,6 @@ L["|cffFFFFFFShift + Left Click:|r Show Talent Specialization UI"] = true
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = true
-L["No locals to dump"] = true
 
 --Distributor
 L["%s is attempting to share his filters with you. Would you like to accept the request?"] = true
@@ -180,7 +182,6 @@ L["Layout"] = true
 L["Lock"] = true
 L["Low Resolution"] = true
 L["low"] = true
-L["Movers unlocked. Move them now and click Lock when you are done."] = true
 L["Nudge"] = true
 L["Physical DPS"] = true
 L["Please click the button below so you can setup variables and ReloadUI."] = true

@@ -1,94 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		" nothing, you?", -- [1]
-		" I'll dps or what ever if ya want. We could do a world tour mythic", -- [2]
-		" seems like discord is being ddosed", -- [3]
-		" umm belt or ring if you are praying for lego", -- [4]
-		" ok, almost done with my auctions", -- [5]
-		"/tsm", -- [6]
-		"/tsm bankui", -- [7]
-		"/ec", -- [8]
-		"/simc", -- [9]
-		"/2 can't tell if troll or can't read", -- [10]
-		" I saw that", -- [11]
-		" oops mt", -- [12]
-		" I saw that! Grats muh dude", -- [13]
-		" How do the token systems work?", -- [14]
-		" do you send them to alts?", -- [15]
-		" ok, so if you send it to say a warrior, you get a warrior lego for the spec, the class, or what?", -- [16]
-		" that's stupid", -- [17]
-		" if you have all of a class's legendaries, you should at least be able to specify the class you want your token for lol", -- [18]
-		" yep", -- [19]
-		" fucking stupid", -- [20]
+		" make lunch, hurry", -- [1]
+		"/cw Kaleifu-Proudmoore Hey there, how's it going?", -- [2]
+		" I most likely can't do tonight. If you have to go, that's fine. We'll see if some other time works", -- [3]
+		" but I am in a similar position. Wife is waking up and my free time for the weekend will be over most likely in the next couple of hours", -- [4]
+		" ok, well if it works out, maybe I'll join up with you tomorrow!", -- [5]
+		" you too :)", -- [6]
+		" I think I am main switching to lock ahah", -- [7]
+		" I raided last night and it was super disappointing to have any kind of burst damage removed from the boomkin", -- [8]
+		" so I'll keep gearing up the lock and eventually make the switch", -- [9]
+		" Yeah, I have three to four melee who think parsing high means you are good. So they cheese every fight by focusing adds", -- [10]
+		" Instead of going ST and shortening the fight ahha", -- [11]
+		" so every one can parse", -- [12]
+		" That's what kills me. I am one of the more skilled players in the guild. It's frustrating to be mid pack or below", -- [13]
+		" haha then I link them my M+ score", -- [14]
+		"/2 I have a Denon", -- [15]
+		"/2 You'll get quests to fully upgrade to 900", -- [16]
+		"/2 quests being missions*", -- [17]
+		" Nah, this is my bank alt :)", -- [18]
+		"/tsm", -- [19]
+		"/TSM", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"|cffffff00The Canals is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			1057, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1513006413,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [1]
-		{
-			"xd", -- [1]
-			"Caeldori-Cairne", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Caeldori-Cairne", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1081, -- [11]
-			"Player-122-07CB72AC", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffCaeldori-Cairne|r",
-			[51] = 1513352783,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
-			"", -- [2]
-			"", -- [3]
-			"3. LocalDefense - Stormwind City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Stormwind City", -- [9]
-			0, -- [10]
-			5523, -- [11]
-			false, -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "",
-			[51] = 1513364461,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [3]
 		{
 			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
 			"", -- [2]
@@ -110,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1513364561,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [4]
+		}, -- [1]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -132,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1513364566,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [5]
+		}, -- [2]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -154,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1513365233,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [6]
+		}, -- [3]
 		{
 			"|cffffff00Trade District is under attack!|r", -- [1]
 			"", -- [2]
@@ -176,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "",
 			[51] = 1513366833,
 			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
+		}, -- [4]
 		{
 			"Just got my final legendary", -- [1]
 			"|Kf68|k000000000|k", -- [2]
@@ -198,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513448462,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [8]
+		}, -- [5]
 		{
 			"token time", -- [1]
 			"|Kf68|k000000000|k", -- [2]
@@ -220,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513448464,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [9]
+		}, -- [6]
 		{
 			"I saw that", -- [1]
 			"|Kf68|k000|k", -- [2]
@@ -242,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Two|r",
 			[51] = 1513455050,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [10]
+		}, -- [7]
 		{
 			"oops mt", -- [1]
 			"|Kf68|k000|k", -- [2]
@@ -264,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffabd473Two|r",
 			[51] = 1513455055,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [11]
+		}, -- [8]
 		{
 			"I saw that! Grats muh dude", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -286,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455073,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [12]
+		}, -- [9]
 		{
 			"How do the token systems work?", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -308,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455087,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [13]
+		}, -- [10]
 		{
 			"random one for random class", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -330,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455097,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [14]
+		}, -- [11]
 		{
 			"do you send them to alts?", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -352,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455099,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [15]
+		}, -- [12]
 		{
 			"ye", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -374,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455102,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [16]
+		}, -- [13]
 		{
 			"ok, so if you send it to say a warrior, you get a warrior lego for the spec, the class, or what?", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -396,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455134,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [17]
+		}, -- [14]
 		{
 			"No, it will be for a specific classs", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -418,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455142,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [18]
+		}, -- [15]
 		{
 			"idk about spec", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -440,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455145,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [19]
+		}, -- [16]
 		{
 			"that's stupid", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -462,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455155,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [20]
+		}, -- [17]
 		{
 			"yeh", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -484,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455165,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [21]
+		}, -- [18]
 		{
 			"if you have all of a class's legendaries, you should at least be able to specify the class you want your token for lol", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -506,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455186,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [22]
+		}, -- [19]
 		{
 			"It isnt even going to be a class you have", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -528,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455221,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [23]
+		}, -- [20]
 		{
 			"is the best part", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -550,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455223,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [24]
+		}, -- [21]
 		{
 			"Like i could get a pally or priest one", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -572,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455231,
 			[50] = "CHAT_MSG_BN_WHISPER",
-		}, -- [25]
+		}, -- [22]
 		{
 			"yep", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -594,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455232,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [26]
+		}, -- [23]
 		{
 			"fucking stupid", -- [1]
 			"|Kf65|k000000000|k", -- [2]
@@ -616,6 +550,2272 @@ ElvCharacterDB = {
 			[52] = "|cff3fc7ebStormvine|r",
 			[51] = 1513455246,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [24]
+		{
+			"Save yourself the pain... Don't level up a shadow priest ahha", -- [1]
+			"|Kf67|k000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1607, -- [11]
+			false, -- [12]
+			67, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffTwo|r",
+			[51] = 1513619528,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [25]
+		{
+			"|cffffff00Old Town is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3183, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1513621885,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [26]
+		{
+			"Are you guys actually three nights of progression?", -- [1]
+			"Sephuz-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sephuz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4501, -- [11]
+			"Player-5-0ABBC3E5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Sephuz|r",
+			[51] = 1513625068,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [27]
+		{
+			"ye", -- [1]
+			"Sephuz-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sephuz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4505, -- [11]
+			"Player-5-0ABBC3E5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Sephuz|r",
+			[51] = 1513625131,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [28]
+		{
+			"Hmm, ok. Thanks for the response", -- [1]
+			"Sephuz-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Sephuz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4507, -- [11]
+			"Player-5-0ABBC3E5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9Sephuz|r",
+			[51] = 1513625152,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [29]
+		{
+			"Muh dude, did you get through your 15 for the week?", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			868, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825013,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [30]
+		{
+			"Also how's it going? :)", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			872, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825020,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [31]
+		{
+			"haha hey man, not yet!  pretty sure i am dying", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			888, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825044,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [32]
+		{
+			"but waiting to make a final decision", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			894, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825051,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [33]
+		{
+			"how was your nye?", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			896, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825053,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [34]
+		{
+			"Oh shit, that's not good. Hung over? ", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			948, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825106,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [35]
+		{
+			"very lol", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			952, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825110,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [36]
+		{
+			"It was super lame, Jesse and I went to bed at 11 our time", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			972, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825148,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [37]
+		{
+			"there is nothing wrong with that", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			974, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825158,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [38]
+		{
+			"we would have done the same if it wasnt our first nye in chicago", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			976, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825163,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [39]
+		{
+			"going out for nye is so overrated", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			984, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825173,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [40]
+		{
+			"We moved to SoCal for the year and we have literally 0 friends down here", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1010, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825183,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [41]
+		{
+			"oh nice!", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1023, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825188,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [42]
+		{
+			"new jobs?", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1044, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825195,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [43]
+		{
+			"Jesse is finishing up her final year of her doctorate down here. She was accepted at her number 1 site for internship, so we had to take the opportunity for here", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1113, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825261,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [44]
+		{
+			"her*", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1114, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825263,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [45]
+		{
+			"oh damn!!", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1115, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825270,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [46]
+		{
+			"grats to her thats amazing", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1116, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825272,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [47]
+		{
+			"Definitely and thanks! How's Chicago treating you two?", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1141, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825415,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [48]
+		{
+			"<Deadly Boss Mods> Mezichia is busy fighting against World Boss - Pit Lord Vilemus (unknown, 22/22 people alive)", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1143, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825415,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [49]
+		{
+			"freaking great so far - both love the city and our jobs'", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1163, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825442,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [50]
+		{
+			"got a good group of friends so its all working out thankfully", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1176, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825448,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [51]
+		{
+			"glad leighton talked me into coming back", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1188, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825556,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [52]
+		{
+			"amped we're all playing together again", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1189, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825560,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [53]
+		{
+			"That's awesome. It sounds like you guys have gone in to the new city and rocked the shit out of it ahha", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1190, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825589,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [54]
+		{
+			"yea got really lucky", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1194, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825653,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [55]
+		{
+			"leightons best friend lives in chicago so i started hanging out with them when top visisted", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1198, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825664,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [56]
+		{
+			"became really good friends with him and now wiht their whole group of friends", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1202, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825676,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [57]
+		{
+			"insanely lucky/small world", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1203, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825681,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [58]
+		{
+			"oh that's super awesome! If you guys do another chicago hang out, I am going to head up there to get fucking trashed with you all", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1206, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825704,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [59]
+		{
+			"yessss hell yea man", -- [1]
+			"|Kf12|k00000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1209, -- [11]
+			false, -- [12]
+			16, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Zimma|r",
+			[51] = 1514825713,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [60]
+		{
+			"YOU READY TO HEAL?", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2665, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff58cbaFrostfire|r",
+			[51] = 1514917412,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [61]
+		{
+			"was going to grab lunch after opening chests", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2667, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff58cbaFrostfire|r",
+			[51] = 1514917432,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [62]
+		{
+			"theni can heal", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2668, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff58cbaFrostfire|r",
+			[51] = 1514917436,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [63]
+		{
+			"lol", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2670, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff58cbaFrostfire|r",
+			[51] = 1514917437,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [64]
+		{
+			"REALLY, JADE?", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2672, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff58cbaFrostfire|r",
+			[51] = 1514917444,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [65]
+		{
+			"do we have a group right now?", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2674, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff58cbaFrostfire|r",
+			[51] = 1514917460,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [66]
+		{
+			"Dayla, Xeno, myself, and you", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2677, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff58cbaFrostfire|r",
+			[51] = 1514917482,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [67]
+		{
+			"make lunch, hurry", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2707, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aFrostfire|r",
+			[51] = 1514917693,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [68]
+		{
+			"alright", -- [1]
+			"|Kf19|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2709, -- [11]
+			false, -- [12]
+			20, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aFrostfire|r",
+			[51] = 1514917699,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [69]
+		{
+			"Hey there, how's it going?", -- [1]
+			"Kaleifu-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kaleifu", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2791, -- [11]
+			"Player-5-0AC55C7B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Kaleifu|r",
+			[51] = 1515175676,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [70]
+		{
+			"|cffffff00The Canals is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			4485, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515191848,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [71]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			4536, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515191998,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"I most likely can't do tonight. If you have to go, that's fine. We'll see if some other time works", -- [1]
+			"|Kf42|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			185, -- [11]
+			false, -- [12]
+			61, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9DocGonzo|r",
+			[51] = 1515250817,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [73]
+		{
+			"but I am in a similar position. Wife is waking up and my free time for the weekend will be over most likely in the next couple of hours", -- [1]
+			"|Kf42|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			205, -- [11]
+			false, -- [12]
+			61, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9DocGonzo|r",
+			[51] = 1515250854,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [74]
+		{
+			"Aw bummer, I'm sorry dude. I'll be on pretty much all day tomorrow, otherwise I play afternoons during the week. So just let me know what time works and i can put a note for you and get on to do some runs", -- [1]
+			"|Kf42|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			233, -- [11]
+			false, -- [12]
+			61, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9DocGonzo|r",
+			[51] = 1515250893,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [75]
+		{
+			"ok, well if it works out, maybe I'll join up with you tomorrow!", -- [1]
+			"|Kf42|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			246, -- [11]
+			false, -- [12]
+			61, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9DocGonzo|r",
+			[51] = 1515250919,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [76]
+		{
+			"sounds good have a good day", -- [1]
+			"|Kf42|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			255, -- [11]
+			false, -- [12]
+			61, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa330c9DocGonzo|r",
+			[51] = 1515250930,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [77]
+		{
+			"you too :)", -- [1]
+			"|Kf42|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			258, -- [11]
+			false, -- [12]
+			61, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "DocGonzo",
+			[51] = 1515250936,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [78]
+		{
+			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3247, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515528312,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [79]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3258, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515528318,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"|cffffff00Valley of Heroes is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3749, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515528728,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"I think I am main switching to lock ahah", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			269, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515603955,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [82]
+		{
+			"<Deadly Boss Mods> Cosmicvein is busy fighting against Normal - Eonar the Life-Binder (48%, 18/18 people alive)", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			272, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515603955,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [83]
+		{
+			"Yeah?", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			289, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515603960,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [84]
+		{
+			"Not happy with your performance this week?", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			316, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515603968,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [85]
+		{
+			"My guild won't let me lmoa", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			347, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515603978,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [86]
+		{
+			"I raided last night and it was super disappointing to have any kind of burst damage removed from the boomkin", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			364, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515603993,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [87]
+		{
+			"And I wanna keep progressing", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			365, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515603995,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [88]
+		{
+			"yeah not having burst aoe sucks", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			366, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604009,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [89]
+		{
+			"so I'll keep gearing up the lock and eventually make the switch", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			367, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604015,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [90]
+		{
+			"I couldn't do very well on High Command or Portal Keeper", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			368, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604023,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [91]
+		{
+			"Did decently on Coven tho", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			369, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604031,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [92]
+		{
+			"Almost a 90 parse but not as high as when I was moonfire spam", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			370, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604045,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [93]
+		{
+			"Yeah, I have three to four melee who think parsing high means you are good. So they cheese every fight by focusing adds", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			376, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604073,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [94]
+		{
+			"Yeah...", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			383, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604083,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [95]
+		{
+			"Padders gonna pad", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			384, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604088,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [96]
+		{
+			"Instead of going ST and shortening the fight ahha", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			385, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604102,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [97]
+		{
+			"<DBM> Cosmicvein has defeated Normal - Eonar the Life-Binder!", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			386, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604115,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [98]
+		{
+			"so every one can parse", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			387, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604119,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [99]
+		{
+			"This class is fun so as long as my guild leader still brings me to raids I have no reason to switch.", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			402, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604128,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [100]
+		{
+			"Hurts my pride to do way less DPS than everyone else but oh well.", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			439, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604142,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [101]
+		{
+			"I can still make a lock alt.", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			440, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604146,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [102]
+		{
+			"That's what kills me. I am one of the more skilled players in the guild. It's frustrating to be mid pack or below", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			443, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604179,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [103]
+		{
+			"Definitely takes some talking power away from you, if you call out any dps for making mistakes they'll just say \"You're bottom of DPS lol\"", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			505, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604222,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [104]
+		{
+			"haha then I link them my M+ score", -- [1]
+			"|Kf22|k0000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			542, -- [11]
+			false, -- [12]
+			23, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aWastoid|r",
+			[51] = 1515604256,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [105]
+		{
+			"I have a Denon", -- [1]
+			"Amethizz-Proudmoore", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1109, -- [11]
+			"Player-5-0ADCAE74", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffAmethizz|r",
+			[51] = 1515605097,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [106]
+		{
+			"|cffffff00Trade District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			2277, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515771418,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [107]
+		{
+			"|cffffff00SI:7 is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			2427, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515771931,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [108]
+		{
+			"You'll get quests to fully upgrade to 900", -- [1]
+			"Amethizz-Proudmoore", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3731, -- [11]
+			"Player-5-0ADCAE74", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffAmethizz|r",
+			[51] = 1516638232,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [109]
+		{
+			"quests being missions*", -- [1]
+			"Amethizz-Proudmoore", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3744, -- [11]
+			"Player-5-0ADCAE74", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffffffffAmethizz|r",
+			[51] = 1516638255,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [110]
+		{
+			"Want inv to guild?", -- [1]
+			"|Kf41|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5179, -- [11]
+			false, -- [12]
+			41, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070deJawasman|r",
+			[51] = 1516639801,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [111]
+		{
+			"Nah, this is my bank alt :)", -- [1]
+			"|Kf41|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5219, -- [11]
+			false, -- [12]
+			41, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070deJawasman|r",
+			[51] = 1516639843,
+			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
+		}, -- [112]
+		{
+			"got ya", -- [1]
+			"|Kf41|k00000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			5228, -- [11]
+			false, -- [12]
+			41, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070deJawasman|r",
+			[51] = 1516639852,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [113]
+		{
+			"|cffffff00SI:7 is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			5608, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516640257,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [114]
+		{
+			"|cffffff00Lion's Rest is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3599, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516831760,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [115]
+		{
+			"|cffffff00SI:7 is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			3632, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516831955,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [116]
+		{
+			"|cffffff00SI:7 is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			62, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516900542,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [117]
+		{
+			"'s Pengu apologizes to Auctioneer Jaxon. Sorry!", -- [1]
+			"Miloman-Kilrogg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Miloman-Kilrogg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			171, -- [11]
+			"Player-4-0AC04D13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Miloman-Kilrogg|r",
+			[51] = 1516900854,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [118]
+		{
+			"|cffffff00SI:7 is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			1101, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516901321,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [119]
+		{
+			"|cffffff00Stormwind City is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			2081, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516902199,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [120]
+		{
+			"|cffffff00Dwarven District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			2110, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516902234,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [121]
+		{
+			"'s Beetle sings, \"And I said what about \"Breakfast at Tiffany's?\"\"", -- [1]
+			"Khristà-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Khristà", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2760, -- [11]
+			"Player-5-0AB47E9D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff0070ddKhristà|r",
+			[51] = 1516902646,
+			[50] = "CHAT_MSG_EMOTE",
+		}, -- [122]
+		{
+			"|cffffff00Dwarven District is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			2924, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516902774,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [123]
+		{
+			"|cffffff00The Canals is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			714, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516920315,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [124]
+		{
+			"|cffffff00Stormwind City is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			715, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1516920329,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [125]
+		{
+			"|cffffff00SI:7 is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			5692, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1517966242,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [126]
+		{
+			"|cffffff00SI:7 is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Stormwind City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Stormwind City", -- [9]
+			0, -- [10]
+			6522, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1517967306,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [127]
 	},
 }

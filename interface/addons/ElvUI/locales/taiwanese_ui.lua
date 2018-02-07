@@ -38,6 +38,7 @@ L["Purchase Bags"] = "購買背包"
 L["Purchase"] = "購買銀行欄位"
 L["Reagent Bank"] = "材料銀行"
 L["Reset Position"] = "重設位置"
+L["Right Click the bag icon to assign a type of item to this bag."] = true
 L["Show/Hide Reagents"] = "顯示/隱藏材料"
 L["Sort Tab"] = "選項排列" --Not used, yet?
 L["Temporary Move"] = "移動背包"
@@ -104,20 +105,22 @@ L["Main Hand"] = "主手"
 L["Mission(s) Report:"] = "任務報告"
 L["Mitigation By Level: "] = "等級減傷: "
 L["Mobile"] = true
+L["Mov. Speed:"] = STAT_MOVEMENT_SPEED
 L["Naval Mission(s) Report:"] = "海軍任務報告"
 L["No Guild"] = "沒有公會"
 L["Offhand"] = "副手"
 L["Profit:"] = "利潤: "
+L["Reset Counters: Hold Shift + Left Click"] = true
 L["Reset Data: Hold Shift + Right Click"] = "重置數據: 按住 Shift + 右鍵點擊"
-L["Saved Raid(s)"] = "已有進度的副本"
 L["Saved Dungeon(s)"] = "已有進度地城"
+L["Saved Raid(s)"] = "已有進度的副本"
 L["Server: "] = "伺服器: "
 L["Session:"] = "本次登入:"
 L["Shoulder"] = "肩部"
 L["silverabbrev"] = "|cffc7c7cf銀|r" --Also used in Bags
 L["SP"] = "法術能量"
-L["Spell/Heal Power"] = "法術/治療強度"
 L["Spec"] = "專精"
+L["Spell/Heal Power"] = "法術/治療強度"
 L["Spent:"] = "花費:"
 L["Stats For:"] = "統計:"
 L["System"] = "系統信息"
@@ -134,7 +137,6 @@ L["|cffFFFFFFShift + Left Click:|r Show Talent Specialization UI"] = "|cffFFFFFF
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s 嘗試調用保護函數'%s'."
-L["No locals to dump"] = "沒有本地檔案"
 
 --Distributor
 L["%s is attempting to share his filters with you. Would you like to accept the request?"] = "%s 試圖與你分享過濾器設定. 你是否接受?"

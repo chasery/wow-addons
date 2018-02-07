@@ -5,25 +5,6 @@
 	local _detalhes = _G._detalhes
 	DETAILSPLUGIN_ALWAYSENABLED = 0x1
 	
-	
-	--> templates
-		_detalhes.gump:InstallTemplate ("button", "DETAILS_PLUGINPANEL_BUTTON_TEMPLATE", 
-			{
-				backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
-				backdropcolor = {0, 0, 0, .5},
-				backdropbordercolor = {0, 0, 0, .5},
-				onentercolor = {0.3, 0.3, 0.3, .5},
-			}
-		)
-		_detalhes.gump:InstallTemplate ("button", "DETAILS_PLUGINPANEL_BUTTONSELECTED_TEMPLATE", 
-			{
-				backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
-				backdropcolor = {0, 0, 0, .5},
-				backdropbordercolor = {1, 1, 0, 1},
-				onentercolor = {0.3, 0.3, 0.3, .5},
-			}
-		)
-	
 	--> consts
 		local CONST_PLUGINWINDOW_MENU_WIDTH = 150
 		local CONST_PLUGINWINDOW_MENU_HEIGHT = 22
@@ -624,7 +605,7 @@
 			newButton.textsize = 10
 			
 			--> set icon
-			newButton:SetIcon (pluginObject.__icon)
+			newButton:SetIcon (pluginObject.__icon, nil, nil, nil, pluginObject.__iconcoords, pluginObject.__iconcolor, 4)
 			
 			--> add it to menu table
 			tinsert (f.MenuButtons, newButton)

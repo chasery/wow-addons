@@ -1,4 +1,4 @@
-﻿local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+﻿local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 
 P.gridSize = 64
 P.farmSize = 340
@@ -21,6 +21,7 @@ P['general'] = {
 	["talkingHeadFrameScale"] = 0.9,
 	['afk'] = true,
 	["numberPrefixStyle"] = "ENGLISH",
+	["decimalLength"] = 1,
 
 	["fontSize"] = 12,
 	["font"] = "PT Sans Narrow",
@@ -205,6 +206,7 @@ P['bags'] = {
 		["backdropSpacing"] = 4,
 		['showBackdrop'] = false,
 		['mouseover'] = false,
+		['visibility'] = "[petbattle] hide; show",
 	},
 };
 
@@ -252,6 +254,12 @@ P["nameplates"] = {
 		["neutral"] = { r = 218/255, g = 197/255, b = 92/255 },
 		["bad"] = { r = 0.78, g = 0.25, b = 0.25 },
 		["offline"] = {r = 0.3, g = 0.3, b = 0.3},
+	},
+	['healPrediction'] = {
+		['personal'] = {r = 0, g = 1, b = 0.5, a = 0.25},
+		['others'] = {r = 0, g = 1, b = 0, a = 0.25},
+		['absorbs'] = {r = 1, g = 1, b = 0, a = 0.25},
+		['healAbsorbs'] = {r = 1, g = 0, b = 0, a = 0.25},
 	},
 	['threat'] = {
 		["goodColor"] = {r = 75/255,  g = 175/255, b = 76/255},
@@ -816,6 +824,23 @@ P['datatexts'] = {
 	--Time Datatext
 	['localtime'] = true,
 	['time24'] = false,
+	--Friends
+	['friends'] = {
+		--status
+		['hideAFK'] = false,
+		['hideDND'] = false,
+		--clients
+		['hideWoW'] = false,
+		['hideD3'] = false,
+		['hideWTCG'] = false, --Hearthstone
+		['hideHero'] = false, --Heros of the Storm
+		['hidePro'] = false, --Overwatch
+		['hideS1'] = false,
+		['hideS2'] = false,
+		['hideDST2'] = false,
+		['hideBSAp'] = false, --Mobile
+		['hideApp'] = false, --Launcher
+	},
 
 	--Enabled/Disabled Panels
 	['minimapPanels'] = true,
@@ -1229,7 +1254,7 @@ P['unitframe'] = {
 				['sortMethod'] = 'TIME_REMAINING',
 				['sortDirection'] = 'DESCENDING',
 				['minDuration'] = 0,
-				['maxDuration'] = 300,
+				['maxDuration'] = 0,
 				['priority'] = 'Blacklist,Personal,nonPersonal', --Target Buffs
 				['xOffset'] = 0,
 				['yOffset'] = 0,
@@ -2217,6 +2242,7 @@ P['unitframe'] = {
 				["tank"] = true,
 				["healer"] = true,
 				["damager"] = true,
+				["combatHide"] = false,
 			},
 			['raidRoleIcons'] = {
 				['enable'] = true,
@@ -2401,6 +2427,7 @@ P['unitframe'] = {
 				["tank"] = true,
 				["healer"] = true,
 				["damager"] = true,
+				["combatHide"] = false,
 			},
 			['raidRoleIcons'] = {
 				['enable'] = true,
@@ -2551,6 +2578,7 @@ P['unitframe'] = {
 				["tank"] = true,
 				["healer"] = true,
 				["damager"] = true,
+				["combatHide"] = false,
 			},
 			['raidRoleIcons'] = {
 				['enable'] = true,
@@ -2899,6 +2927,7 @@ P["actionbar"] = {
 		['mouseover'] = false,
 		['buttonsPerRow'] = 11,
 		['alpha'] = 1,
+		['visibility'] = "show",
 	},
 
 	['globalFadeAlpha'] = 0,
@@ -2906,6 +2935,8 @@ P["actionbar"] = {
 	["hideCooldownBling"] = false,
 	["useDrawSwipeOnCharges"] = false,
 	["addNewSpells"] = false,
+	["rightClickSelfCast"] = false,
+	["desaturateOnCooldown"] = false,
 
 	['bar1'] = {
 		['enabled'] = true,

@@ -1,0 +1,340 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+		"/ec", -- [1]
+		"/reloadui", -- [2]
+		"/gquit", -- [3]
+	},
+	["ChatHistoryLog"] = {
+		{
+			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			432, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515429494,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			449, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515429569,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"|cffffff00Nightwatcher's Perch is under attack!|r", -- [1]
+			"", -- [2]
+			"", -- [3]
+			"3. LocalDefense - Highmountain", -- [4]
+			"", -- [5]
+			"", -- [6]
+			22, -- [7]
+			3, -- [8]
+			"LocalDefense - Highmountain", -- [9]
+			0, -- [10]
+			470, -- [11]
+			false, -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "",
+			[51] = 1515429630,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"dk afk?", -- [1]
+			"Popchi-Illidan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Popchi-Illidan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			553, -- [11]
+			"Player-57-0A5E49AC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff00ff96Popchi-Illidan|r",
+			[51] = 1515430435,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [4]
+		{
+			"nop", -- [1]
+			"Astinos-Jubei'Thos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Astinos-Jubei'Thos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			555, -- [11]
+			"Player-3728-094CC17D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAstinos-Jubei'Thos|r",
+			[51] = 1515430444,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [5]
+		{
+			"just slow", -- [1]
+			"Astinos-Jubei'Thos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Astinos-Jubei'Thos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			556, -- [11]
+			"Player-3728-094CC17D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aAstinos-Jubei'Thos|r",
+			[51] = 1515430447,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [6]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11796:Player-73-0B157915:1:1:8:18:4294967295:4294967295:4294967295:4294967295|h[Armies of Legionfall]|h|r!", -- [1]
+			"Amethizz-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			610, -- [11]
+			"Player-73-0B157915", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAmethizz|r",
+			[51] = 1515430766,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [7]
+		{
+			"vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv|Hitem:134499::::::::110:105::16:3:3536:1612:3337:::|h[Raven Filigree Pendant]|h", -- [1]
+			"|Kf31|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			846, -- [11]
+			false, -- [12]
+			33, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aDaylabuah|r",
+			[51] = 1515433038,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [8]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10582:Player-73-0B157915:1:1:8:18:4294967295:4294967295:4294967295:4294967295|h[Professional Legion Master]|h|r!", -- [1]
+			"Amethizz-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			879, -- [11]
+			"Player-73-0B157915", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAmethizz|r",
+			[51] = 1515433360,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [9]
+		{
+			"if you came across this in the ocean...", -- [1]
+			"Jaince-Aggramar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Jaince-Aggramar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1196, -- [11]
+			"Player-106-093FB04D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edJaince-Aggramar|r",
+			[51] = 1515605650,
+			[50] = "CHAT_MSG_RAID",
+		}, -- [10]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12101:Player-73-0B157915:1:1:10:18:4294967295:4294967295:4294967295:4294967295|h[We Came Here For Two Reasons]|h|r!", -- [1]
+			"Amethizz-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1453, -- [11]
+			"Player-73-0B157915", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAmethizz|r",
+			[51] = 1515608344,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [11]
+		{
+			"faction xfer your lock so you can do low keys with us today on alts xoxo", -- [1]
+			"|Kf32|k000000000|k", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1755, -- [11]
+			false, -- [12]
+			33, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7d0aDaylabuah|r",
+			[51] = 1515612118,
+			[50] = "CHAT_MSG_BN_WHISPER",
+		}, -- [12]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:11786:Player-73-0B036872:1:1:10:18:4294967295:4294967295:4294967295:4294967295|h[Terrors of the Shore]|h|r!", -- [1]
+			"Purplehazey-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Purplehazey", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2052, -- [11]
+			"Player-73-0B036872", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffffffffPurplehazey|r",
+			[51] = 1515614994,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [13]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:10460:Player-73-0B157915:1:1:10:18:4294967295:4294967295:4294967295:4294967295|h[Hidden Potential]|h|r!", -- [1]
+			"Amethizz-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2096, -- [11]
+			"Player-73-0B157915", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAmethizz|r",
+			[51] = 1515615129,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [14]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:12073:Player-73-0B157915:1:1:10:18:4294967295:4294967295:4294967295:4294967295|h[Locked and Loaded]|h|r!", -- [1]
+			"Amethizz-BleedingHollow", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Amethizz", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2384, -- [11]
+			"Player-73-0B157915", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAmethizz|r",
+			[51] = 1515618062,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [15]
+	},
+}

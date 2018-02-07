@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local S = E:GetModule('Skins')
 
 --Cache global variables
@@ -19,7 +19,7 @@ local function LoadSkin()
 	-- CommandBar
 	local OrderHallCommandBar = _G["OrderHallCommandBar"]
 	OrderHallCommandBar:StripTextures()
-	OrderHallCommandBar:SetTemplate("Transparent")
+	OrderHallCommandBar:CreateBackdrop("Transparent")
 	OrderHallCommandBar.ClassIcon:SetTexture("Interface\\TargetingFrame\\UI-Classes-Circles")
 	OrderHallCommandBar.ClassIcon:SetSize(46, 20)
 	OrderHallCommandBar.CurrencyIcon:SetAtlas("legionmission-icon-currency", false)

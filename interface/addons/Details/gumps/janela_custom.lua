@@ -56,14 +56,20 @@
 	local CONST_BUTTON_TEMPLATE = gump:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
 	local CONST_TEXTENTRY_TEMPLATE = gump:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
 	
-	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BUTTONS", {
-		backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
-		backdropcolor = {1, 1, 1, .5},
-		backdropbordercolor = {0, 0, 0, 1},
-		textcolor = "white",
-		textsize = 10,
-		icon = {texture = [[Interface\BUTTONS\UI-GuildButton-PublicNote-Up]]},
-	})
+	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BUTTONS", 
+		{
+			icon = {texture = [[Interface\BUTTONS\UI-GuildButton-PublicNote-Up]]},
+			width = 160,
+		}, 
+		"DETAILS_PLUGIN_BUTTON_TEMPLATE"
+	)
+	
+	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_REGULAR_BUTTON", 
+		{
+			width = 130,
+		}, 
+		"DETAILS_PLUGIN_BUTTON_TEMPLATE"
+	)
 	
 	gump:InstallTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BOX", {
 		backdrop = {edgeFile = [[Interface\Buttons\WHITE8X8]], edgeSize = 1, bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true},
@@ -81,10 +87,13 @@
 		backdropbordercolor = {0, 0, 0, 1},
 	})
 	
+	gump:NewColor ("DETAILS_CUSTOMDISPLAY_ICON", .7, .6, .5, 1)
+	
 	local CONST_CODETEXTENTRY_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BOX")
 	local CONST_CODETEXTENTRYEXPANDED_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BOX_EXPANDED")
 	local CONST_CODETEXTENTRYBUTTON_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BOX_BUTTON")
 	local CONST_CODETEXTENTRY_OPENCODEBUTTONS_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_CODE_BUTTONS")
+	local CONST_REGULAR_BUTTON_TEMPLATE = gump:GetTemplate ("button", "DETAILS_CUSTOMDISPLAY_REGULAR_BUTTON")
 	
 	local atributos = _detalhes.atributos
 	local sub_atributos = _detalhes.sub_atributos
@@ -132,7 +141,10 @@
 		DetailsCustomPanel.Frame = DetailsCustomPanel
 		DetailsCustomPanel.__name = "Custom Displays"
 		DetailsCustomPanel.real_name = "DETAILS_CUSTOMDISPLAY"
-		DetailsCustomPanel.__icon = [[Interface\FriendsFrame\UI-FriendsList-Small-Up]]
+		--DetailsCustomPanel.__icon = [[Interface\FriendsFrame\UI-FriendsList-Small-Up]]
+		DetailsCustomPanel.__icon = [[Interface\AddOns\Details\images\icons]]
+		DetailsCustomPanel.__iconcoords = {412/512, 441/512, 43/512, 79/512}
+		DetailsCustomPanel.__iconcolor = "DETAILS_CUSTOMDISPLAY_ICON"
 		DetailsPluginContainerWindow.EmbedPlugin (DetailsCustomPanel, DetailsCustomPanel, true)
 	
 		function DetailsCustomPanel.RefreshWindow()
@@ -339,15 +351,17 @@
 				self.author_field:SetText (custom_object:GetAuthor())
 				self.author_field:Disable()
 				
+				custom_window.codeeditor:SetText ("")
+				
 				if (custom_object:IsScripted()) then
 				
 					custom_window.script_button_attribute:Click()
-					
+				
 					DetailsCustomPanel.code1 = custom_object:GetScript()
 					DetailsCustomPanel.code2 = custom_object:GetScriptToolip()
 					DetailsCustomPanel.code3 = custom_object:GetScriptTotal() or DetailsCustomPanel.code3_default
 					DetailsCustomPanel.code4 = custom_object:GetScriptPercent() or DetailsCustomPanel.code4_default
-					
+				
 				else
 				
 					local attribute = custom_object:GetAttribute()
@@ -737,8 +751,10 @@
 				local button = gump:NewButton (self, nil, "$parent" .. name, nil, CONST_MENU_WIDTH, CONST_MENU_HEIGHT, clickfunc, param1, param2, nil, label)
 				button:SetPoint ("topleft", self, "topleft", CONST_MENU_X_POSITION, CONST_MENU_Y_POSITION + ((index-1)*-23))
 				
-				button:SetTemplate (CONST_BUTTON_TEMPLATE)
-				button:SetIcon (icon, CONST_MENU_HEIGHT-4, CONST_MENU_HEIGHT-4, "overlay", {.1, .9, .1, .9})
+				--button:SetTemplate (CONST_BUTTON_TEMPLATE)
+				button:SetTemplate (gump:GetTemplate ("button", "DETAILS_PLUGIN_BUTTON_TEMPLATE"))
+				button:SetWidth (160)
+				button:SetIcon (icon, CONST_MENU_HEIGHT-4, CONST_MENU_HEIGHT-4, "overlay", {.1, .9, .1, .9}, nil, 4)
 				
 				button:SetHook ("OnEnter", onenter)
 				button:SetHook ("OnLeave", onleave)
@@ -1063,12 +1079,12 @@
 				local cancel_button = gump:NewButton (box0, nil, "$parentCancelButton", "cancelbutton", 130, 20, DetailsCustomPanel.CancelFunc, nil, nil, nil, Loc ["STRING_CUSTOM_CANCEL"])
 				--cancel_button:SetPoint ("bottomleft", attribute_box, "bottomleft", 2, 0)
 				cancel_button:SetPoint ("topleft", icon_label, "bottomleft", 0, -10)
-				cancel_button:SetTemplate (CONST_BUTTON_TEMPLATE)
+				cancel_button:SetTemplate (CONST_REGULAR_BUTTON_TEMPLATE)
 				
 			--accept
 				local accept_button = gump:NewButton (box0, nil, "$parentAcceptButton", "acceptbutton", 130, 20, DetailsCustomPanel.AcceptFunc, nil, nil, nil, Loc ["STRING_CUSTOM_CREATE"])
 				accept_button:SetPoint ("left", cancel_button, "right", 2, 0)
-				accept_button:SetTemplate (CONST_BUTTON_TEMPLATE)
+				accept_button:SetTemplate (CONST_REGULAR_BUTTON_TEMPLATE)
 				
 				cancel_button:SetFrameLevel (500)
 				accept_button:SetFrameLevel (500)
@@ -1675,11 +1691,6 @@
 				local box2 = _CreateFrame ("frame", "DetailsCustomPanelBox2", custom_window)
 				custom_window.box2 = box2
 				box2:SetSize (450, 180)
-				--box2:SetBackdrop ({
-				--	bgFile = "Interface\\AddOns\\Details\\images\\background", 
-				--	edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border", 
-				--	tile = true, tileSize = 16, edgeSize = 12})
-				--box2:SetBackdropColor (1, 0, 0, .9)
 				box2:SetPoint ("topleft", icon_label.widget, "bottomleft", -10, -20)
 				
 				box2:SetFrameLevel (box0:GetFrameLevel()+1)

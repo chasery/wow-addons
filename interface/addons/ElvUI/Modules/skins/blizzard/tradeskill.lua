@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local S = E:GetModule('Skins')
 
 --Cache global variables
@@ -26,9 +26,7 @@ local function LoadSkin()
 	TradeSkillFrame.RankFrame:SetStatusBarTexture(E["media"].normTex)
 	TradeSkillFrame.RankFrame.RankText:FontTemplate()
 	E:RegisterStatusBar(TradeSkillFrame.RankFrame)
-	TradeSkillFrame.FilterButton:StripTextures(true)
-	TradeSkillFrame.FilterButton:CreateBackdrop('Default', true)
-	TradeSkillFrame.FilterButton.backdrop:SetAllPoints()
+	S:HandleButton(TradeSkillFrame.FilterButton)
 	TradeSkillFrame.LinkToButton:GetNormalTexture():SetTexCoord(0.25, 0.7, 0.37, 0.75)
 	TradeSkillFrame.LinkToButton:GetPushedTexture():SetTexCoord(0.25, 0.7, 0.45, 0.8)
 	TradeSkillFrame.LinkToButton:GetHighlightTexture():Kill()
@@ -39,11 +37,9 @@ local function LoadSkin()
 	TradeSkillFrame.bg1:SetTemplate("Transparent")
 	TradeSkillFrame.bg1:Point("TOPLEFT", 4, -81)
 	TradeSkillFrame.bg1:Point("BOTTOMRIGHT", -340, 4)
-	TradeSkillFrame.bg1:SetBackdropColor(.1, .1, .1, 1/2)
 	TradeSkillFrame.bg1:SetFrameLevel(TradeSkillFrame.bg1:GetFrameLevel() - 1)
 	TradeSkillFrame.bg2 = CreateFrame("Frame", nil, TradeSkillFrame)
 	TradeSkillFrame.bg2:SetTemplate("Transparent")
-	TradeSkillFrame.bg2:SetBackdropColor(0, 0, 0, 1/2)
 	TradeSkillFrame.bg2:Point("TOPLEFT", TradeSkillFrame.bg1, "TOPRIGHT", 1, 0)
 	TradeSkillFrame.bg2:Point("BOTTOMRIGHT", TradeSkillFrame, "BOTTOMRIGHT", -4, 4)
 	TradeSkillFrame.bg2:SetFrameLevel(TradeSkillFrame.bg2:GetFrameLevel() - 1)

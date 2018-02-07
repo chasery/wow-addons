@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local S = E:GetModule('Skins')
 
 --Cache global variables
@@ -180,6 +180,10 @@ local function LoadSkin()
 	S:HandleCheckBox(WarGameTournamentModeCheckButton)
 	ConquestTooltip:SetTemplate("Transparent")
 	PVPRewardTooltip:SetTemplate("Transparent")
+
+	--Tutorials
+	S:HandleCloseButton(PremadeGroupsPvPTutorialAlert.CloseButton)
+	S:HandleCloseButton(HonorFrame.BonusFrame.BrawlHelpBox.CloseButton)
 end
 
 S:AddCallbackForAddon('Blizzard_PVPUI', "PvPUI", LoadSkin)

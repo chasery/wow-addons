@@ -58,10 +58,6 @@ for _, devName in pairs(DEVELOPERS) do
 end
 
 local DebugString = ''
-function AS:SetupProfile()
-	self.db = self.data.profile
-end
-
 function AS:BuildOptions()
 	local function GenerateOptionTable(skinName, order)
 		local text = strtrim(skinName:gsub('^Blizzard_(.+)','%1'):gsub('(%l)(%u%l)','%1 %2'))
@@ -84,7 +80,7 @@ function AS:BuildOptions()
 		childGroups = 'tab',
 		args = {
 			addons = {
-				order = 0,
+				order = 1,
 				type = 'group',
 				name = ASL['AddOn Skins'],
 				get = function(info) return AS:CheckOption(info[#info]) end,
@@ -92,7 +88,7 @@ function AS:BuildOptions()
 				args = {},
 			},
 			blizzard = {
-				order = 1,
+				order = 2,
 				type = 'group',
 				name = ASL['Blizzard Skins'],
 				get = function(info) return AS:CheckOption(info[#info]) end,
@@ -102,24 +98,29 @@ function AS:BuildOptions()
 			bossmods = {
 				type = 'group',
 				name = ASL['BossMod Options'],
-				order = 2,
+				order = 3,
 				get = function(info) return AS:CheckOption(info[#info]) end,
 				set = function(info, value) AS:SetOption(info[#info], value) end,
 				args = {
+					BossModHeader = {
+						order = 0,
+						type = 'header',
+						name = AS:Color(ASL['BossMod Options']),
+					},
 					DBMFont = {
 						type = 'select', dialogControl = 'LSM30_Font',
 						order = 1,
-						name = ASL['DBM|VEM Font'],
+						name = ASL['DBM Font'],
 						values = AS.LSM:HashTable('font'),
 					},
 					DBMFontSize = {
 						type = 'range',
 						order = 2,
-						name = ASL['DBM|VEM Font Size'],
+						name = ASL['DBM Font Size'],
 						min = 8, max = 18, step = 1,
 					},
 					DBMFontFlag = {
-						name = ASL['DBM|VEM Font Flag'],
+						name = ASL['DBM Font Flag'],
 						order = 3,
 						type = 'select',
 						values = {
@@ -132,7 +133,7 @@ function AS:BuildOptions()
 					},
 					DBMSkinHalf = {
 						type = 'toggle',
-						name = ASL['DBM|VEM Half-bar Skin'],
+						name = ASL['DBM Half-bar Skin'],
 						order = 4,
 					},
 					DBMRadarTrans = {
@@ -143,12 +144,17 @@ function AS:BuildOptions()
 				},
 			},
 			embed = {
-				order = 3,
+				order = 4,
 				type = 'group',
 				name = ASL['Embed Settings'],
 				get = function(info) return AS:CheckOption(info[#info]) end,
 				set = function(info, value) AS:SetOption(info[#info], value) AS:Embed_Check() end,
 				args = {
+					EmbedHeader = {
+						order = 0,
+						type = 'header',
+						name = AS:Color(ASL['Embed Settings']),
+					},
 					desc = {
 						type = 'description',
 						name = ASL['Settings to control Embedded AddOns:\n\nAvailable Embeds: alDamageMeter | Details | Omen | Skada | Recount | TinyDPS'],
@@ -304,13 +310,18 @@ function AS:BuildOptions()
 			misc = {
 				type = 'group',
 				name = MISCELLANEOUS,
-				order = 4,
+				order = 5,
 				get = function(info) return AS:CheckOption(info[#info]) end,
 				set = function(info, value) AS:SetOption(info[#info], value) AS.NeedReload = true end,
 				args = {
+					MiscHeader = {
+						order = 0,
+						type = 'header',
+						name = AS:Color(MISCELLANEOUS),
+					},
 					SkinTemplate = {
 						name = ASL['Skin Template'],
-						order = 0,
+						order = 1,
 						type = 'select',
 						values = {
 							['Transparent'] = 'Transparent',
@@ -343,17 +354,22 @@ function AS:BuildOptions()
 			faq = {
 				type = 'group',
 				name = ASL["FAQ's"],
-				order = 5,
+				order = 6,
 				args = {
+					FAQHeader = {
+						order = 0,
+						type = 'header',
+						name = AS:Color(ASL["FAQ's"]),
+					},
 					question1 = {
 						type = 'description',
-						name = '|cffc41f3b[Q] '..ASL['DBM/VEM Half-Bar Skin Spacing looks wrong. How can I fix it?'],
+						name = '|cffc41f3b[Q] '..ASL['DBM Half-Bar Skin Spacing looks wrong. How can I fix it?'],
 						order = 1,
 						fontSize = 'medium',
 					},
 					answer1 = {
 						type = 'description',
-						name = '|cffabd473[A] '..ASL['To use the DBM/VEM Half-Bar skin. You must change the DBM/VEM Options. Offset Y needs to be at least 15.'],
+						name = '|cffabd473[A] '..ASL['To use the DBM Half-Bar skin. You must change the DBM Options. Offset Y needs to be at least 15.'],
 						order = 2,
 						fontSize = 'medium',
 					},
@@ -430,15 +446,20 @@ function AS:BuildOptions()
 			AS.Options.args.blizzard.args[skinName] = GenerateOptionTable(skinName, blizzorder)
 			blizzorder = blizzorder + 1
 		else
+			AS.Options.args.addons.args.description = {
+				type = 'header',
+				name = AS:Color(ASL['AddOn Skins']),
+				order = 0,
+			}
 			AS.Options.args.addons.args[skinName] = GenerateOptionTable(skinName, order)
 			order = order + 1
 		end
 	end
 
 	if AS:CheckAddOn('ElvUI') then
-		AS.Options.args.blizzard.args.description ={
+		AS.Options.args.blizzard.args.description = {
 			type = 'header',
-			name = ASL.OptionsPanel.ElvUIDesc,
+			name = AS:Color(ASL['Blizzard Skins']),
 			order = 0,
 		}
 
