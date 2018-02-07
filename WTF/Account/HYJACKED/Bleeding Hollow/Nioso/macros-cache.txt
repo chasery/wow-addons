@@ -1,0 +1,28 @@
+VER 3 0100000000000006 "Force of Nature" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Force of Nature
+END
+VER 3 0100000000000003 "Inc + Berserk" "SPELL_NATURE_NATUREGUARDIAN"
+#showtooltip
+/use Celestial Alignment
+/use Berserking
+END
+VER 3 0100000000000005 "Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover][] Innervate
+END
+VER 3 0100000000000001 "Moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm][] Moonfire
+END
+VER 3 0100000000000004 "Starfall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Starfall
+END
+VER 3 0100000000000002 "Sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm][] Sunfire
+END
+VER 3 0100000000000007 "VANISH" "INV_MISC_QUESTIONMARK"
+/use Vanishing Powder
+END

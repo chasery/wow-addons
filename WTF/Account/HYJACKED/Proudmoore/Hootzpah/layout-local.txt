@@ -1,0 +1,15 @@
+Version: 1
+Frame: ColorPickerFrame
+FrameLevel: 21
+Anchor: CENTER
+X: 0
+Y: 0
+W: 365
+H: 240
+Frame: Details_EncounterDetails
+FrameLevel: 6
+Anchor: CENTER
+X: 0
+Y: 0
+W: 898
+H: 504

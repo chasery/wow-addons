@@ -7,34 +7,37 @@ TradeSkillMaster_AuctioningDB = {
 		["char"] = {
 			"Vonyc - Proudmoore", -- [1]
 			"Amethizz - Proudmoore", -- [2]
+			"Hootzpah - Proudmoore", -- [3]
 		},
-		["realm"] = {
-			"Proudmoore", -- [1]
+		["factionrealm"] = {
+			"Alliance - Proudmoore", -- [1]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
-		["factionrealm"] = {
-			"Alliance - Proudmoore", -- [1]
+		["realm"] = {
+			"Proudmoore", -- [1]
 		},
 	},
 	["g@ @priceColumn"] = 1,
 	["f@Alliance - Proudmoore@player"] = {
 		["Vonyc"] = true,
 		["Amethizz"] = true,
+		["Hootzpah"] = true,
 	},
-	["f@Alliance - Proudmoore@whitelist"] = {
+	["_currentProfile"] = {
+		["Hootzpah - Proudmoore"] = "Default",
+		["Vonyc - Proudmoore"] = "Default",
+		["Amethizz - Proudmoore"] = "Default",
 	},
 	["_hash"] = 5870975,
 	["g@ @matchWhitelist"] = true,
 	["g@ @scanCompleteSound"] = "TSM_NO_SOUND",
-	["g@ @cancelWithBid"] = false,
 	["g@ @helpPlatesShown"] = {
 		["selection"] = true,
 	},
+	["g@ @cancelWithBid"] = false,
 	["_version"] = 1,
-	["_currentProfile"] = {
-		["Vonyc - Proudmoore"] = "Default",
-		["Amethizz - Proudmoore"] = "Default",
+	["f@Alliance - Proudmoore@whitelist"] = {
 	},
 }
