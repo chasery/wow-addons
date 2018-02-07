@@ -1957,9 +1957,24 @@ function ns.HighLightHide()
 end
 
 do
+	
+	
+	
+	function ns.ShowIconSelectFrame()
+
+	
+	end
+	
+	function ns.HideIconSelectFrame()
+	
+	end
+end
+
+do
 	local width = 400
 	
 	local editBox
+	local fsting
 	local hide
 	local frame = CreateFrame("Frame", nil, UIParent)
 
@@ -2016,6 +2031,40 @@ do
 	renamePreset.text:SetJustifyH("CENTER")
 	renamePreset.text:SetWordWrap(false)
 	
+	local seticonPreset = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate")
+		seticonPreset:SetFrameLevel(frame:GetFrameLevel()+1)
+		seticonPreset:SetSize(70,20)
+		seticonPreset:Show()
+
+		seticonPreset:SetScript("OnClick", function(self)
+			PlaySound(SOUNDKIT and SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON or "igMainMenuOptionCheckBoxOn")
+	
+			local itemID = C_ArtifactUI.GetEquippedArtifactInfo()
+		--	ns.profile.presets[itemID][self.id].name = editBox:GetText()
+			
+			if editBox:GetText() and editBox:GetText() ~= '' then
+				if tonumber(editBox:GetText()) then
+					ns.profile.presets[itemID][self.id].icon = tonumber(editBox:GetText())
+				else 
+					ns.profile.presets[itemID][self.id].icon = editBox:GetText():gsub('\\\\', '\\')
+				end
+			else
+				ns.profile.presets[itemID][self.id].icon = nil
+			end
+			
+			
+			frame:Hide()
+			ns.UpdatePresetSelection()
+		end)
+
+	seticonPreset.text = seticonPreset:CreateFontString(nil, 'OVERLAY', "GameFontNormalSmall")
+	seticonPreset.text:SetPoint("CENTER", seticonPreset, "CENTER", 0 , 0)
+	seticonPreset.text:SetTextColor(1, 0.8, 0)
+	seticonPreset.text:SetText("set icon")
+	seticonPreset.text:SetJustifyH("CENTER")
+	seticonPreset.text:SetWordWrap(false)
+	
+	
 	editBox = CreateFrame("EditBox", nil, frame)
 	editBox:SetFontObject(ChatFontNormal)
 	editBox:SetSize(width-120, 40)
@@ -2038,15 +2087,24 @@ do
 				end
 			end
 		end
+		
+		if self:GetText() and self:GetText():len()>0 then
+			fsting:Hide()
+		elseif fsting.placeholder then
+			fsting:Show()
+		end
 	end)
-	--[==[
-	local fsting = editBox:CreateFontString()
+	
+	fsting = editBox:CreateFontString()
 	fsting:SetFontObject(ChatFontNormal)
 	fsting:SetFont(STANDARD_TEXT_FONT, 12, 'NONE')
-	fsting:SetPoint("LEFT", editBox, "RIGHT", 5, 0)
-	fsting:SetText('|cFF606060Ctrl+C - '..'COPY'..'\nCtrl+V - '..'PASTE'..'|r')
+	fsting:SetPoint("LEFT", editBox, "LEFT", 5, 0)
+	fsting:SetTextColor(0.5,0.5,0.5)
+	fsting:SetText('PLACEHOLDER TEXT')
+	fsting.placeholder = nil
 	fsting:SetJustifyH('LEFT')
-	]==]
+	fsting:Hide()
+	
 	local close_ = CreateFrame("Button", nil, frame)
 	close_:SetNormalTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Up")
 	close_:SetPushedTexture("Interface\\Buttons\\UI-Panel-MinimizeButton-Down")
@@ -2057,6 +2115,7 @@ do
 	
 	import:SetPoint("RIGHT", close_, "LEFT", -5, 0)
 	renamePreset:SetPoint("RIGHT", close_, "LEFT", -5, 0)
+	seticonPreset:SetPoint("RIGHT", close_, "LEFT", -5, 0)
 	--[[ End popup creation ]]--
 	
 	-- Avoiding StaticPopup taints by making our own popup, rather that adding to the StaticPopup list
@@ -2075,7 +2134,13 @@ do
 				editBox:GetParent():Show()
 				import:Hide()
 				renamePreset:Hide()
+				seticonPreset:Hide()
 			end
+			
+			fsting.placeholder = nil
+			fsting:Hide()
+			
+			ns.HideIconSelectFrame()
 		elseif type == 'simc' then
 			local text = ''
 			
@@ -2108,6 +2173,12 @@ do
 			editBox:GetParent():Show()
 			import:Hide()
 			renamePreset:Hide()
+			seticonPreset:Hide()
+			
+			fsting.placeholder = nil
+			fsting:Hide()
+			
+			ns.HideIconSelectFrame()
 		elseif type == 'rename' then
 			frame:SetSize(width, 40)
 			editBox:SetSize(width-120, 40)
@@ -2119,7 +2190,13 @@ do
 			renamePreset:Show()
 			renamePreset.id = id
 			editBox:GetParent():Show()
-		else
+			seticonPreset:Hide()
+			
+			fsting.placeholder = nil
+			fsting:Hide()
+			
+			ns.HideIconSelectFrame()
+		elseif type == 'seticon' then
 			frame:SetSize(width, 40)
 			editBox:SetSize(width-120, 40)
 			editBox:SetMultiLine(false)
@@ -2129,6 +2206,30 @@ do
 			import:Hide()
 			renamePreset:Hide()
 			editBox:GetParent():Show()
+			seticonPreset:Show()
+			seticonPreset.id = id
+			
+			fsting.placeholder = 'Put icon ID or path'
+			fsting:SetText(fsting.placeholder)
+			fsting:Show()
+	
+			ns.ShowIconSelectFrame()
+		else
+			frame:SetSize(width, 40)
+			editBox:SetSize(width-120, 40)
+			editBox:SetMultiLine(false)
+			
+			editBox.lastText = nil
+			editBox:SetText('')
+			import:Hide()
+			renamePreset:Hide()
+			seticonPreset:Hide()
+			editBox:GetParent():Show()
+			
+			fsting.placeholder = nil
+			fsting:Hide()
+			
+			ns.HideIconSelectFrame()
 		end
 	end
 end
@@ -2631,7 +2732,7 @@ function ns.CreatePresetButton()
 				ns.UnfocusAllEditBox()
 				ns.HideDropdowns()
 			elseif self.type == 'addnew' then
-				print('Add new')
+			--	print('Add new')
 				ns.AddNewPreset()
 				
 				
@@ -2717,7 +2818,7 @@ function ns.UpdatePresetSelection()
 		
 		ns.gui.presetButtons[i].type = 'selection'
 		ns.gui.presetButtons[i]:Show()
-		ns.gui.presetButtons[i].icon:SetTexture('Interface\\Icons\\Inv_misc_questionmark')
+		ns.gui.presetButtons[i].icon:SetTexture(ns.profile.presets[itemID][i].icon or 'Interface\\Icons\\Inv_misc_questionmark')
 	end
 	
 	if showAddNew then
@@ -2802,7 +2903,12 @@ do
 				ns:Popup('rename', owner.id)
 			end,
 		},
-		{ "Set icon" },
+		{ "Set icon",
+			function(self)
+				local owner = self:GetParent().owner
+				
+				ns:Popup('seticon', owner.id)
+			end, },
 		{ 
 			"|cFFFF0000Delete|r", 
 			function(self)

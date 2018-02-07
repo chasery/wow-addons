@@ -53,14 +53,16 @@ TradeSkillMaster_CraftingDB = {
 		},
 		["Hootzpah"] = {
 			["Alchemy"] = {
+				["prompted"] = true,
+				["link"] = "|cffffd000|Htrade:Player-5-0ADF66D9:195095:171|h[Alchemy]|h|r",
 				["isSecondary"] = false,
 				["level"] = 800,
 				["maxLevel"] = 800,
-				["link"] = "|cffffd000|Htrade:Player-5-0ADF66D9:195095:171|h[Alchemy]|h|r",
 			},
 			["Herbalism"] = {
 				["isSecondary"] = false,
 				["level"] = 800,
+				["prompted"] = true,
 				["maxLevel"] = 800,
 			},
 		},
@@ -90,6 +92,482 @@ TradeSkillMaster_CraftingDB = {
 		},
 	},
 	["g@ @ignoreCharacters"] = {
+	},
+	["g@ @defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
+	["_currentProfile"] = {
+		["Hootzpah - Proudmoore"] = "Default",
+		["Vonyc - Proudmoore"] = "Default",
+		["Amethizz - Proudmoore"] = "Default",
+	},
+	["f@Alliance - Proudmoore@ignoreAlts"] = false,
+	["g@ @ignoreCDCraftCost"] = true,
+	["f@Alliance - Proudmoore@mats"] = {
+		["i:35625"] = {
+			["name"] = "Eternal Life",
+		},
+		["i:76137"] = {
+			["name"] = "Alexandrite",
+		},
+		["i:52177"] = {
+			["name"] = "Carnelian",
+		},
+		["i:52329"] = {
+			["name"] = "Volatile Life",
+		},
+		["i:124117"] = {
+			["name"] = "Lean Shank",
+		},
+		["i:36917"] = {
+			["name"] = "Bloodstone",
+		},
+		["i:3355"] = {
+			["name"] = "Wild Steelbloom",
+		},
+		["i:4625"] = {
+			["name"] = "Firebloom",
+		},
+		["i:124106"] = {
+			["name"] = "Felwort",
+		},
+		["i:7972"] = {
+			["name"] = "Ichor of Undeath",
+		},
+		["i:52326"] = {
+			["name"] = "Volatile Water",
+		},
+		["i:109126"] = {
+			["name"] = "Gorgrond Flytrap",
+		},
+		["i:6371"] = {
+			["name"] = "Fire Oil",
+		},
+		["i:2447"] = {
+			["name"] = "Peacebloom",
+		},
+		["i:151565"] = {
+			["name"] = "Astral Glory",
+		},
+		["i:128304"] = {
+			["name"] = "Yseralline Seed",
+		},
+		["i:22452"] = {
+			["name"] = "Primal Earth",
+		},
+		["i:76134"] = {
+			["name"] = "Sunstone",
+		},
+		["i:36923"] = {
+			["name"] = "Chalcedony",
+		},
+		["i:13466"] = {
+			["name"] = "Sorrowmoss",
+		},
+		["i:36905"] = {
+			["name"] = "Lichbloom",
+		},
+		["i:83064"] = {
+			["name"] = "Spinefish",
+		},
+		["i:36929"] = {
+			["name"] = "Huge Citrine",
+		},
+		["i:118"] = {
+			["name"] = "Minor Healing Potion",
+		},
+		["i:124102"] = {
+			["name"] = "Dreamleaf",
+		},
+		["i:52984"] = {
+			["name"] = "Stormvine",
+		},
+		["i:3821"] = {
+			["name"] = "Goldthorn",
+		},
+		["i:52325"] = {
+			["name"] = "Volatile Fire",
+		},
+		["i:124124"] = {
+			["name"] = "Blood of Sargeras",
+		},
+		["i:36860"] = {
+			["name"] = "Eternal Fire",
+		},
+		["i:36906"] = {
+			["name"] = "Icethorn",
+		},
+		["i:52986"] = {
+			["name"] = "Heartblossom",
+		},
+		["i:76133"] = {
+			["name"] = "Lapis Lazuli",
+		},
+		["i:22789"] = {
+			["name"] = "Terocone",
+		},
+		["i:127847"] = {
+			["name"] = "Flask of the Whispered Pact",
+		},
+		["i:13467"] = {
+			["name"] = "Icecap",
+		},
+		["i:124118"] = {
+			["name"] = "Fatty Bearsteak",
+		},
+		["i:3371"] = {
+			["name"] = "Crystal Vial",
+		},
+		["i:127835"] = {
+			["name"] = "Ancient Mana Potion",
+		},
+		["i:127848"] = {
+			["name"] = "Flask of the Seventh Demon",
+		},
+		["i:53065"] = {
+			["name"] = "Albino Cavefish",
+		},
+		["i:3369"] = {
+			["name"] = "Grave Moss",
+		},
+		["i:56850"] = {
+			["name"] = "Deepstone Oil",
+		},
+		["i:51950"] = {
+			["name"] = "Pyrium Bar",
+		},
+		["i:76140"] = {
+			["name"] = "Vermilion Onyx",
+		},
+		["i:36913"] = {
+			["name"] = "Saronite Bar",
+		},
+		["i:36932"] = {
+			["name"] = "Dark Jade",
+		},
+		["i:36901"] = {
+			["name"] = "Goldclover",
+		},
+		["i:52179"] = {
+			["name"] = "Alicite",
+		},
+		["i:37704"] = {
+			["name"] = "Crystallized Life",
+		},
+		["i:124120"] = {
+			["name"] = "Leyblood",
+		},
+		["i:52186"] = {
+			["name"] = "Elementium Bar",
+		},
+		["i:41814"] = {
+			["name"] = "Glassfin Minnow",
+		},
+		["i:109144"] = {
+			["name"] = "Blackwater Whiptail Flesh",
+		},
+		["i:3820"] = {
+			["name"] = "Stranglekelp",
+		},
+		["i:76135"] = {
+			["name"] = "Roguestone",
+		},
+		["i:6358"] = {
+			["name"] = "Oily Blackmouth",
+		},
+		["i:6359"] = {
+			["name"] = "Firefin Snapper",
+		},
+		["i:36933"] = {
+			["name"] = "Forest Emerald",
+		},
+		["i:151568"] = {
+			["name"] = "Primal Sargerite",
+		},
+		["i:72237"] = {
+			["name"] = "Rain Poppy",
+		},
+		["i:40199"] = {
+			["name"] = "Pygmy Suckerfish",
+		},
+		["i:72238"] = {
+			["name"] = "Golden Lotus",
+		},
+		["i:8846"] = {
+			["name"] = "Gromsblood",
+		},
+		["i:3357"] = {
+			["name"] = "Liferoot",
+		},
+		["i:76136"] = {
+			["name"] = "Pandarian Garnet",
+		},
+		["i:109141"] = {
+			["name"] = "Fire Ammonite Tentacle",
+		},
+		["i:22787"] = {
+			["name"] = "Ragveil",
+		},
+		["i:124104"] = {
+			["name"] = "Fjarnskaggl",
+		},
+		["i:127836"] = {
+			["name"] = "Ancient Rejuvenation Potion",
+		},
+		["i:72235"] = {
+			["name"] = "Silkweed",
+		},
+		["i:109143"] = {
+			["name"] = "Abyssal Gulper Eel Flesh",
+		},
+		["i:21886"] = {
+			["name"] = "Primal Life",
+		},
+		["i:124105"] = {
+			["name"] = "Starlight Rose",
+		},
+		["i:52983"] = {
+			["name"] = "Cinderbloom",
+		},
+		["i:36924"] = {
+			["name"] = "Sky Sapphire",
+		},
+		["i:8845"] = {
+			["name"] = "Ghost Mushroom",
+		},
+		["i:785"] = {
+			["name"] = "Mageroyal",
+		},
+		["i:109137"] = {
+			["name"] = "Crescent Saberfish Flesh",
+		},
+		["i:109138"] = {
+			["name"] = "Jawless Skulker Flesh",
+		},
+		["i:22791"] = {
+			["name"] = "Netherbloom",
+		},
+		["i:36903"] = {
+			["name"] = "Adder's Tongue",
+		},
+		["i:33448"] = {
+			["name"] = "Runic Mana Potion",
+		},
+		["i:109123"] = {
+			["name"] = "Crescent Oil",
+		},
+		["i:109128"] = {
+			["name"] = "Nagrand Arrowbloom",
+		},
+		["i:52985"] = {
+			["name"] = "Azshara's Veil",
+		},
+		["i:52988"] = {
+			["name"] = "Whiptail",
+		},
+		["i:22785"] = {
+			["name"] = "Felweed",
+		},
+		["i:13463"] = {
+			["name"] = "Dreamfoil",
+		},
+		["i:109129"] = {
+			["name"] = "Talador Orchid",
+		},
+		["i:35627"] = {
+			["name"] = "Eternal Shadow",
+		},
+		["i:3818"] = {
+			["name"] = "Fadeleaf",
+		},
+		["i:127834"] = {
+			["name"] = "Ancient Healing Potion",
+		},
+		["i:2452"] = {
+			["name"] = "Swiftthistle",
+		},
+		["i:127849"] = {
+			["name"] = "Flask of the Countless Armies",
+		},
+		["i:22457"] = {
+			["name"] = "Primal Mana",
+		},
+		["i:76141"] = {
+			["name"] = "Imperial Amethyst",
+		},
+		["i:52178"] = {
+			["name"] = "Zephyrite",
+		},
+		["i:124121"] = {
+			["name"] = "Wildfowl Egg",
+		},
+		["i:13422"] = {
+			["name"] = "Stonescale Eel",
+		},
+		["i:2449"] = {
+			["name"] = "Earthroot",
+		},
+		["i:40195"] = {
+			["name"] = "Pygmy Oil",
+		},
+		["i:36927"] = {
+			["name"] = "Twilight Opal",
+		},
+		["i:72234"] = {
+			["name"] = "Green Tea Leaf",
+		},
+		["i:35623"] = {
+			["name"] = "Eternal Air",
+		},
+		["i:13465"] = {
+			["name"] = "Mountain Silversage",
+		},
+		["i:3356"] = {
+			["name"] = "Kingsblood",
+		},
+		["i:109124"] = {
+			["name"] = "Frostweed",
+		},
+		["i:72096"] = {
+			["name"] = "Ghost Iron Bar",
+		},
+		["i:52328"] = {
+			["name"] = "Volatile Air",
+		},
+		["i:6370"] = {
+			["name"] = "Blackmouth Oil",
+		},
+		["i:72095"] = {
+			["name"] = "Trillium Bar",
+		},
+		["i:87872"] = {
+			["name"] = "Desecrated Oil",
+		},
+		["i:8838"] = {
+			["name"] = "Sungrass",
+		},
+		["i:124119"] = {
+			["name"] = "Big Gamy Ribs",
+		},
+		["i:2450"] = {
+			["name"] = "Briarthorn",
+		},
+		["i:22786"] = {
+			["name"] = "Dreaming Glory",
+		},
+		["i:8831"] = {
+			["name"] = "Purple Lotus",
+		},
+		["i:109118"] = {
+			["name"] = "Blackrock Ore",
+		},
+		["i:36921"] = {
+			["name"] = "Autumn's Glow",
+		},
+		["i:52180"] = {
+			["name"] = "Nightstone",
+		},
+		["i:124101"] = {
+			["name"] = "Aethril",
+		},
+		["i:765"] = {
+			["name"] = "Silverleaf",
+		},
+		["i:52181"] = {
+			["name"] = "Hessonite",
+		},
+		["i:37921"] = {
+			["name"] = "Deadnettle",
+		},
+		["i:33447"] = {
+			["name"] = "Runic Healing Potion",
+		},
+		["i:127850"] = {
+			["name"] = "Flask of Ten Thousand Scars",
+		},
+		["i:79011"] = {
+			["name"] = "Fool's Cap",
+		},
+		["i:127842"] = {
+			["name"] = "Infernal Alchemist Stone",
+		},
+		["i:8839"] = {
+			["name"] = "Blindweed",
+		},
+		["i:76061"] = {
+			["name"] = "Spirit of Harmony",
+		},
+		["i:36904"] = {
+			["name"] = "Tiger Lily",
+		},
+		["i:13464"] = {
+			["name"] = "Golden Sansam",
+		},
+		["i:52327"] = {
+			["name"] = "Volatile Earth",
+		},
+		["i:109140"] = {
+			["name"] = "Blind Lake Sturgeon Flesh",
+		},
+		["i:52182"] = {
+			["name"] = "Jasper",
+		},
+		["i:124444"] = {
+			["name"] = "Infernal Brimstone",
+		},
+		["i:79010"] = {
+			["name"] = "Snow Lily",
+		},
+		["i:36930"] = {
+			["name"] = "Monarch Topaz",
+		},
+		["i:124103"] = {
+			["name"] = "Foxflower",
+		},
+		["i:2453"] = {
+			["name"] = "Bruiseweed",
+		},
+		["i:36908"] = {
+			["name"] = "Frost Lotus",
+		},
+		["i:76139"] = {
+			["name"] = "Wild Jade",
+		},
+		["i:109139"] = {
+			["name"] = "Fat Sleeper Flesh",
+		},
+		["i:52987"] = {
+			["name"] = "Twilight Jasmine",
+		},
+		["i:3358"] = {
+			["name"] = "Khadgar's Whisker",
+		},
+		["i:36907"] = {
+			["name"] = "Talandra's Rose",
+		},
+		["i:76130"] = {
+			["name"] = "Tiger Opal",
+		},
+	},
+	["g@ @queueSort"] = 1,
+	["f@Alliance - Proudmoore@ignoreDECheckBox"] = false,
+	["g@ @showingDefaultFrame"] = true,
+	["f@Alliance - Proudmoore@buyAH"] = false,
+	["g@ @priceColumn"] = 1,
+	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
+	["g@ @questSmartCrafting"] = true,
+	["g@ @profitPercent"] = 0,
+	["f@Alliance - Proudmoore@professionScanCache"] = {
+		["HootzpahHerbalism"] = {
+			["hash"] = 7013061,
+			["scanTime"] = 1510063555,
+		},
+		["VonycAlchemy"] = {
+			["hash"] = 8690789,
+			["scanTime"] = 1508435369,
+		},
+		["HootzpahAlchemy"] = {
+			["hash"] = 13515503,
+			["scanTime"] = 1512663067,
+		},
 	},
 	["f@Alliance - Proudmoore@crafts"] = {
 		[114764] = {
@@ -176,15 +654,14 @@ TradeSkillMaster_CraftingDB = {
 		},
 		[188313] = {
 			["mats"] = {
-				["i:127835"] = 1,
 				["i:124103"] = 5,
+				["i:127835"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
 			["itemString"] = "i:127839",
 			["players"] = {
 				["Vonyc"] = true,
-				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Avalanche Elixir",
@@ -368,7 +845,6 @@ TradeSkillMaster_CraftingDB = {
 			["itemString"] = "i:152615",
 			["players"] = {
 				["Vonyc"] = true,
-				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Astral Healing Potion",
@@ -536,6 +1012,9 @@ TradeSkillMaster_CraftingDB = {
 			["numResult"] = 1,
 			["cooldownTimes"] = {
 				["Vonyc"] = {
+					["endTime"] = 0,
+				},
+				["Hootzpah"] = {
 					["endTime"] = 0,
 				},
 			},
@@ -840,6 +1319,9 @@ TradeSkillMaster_CraftingDB = {
 				["Vonyc"] = {
 					["endTime"] = 0,
 				},
+				["Hootzpah"] = {
+					["endTime"] = 0,
+				},
 			},
 			["hasCD"] = true,
 			["mats"] = {
@@ -899,19 +1381,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Skyflare Diamond",
 		},
-		[229218] = {
+		[251658] = {
 			["mats"] = {
-				["i:124124"] = 1,
-				["i:3371"] = 10,
+				["i:3371"] = 1,
+				["i:151565"] = 15,
 			},
-			["numResult"] = 10,
+			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:142117",
+			["itemString"] = "i:152615",
 			["players"] = {
 				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Potion of Prolonged Power",
+			["name"] = "Astral Healing Potion",
 		},
 		[80488] = {
 			["mats"] = {
@@ -941,6 +1423,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Elixir of Greater Water Breathing",
+		},
+		[188314] = {
+			["mats"] = {
+				["i:127835"] = 1,
+				["i:124103"] = 5,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["name"] = "Avalanche Elixir",
+			["players"] = {
+				["Hootzpah"] = true,
+			},
+			["queued"] = 0,
+			["itemString"] = "i:127839",
 		},
 		[114754] = {
 			["mats"] = {
@@ -1002,62 +1498,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Greater Defense",
 		},
-		[60350] = {
-			["mats"] = {
-				["i:36913"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:41163",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Titanium Bar",
-		},
-		[229220] = {
-			["mats"] = {
-				["i:124124"] = 1,
-				["i:3371"] = 10,
-			},
-			["numResult"] = 10,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:142117",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Potion of Prolonged Power",
-		},
-		[11460] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:8831"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:9154",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elixir of Detect Undead",
-		},
-		[60396] = {
-			["mats"] = {
-				["i:36901"] = 20,
-				["i:35625"] = 2,
-				["i:36908"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:44322",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Mercurial Alchemist Stone",
-		},
 		[175880] = {
 			["players"] = {
 				["Vonyc"] = true,
@@ -1077,35 +1517,62 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Secret of Draenor Alchemy",
 		},
-		[58868] = {
+		[60350] = {
 			["mats"] = {
-				["i:3371"] = 1,
-				["i:33448"] = 10,
+				["i:36913"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:43570",
+			["itemString"] = "i:41163",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Endless Mana Potion",
+			["name"] = "Titanium Bar",
 		},
-		[2329] = {
+		[60396] = {
 			["mats"] = {
-				["i:3371"] = 1,
-				["i:2449"] = 1,
-				["i:765"] = 1,
+				["i:36901"] = 20,
+				["i:35625"] = 2,
+				["i:36908"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:2454",
+			["itemString"] = "i:44322",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mercurial Alchemist Stone",
+		},
+		[229220] = {
+			["mats"] = {
+				["i:124124"] = 1,
+				["i:3371"] = 10,
+			},
+			["numResult"] = 10,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:142117",
 			["players"] = {
 				["Vonyc"] = true,
 				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Elixir of Lion's Strength",
+			["name"] = "Potion of Prolonged Power",
+		},
+		[11460] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:8831"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:9154",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Detect Undead",
 		},
 		[188311] = {
 			["mats"] = {
@@ -1136,6 +1603,65 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Truegold",
+		},
+		[58868] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:33448"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:43570",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Endless Mana Potion",
+		},
+		[53900] = {
+			["mats"] = {
+				["i:36901"] = 1,
+				["i:36907"] = 2,
+				["i:3371"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:40081",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Potion of Nightmares",
+		},
+		[2329] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:2449"] = 1,
+				["i:765"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:2454",
+			["players"] = {
+				["Vonyc"] = true,
+				["Hootzpah"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Lion's Strength",
+		},
+		[93935] = {
+			["mats"] = {
+				["i:52983"] = 1,
+				["i:3371"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:67415",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draught of War",
 		},
 		[114771] = {
 			["mats"] = {
@@ -1180,20 +1706,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Detect Demon",
 		},
-		[188318] = {
-			["mats"] = {
-				["i:124104"] = 5,
-				["i:127835"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127840",
-			["players"] = {
-				["Hootzpah"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Skaggldrynk",
-		},
 		[247694] = {
 			["mats"] = {
 				["i:127842"] = 1,
@@ -1205,10 +1717,26 @@ TradeSkillMaster_CraftingDB = {
 			["itemString"] = "i:151607",
 			["players"] = {
 				["Vonyc"] = true,
-				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
 			["name"] = "Astral Alchemist Stone",
+		},
+		[188342] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124104"] = 10,
+				["i:124103"] = 10,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:127848",
+			["players"] = {
+				["Vonyc"] = true,
+				["Hootzpah"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Flask of the Seventh Demon",
 		},
 		[188326] = {
 			["mats"] = {
@@ -1271,20 +1799,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Volatile Alchemist Stone",
 		},
-		[17573] = {
+		[188310] = {
 			["mats"] = {
-				["i:13463"] = 3,
-				["i:13465"] = 1,
-				["i:3371"] = 1,
+				["i:127834"] = 1,
+				["i:124102"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:13454",
+			["itemString"] = "i:127838",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Arcane Elixir",
+			["name"] = "Sylvan Elixir",
 		},
 		[38070] = {
 			["mats"] = {
@@ -1301,20 +1828,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mercurial Stone",
 		},
-		[80490] = {
+		[17573] = {
 			["mats"] = {
+				["i:13463"] = 3,
+				["i:13465"] = 1,
 				["i:3371"] = 1,
-				["i:52988"] = 2,
-				["i:52329"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:57193",
+			["itemString"] = "i:13454",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mighty Rejuvenation Potion",
+			["name"] = "Greater Arcane Elixir",
 		},
 		[80251] = {
 			["mats"] = {
@@ -1330,65 +1857,63 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dream Emerald",
 		},
-		[2332] = {
+		[80490] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:2447"] = 1,
-				["i:785"] = 2,
+				["i:52988"] = 2,
+				["i:52329"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:2456",
+			["itemString"] = "i:57193",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Minor Rejuvenation Potion",
+			["name"] = "Mighty Rejuvenation Potion",
 		},
-		[188342] = {
+		[11448] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:124105"] = 7,
-				["i:124104"] = 10,
-				["i:124103"] = 10,
+				["i:3358"] = 1,
+				["i:3821"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:127848",
-			["players"] = {
-				["Vonyc"] = true,
-				["Hootzpah"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Flask of the Seventh Demon",
-		},
-		[188310] = {
-			["mats"] = {
-				["i:127834"] = 1,
-				["i:124102"] = 5,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127838",
+			["itemString"] = "i:6149",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Sylvan Elixir",
+			["name"] = "Greater Mana Potion",
 		},
-		[114755] = {
+		[114763] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:72234"] = 2,
+				["i:72235"] = 1,
+				["i:79011"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:76075",
+			["itemString"] = "i:76081",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Mantid Elixir",
+			["name"] = "Elixir of Mirrors",
+		},
+		[80486] = {
+			["mats"] = {
+				["i:53065"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:56850",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Deepstone Oil",
 		},
 		[114756] = {
 			["mats"] = {
@@ -1419,34 +1944,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Flask of Falling Leaves",
 		},
-		[80486] = {
-			["mats"] = {
-				["i:53065"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:56850",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Deepstone Oil",
-		},
-		[114763] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:72235"] = 1,
-				["i:79011"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:76081",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elixir of Mirrors",
-		},
 		[53902] = {
 			["mats"] = {
 				["i:3371"] = 1,
@@ -1463,20 +1960,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Flask of Stoneblood",
 		},
-		[175865] = {
-			["mats"] = {
-				["i:109138"] = 3,
-				["i:109123"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:116268",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Draenic Invisibility Potion",
-		},
 		[33741] = {
 			["mats"] = {
 				["i:3371"] = 1,
@@ -1491,6 +1974,49 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Elixir of Mastery",
+		},
+		[15833] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:8831"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:12190",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Dreamless Sleep Potion",
+		},
+		[175865] = {
+			["mats"] = {
+				["i:109138"] = 3,
+				["i:109123"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:116268",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Draenic Invisibility Potion",
+		},
+		[60367] = {
+			["mats"] = {
+				["i:37921"] = 2,
+				["i:36907"] = 1,
+				["i:3371"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:44332",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Mighty Thoughts",
 		},
 		[96253] = {
 			["mats"] = {
@@ -1507,19 +2033,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Quicksilver Alchemist Stone",
 		},
-		[15833] = {
+		[11465] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:8831"] = 3,
+				["i:3358"] = 1,
+				["i:8839"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:12190",
+			["itemString"] = "i:9179",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Dreamless Sleep Potion",
+			["name"] = "Elixir of Greater Intellect",
 		},
 		[60893] = {
 			["players"] = {
@@ -1543,6 +2070,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Alchemy: Northrend Alchemy Research",
 		},
+		[80491] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:52983"] = 1,
+				["i:52986"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:58094",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Impossible Accuracy",
+		},
 		[213255] = {
 			["players"] = {
 				["Vonyc"] = true,
@@ -1565,21 +2107,6 @@ TradeSkillMaster_CraftingDB = {
 			["profession"] = "Alchemy",
 			["queued"] = 0,
 			["name"] = "Pile of Pants",
-		},
-		[60403] = {
-			["mats"] = {
-				["i:37921"] = 20,
-				["i:40195"] = 12,
-				["i:36908"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:44323",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Indestructible Alchemist Stone",
 		},
 		[188329] = {
 			["mats"] = {
@@ -1612,35 +2139,40 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Draenic Water Breathing Elixir",
 		},
-		[33733] = {
+		[80720] = {
 			["mats"] = {
+				["i:52987"] = 8,
+				["i:52985"] = 8,
 				["i:3371"] = 1,
-				["i:22785"] = 1,
-				["i:22787"] = 2,
+				["i:52329"] = 8,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:28101",
+			["itemString"] = "i:58086",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Unstable Mana Potion",
+			["name"] = "Flask of the Draconic Mind",
 		},
-		[11465] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:3358"] = 1,
-				["i:8839"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:9179",
+		[78866] = {
 			["players"] = {
 				["Vonyc"] = true,
 			},
+			["numResult"] = 15,
+			["cooldownTimes"] = {
+				["Vonyc"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:52329"] = 15,
+			},
+			["itemString"] = "i:54464",
+			["profession"] = "Alchemy",
 			["queued"] = 0,
-			["name"] = "Elixir of Greater Intellect",
+			["name"] = "Random Volatile Element",
 		},
 		[156582] = {
 			["mats"] = {
@@ -1671,11 +2203,11 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Flask of Winter's Bite",
 		},
-		[78866] = {
+		[66663] = {
 			["players"] = {
 				["Vonyc"] = true,
 			},
-			["numResult"] = 15,
+			["numResult"] = 1,
 			["cooldownTimes"] = {
 				["Vonyc"] = {
 					["endTime"] = 0,
@@ -1683,28 +2215,26 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["hasCD"] = true,
 			["mats"] = {
-				["i:52329"] = 15,
+				["i:35623"] = 1,
+				["i:36924"] = 1,
 			},
-			["itemString"] = "i:54464",
+			["itemString"] = "i:36925",
 			["profession"] = "Alchemy",
 			["queued"] = 0,
-			["name"] = "Random Volatile Element",
+			["name"] = "Majestic Zircon",
 		},
-		[80720] = {
+		[7836] = {
 			["mats"] = {
-				["i:52987"] = 8,
-				["i:52985"] = 8,
-				["i:3371"] = 1,
-				["i:52329"] = 8,
+				["i:6358"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:58086",
+			["itemString"] = "i:6370",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Flask of the Draconic Mind",
+			["name"] = "Blackmouth Oil",
 		},
 		[53841] = {
 			["mats"] = {
@@ -1782,25 +2312,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Lifebound Alchemist Stone",
 		},
-		[66663] = {
-			["players"] = {
-				["Vonyc"] = true,
+		[188308] = {
+			["mats"] = {
+				["i:127834"] = 1,
+				["i:124101"] = 20,
 			},
 			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Vonyc"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:35623"] = 1,
-				["i:36924"] = 1,
-			},
-			["itemString"] = "i:36925",
 			["profession"] = "Alchemy",
+			["itemString"] = "i:127837",
+			["players"] = {
+				["Vonyc"] = true,
+				["Hootzpah"] = true,
+			},
 			["queued"] = 0,
-			["name"] = "Majestic Zircon",
+			["name"] = "Draught of Raw Magic",
 		},
 		[80237] = {
 			["mats"] = {
@@ -1862,18 +2387,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Pure Rage Potion",
 		},
-		[7836] = {
+		[247691] = {
 			["mats"] = {
-				["i:6358"] = 2,
+				["i:3371"] = 1,
+				["i:151565"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:6370",
+			["name"] = "Tears of the Naaru",
 			["players"] = {
-				["Vonyc"] = true,
+				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Blackmouth Oil",
+			["itemString"] = "i:151609",
 		},
 		[7841] = {
 			["mats"] = {
@@ -1919,20 +2445,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Darkwater Potion",
 		},
-		[80492] = {
+		[11449] = {
 			["mats"] = {
-				["i:52983"] = 1,
-				["i:52988"] = 1,
 				["i:3371"] = 1,
+				["i:3821"] = 1,
+				["i:3820"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:58143",
+			["itemString"] = "i:8949",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Prismatic Elixir",
+			["name"] = "Elixir of Agility",
 		},
 		[7845] = {
 			["mats"] = {
@@ -1980,35 +2506,35 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Draenic Water Walking Elixir",
 		},
-		[188308] = {
+		[80492] = {
 			["mats"] = {
-				["i:127834"] = 1,
-				["i:124101"] = 20,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127837",
-			["players"] = {
-				["Vonyc"] = true,
-				["Hootzpah"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Draught of Raw Magic",
-		},
-		[11449] = {
-			["mats"] = {
+				["i:52983"] = 1,
+				["i:52988"] = 1,
 				["i:3371"] = 1,
-				["i:3821"] = 1,
-				["i:3820"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:8949",
+			["itemString"] = "i:58143",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Elixir of Agility",
+			["name"] = "Prismatic Elixir",
+		},
+		[33740] = {
+			["mats"] = {
+				["i:13463"] = 1,
+				["i:22785"] = 1,
+				["i:3371"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:28103",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Adept's Elixir",
 		},
 		[247620] = {
 			["mats"] = {
@@ -2054,20 +2580,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Mighty Speed",
 		},
-		[33740] = {
+		[188323] = {
 			["mats"] = {
-				["i:13463"] = 1,
-				["i:22785"] = 1,
-				["i:3371"] = 1,
+				["i:124106"] = 5,
+				["i:124124"] = 3,
+				["i:124444"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:28103",
+			["itemString"] = "i:127842",
 			["players"] = {
 				["Vonyc"] = true,
+				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Adept's Elixir",
+			["name"] = "Infernal Alchemist Stone",
 		},
 		[3170] = {
 			["mats"] = {
@@ -2084,20 +2611,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Weak Troll's Blood Elixir",
 		},
-		[7181] = {
+		[54218] = {
 			["mats"] = {
-				["i:3357"] = 1,
-				["i:3356"] = 1,
+				["i:36904"] = 2,
 				["i:3371"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:1710",
+			["itemString"] = "i:40073",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Healing Potion",
+			["name"] = "Elixir of Mighty Strength",
 		},
 		[3171] = {
 			["mats"] = {
@@ -2114,19 +2640,22 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Wisdom",
 		},
-		[54218] = {
+		[188339] = {
 			["mats"] = {
-				["i:36904"] = 2,
 				["i:3371"] = 1,
+				["i:124105"] = 7,
+				["i:124104"] = 10,
+				["i:124102"] = 10,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:40073",
+			["itemString"] = "i:127847",
 			["players"] = {
 				["Vonyc"] = true,
+				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Elixir of Mighty Strength",
+			["name"] = "Flask of the Whispered Pact",
 		},
 		[114759] = {
 			["mats"] = {
@@ -2204,20 +2733,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spellpower Elixir",
 		},
-		[3176] = {
+		[247690] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:2453"] = 2,
-				["i:2450"] = 2,
+				["i:151565"] = 15,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:3388",
+			["itemString"] = "i:151609",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Strong Troll's Blood Elixir",
+			["name"] = "Tears of the Naaru",
 		},
 		[66660] = {
 			["players"] = {
@@ -2239,22 +2767,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "King's Amber",
 		},
-		[188339] = {
+		[80480] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:124105"] = 7,
-				["i:124104"] = 10,
-				["i:124102"] = 10,
+				["i:52985"] = 1,
+				["i:52984"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:127847",
+			["itemString"] = "i:58089",
 			["players"] = {
 				["Vonyc"] = true,
-				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Flask of the Whispered Pact",
+			["name"] = "Elixir of the Naga",
 		},
 		[156587] = {
 			["players"] = {
@@ -2305,20 +2831,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Defense",
 		},
-		[188303] = {
+		[53898] = {
 			["mats"] = {
+				["i:36901"] = 4,
 				["i:3371"] = 1,
-				["i:128304"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:127835",
+			["itemString"] = "i:40078",
 			["players"] = {
 				["Vonyc"] = true,
-				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Ancient Mana Potion",
+			["name"] = "Elixir of Mighty Fortitude",
 		},
 		[188335] = {
 			["mats"] = {
@@ -2352,40 +2877,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Super Healing Potion",
 		},
-		[66658] = {
+		[80719] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:52983"] = 8,
+				["i:52987"] = 8,
+				["i:52329"] = 8,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:58085",
 			["players"] = {
 				["Vonyc"] = true,
 			},
-			["numResult"] = 1,
-			["cooldownTimes"] = {
-				["Vonyc"] = {
-					["endTime"] = 0,
-				},
-			},
-			["hasCD"] = true,
-			["mats"] = {
-				["i:36930"] = 1,
-				["i:35627"] = 1,
-			},
-			["itemString"] = "i:36931",
-			["profession"] = "Alchemy",
 			["queued"] = 0,
-			["name"] = "Ametrine",
+			["name"] = "Flask of Steelskin",
 		},
-		[247690] = {
+		[188303] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:151565"] = 15,
+				["i:128304"] = 5,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:151609",
+			["itemString"] = "i:127835",
 			["players"] = {
 				["Vonyc"] = true,
 				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Tears of the Naaru",
+			["name"] = "Ancient Mana Potion",
 		},
 		[114760] = {
 			["mats"] = {
@@ -2416,20 +2937,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Vermilion Onyx",
 		},
-		[80480] = {
+		[53903] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:52985"] = 1,
-				["i:52984"] = 1,
+				["i:36901"] = 3,
+				["i:36905"] = 7,
+				["i:36908"] = 1,
 			},
-			["numResult"] = 1,
+			["numResult"] = 2,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:58089",
+			["itemString"] = "i:46377",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Elixir of the Naga",
+			["name"] = "Flask of Endless Rage",
 		},
 		[188304] = {
 			["mats"] = {
@@ -2445,22 +2967,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ancient Rejuvenation Potion",
 		},
-		[80719] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:52983"] = 8,
-				["i:52987"] = 8,
-				["i:52329"] = 8,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:58085",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Flask of Steelskin",
-		},
 		[130326] = {
 			["mats"] = {
 				["i:72095"] = 3,
@@ -2474,6 +2980,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Living Steel",
+		},
+		[53839] = {
+			["mats"] = {
+				["i:36907"] = 2,
+				["i:3371"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:40067",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Icy Mana Potion",
 		},
 		[45061] = {
 			["mats"] = {
@@ -2502,19 +3022,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Ethereal Oil",
 		},
-		[53839] = {
+		[188305] = {
 			["mats"] = {
-				["i:36907"] = 2,
-				["i:3371"] = 1,
+				["i:127834"] = 1,
+				["i:127835"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:40067",
+			["itemString"] = "i:127836",
 			["players"] = {
-				["Vonyc"] = true,
+				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Icy Mana Potion",
+			["name"] = "Ancient Rejuvenation Potion",
 		},
 		[80479] = {
 			["mats"] = {
@@ -2559,35 +3079,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Endless Healing Potion",
 		},
-		[188305] = {
-			["mats"] = {
-				["i:127834"] = 1,
-				["i:127835"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:127836",
-			["players"] = {
-				["Hootzpah"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Ancient Rejuvenation Potion",
-		},
-		[63732] = {
-			["mats"] = {
-				["i:2453"] = 1,
-				["i:6371"] = 1,
-				["i:3371"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:45621",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elixir of Minor Accuracy",
-		},
 		[188348] = {
 			["mats"] = {
 				["i:3371"] = 1,
@@ -2604,6 +3095,35 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Flask of Ten Thousand Scars",
+		},
+		[63732] = {
+			["mats"] = {
+				["i:2453"] = 1,
+				["i:6371"] = 1,
+				["i:3371"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:45621",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Minor Accuracy",
+		},
+		[80250] = {
+			["mats"] = {
+				["i:52983"] = 3,
+				["i:52181"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:52193",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Ember Topaz",
 		},
 		[188300] = {
 			["mats"] = {
@@ -2646,20 +3166,6 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Imperial Amethyst",
-		},
-		[80250] = {
-			["mats"] = {
-				["i:52983"] = 3,
-				["i:52181"] = 3,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:52193",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Ember Topaz",
 		},
 		[114757] = {
 			["mats"] = {
@@ -2706,6 +3212,26 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Mythical Mana Potion",
 		},
+		[66658] = {
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["numResult"] = 1,
+			["cooldownTimes"] = {
+				["Vonyc"] = {
+					["endTime"] = 0,
+				},
+			},
+			["hasCD"] = true,
+			["mats"] = {
+				["i:36930"] = 1,
+				["i:35627"] = 1,
+			},
+			["itemString"] = "i:36931",
+			["profession"] = "Alchemy",
+			["queued"] = 0,
+			["name"] = "Ametrine",
+		},
 		[66662] = {
 			["players"] = {
 				["Vonyc"] = true,
@@ -2726,21 +3252,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Dreadstone",
 		},
-		[53903] = {
+		[3176] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:36901"] = 3,
-				["i:36905"] = 7,
-				["i:36908"] = 1,
+				["i:2453"] = 2,
+				["i:2450"] = 2,
 			},
-			["numResult"] = 2,
+			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:46377",
+			["itemString"] = "i:3388",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Flask of Endless Rage",
+			["name"] = "Strong Troll's Blood Elixir",
 		},
 		[3447] = {
 			["mats"] = {
@@ -2816,19 +3341,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Shadow Oil",
 		},
-		[53898] = {
+		[7181] = {
 			["mats"] = {
-				["i:36901"] = 4,
+				["i:3357"] = 1,
+				["i:3356"] = 1,
 				["i:3371"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:40078",
+			["itemString"] = "i:1710",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Elixir of Mighty Fortitude",
+			["name"] = "Greater Healing Potion",
 		},
 		[3450] = {
 			["mats"] = {
@@ -2845,21 +3371,18 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Fortitude",
 		},
-		[188323] = {
+		[156585] = {
 			["mats"] = {
-				["i:124106"] = 5,
-				["i:124124"] = 3,
-				["i:124444"] = 1,
+				["i:109137"] = 3,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:127842",
+			["itemString"] = "i:109123",
 			["players"] = {
 				["Vonyc"] = true,
-				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Infernal Alchemist Stone",
+			["name"] = "Crescent Oil",
 		},
 		[114762] = {
 			["mats"] = {
@@ -2920,18 +3443,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Oil of Immolation",
 		},
-		[156585] = {
+		[53905] = {
 			["mats"] = {
-				["i:109137"] = 3,
+				["i:36906"] = 2,
+				["i:3371"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:109123",
+			["itemString"] = "i:40093",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Crescent Oil",
+			["name"] = "Indestructible Potion",
 		},
 		[33732] = {
 			["mats"] = {
@@ -2963,19 +3487,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Superior Healing Potion",
 		},
-		[53905] = {
+		[33733] = {
 			["mats"] = {
-				["i:36906"] = 2,
 				["i:3371"] = 1,
+				["i:22785"] = 1,
+				["i:22787"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:40093",
+			["itemString"] = "i:28101",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Indestructible Potion",
+			["name"] = "Unstable Mana Potion",
 		},
 		[11461] = {
 			["mats"] = {
@@ -3037,6 +3562,21 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Greater Agility",
 		},
+		[60403] = {
+			["mats"] = {
+				["i:37921"] = 20,
+				["i:40195"] = 12,
+				["i:36908"] = 1,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:44323",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Indestructible Alchemist Stone",
+		},
 		[17553] = {
 			["mats"] = {
 				["i:8839"] = 2,
@@ -3052,36 +3592,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Superior Mana Potion",
 		},
-		[80491] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:52983"] = 1,
-				["i:52986"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:58094",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elixir of Impossible Accuracy",
-		},
-		[60367] = {
-			["mats"] = {
-				["i:37921"] = 2,
-				["i:36907"] = 1,
-				["i:3371"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:44332",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elixir of Mighty Thoughts",
-		},
 		[7183] = {
 			["mats"] = {
 				["i:3371"] = 1,
@@ -3096,6 +3606,20 @@ TradeSkillMaster_CraftingDB = {
 			},
 			["queued"] = 0,
 			["name"] = "Elixir of Minor Defense",
+		},
+		[114755] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:72234"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:76075",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Mantid Elixir",
 		},
 		[53812] = {
 			["mats"] = {
@@ -3124,20 +3648,20 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Potion of Luck",
 		},
-		[11448] = {
+		[2332] = {
 			["mats"] = {
 				["i:3371"] = 1,
-				["i:3358"] = 1,
-				["i:3821"] = 1,
+				["i:2447"] = 1,
+				["i:785"] = 2,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:6149",
+			["itemString"] = "i:2456",
 			["players"] = {
 				["Vonyc"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Greater Mana Potion",
+			["name"] = "Minor Rejuvenation Potion",
 		},
 		[53836] = {
 			["mats"] = {
@@ -3201,19 +3725,19 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Eye of Zul",
 		},
-		[93935] = {
+		[188318] = {
 			["mats"] = {
-				["i:52983"] = 1,
-				["i:3371"] = 1,
+				["i:124104"] = 5,
+				["i:127835"] = 1,
 			},
 			["numResult"] = 1,
 			["profession"] = "Alchemy",
-			["itemString"] = "i:67415",
+			["itemString"] = "i:127840",
 			["players"] = {
-				["Vonyc"] = true,
+				["Hootzpah"] = true,
 			},
 			["queued"] = 0,
-			["name"] = "Draught of War",
+			["name"] = "Skaggldrynk",
 		},
 		[80721] = {
 			["mats"] = {
@@ -3274,36 +3798,6 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Elixir of Major Strength",
 		},
-		[53900] = {
-			["mats"] = {
-				["i:36901"] = 1,
-				["i:36907"] = 2,
-				["i:3371"] = 1,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:40081",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Potion of Nightmares",
-		},
-		[39636] = {
-			["mats"] = {
-				["i:3371"] = 1,
-				["i:22785"] = 1,
-				["i:22787"] = 2,
-			},
-			["numResult"] = 1,
-			["profession"] = "Alchemy",
-			["itemString"] = "i:32062",
-			["players"] = {
-				["Vonyc"] = true,
-			},
-			["queued"] = 0,
-			["name"] = "Elixir of Major Fortitude",
-		},
 		[188350] = {
 			["mats"] = {
 				["i:127847"] = 5,
@@ -3321,482 +3815,36 @@ TradeSkillMaster_CraftingDB = {
 			["queued"] = 0,
 			["name"] = "Spirit Cauldron",
 		},
-	},
-	["g@ @defaultCraftPriceMethod"] = "first(dbminbuyout, dbmarket)",
-	["f@Alliance - Proudmoore@ignoreAlts"] = false,
-	["g@ @ignoreCDCraftCost"] = true,
-	["f@Alliance - Proudmoore@mats"] = {
-		["i:35625"] = {
-			["name"] = "Eternal Life",
+		[39636] = {
+			["mats"] = {
+				["i:3371"] = 1,
+				["i:22785"] = 1,
+				["i:22787"] = 2,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:32062",
+			["players"] = {
+				["Vonyc"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Elixir of Major Fortitude",
+		},
+		[247696] = {
+			["mats"] = {
+				["i:127842"] = 1,
+				["i:151565"] = 50,
+				["i:151568"] = 3,
+			},
+			["numResult"] = 1,
+			["profession"] = "Alchemy",
+			["itemString"] = "i:151607",
+			["players"] = {
+				["Hootzpah"] = true,
+			},
+			["queued"] = 0,
+			["name"] = "Astral Alchemist Stone",
 		},
-		["i:76137"] = {
-			["name"] = "Alexandrite",
-		},
-		["i:52177"] = {
-			["name"] = "Carnelian",
-		},
-		["i:52329"] = {
-			["name"] = "Volatile Life",
-		},
-		["i:124117"] = {
-			["name"] = "Lean Shank",
-		},
-		["i:36917"] = {
-			["name"] = "Bloodstone",
-		},
-		["i:3355"] = {
-			["name"] = "Wild Steelbloom",
-		},
-		["i:4625"] = {
-			["name"] = "Firebloom",
-		},
-		["i:124106"] = {
-			["name"] = "Felwort",
-		},
-		["i:7972"] = {
-			["name"] = "Ichor of Undeath",
-		},
-		["i:52326"] = {
-			["name"] = "Volatile Water",
-		},
-		["i:109126"] = {
-			["name"] = "Gorgrond Flytrap",
-		},
-		["i:6371"] = {
-			["name"] = "Fire Oil",
-		},
-		["i:2447"] = {
-			["name"] = "Peacebloom",
-		},
-		["i:151565"] = {
-			["name"] = "Astral Glory",
-		},
-		["i:128304"] = {
-			["name"] = "Yseralline Seed",
-		},
-		["i:22452"] = {
-			["name"] = "Primal Earth",
-		},
-		["i:76134"] = {
-			["name"] = "Sunstone",
-		},
-		["i:36923"] = {
-			["name"] = "Chalcedony",
-		},
-		["i:13466"] = {
-			["name"] = "Sorrowmoss",
-		},
-		["i:36905"] = {
-			["name"] = "Lichbloom",
-		},
-		["i:83064"] = {
-			["name"] = "Spinefish",
-		},
-		["i:36929"] = {
-			["name"] = "Huge Citrine",
-		},
-		["i:118"] = {
-			["name"] = "Minor Healing Potion",
-		},
-		["i:124102"] = {
-			["name"] = "Dreamleaf",
-		},
-		["i:52984"] = {
-			["name"] = "Stormvine",
-		},
-		["i:3821"] = {
-			["name"] = "Goldthorn",
-		},
-		["i:52325"] = {
-			["name"] = "Volatile Fire",
-		},
-		["i:124124"] = {
-			["name"] = "Blood of Sargeras",
-		},
-		["i:36860"] = {
-			["name"] = "Eternal Fire",
-		},
-		["i:36906"] = {
-			["name"] = "Icethorn",
-		},
-		["i:52986"] = {
-			["name"] = "Heartblossom",
-		},
-		["i:76133"] = {
-			["name"] = "Lapis Lazuli",
-		},
-		["i:22789"] = {
-			["name"] = "Terocone",
-		},
-		["i:127847"] = {
-			["name"] = "Flask of the Whispered Pact",
-		},
-		["i:13467"] = {
-			["name"] = "Icecap",
-		},
-		["i:124118"] = {
-			["name"] = "Fatty Bearsteak",
-		},
-		["i:3371"] = {
-			["name"] = "Crystal Vial",
-		},
-		["i:127835"] = {
-			["name"] = "Ancient Mana Potion",
-		},
-		["i:127848"] = {
-			["name"] = "Flask of the Seventh Demon",
-		},
-		["i:53065"] = {
-			["name"] = "Albino Cavefish",
-		},
-		["i:3369"] = {
-			["name"] = "Grave Moss",
-		},
-		["i:56850"] = {
-			["name"] = "Deepstone Oil",
-		},
-		["i:51950"] = {
-			["name"] = "Pyrium Bar",
-		},
-		["i:76140"] = {
-			["name"] = "Vermilion Onyx",
-		},
-		["i:36913"] = {
-			["name"] = "Saronite Bar",
-		},
-		["i:36932"] = {
-			["name"] = "Dark Jade",
-		},
-		["i:36901"] = {
-			["name"] = "Goldclover",
-		},
-		["i:52179"] = {
-			["name"] = "Alicite",
-		},
-		["i:37704"] = {
-			["name"] = "Crystallized Life",
-		},
-		["i:124120"] = {
-			["name"] = "Leyblood",
-		},
-		["i:52186"] = {
-			["name"] = "Elementium Bar",
-		},
-		["i:41814"] = {
-			["name"] = "Glassfin Minnow",
-		},
-		["i:109144"] = {
-			["name"] = "Blackwater Whiptail Flesh",
-		},
-		["i:3820"] = {
-			["name"] = "Stranglekelp",
-		},
-		["i:76135"] = {
-			["name"] = "Roguestone",
-		},
-		["i:6358"] = {
-			["name"] = "Oily Blackmouth",
-		},
-		["i:6359"] = {
-			["name"] = "Firefin Snapper",
-		},
-		["i:765"] = {
-			["name"] = "Silverleaf",
-		},
-		["i:127850"] = {
-			["name"] = "Flask of Ten Thousand Scars",
-		},
-		["i:72237"] = {
-			["name"] = "Rain Poppy",
-		},
-		["i:40199"] = {
-			["name"] = "Pygmy Suckerfish",
-		},
-		["i:72238"] = {
-			["name"] = "Golden Lotus",
-		},
-		["i:8846"] = {
-			["name"] = "Gromsblood",
-		},
-		["i:3357"] = {
-			["name"] = "Liferoot",
-		},
-		["i:76136"] = {
-			["name"] = "Pandarian Garnet",
-		},
-		["i:109141"] = {
-			["name"] = "Fire Ammonite Tentacle",
-		},
-		["i:22787"] = {
-			["name"] = "Ragveil",
-		},
-		["i:124104"] = {
-			["name"] = "Fjarnskaggl",
-		},
-		["i:127836"] = {
-			["name"] = "Ancient Rejuvenation Potion",
-		},
-		["i:72235"] = {
-			["name"] = "Silkweed",
-		},
-		["i:109143"] = {
-			["name"] = "Abyssal Gulper Eel Flesh",
-		},
-		["i:21886"] = {
-			["name"] = "Primal Life",
-		},
-		["i:124105"] = {
-			["name"] = "Starlight Rose",
-		},
-		["i:52983"] = {
-			["name"] = "Cinderbloom",
-		},
-		["i:36924"] = {
-			["name"] = "Sky Sapphire",
-		},
-		["i:8845"] = {
-			["name"] = "Ghost Mushroom",
-		},
-		["i:785"] = {
-			["name"] = "Mageroyal",
-		},
-		["i:109137"] = {
-			["name"] = "Crescent Saberfish Flesh",
-		},
-		["i:109138"] = {
-			["name"] = "Jawless Skulker Flesh",
-		},
-		["i:22791"] = {
-			["name"] = "Netherbloom",
-		},
-		["i:36903"] = {
-			["name"] = "Adder's Tongue",
-		},
-		["i:33448"] = {
-			["name"] = "Runic Mana Potion",
-		},
-		["i:109123"] = {
-			["name"] = "Crescent Oil",
-		},
-		["i:109128"] = {
-			["name"] = "Nagrand Arrowbloom",
-		},
-		["i:52985"] = {
-			["name"] = "Azshara's Veil",
-		},
-		["i:52988"] = {
-			["name"] = "Whiptail",
-		},
-		["i:22785"] = {
-			["name"] = "Felweed",
-		},
-		["i:13463"] = {
-			["name"] = "Dreamfoil",
-		},
-		["i:109129"] = {
-			["name"] = "Talador Orchid",
-		},
-		["i:35627"] = {
-			["name"] = "Eternal Shadow",
-		},
-		["i:3818"] = {
-			["name"] = "Fadeleaf",
-		},
-		["i:127834"] = {
-			["name"] = "Ancient Healing Potion",
-		},
-		["i:2452"] = {
-			["name"] = "Swiftthistle",
-		},
-		["i:127849"] = {
-			["name"] = "Flask of the Countless Armies",
-		},
-		["i:22457"] = {
-			["name"] = "Primal Mana",
-		},
-		["i:76141"] = {
-			["name"] = "Imperial Amethyst",
-		},
-		["i:52178"] = {
-			["name"] = "Zephyrite",
-		},
-		["i:124121"] = {
-			["name"] = "Wildfowl Egg",
-		},
-		["i:13422"] = {
-			["name"] = "Stonescale Eel",
-		},
-		["i:2449"] = {
-			["name"] = "Earthroot",
-		},
-		["i:40195"] = {
-			["name"] = "Pygmy Oil",
-		},
-		["i:36927"] = {
-			["name"] = "Twilight Opal",
-		},
-		["i:72234"] = {
-			["name"] = "Green Tea Leaf",
-		},
-		["i:124119"] = {
-			["name"] = "Big Gamy Ribs",
-		},
-		["i:13465"] = {
-			["name"] = "Mountain Silversage",
-		},
-		["i:3356"] = {
-			["name"] = "Kingsblood",
-		},
-		["i:109124"] = {
-			["name"] = "Frostweed",
-		},
-		["i:72096"] = {
-			["name"] = "Ghost Iron Bar",
-		},
-		["i:52328"] = {
-			["name"] = "Volatile Air",
-		},
-		["i:6370"] = {
-			["name"] = "Blackmouth Oil",
-		},
-		["i:35623"] = {
-			["name"] = "Eternal Air",
-		},
-		["i:87872"] = {
-			["name"] = "Desecrated Oil",
-		},
-		["i:8838"] = {
-			["name"] = "Sungrass",
-		},
-		["i:72095"] = {
-			["name"] = "Trillium Bar",
-		},
-		["i:2450"] = {
-			["name"] = "Briarthorn",
-		},
-		["i:22786"] = {
-			["name"] = "Dreaming Glory",
-		},
-		["i:8831"] = {
-			["name"] = "Purple Lotus",
-		},
-		["i:109118"] = {
-			["name"] = "Blackrock Ore",
-		},
-		["i:36933"] = {
-			["name"] = "Forest Emerald",
-		},
-		["i:52180"] = {
-			["name"] = "Nightstone",
-		},
-		["i:124101"] = {
-			["name"] = "Aethril",
-		},
-		["i:151568"] = {
-			["name"] = "Primal Sargerite",
-		},
-		["i:52181"] = {
-			["name"] = "Hessonite",
-		},
-		["i:37921"] = {
-			["name"] = "Deadnettle",
-		},
-		["i:33447"] = {
-			["name"] = "Runic Healing Potion",
-		},
-		["i:36921"] = {
-			["name"] = "Autumn's Glow",
-		},
-		["i:79011"] = {
-			["name"] = "Fool's Cap",
-		},
-		["i:127842"] = {
-			["name"] = "Infernal Alchemist Stone",
-		},
-		["i:8839"] = {
-			["name"] = "Blindweed",
-		},
-		["i:76061"] = {
-			["name"] = "Spirit of Harmony",
-		},
-		["i:36904"] = {
-			["name"] = "Tiger Lily",
-		},
-		["i:13464"] = {
-			["name"] = "Golden Sansam",
-		},
-		["i:52327"] = {
-			["name"] = "Volatile Earth",
-		},
-		["i:109140"] = {
-			["name"] = "Blind Lake Sturgeon Flesh",
-		},
-		["i:52182"] = {
-			["name"] = "Jasper",
-		},
-		["i:124444"] = {
-			["name"] = "Infernal Brimstone",
-		},
-		["i:79010"] = {
-			["name"] = "Snow Lily",
-		},
-		["i:36930"] = {
-			["name"] = "Monarch Topaz",
-		},
-		["i:124103"] = {
-			["name"] = "Foxflower",
-		},
-		["i:2453"] = {
-			["name"] = "Bruiseweed",
-		},
-		["i:36908"] = {
-			["name"] = "Frost Lotus",
-		},
-		["i:76139"] = {
-			["name"] = "Wild Jade",
-		},
-		["i:109139"] = {
-			["name"] = "Fat Sleeper Flesh",
-		},
-		["i:52987"] = {
-			["name"] = "Twilight Jasmine",
-		},
-		["i:3358"] = {
-			["name"] = "Khadgar's Whisker",
-		},
-		["i:36907"] = {
-			["name"] = "Talandra's Rose",
-		},
-		["i:76130"] = {
-			["name"] = "Tiger Opal",
-		},
-	},
-	["g@ @queueSort"] = 1,
-	["f@Alliance - Proudmoore@ignoreDECheckBox"] = false,
-	["g@ @priceColumn"] = 1,
-	["f@Alliance - Proudmoore@buyAH"] = false,
-	["g@ @showingDefaultFrame"] = true,
-	["g@ @defaultMatCostMethod"] = "min(dbmarket, crafting, vendorbuy, convert(dbmarket))",
-	["g@ @questSmartCrafting"] = true,
-	["g@ @profitPercent"] = 0,
-	["f@Alliance - Proudmoore@professionScanCache"] = {
-		["HootzpahHerbalism"] = {
-			["hash"] = 9526418,
-			["scanTime"] = 1508957474,
-		},
-		["VonycAlchemy"] = {
-			["hash"] = 8690789,
-			["scanTime"] = 1508435369,
-		},
-		["HootzpahAlchemy"] = {
-			["hash"] = 13915624,
-			["scanTime"] = 1509140614,
-		},
-	},
-	["_currentProfile"] = {
-		["Hootzpah - Proudmoore"] = "Default",
-		["Vonyc - Proudmoore"] = "Default",
-		["Amethizz - Proudmoore"] = "Default",
 	},
 	["f@Alliance - Proudmoore@inkTrade"] = false,
 	["_version"] = 7,
