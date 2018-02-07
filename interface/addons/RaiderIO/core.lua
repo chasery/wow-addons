@@ -14,8 +14,6 @@ local lshift = bit.lshift
 local rshift = bit.rshift
 local band = bit.band
 local PAYLOAD_BITS = 13
-local PAYLOAD_BITS2 = PAYLOAD_BITS * 2
-local PAYLOAD_BITS3 = PAYLOAD_BITS * 3
 local PAYLOAD_MASK = lshift(1, PAYLOAD_BITS) - 1
 local LOOKUP_MAX_SIZE = floor(2^18-1)
 
@@ -29,10 +27,10 @@ local addonConfig = {
 	enableWhoMessages = true,
 	enableGuildTooltips = true,
 	enableKeystoneTooltips = true,
-	showPrevAllScore = true,
 	showMainsScore = true,
 	showDropDownCopyURL = true,
 	showSimpleScoreColors = false,
+	showScoreInCombat = true,
 	disableScoreColors = false,
 	alwaysExtendTooltip = false,
 }
@@ -41,7 +39,13 @@ local addonConfig = {
 local L = ns.L
 local SCORE_TIERS = ns.scoreTiers
 local SCORE_TIERS_SIMPLE = ns.scoreTiersSimple
+
 local DUNGEONS = ns.dungeons
+for i = 1, #DUNGEONS, 1 do
+	local dgn = DUNGEONS[i]
+	dgn.shortName = L["DUNGEON_SHORT_NAME_" .. dgn.shortName] or dgn.shortName
+end
+
 local MAX_LEVEL = MAX_PLAYER_LEVEL_TABLE[LE_EXPANSION_LEGION]
 local OUTDATED_SECONDS = 86400 * 3 -- number of seconds before we start warning about outdated data
 local NUM_FIELDS_PER_CHARACTER = 3 -- number of fields in the database lookup table for each character
@@ -117,6 +121,67 @@ local LFD_ACTIVITYID_TO_ZONEID = {
 	-- [0] = 13, -- UPPER
 	-- [429] = 0, -- AOVH
 }
+local DUNGEON_INSTANCEMAPID_TO_ZONEID = {
+	[1458] = 1, -- NL
+	[1477] = 2, -- HOV
+	[1466] = 3, -- DHT
+	[1493] = 4, -- VOTW
+	[1501] = 5, -- BRH
+	[1492] = 6, -- MOS
+	[1516] = 7, -- ARC
+	[1456] = 8, -- EOA
+	[1571] = 9, -- COS
+	[1677] = 10, -- CATH
+	[1753] = 11, -- SEAT
+	[1651] = 12, -- LOWER
+	-- [1651] = 13, -- UPPER -- has separate logic to handle this (we just pick best score out of these two)
+}
+local KEYSTONE_INST_TO_ZONEID = {
+	["206"] = 1, -- NL
+	["200"] = 2, -- HOV
+	["198"] = 3, -- DHT
+	["207"] = 4, -- VOTW
+	["199"] = 5, -- BRH
+	["208"] = 6, -- MOS
+	["209"] = 7, -- ARC
+	["197"] = 8, -- EOA
+	["210"] = 9, -- COS
+	["233"] = 10, -- CATH
+	["239"] = 11, -- SEAT
+	["227"] = 12, -- LOWER
+	["234"] = 13, -- UPPER
+}
+local KEYSTONE_LEVEL_TO_BASE_SCORE = {
+	["2"] = 20,
+	["3"] = 30,
+	["4"] = 40,
+	["5"] = 50,
+	["6"] = 60,
+	["7"] = 70,
+	["8"] = 80,
+	["9"] = 90,
+	["10"] = 100,
+	["11"] = 110,
+	["12"] = 121,
+	["13"] = 133,
+	["14"] = 146,
+	["15"] = 161,
+	["16"] = 177,
+	["17"] = 195,
+	["18"] = 214,
+	["19"] = 236,
+	["20"] = 259,
+	["21"] = 285,
+	["22"] = 314,
+	["23"] = 345,
+	["24"] = 380,
+	["25"] = 418,
+	["26"] = 459,
+	["27"] = 505,
+	["28"] = 556,
+	["29"] = 612,
+	["30"] = 673,
+}
 
 -- easter
 local EGG = {
@@ -127,9 +192,9 @@ local EGG = {
 	},
 	["us"] = {
 		["Skullcrusher"] = {
-			["Aspyrael"] = "Raider.IO Creator",
 			["Aspyrform"] = "Raider.IO Creator",
 			["Ulsoga"] = "Immeasurable Greatness",
+			["Pepsiblue"] = "#millennialthings",
 		},
 	},
 }
@@ -399,7 +464,7 @@ local function InitConfig()
 
 	-- customize the look and feel
 	do
-		configFrame:SetSize(320, 496)
+		configFrame:SetSize(1024, 1024) -- narrowed later in the code
 		configFrame:SetPoint("CENTER")
 		configFrame:SetFrameStrata("DIALOG")
 		configFrame:SetFrameLevel(255)
@@ -450,7 +515,7 @@ local function InitConfig()
 		configFrame:RegisterEvent("PLAYER_REGEN_DISABLED")
 
 		-- add widgets
-		local header = config:CreateHeadline(L.RAIDERIO_MYTHIC_OPTIONS)
+		local header = config:CreateHeadline(L.RAIDERIO_MYTHIC_OPTIONS .. "\nVersion: " .. tostring(GetAddOnMetadata(addonName, "Version")))
 		header.text:SetFont(header.text:GetFont(), 16, "OUTLINE")
 
 		config:CreatePadding()
@@ -464,12 +529,12 @@ local function InitConfig()
 
 		config:CreatePadding()
 		config:CreateHeadline(L.TOOLTIP_CUSTOMIZATION)
-		config:CreateOptionToggle(L.SHOW_PREV_SEASON_SCORE, L.SHOW_PREV_SEASON_SCORE_DESC, "showPrevAllScore")
 		config:CreateOptionToggle(L.SHOW_MAINS_SCORE, L.SHOW_MAINS_SCORE_DESC, "showMainsScore")
 		config:CreateOptionToggle(L.ENABLE_SIMPLE_SCORE_COLORS, L.ENABLE_SIMPLE_SCORE_COLORS_DESC, "showSimpleScoreColors")
 		config:CreateOptionToggle(L.ENABLE_NO_SCORE_COLORS, L.ENABLE_NO_SCORE_COLORS_DESC, "disableScoreColors")
 		config:CreateOptionToggle(L.ALWAYS_SHOW_EXTENDED_INFO, L.ALWAYS_SHOW_EXTENDED_INFO_DESC, "alwaysExtendTooltip")
-		-- config:CreateOptionToggle(L.SHOW_KEYSTONE_INFO, L.SHOW_KEYSTONE_INFO_DESC, "enableKeystoneTooltips")
+		config:CreateOptionToggle(L.SHOW_SCORE_IN_COMBAT, L.SHOW_SCORE_IN_COMBAT_DESC, "showScoreInCombat")
+		config:CreateOptionToggle(L.SHOW_KEYSTONE_INFO, L.SHOW_KEYSTONE_INFO_DESC, "enableKeystoneTooltips")
 
 		config:CreatePadding()
 		config:CreateHeadline(L.COPY_RAIDERIO_PROFILE_URL)
@@ -478,10 +543,10 @@ local function InitConfig()
 
 		config:CreatePadding()
 		config:CreateHeadline(L.MYTHIC_PLUS_DB_MODULES)
-		local module1 = config:CreateModuleToggle("Americas", "RaiderIO_DB_US_A", "RaiderIO_DB_US_H")
-		config:CreateModuleToggle("Europe", "RaiderIO_DB_EU_A", "RaiderIO_DB_EU_H")
-		config:CreateModuleToggle("Korea", "RaiderIO_DB_KR_A", "RaiderIO_DB_KR_H")
-		config:CreateModuleToggle("Taiwan", "RaiderIO_DB_TW_A", "RaiderIO_DB_TW_H")
+		local module1 = config:CreateModuleToggle(L.MODULE_AMERICAS, "RaiderIO_DB_US_A", "RaiderIO_DB_US_H")
+		config:CreateModuleToggle(L.MODULE_EUROPE, "RaiderIO_DB_EU_A", "RaiderIO_DB_EU_H")
+		config:CreateModuleToggle(L.MODULE_KOREA, "RaiderIO_DB_KR_A", "RaiderIO_DB_KR_H")
+		config:CreateModuleToggle(L.MODULE_TAIWAN, "RaiderIO_DB_TW_A", "RaiderIO_DB_TW_H")
 
 		-- add save button and cancel buttons
 		local buttons = config:CreateWidget("Frame", 4)
@@ -503,11 +568,21 @@ local function InitConfig()
 
 		-- adjust frame height dynamically
 		local children = {configFrame:GetChildren()}
-		local height = 32
+		local height = 32 + 4
 		for i = 1, #children do
 			height = height + children[i]:GetHeight() + 2
 		end
 		configFrame:SetHeight(height)
+
+		-- adjust frame width dynamically (add padding based on the largest option label string)
+		local maxWidth = 0
+		for i = 1, #config.options do
+			local option = config.options[i]
+			if option.text and option.text:GetObjectType() == "FontString" then
+				maxWidth = max(maxWidth, option.text:GetStringWidth())
+			end
+		end
+		configFrame:SetWidth(160 + maxWidth)
 
 		-- add faction headers over the first module
 		local af = config:CreateHeadline("|TInterface\\Icons\\inv_bannerpvp_02:0:0:0:0:16:16:4:12:4:12|t")
@@ -579,7 +654,7 @@ local function Init()
 	-- purge cache after zoning
 	addon:RegisterEvent("PLAYER_ENTERING_WORLD")
 
-	-- detect toggling of the modifier keys
+	-- detect toggling of the modifier keys (additional events to try self-correct if we locked the mod key by using ALT-TAB)
 	addon:RegisterEvent("MODIFIER_STATE_CHANGED")
 end
 
@@ -634,6 +709,20 @@ local function GetLFDStatus()
 	if temp[1] then
 		return temp, false
 	end
+end
+
+-- detect what instance we are in
+local function GetInstanceStatus()
+	local _, instanceType, _, _, _, _, _, instanceMapID = GetInstanceInfo()
+	if instanceType ~= "party" then return end
+	local index = DUNGEON_INSTANCEMAPID_TO_ZONEID[instanceMapID]
+	if not index then return end
+	local temp = {
+		index = index,
+		dungeon = DUNGEONS[index],
+		level = 0
+	}
+	return temp, true, true
 end
 
 -- retrieves the url slug for a given realm name
@@ -745,10 +834,22 @@ local function UnpackCharacterData(data1, data2, data3)
 	-- Field 1
 	--
 	lo, hi = Split64BitNumber(data1)
-	results.allScore = ReadBits(lo, hi, 0, PAYLOAD_BITS)
-	results.prevAllScore = ReadBits(lo, hi, PAYLOAD_BITS, PAYLOAD_BITS)
-	results.mainScore = ReadBits(lo, hi, PAYLOAD_BITS2, PAYLOAD_BITS)
-	results.tankScore = ReadBits(lo, hi, PAYLOAD_BITS3, PAYLOAD_BITS)
+	offset = 0
+
+	results.allScore = ReadBits(lo, hi, offset, PAYLOAD_BITS)
+	offset = offset + PAYLOAD_BITS
+
+	results.healScore = ReadBits(lo, hi, offset, PAYLOAD_BITS)
+	offset = offset + PAYLOAD_BITS
+
+	results.tankScore = ReadBits(lo, hi, offset, PAYLOAD_BITS)
+	offset = offset + PAYLOAD_BITS
+
+	results.mainScore = ReadBits(lo, hi, offset, PAYLOAD_BITS)
+	offset = offset + PAYLOAD_BITS
+
+	results.isPrevAllScore = not (ReadBits(lo, hi, offset, 1) == 0)
+	offset = offset + 1
 
 	--
 	-- Field 2
@@ -759,13 +860,10 @@ local function UnpackCharacterData(data1, data2, data3)
 	results.dpsScore = ReadBits(lo, hi, offset, PAYLOAD_BITS)
 	offset = offset + PAYLOAD_BITS
 
-	results.healScore = ReadBits(lo, hi, offset, PAYLOAD_BITS)
-	offset = offset + PAYLOAD_BITS
-
 	local dungeonIndex = 1
 	results.dungeons = {}
-	for i = 1, 5 do
-		results.dungeons[dungeonIndex]	= ReadBits(lo, hi, offset, 5)
+	for i = 1, 8 do
+		results.dungeons[dungeonIndex] = ReadBits(lo, hi, offset, 5)
 		dungeonIndex = dungeonIndex + 1
 		offset = offset + 5
 	end
@@ -783,7 +881,7 @@ local function UnpackCharacterData(data1, data2, data3)
 	end
 
 	local maxDungeonLevel = 0
-	local maxDungeonIndex = 1
+	local maxDungeonIndex = -1	-- we may not have a max dungeon if user was brought in because of +10/+15 achievement
 	for i = 1, #results.dungeons do
 		if results.dungeons[i] > maxDungeonLevel then
 			maxDungeonLevel = results.dungeons[i]
@@ -794,14 +892,11 @@ local function UnpackCharacterData(data1, data2, data3)
 	results.maxDungeonLevel = maxDungeonLevel
 	results.maxDungeonIndex = maxDungeonIndex
 
-	results.keystoneFivePlus = ReadBits(lo, hi, offset, 1) == 1
-	offset = offset + 1
+	results.keystoneTenPlus = ReadBits(lo, hi, offset, 8)
+	offset = offset + 8
 
-	results.keystoneTenPlus = ReadBits(lo, hi, offset, 1) == 1
-	offset = offset + 1
-
-	results.keystoneFifteenPlus = ReadBits(lo, hi, offset, 1) == 1
-	offset = offset + 1
+	results.keystoneFifteenPlus = ReadBits(lo, hi, offset, 8)
+	offset = offset + 8
 
 	return results
 end
@@ -830,7 +925,8 @@ local function CacheProviderData(name, realm, index, data1, data2, data3)
 		realm = realm,
 		-- current and last season overall score
 		allScore = payload.allScore,
-		prevAllScore = payload.prevAllScore,
+		prevAllScore = payload.allScore,		-- DEPRECATED, will be removed in the future
+		isPrevAllScore = payload.isPrevAllScore,
 		mainScore = payload.mainScore,
 		-- extract the scores per role
 		dpsScore = payload.dpsScore,
@@ -840,7 +936,6 @@ local function CacheProviderData(name, realm, index, data1, data2, data3)
 		dungeons = payload.dungeons,
 		maxDungeonLevel = payload.maxDungeonLevel,
 		maxDungeonName = DUNGEONS[payload.maxDungeonIndex] and DUNGEONS[payload.maxDungeonIndex].shortName or '',
-		keystoneFivePlus = payload.keystoneFivePlus,
 		keystoneTenPlus = payload.keystoneTenPlus,
 		keystoneFifteenPlus = payload.keystoneFifteenPlus,
 	}
@@ -904,7 +999,7 @@ end
 
 -- returns score color using item colors
 local function GetScoreColor(score)
-	if addonConfig.disableScoreColors then
+	if score == 0 or addonConfig.disableScoreColors then
 		return 1, 1, 1
 	end
 	local r, g, b = 0.62, 0.62, 0.62
@@ -933,12 +1028,32 @@ local function GetScoreColor(score)
 	return r, g, b
 end
 
+-- returns score formatted for current or prev season
+local function GetFormattedScore(score, isPrevious)
+	if isPrevious then
+		return score .. " " .. L.PREV_SEASON_SUFFIX
+	end
+	return score
+end
+
+-- we only use 8 bits for a run, so decide a cap that we won't show beyond
+local function GetFormattedRunCount(count)
+	if count > 250 then
+		return '250+'
+	else
+		return count
+	end
+end
+
 -- appends score data to a given tooltip
 local function AppendGameTooltip(tooltip, arg1, forceNoPadding, forceAddName, forceFaction, focusOnDungeonIndex)
 	local profile = GetScore(arg1, nil, forceFaction)
 
 	-- sanity check that the profile exists
 	if profile then
+
+		-- HOTFIX: ALT-TAB stickyness
+		addon:MODIFIER_STATE_CHANGED(true)
 
 		-- setup tooltip hook
 		if not tooltipHooks[tooltip] then
@@ -962,23 +1077,23 @@ local function AppendGameTooltip(tooltip, arg1, forceNoPadding, forceAddName, fo
 			tooltip:AddLine(profile.name .. " (" .. profile.realm .. ")", 1, 1, 1, false)
 		end
 
-		tooltip:AddDoubleLine(L.RAIDERIO_MP_SCORE, profile.allScore, 1, 0.85, 0, GetScoreColor(profile.allScore))
+		if profile.allScore > 0 then
+			tooltip:AddDoubleLine(L.RAIDERIO_MP_SCORE, GetFormattedScore(profile.allScore, profile.isPrevAllScore), 1, 0.85, 0, GetScoreColor(profile.allScore))
+		else
+			tooltip:AddDoubleLine(L.RAIDERIO_MP_SCORE, L.UNKNOWN_SCORE, 1, 0.85, 0, 1, 1, 1)
+		end
 
 		-- choose the best highlight to show:
 		-- if user has a recorded run at higher level than their highest
 		-- achievement then show that. otherwise, show their highest achievement.
 		local highlightStr
-		if profile.keystoneFifteenPlus then
+		if profile.keystoneFifteenPlus > 0 then
 			if profile.maxDungeonLevel < 15 then
 				highlightStr = L.KEYSTONE_COMPLETED_15
 			end
-		elseif profile.keystoneTenPlus then
+		elseif profile.keystoneTenPlus > 0 then
 			if profile.maxDungeonLevel < 10 then
 				highlightStr = L.KEYSTONE_COMPLETED_10
-			end
-		elseif profile.keystoneFivePlus then
-			if profile.maxDungeonLevel < 5 then
-				highlightStr = L.KEYSTONE_COMPLETED_5
 			end
 		end
 
@@ -1003,8 +1118,18 @@ local function AppendGameTooltip(tooltip, arg1, forceNoPadding, forceAddName, fo
 		-- if not, then are we queued for, or hosting a group for a keystone run?
 		if not focusOnDungeonIndex then
 			local queued, isHosting = GetLFDStatus()
+			local waitingInsideDungeon
+			-- if no LFD, are we inside a dungeon we'd like to show the score for?
+			if not queued or isHosting == nil then
+				queued, isHosting, waitingInsideDungeon = GetInstanceStatus()
+			end
 			if queued and isHosting ~= nil then
 				if isHosting then
+					-- we are inside dungeon waiting on our group
+					if waitingInsideDungeon and (queued.index == 12 or queued.index == 13) then -- we don't know what part of karazhan we are doing
+						queued.index = profile.dungeons[12] > profile.dungeons[13] and 12 or 13 -- pick best score (lower or upper)
+						queued.dungeon = DUNGEONS[queued.index] -- adjust the dungeon data we display
+					end
 					-- we are hosting, so this is the only keystone we are interested in showing
 					if profile.dungeons[queued.index] > 0 then
 						qHighlightStrSameAsBest = profile.maxDungeonName == queued.dungeon.shortName
@@ -1048,6 +1173,14 @@ local function AppendGameTooltip(tooltip, arg1, forceNoPadding, forceAddName, fo
 			end
 		end
 
+		if profile.keystoneFifteenPlus > 0 then
+			tooltip:AddDoubleLine(L.TIMED_15_RUNS, GetFormattedRunCount(profile.keystoneFifteenPlus), 1, 1, 1, GetScoreColor(profile.allScore))
+		end
+
+		if profile.keystoneTenPlus > 0 and (profile.keystoneFifteenPlus == 0 or showExtendedTooltip) then
+			tooltip:AddDoubleLine(L.TIMED_10_RUNS, GetFormattedRunCount(profile.keystoneTenPlus), 1, 1, 1, GetScoreColor(profile.allScore))
+		end
+
 		-- show tank, healer and dps scores (only when the tooltip is extended)
 		if showExtendedTooltip then
 			local scores = {}
@@ -1071,10 +1204,6 @@ local function AppendGameTooltip(tooltip, arg1, forceNoPadding, forceAddName, fo
 					tooltip:AddDoubleLine(scores[i][1], scores[i][2], 1, 1, 1, GetScoreColor(scores[i][2]))
 				end
 			end
-		end
-
-		if addonConfig.showPrevAllScore and profile.prevAllScore > profile.allScore then
-			tooltip:AddDoubleLine(L.PREV_SEASON_SCORE, profile.prevAllScore, 1, 1, 1, GetScoreColor(profile.prevAllScore))
 		end
 
 		if addonConfig.showMainsScore and profile.mainScore > profile.allScore then
@@ -1230,7 +1359,7 @@ function addon:PLAYER_ENTERING_WORLD()
 end
 
 -- modifier key is toggled, update the tooltip if needed
-function addon:MODIFIER_STATE_CHANGED()
+function addon:MODIFIER_STATE_CHANGED(skipUpdatingTooltip)
 	-- if we always draw the full tooltip then this part of the code shouldn't be running at all
 	if addonConfig.alwaysExtendTooltip then
 		return
@@ -1239,7 +1368,7 @@ function addon:MODIFIER_STATE_CHANGED()
 	local m = IsModifierKeyDown()
 	local l = addon.modKey
 	addon.modKey = m
-	if m ~= l then
+	if m ~= l and skipUpdatingTooltip ~= true then
 		UpdateAppendedGameTooltip()
 	end
 end
@@ -1334,6 +1463,9 @@ do
 	uiHooks[#uiHooks + 1] = function()
 		GameTooltip:HookScript("OnTooltipSetUnit", function(self)
 			if not addonConfig.enableUnitTooltips then
+				return
+			end
+			if not addonConfig.showScoreInCombat and InCombatLockdown() then
 				return
 			end
 			local _, unit = self:GetUnit()
@@ -1704,11 +1836,8 @@ do
 		local function score(profile)
 			text = ""
 
-			-- show the last season score if our current season score is too low relative to our last score, otherwise just show the real score
-			if addonConfig.showPrevAllScore and profile.prevAllScore > profile.allScore then
-				text = text .. (L.RAIDERIO_MP_SCORE_COLON):gsub("%.", "|cffFFFFFF|r.") .. profile.allScore .. " (" .. L.PREV_SEASON_COLON .. profile.prevAllScore .. "). "
-			elseif profile.allScore > 0 then
-				text = text .. (L.RAIDERIO_MP_SCORE_COLON):gsub("%.", "|cffFFFFFF|r.") .. profile.allScore .. ". "
+			if profile.allScore > 0 then
+				text = text .. (L.RAIDERIO_MP_SCORE_COLON):gsub("%.", "|cffFFFFFF|r.") .. GetFormattedScore(profile.allScore, profile.isPrevAllScore) .. ". "
 			end
 
 			-- show the mains season score
@@ -1777,10 +1906,10 @@ do
 	uiHooks[#uiHooks + 1] = function()
 		if addonConfig.showDropDownCopyURL then
 			local append = {
-				"PLAYER",
+				"PLAYER", -- TAINT?
 				"FRIEND",
-				"BN_FRIEND",
-				-- "GUILD",
+				-- "BN_FRIEND", -- TAINT?
+				-- "GUILD", -- TAINT
 			}
 			for i = 1, #append do
 				local key = append[i]
@@ -1791,30 +1920,45 @@ do
 		return 1
 	end
 
-	-- Keystone GameTooltip + ItemRefTooltip
-	--[=[
+	-- Keystone Info
 	uiHooks[#uiHooks + 1] = function()
 		local function OnSetItem(tooltip)
 			if not addonConfig.enableKeystoneTooltips then
 				return
 			end
 			local _, link = tooltip:GetItem()
-			if type(link) == "string" and link:find("keystone:", nil, true) then
-				local inst, lvl, a1, a2, a3 = link:match("keystone:(%d+):(%d+):(%d+):(%d+):(%d+)")
-				if inst then
-					-- TODO: evaluate the instance, level and affixes compared to our score, can we make it?
-					tooltip:AddLine(" ")
-					tooltip:AddLine("Raider.IO", 1, 0.85, 0, false)
-					tooltip:AddLine((lvl * 50) .. " score is recommended for this dungeon.", 1, 1, 1, false)
-					tooltip:Show()
+			if type(link) ~= "string" then return end
+			local inst, lvl, a1, a2, a3 = link:match("keystone:(%d+):(%d+):(%d+):(%d+):(%d+)")
+			if not lvl then inst, lvl, a1, a2, a3 = link:match("item:138019:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:.-:(%d+):(%d+):(%d+):(%d+):(%d+)") end
+			if not lvl then return end
+			local baseScore = KEYSTONE_LEVEL_TO_BASE_SCORE[lvl]
+			if not baseScore then return end
+			tooltip:AddLine(" ")
+			tooltip:AddDoubleLine(L.RAIDERIO_MP_BASE_SCORE, baseScore, 1, 0.85, 0, 1, 1, 1)
+			local index = KEYSTONE_INST_TO_ZONEID[inst]
+			if index then
+				local n = GetNumGroupMembers()
+				if n <= 5 then -- let's show score only if we are in a 5 man group/raid
+					for i = 0, n, 1 do
+						local unit = i == 0 and "player" or "party" .. i
+						local profile = GetScore(unit)
+						if profile then
+							local level = profile.dungeons[index]
+							if level > 0 then
+								-- TODO: sort these by dungeon level, descending
+								local dungeonName = DUNGEONS[index] and " " .. DUNGEONS[index].shortName or ""
+								tooltip:AddDoubleLine(UnitName(unit), "+" .. level .. dungeonName, 1, 1, 1, 1, 1, 1)
+							end
+						end
+					end
 				end
 			end
+			tooltip:Show()
 		end
 		GameTooltip:HookScript("OnTooltipSetItem", OnSetItem)
 		ItemRefTooltip:HookScript("OnTooltipSetItem", OnSetItem)
 		return 1
 	end
-	--]=]
 end
 
 -- register events and wait for the addon load event to fire

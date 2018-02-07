@@ -32,6 +32,32 @@ if ns:IsSameLocale("ptBR") then
 --Translation missing 
 -- L["DPS_SCORE"] = ""
 --Translation missing 
+-- L["DUNGEON_SHORT_NAME_ARC"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_BRH"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_COEN"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_COS"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_DHT"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_EOA"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_HOV"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_LOWR"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_MOS"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_NL"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_SEAT"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_UPPR"] = ""
+--Translation missing 
+-- L["DUNGEON_SHORT_NAME_VOTW"] = ""
+--Translation missing 
 -- L["ENABLE_NO_SCORE_COLORS"] = ""
 --Translation missing 
 -- L["ENABLE_NO_SCORE_COLORS_DESC"] = ""
@@ -48,11 +74,17 @@ if ns:IsSameLocale("ptBR") then
 --Translation missing 
 -- L["KEYSTONE_COMPLETED_15"] = ""
 --Translation missing 
--- L["KEYSTONE_COMPLETED_5"] = ""
---Translation missing 
 -- L["MAINS_SCORE"] = ""
 --Translation missing 
 -- L["MAINS_SCORE_COLON"] = ""
+--Translation missing 
+-- L["MODULE_AMERICAS"] = ""
+--Translation missing 
+-- L["MODULE_EUROPE"] = ""
+--Translation missing 
+-- L["MODULE_KOREA"] = ""
+--Translation missing 
+-- L["MODULE_TAIWAN"] = ""
 --Translation missing 
 -- L["MYTHIC_PLUS_DB_MODULES"] = ""
 --Translation missing 
@@ -64,9 +96,7 @@ if ns:IsSameLocale("ptBR") then
 --Translation missing 
 -- L["OUTDATED_DATABASE_S"] = ""
 --Translation missing 
--- L["PREV_SEASON_COLON"] = ""
---Translation missing 
--- L["PREV_SEASON_SCORE"] = ""
+-- L["PREV_SEASON_SUFFIX"] = ""
 --Translation missing 
 -- L["RAIDERIO_MP_SCORE"] = ""
 --Translation missing 
@@ -110,15 +140,17 @@ if ns:IsSameLocale("ptBR") then
 --Translation missing 
 -- L["SHOW_ON_PLAYER_UNITS_DESC"] = ""
 --Translation missing 
--- L["SHOW_PREV_SEASON_SCORE"] = ""
---Translation missing 
--- L["SHOW_PREV_SEASON_SCORE_DESC"] = ""
---Translation missing 
 -- L["TANK"] = ""
 --Translation missing 
 -- L["TANK_SCORE"] = ""
 --Translation missing 
+-- L["TIMED_10_RUNS"] = ""
+--Translation missing 
+-- L["TIMED_15_RUNS"] = ""
+--Translation missing 
 -- L["TOOLTIP_CUSTOMIZATION"] = ""
+--Translation missing 
+-- L["UNKNOWN_SCORE"] = ""
 --Translation missing 
 -- L["UNKNOWN_SERVER_FOUND"] = ""
 

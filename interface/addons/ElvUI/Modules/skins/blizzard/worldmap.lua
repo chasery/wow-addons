@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local S = E:GetModule('Skins')
 
 --Cache global variables
@@ -99,6 +99,8 @@ local function LoadSkin()
 	WorldMapFrame.UIElementsFrame.BountyBoard.BountyName:FontTemplate(nil, 14, "OUTLINE")
 	WorldMapFrame.UIElementsFrame.OpenQuestPanelButton:Size(22,20)
 	WorldMapFrame.UIElementsFrame.CloseQuestPanelButton:Size(22,20)
+
+	S:HandleCloseButton(WorldMapFrame.UIElementsFrame.BountyBoard.TutorialBox.CloseButton)
 
 	WorldMapFrameAreaLabel:FontTemplate(nil,30)
 	WorldMapFrameAreaLabel:SetShadowOffset(2,-2)

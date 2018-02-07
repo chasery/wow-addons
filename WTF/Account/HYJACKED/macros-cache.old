@@ -9,6 +9,11 @@ END
 VER 3 000000000000000E "Extra Action" "Spell_Nature_SlowingTotem"
 /click ExtraActionButton1
 END
+VER 3 000000000000004C "Health" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Healthstone
+/use Astral Healing Potion
+END
 VER 3 0000000000000046 "Innervate" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@mouseover, help][] Innervate

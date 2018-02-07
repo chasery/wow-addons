@@ -1,10 +1,10 @@
 # BigWigs
 
-## [v85.1](https://github.com/BigWigsMods/BigWigs/tree/v85.1) (2017-12-16)
-[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v85...v85.1)
+## [v87.1](https://github.com/BigWigsMods/BigWigs/tree/v87.1) (2018-02-01)
+[Full Changelog](https://github.com/BigWigsMods/BigWigs/compare/v87...v87.1)
 
-- Update zhCN.lua (#417)  
-- Update zhTW.lua (#416)  
-- Temp workaround for Blizz PTR silliness.  
-- Antorus/Argus: remove Stellar Armory bar for normal mode (they don't swap)  
-- Argus: Fix stage warnings for non english / non localized languages  
+- bump version  
+- Antorus/Aggramar: Fixed Taeschalach Technique for LFR (#426) (fixes #425)  
+- Nighthold/Guldan: Fix "Module uses 206222 as a toggle option" on Mythic (#427)  
+- Update travis yml file  
+- Antorus/Kingaroth: Add counter to Apocalypse Protocol and improve timers after it ends.  

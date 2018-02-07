@@ -2,8 +2,13 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Hootzpah - Proudmoore"] = "Vonyc - Proudmoore",
+		["Adstedt - Bleeding Hollow"] = "Vonyc - Proudmoore",
+		["Furiousgash - Proudmoore"] = "Vonyc - Proudmoore",
 		["Vonyc - Proudmoore"] = "Vonyc - Proudmoore",
+		["Amethizz - Bleeding Hollow"] = "Vonyc - Proudmoore",
 		["Amethizz - Proudmoore"] = "Vonyc - Proudmoore",
+		["Anjüna - Proudmoore"] = "Vonyc - Proudmoore",
+		["Closet - Proudmoore"] = "Vonyc - Proudmoore",
 	},
 	["profiles"] = {
 		["Vonyc - Proudmoore"] = {
@@ -36,12 +41,7 @@ Details_StreamerDB = {
 			["point"] = "CENTER",
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["main_frame_strata"] = "LOW",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -49,7 +49,7 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["author"] = "Details! Team",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
@@ -67,7 +67,12 @@ Details_StreamerDB = {
 			["font_face"] = "Friz Quadrata TT",
 			["y"] = -4.577636718750e-005,
 			["use_spark"] = true,
-			["author"] = "Details! Team",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["main_frame_locked"] = false,
 			["arrow_anchor_y"] = 0,
 		},

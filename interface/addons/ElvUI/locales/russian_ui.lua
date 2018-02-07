@@ -38,6 +38,7 @@ L["Purchase Bags"] = "Приобрести слот"
 L["Purchase"] = "Приобрести слот"
 L["Reagent Bank"] = "Банк материалов"
 L["Reset Position"] = "Сбросить позицию"
+L["Right Click the bag icon to assign a type of item to this bag."] = true
 L["Show/Hide Reagents"] = "Показать/скрыть материалы"
 L["Sort Tab"] = "Сортировать вкладки" --Not used, yet?
 L["Temporary Move"] = "Временное перемещение"
@@ -104,10 +105,12 @@ L["Main Hand"] = "Правая рука"
 L["Mission(s) Report:"] = "Отчет миссий:"
 L["Mitigation By Level: "] = "Снижение на уровне: "
 L["Mobile"] = "Мобильный"
+L["Mov. Speed:"] = STAT_MOVEMENT_SPEED
 L["Naval Mission(s) Report:"] = "Отчет морских миссий:"
 L["No Guild"] = "Нет гильдии"
 L["Offhand"] = "Левая рука"
 L["Profit:"] = "Прибыль:"
+L["Reset Counters: Hold Shift + Left Click"] = "Сбросить счётчики: Shift + ЛКМ"
 L["Reset Data: Hold Shift + Right Click"] = "Сбросить данные: Shift + ПКМ"
 L["Saved Raid(s)"] = "Сохраненные рейды"
 L["Saved Dungeon(s)"] = "Сохраненнные подземелья"
@@ -134,7 +137,6 @@ L["|cffFFFFFFShift + Left Click:|r Show Talent Specialization UI"] = "|cffFFFFFF
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s tried to call the protected function '%s'."
-L["No locals to dump"] = "No locals to dump"
 
 --Distributor
 L["%s is attempting to share his filters with you. Would you like to accept the request?"] = "%s хочет передать Вам свои фильтры. Желаете ли Вы принять их?"

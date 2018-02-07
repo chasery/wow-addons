@@ -38,6 +38,7 @@ L["Purchase Bags"] = "Comprar Bolsas"
 L["Purchase"] = "Comprar"
 L["Reagent Bank"] = "Banco de Componentes"
 L["Reset Position"] = "Reestablecer Posición"
+L["Right Click the bag icon to assign a type of item to this bag."] = true
 L["Show/Hide Reagents"] = "Mostrar/Ocultar Componentes"
 L["Sort Tab"] = "Ordenar Pestaña"
 L["Temporary Move"] = "Movimiento Temporal"
@@ -104,10 +105,12 @@ L["Main Hand"] = "Mano Derecha"
 L["Mission(s) Report:"] = "Informe de Misión(es)"
 L["Mitigation By Level: "] = "Mitigación Por Nivel: "
 L["Mobile"] = true
+L["Mov. Speed:"] = STAT_MOVEMENT_SPEED
 L["Naval Mission(s) Report:"] = "Informe de Misión(es) Navales"
 L["No Guild"] = "Sin Hermandad"
 L["Offhand"] = "Mano Izquierda"
 L["Profit:"] = "Ganancia:"
+L["Reset Counters: Hold Shift + Left Click"] = true
 L["Reset Data: Hold Shift + Right Click"] = "Restablecer Datos: Mantén Shift + Clic Derecho"
 L["Saved Raid(s)"] = "Banda(s) Guardada(s)"
 L["Saved Dungeon(s)"] = true
@@ -134,7 +137,6 @@ L["|cffFFFFFFShift + Left Click:|r Show Talent Specialization UI"] = "|cffFFFFFF
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s intentó llamar a la función protegida '%s'."
-L["No locals to dump"] = "No hay locales para volcar"
 
 --Distributor
 L["%s is attempting to share his filters with you. Would you like to accept the request?"] = "%s quiere compartir sus filtros contigo. ¿Aceptas la petición?"

@@ -8,22 +8,25 @@ if not mod then return end
 mod.displayName = CL.trash
 mod:RegisterEnableMob(
 	118704, -- Dul'zak
+	118690, -- Wrathguard Invader
 	119952, -- Felguard Destroyer
 	119923, -- Helblaze Soulmender
 	118703, -- Felborne Botanist
 	118714, -- Hellblaze Temptress
 	118713, -- Felstrider Orbcaster
 	120713, -- Wa'glur
-	118723 -- Gazerax
+	118723, -- Gazerax
+	121569  -- Vilebark Walker
 )
 
 --------------------------------------------------------------------------------
 -- Localization
 --
 
-local L = mod:NewLocale("enUS", true)
+local L = mod:GetLocale()
 if L then
 	L.dulzak = "Dul'zak"
+	L.wrathguard = "Wrathguard Invader"
 	L.felguard = "Felguard Destroyer"
 	L.soulmender = "Helblaze Soulmender"
 	L.botanist = "Felborne Botanist"
@@ -31,8 +34,8 @@ if L then
 	L.orbcaster = "Felstrider Orbcaster"
 	L.waglur = "Wa'glur"
 	L.gazerax = "Gazerax"
+	L.vilebark = "Vilebark Walker"
 end
-L = mod:GetLocale()
 
 --------------------------------------------------------------------------------
 -- Initialization
@@ -42,6 +45,8 @@ function mod:GetOptions()
 	return {
 		-- Dul'zak
 		238653, -- Shadow Wave
+		-- Wrathguard Invader
+		{236737, "SAY"}, -- Fel Strike
 		-- Felguard Destroyer
 		241598, -- Shadow Wall
 		-- Helblaze Soulmender
@@ -56,8 +61,11 @@ function mod:GetOptions()
 		241772, -- Unearthy Howl
 		-- Gazerax
 		239232, -- Blinding Glare
+		-- Vilebark Walker
+		242760, -- Lumbering Crash
 	}, {
 		[238653] = L.dulzak,
+		[236737] = L.wrathguard,
 		[241598] = L.felguard,
 		[238543] = L.soulmender,
 		[237565] = L.botanist,
@@ -65,12 +73,14 @@ function mod:GetOptions()
 		[239320] = L.orbcaster,
 		[241772] = L.waglur,
 		[239232] = L.gazerax,
+		[242760] = L.vilebark
 	}
 end
 
 function mod:OnBossEnable()
 	self:RegisterMessage("BigWigs_OnBossEngage", "Disable")
-	self:Log("SPELL_CAST_START", "ShadowWave", 238653) -- Shadow Wave
+	self:RegisterEvent("UNIT_SPELLCAST_START", "ShadowWave") -- Shadow Wave
+	self:Log("SPELL_CAST_START", "FelStrike", 236737) -- Fel Strike
 	self:Log("SPELL_CAST_START", "ShadowWall", 241598) -- Shadow Wall
 	self:Log("SPELL_CAST_START", "DemonicMending", 238543) -- Demonic Mending
 	self:Log("SPELL_CAST_START", "BlisteringRain", 237565) -- Blistering Rain
@@ -78,6 +88,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "FelblazeOrb", 239320) -- Felblaze Orb
 	self:Log("SPELL_CAST_START", "UnearthyHowl", 241772) -- Unearthy Howl
 	self:Log("SPELL_CAST_START", "BlindingGlare", 239232) -- Blinding Glare
+	self:Log("SPELL_CAST_START", "LumberingCrash", 121569) -- Lumbering Crash
 end
 
 --------------------------------------------------------------------------------
@@ -85,8 +96,34 @@ end
 --
 
 -- Dul'zak
-function mod:ShadowWave(args)
-	self:Message(args.spellId, "Attention", "Long", CL.casting:format(args.spellName))
+do
+	local prev = nil
+	function mod:ShadowWave(_, _, spellName, _, castGUID, spellId)
+		if spellId == 238653 and castGUID ~= prev then -- Shadow Wave
+			prev = castGUID
+			self:Message(spellId, "Urgent", "Alarm", CL.incoming:format(spellName))
+			self:Bar(spellId, 23.2)
+		end
+	end
+end
+
+-- Wrathguard Invader
+do
+	local prev = 0
+	local function printTarget(self, name, guid)
+		local t = GetTime()
+		if self:Me(guid) then
+			prev = t
+			self:TargetMessage(236737, name, "Personal", "Alert")
+			self:Say(236737)
+		elseif t-prev > 1.5 then
+			prev = t
+			self:Message(236737, "Attention", "Alert")
+		end
+	end
+	function mod:FelStrike(args)
+		self:GetUnitTarget(printTarget, 0.5, args.sourceGUID)
+	end
 end
 
 -- Felguard Destroyer
@@ -122,4 +159,10 @@ end
 -- Gazerax
 function mod:BlindingGlare(args)
 	self:Message(args.spellId, "Urgent", "Warning", CL.casting:format(args.spellName))
+	self:CastBar(args.spellId, 2.5)
+end
+
+-- Vilebark Walker
+function mod:LumberingCrash(args)
+	self:Message(args.spellId, "Important", "Alarm", CL.casting:format(args.spellName))
 end

@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local S = E:GetModule('Skins')
 
 --Cache global variables
@@ -316,6 +316,9 @@ local function LoadSkin()
 	S:HookScript(GarrisonMissionMechanicTooltip, "OnShow", function(self)
 		self:SetTemplate("Transparent")
 	end)
+
+	--LandingPage Tutorial
+	S:HandleCloseButton(GarrisonLandingPageTutorialBox.CloseButton)
 end
 
 local function SkinTooltip()

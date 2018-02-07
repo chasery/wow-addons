@@ -1,4 +1,4 @@
-local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 
 --Cache global variables
 --Lua functions
@@ -210,22 +210,6 @@ function E:EnableBlizzardAddOns()
 			E:Print("The following addon was re-enabled:", addon)
 		end
 	end
-end
-
-local statusFrame
-function E:ShowStatusReport()
-	if not statusFrame then
-		statusFrame = CreateFrame("Frame", nil, E.UIParent)
-		statusFrame:Size(400, 600)
-		statusFrame:Point("CENTER", 0, 200)
-		statusFrame:SetFrameStrata("HIGH")
-		statusFrame:CreateBackdrop("Transparent", nil, true)
-		statusFrame.backdrop:SetBackdropColor(0, 0, 0, 0.8)
-		statusFrame:Hide()
-	end
-
-	statusFrame:Raise() --Set framelevel above everything else
-	statusFrame:SetShown(not statusFrame:IsShown()) --Toggle displayed state
 end
 
 function E:LoadCommands()

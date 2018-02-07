@@ -14,6 +14,7 @@ end
 L = BigWigs:NewBossLocale("Cathedral of Eternal Night Trash", "koKR")
 if L then
 	L.dulzak = "둘자크"
+	--L.wrathguard = "Wrathguard Invader"
 	L.felguard = "지옥수호병 파괴자"
 	L.soulmender = "지옥불길 영혼치유사"
 	L.temptress = "지옥불길 요녀"
@@ -21,4 +22,5 @@ if L then
 	L.orbcaster = "지옥길잡이 보주술사"
 	L.waglur = "와글루르"
 	L.gazerax = "가제락스"
+	L.vilebark = "썩은나무껍질 방랑자"
 end

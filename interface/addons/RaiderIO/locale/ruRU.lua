@@ -5,106 +5,82 @@ if ns:IsSameLocale("ruRU") then
 
 	L.LOCALE_NAME = "ruRU"
 
-L["ALLOW_IN_LFD"] = "Разрешить в Поиске подземелья"
---Translation missing 
--- L["ALLOW_IN_LFD_DESC"] = ""
---Translation missing 
--- L["ALLOW_ON_PLAYER_UNITS"] = ""
---Translation missing 
--- L["ALLOW_ON_PLAYER_UNITS_DESC"] = ""
---Translation missing 
--- L["ALWAYS_SHOW_EXTENDED_INFO"] = ""
---Translation missing 
--- L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = ""
-L["BEST_FOR_DUNGEON"] = "Лучшее для подземелья"
-L["BEST_RUN"] = "Лучший"
+L["ALLOW_IN_LFD"] = "В заранее собранных группах"
+L["ALLOW_IN_LFD_DESC"] = "Нажмите правой кнопкой мыши на группу или кандидатов в заранее собранных группах для копирования ссылки на профиль Raider.IO. Для группы будет ссылка на лидера."
+L["ALLOW_ON_PLAYER_UNITS"] = "При нажатии на игроков"
+L["ALLOW_ON_PLAYER_UNITS_DESC"] = "Нажмите правой кнопкой мыши на игрока для копирования ссылки на профиль Raider.IO."
+L["ALWAYS_SHOW_EXTENDED_INFO"] = "Всегда показывать очки всех ролей"
+L["ALWAYS_SHOW_EXTENDED_INFO_DESC"] = "Удерживайте клавиши shift/ctrl/alt для отображения в подсказке очков всех ролей. Если этот параметр включен, то в подсказках всегда будут отображаться очки всех ролей."
+L["BEST_FOR_DUNGEON"] = "Лучшее прохождение тек. подзем."
+L["BEST_RUN"] = "Лучшее прохождение"
 L["CHANGES_REQUIRES_UI_RELOAD"] = [=[Изменения были сохранены, но необходимо перезагрузить интерфейс, чтобы они вступили в силу.
 
-Ты хочешь сделать это сейчас?]=]
-L["COPY_RAIDERIO_PROFILE_URL"] = "Копировать URL профиль Raider.IO"
-L["COPY_RAIDERIO_URL"] = "Копировать Raider.IO URL"
-L["DPS"] = "DPS"
-L["DPS_SCORE"] = "DPS Score"
-L["ENABLE_NO_SCORE_COLORS"] = "Отключить цвета оценки"
---Translation missing 
--- L["ENABLE_NO_SCORE_COLORS_DESC"] = ""
---Translation missing 
--- L["ENABLE_SIMPLE_SCORE_COLORS"] = ""
---Translation missing 
--- L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = ""
-L["HEALER"] = "Целитель"
-L["HEALER_SCORE"] = "Результат Целителя"
-L["KEYSTONE_COMPLETED_10"] = "+10 (KSC)"
-L["KEYSTONE_COMPLETED_15"] = "+15 (KSM)"
-L["KEYSTONE_COMPLETED_5"] = "+5 (KSI)"
---Translation missing 
--- L["MAINS_SCORE"] = ""
---Translation missing 
--- L["MAINS_SCORE_COLON"] = ""
---Translation missing 
--- L["MYTHIC_PLUS_DB_MODULES"] = ""
---Translation missing 
--- L["MYTHIC_PLUS_SCORES"] = ""
-L["OPEN_CONFIG"] = "Открыть конфигурацию"
---Translation missing 
--- L["OUTDATED_DATABASE"] = ""
---Translation missing 
--- L["OUTDATED_DATABASE_S"] = ""
---Translation missing 
--- L["PREV_SEASON_COLON"] = ""
---Translation missing 
--- L["PREV_SEASON_SCORE"] = ""
---Translation missing 
--- L["RAIDERIO_MP_SCORE"] = ""
---Translation missing 
--- L["RAIDERIO_MP_SCORE_COLON"] = ""
---Translation missing 
--- L["RAIDERIO_MYTHIC_OPTIONS"] = ""
---Translation missing 
--- L["RELOAD_LATER"] = ""
-L["RELOAD_NOW"] = "Перезагрузить страницу"
---Translation missing 
--- L["SHOW_IN_FRIENDS"] = ""
---Translation missing 
--- L["SHOW_IN_FRIENDS_DESC"] = ""
---Translation missing 
--- L["SHOW_IN_LFD"] = ""
---Translation missing 
--- L["SHOW_IN_LFD_DESC"] = ""
---Translation missing 
--- L["SHOW_IN_SLASH_WHO_RESULTS"] = ""
---Translation missing 
--- L["SHOW_IN_SLASH_WHO_RESULTS_DESC"] = ""
---Translation missing 
--- L["SHOW_IN_WHO_UI"] = ""
---Translation missing 
--- L["SHOW_IN_WHO_UI_DESC"] = ""
---Translation missing 
--- L["SHOW_KEYSTONE_INFO"] = ""
---Translation missing 
--- L["SHOW_KEYSTONE_INFO_DESC"] = ""
---Translation missing 
--- L["SHOW_MAINS_SCORE"] = ""
---Translation missing 
--- L["SHOW_MAINS_SCORE_DESC"] = ""
---Translation missing 
--- L["SHOW_ON_GUILD_ROSTER"] = ""
---Translation missing 
--- L["SHOW_ON_GUILD_ROSTER_DESC"] = ""
---Translation missing 
--- L["SHOW_ON_PLAYER_UNITS"] = ""
---Translation missing 
--- L["SHOW_ON_PLAYER_UNITS_DESC"] = ""
---Translation missing 
--- L["SHOW_PREV_SEASON_SCORE"] = ""
---Translation missing 
--- L["SHOW_PREV_SEASON_SCORE_DESC"] = ""
+Сделать это сейчас?]=]
+L["COPY_RAIDERIO_PROFILE_URL"] = "Копирование ссылки на профиль Raider.IO"
+L["COPY_RAIDERIO_URL"] = "Копировать ссылку на Raider.IO-профиль"
+L["DPS"] = "Боец"
+L["DPS_SCORE"] = "Очки бойца"
+L["DUNGEON_SHORT_NAME_ARC"] = "Катакомбы"
+L["DUNGEON_SHORT_NAME_BRH"] = "Чер. ладья"
+L["DUNGEON_SHORT_NAME_COEN"] = "Собор"
+L["DUNGEON_SHORT_NAME_COS"] = "Квартал"
+L["DUNGEON_SHORT_NAME_DHT"] = "Чаща"
+L["DUNGEON_SHORT_NAME_EOA"] = "Око Азш"
+L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги"
+L["DUNGEON_SHORT_NAME_LOWR"] = "Кара низ"
+L["DUNGEON_SHORT_NAME_MOS"] = "Утроба"
+L["DUNGEON_SHORT_NAME_NL"] = "Логово"
+L["DUNGEON_SHORT_NAME_SEAT"] = "Престол"
+L["DUNGEON_SHORT_NAME_UPPR"] = "Кара верх"
+L["DUNGEON_SHORT_NAME_VOTW"] = "Казематы"
+L["ENABLE_NO_SCORE_COLORS"] = "Отключить цвета для очков"
+L["ENABLE_NO_SCORE_COLORS_DESC"] = "Отключает раскраску очков. Все очки будут отображены белым цветом."
+L["ENABLE_SIMPLE_SCORE_COLORS"] = "Использовать упрощенную окраску очков"
+L["ENABLE_SIMPLE_SCORE_COLORS_DESC"] = "Показывает очки только цветами качества предметов. Это упрощает визуальную оценку очков при беглом осмотре кандидатов."
+L["HEALER"] = "Лекарь"
+L["HEALER_SCORE"] = "Очки лекаря"
+L["KEYSTONE_COMPLETED_10"] = "+10 (К-з)"
+L["KEYSTONE_COMPLETED_15"] = "+15 (Вк)"
+L["MAINS_SCORE"] = "Очки мейна"
+L["MAINS_SCORE_COLON"] = "Очки мейна"
+L["MODULE_AMERICAS"] = "Америка"
+L["MODULE_EUROPE"] = "Европа"
+L["MODULE_KOREA"] = "Корея"
+L["MODULE_TAIWAN"] = "Тайвань"
+L["MYTHIC_PLUS_DB_MODULES"] = "Региональные модули базы данных очков"
+L["MYTHIC_PLUS_SCORES"] = "Очки эпохальных+ подземелий"
+L["OPEN_CONFIG"] = "Открыть настройки"
+L["OUTDATED_DATABASE"] = "Данные устарели на %d дня."
+L["OUTDATED_DATABASE_S"] = "|cffFFFFFF%s|r использует данные устаревшие на |cffFF6666%d|r дня(дней). Пожалуйста, обновите аддон для отображения корректных очков."
+L["PREV_SEASON_SUFFIX"] = "(*)"
+L["RAIDERIO_MP_SCORE"] = "Очки по версии Raider.IO"
+L["RAIDERIO_MP_SCORE_COLON"] = "Очки по версии Raider.IO: "
+L["RAIDERIO_MYTHIC_OPTIONS"] = "Настройки аддона Raider.IO "
+L["RELOAD_LATER"] = "Перезагрузить позже"
+L["RELOAD_NOW"] = "Перезагрузить сейчас"
+L["SHOW_IN_FRIENDS"] = "Показывать в списке друзей"
+L["SHOW_IN_FRIENDS_DESC"] = "Показывает очки при наведении курсора мыши в списке друзей."
+L["SHOW_IN_LFD"] = "Показывать в заранее собранных группах"
+L["SHOW_IN_LFD_DESC"] = "Показывает очки при наведении курсора на группу или кандидатов в заранее собранных группах. Для группы отображаются очки лидера."
+L["SHOW_IN_SLASH_WHO_RESULTS"] = "Показывать при использовании /кто "
+L["SHOW_IN_SLASH_WHO_RESULTS_DESC"] = "Показывает очки, при использовании \"/кто\" по имени персонажа."
+L["SHOW_IN_WHO_UI"] = "Показывать во вкладке \"Кто\""
+L["SHOW_IN_WHO_UI_DESC"] = "Показывает очки при наведении курсора мыши во вкладке \"Кто\"."
+L["SHOW_KEYSTONE_INFO"] = "Показывать сведения о ключе"
+L["SHOW_KEYSTONE_INFO_DESC"] = "Добавляет информацию в подсказку ключа. Показывает рекомендуемое количество очков для группы."
+L["SHOW_MAINS_SCORE"] = "Показывать очки главного персонажа"
+L["SHOW_MAINS_SCORE_DESC"] = "Показывает очки главного персонажа игрока. Требуется зарегистрироваться на сайте Raider.IO и отметить какого-либо персонажа главным."
+L["SHOW_ON_GUILD_ROSTER"] = "Показывать в гильдии"
+L["SHOW_ON_GUILD_ROSTER_DESC"] = "Показывает очки при наведении курсора мыши на членов гильдии."
+L["SHOW_ON_PLAYER_UNITS"] = "Показывать при наведении на игроков"
+L["SHOW_ON_PLAYER_UNITS_DESC"] = "Показывает очки при наведении курсора мыши на цель, если это игрок."
 L["TANK"] = "Танк"
-L["TANK_SCORE"] = "Результат Танка"
---Translation missing 
--- L["TOOLTIP_CUSTOMIZATION"] = ""
---Translation missing 
--- L["UNKNOWN_SERVER_FOUND"] = ""
+L["TANK_SCORE"] = "Очки танка"
+L["TIMED_10_RUNS"] = "Пройдено 10-14 ключей во время"
+L["TIMED_15_RUNS"] = "Пройдено 15+ ключей во время"
+L["TOOLTIP_CUSTOMIZATION"] = "Настройки подсказок"
+L["UNKNOWN_SCORE"] = "Неизв."
+L["UNKNOWN_SERVER_FOUND"] = "|cffFFFFFF%s|r обнаружил неизвестный ранее сервер. Пожалуйста, запишите эту информацию |cffFF9999{|r |cffFFFFFF%s|r |cffFF9999,|r |cffFFFFFF%s|r |cffFF9999}|r и сообщите об этом разработчикам. Спасибо!"
 
 
 	ns.L = L

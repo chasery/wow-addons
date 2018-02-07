@@ -3,40 +3,61 @@ TradeSkillMaster_AuctioningDB = {
 	["g@ @confirmCompleteSound"] = "TSM_NO_SOUND",
 	["g@ @roundNormalPrice"] = false,
 	["g@ @disableInvalidMsg"] = false,
+	["_currentProfile"] = {
+		["Hootzpah - Proudmoore"] = "Default",
+		["Adstedt - Bleeding Hollow"] = "Default",
+		["Amethizz - Bleeding Hollow"] = "Default",
+		["Amethizz - Proudmoore"] = "Default",
+		["Furiousgash - Proudmoore"] = "Default",
+		["Vonyc - Proudmoore"] = "Default",
+		["Anjüna - Proudmoore"] = "Default",
+		["Closet - Proudmoore"] = "Default",
+	},
 	["_scopeKeys"] = {
 		["char"] = {
 			"Vonyc - Proudmoore", -- [1]
 			"Amethizz - Proudmoore", -- [2]
 			"Hootzpah - Proudmoore", -- [3]
+			"Adstedt - Bleeding Hollow", -- [4]
+			"Anjüna - Proudmoore", -- [5]
+			"Furiousgash - Proudmoore", -- [6]
+			"Amethizz - Bleeding Hollow", -- [7]
+			"Closet - Proudmoore", -- [8]
 		},
 		["factionrealm"] = {
 			"Alliance - Proudmoore", -- [1]
+			"Horde - Bleeding Hollow", -- [2]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
 		["realm"] = {
 			"Proudmoore", -- [1]
+			"Bleeding Hollow", -- [2]
 		},
 	},
 	["g@ @priceColumn"] = 1,
 	["f@Alliance - Proudmoore@player"] = {
-		["Vonyc"] = true,
+		["Closet"] = true,
 		["Amethizz"] = true,
+		["Furiousgash"] = true,
+		["Vonyc"] = true,
+		["Anjüna"] = true,
 		["Hootzpah"] = true,
 	},
-	["_currentProfile"] = {
-		["Hootzpah - Proudmoore"] = "Default",
-		["Vonyc - Proudmoore"] = "Default",
-		["Amethizz - Proudmoore"] = "Default",
+	["f@Horde - Bleeding Hollow@whitelist"] = {
 	},
-	["_hash"] = 5870975,
-	["g@ @matchWhitelist"] = true,
-	["g@ @scanCompleteSound"] = "TSM_NO_SOUND",
 	["g@ @helpPlatesShown"] = {
 		["selection"] = true,
 	},
+	["_hash"] = 5870975,
+	["f@Horde - Bleeding Hollow@player"] = {
+		["Adstedt"] = true,
+		["Amethizz"] = true,
+	},
 	["g@ @cancelWithBid"] = false,
+	["g@ @scanCompleteSound"] = "TSM_NO_SOUND",
+	["g@ @matchWhitelist"] = true,
 	["_version"] = 1,
 	["f@Alliance - Proudmoore@whitelist"] = {
 	},

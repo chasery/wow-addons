@@ -38,6 +38,7 @@ L["Purchase Bags"] = true
 L["Purchase"] = "Comprar"
 L["Reagent Bank"] = true
 L["Reset Position"] = "Redefinir Posição"
+L["Right Click the bag icon to assign a type of item to this bag."] = true
 L["Show/Hide Reagents"] = true
 L["Sort Tab"] = "Aba de Organização"
 L["Temporary Move"] = "Mover Temporariamente"
@@ -104,10 +105,12 @@ L["Main Hand"] = "Mão Principal"
 L["Mission(s) Report:"] = true
 L["Mitigation By Level: "] = "Mitigação por nível"
 L["Mobile"] = true
+L["Mov. Speed:"] = STAT_MOVEMENT_SPEED
 L["Naval Mission(s) Report:"] = true
 L["No Guild"] = "Sem Guilda"
 L["Offhand"] = "Mão Secundária"
 L["Profit:"] = "Lucro:"
+L["Reset Counters: Hold Shift + Left Click"] = true
 L["Reset Data: Hold Shift + Right Click"] = "Redefinir Dados: Segurar Shifr + Clique Direito"
 L["Saved Raid(s)"] = "Raide(s) Salva(s)"
 L["Saved Dungeon(s)"] = true
@@ -134,7 +137,6 @@ L["|cffFFFFFFShift + Left Click:|r Show Talent Specialization UI"] = true
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s tentou chamar a função protegida '%s'."
-L["No locals to dump"] = "Sem locais para despejar"
 
 --Distributor
 L["%s is attempting to share his filters with you. Would you like to accept the request?"] = "%s está tentando compartilhar os filtros dele com você. Gostaria de aceitar o pedido?"

@@ -14,6 +14,7 @@ end
 L = BigWigs:NewBossLocale("Cathedral of Eternal Night Trash", "esES") or BigWigs:NewBossLocale("Cathedral of Eternal Night Trash", "esMX")
 if L then
 	L.dulzak = "Dul'zak"
+	--L.wrathguard = "Wrathguard Invader"
 	L.felguard = "Destructor guardia vil"
 	L.soulmender = "Ensalmador de almas Llama Infernal"
 	L.temptress = "Tentadora Llama Infernal"
@@ -21,5 +22,6 @@ if L then
 	L.orbcaster = "Lanzaorbes Zancavil"
 	L.waglur = "Wa'glur"
 	L.gazerax = "Avizorax"
+	L.vilebark = "Caminante Cortezavil"
 end
 

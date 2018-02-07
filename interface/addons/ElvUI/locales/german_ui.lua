@@ -38,6 +38,7 @@ L["Purchase Bags"] = "Taschen kaufen"
 L["Purchase"] = "Kaufen"
 L["Reagent Bank"] = "Reagenzien Bank"
 L["Reset Position"] = "Position zurücksetzen"
+L["Right Click the bag icon to assign a type of item to this bag."] = "Rechts Klicke auf das Taschensymbol um einen Gegenstandstyp zuzuweisen."
 L["Show/Hide Reagents"] = "Reagenzien anzeigen/ausblenden"
 L["Sort Tab"] = "Tab sortieren" --Not used, yet?
 L["Temporary Move"] = "Temporäres Bewegen"
@@ -104,10 +105,12 @@ L["Main Hand"] = "Waffenhand"
 L["Mission(s) Report:"] = "Missionsbericht"
 L["Mitigation By Level: "] = "Milderung durch Stufe: "
 L["Mobile"] = "Handy"
+L["Mov. Speed:"] = STAT_MOVEMENT_SPEED
 L["Naval Mission(s) Report:"] = "Marine Missionsbericht:"
 L["No Guild"] = "Keine Gilde"
 L["Offhand"] = "Schildhand"
 L["Profit:"] = "Gewinn:"
+L["Reset Counters: Hold Shift + Left Click"] = "Zähler zurücksetzen: Halte Shift + Linksklick"
 L["Reset Data: Hold Shift + Right Click"] = "Daten zurücksetzen: Halte Shift + Rechtsklick"
 L["Saved Raid(s)"] = "Gespeicherte Schlachtzüge"
 L["Saved Dungeon(s)"] = "Gespeicherte Instanz(en)"
@@ -134,7 +137,6 @@ L["|cffFFFFFFShift + Left Click:|r Show Talent Specialization UI"] = "|cffFFFFFF
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s versucht die geschützte Funktion aufrufen '%s'."
-L["No locals to dump"] = "Keine Lokalisierung zum verwerfen"
 
 --Distributor
 L["%s is attempting to share his filters with you. Would you like to accept the request?"] = "%s möchte seine Filter Einstellungen mit dir teilen. Möchtest du die Anfrage annehmen?"

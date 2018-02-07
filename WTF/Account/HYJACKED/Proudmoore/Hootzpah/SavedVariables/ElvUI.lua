@@ -1,866 +1,866 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/simc", -- [1]
-		"/g 1", -- [2]
-		"/raid Ewww", -- [3]
-		"/raid I stopped bringing it", -- [4]
-		"/raid it being my gear ha", -- [5]
-		"/cw Zánklin-Thrall add me Berlin#1896", -- [6]
-		"/cw Zánklin-Thrall I don't got it!", -- [7]
-		"/cw Zánklin-Thrall There we go, now we can be friends", -- [8]
-		"/raid 1", -- [9]
-		"/roll 20000", -- [10]
-		"/cw Zánklin-Thrall WOW", -- [11]
-		"/cw Zánklin-Thrall Am I just a DPS to you?", -- [12]
-		"/ROLL 30000", -- [13]
-		"/raid Lessss go", -- [14]
-		"/ROLL", -- [15]
-		"/s fuck you", -- [16]
-		"/i sorry hah", -- [17]
-		"/i dispel", -- [18]
-		"/i ty", -- [19]
-		" That moment you random bg for artifact appearance", -- [20]
+		"/cw Titlenine-Proudmoore No, two hours", -- [1]
+		"/cw Titlenine-Proudmoore ???", -- [2]
+		"/cw Titlenine-Proudmoore Can't make it now?", -- [3]
+		"/cw Titlenine-Proudmoore You're in socal, right?", -- [4]
+		"/cw Titlenine-Proudmoore fuck, we should hang", -- [5]
+		"/cw Titlenine-Proudmoore I am out in Riverside", -- [6]
+		"/cw Titlenine-Proudmoore oh shit, I am like half a mile from ucr haha", -- [7]
+		"/cw Titlenine-Proudmoore Will do", -- [8]
+		"/i Can we get hero, please?", -- [9]
+		"/cw Padany-Proudmoore sure :)", -- [10]
+		"/p sorry", -- [11]
+		"/p just use to chain pulling", -- [12]
+		"/p I'll watch your health this time ;)", -- [13]
+		"/p yeah, druid is not ideal with an under geared tank", -- [14]
+		"/p if lock has sac, we can kite this", -- [15]
+		"/p ty", -- [16]
+		"/cw Padany-Proudmoore If you want an actual carry, my group can sell you one here about 11am server", -- [17]
+		"/cw Padany-Proudmoore ahh ok ;)", -- [18]
+		"/cw Padany-Proudmoore np!", -- [19]
+		"/cw Padany-Proudmoore That's pretty solid!", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"FREAK OUT", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"NICE ONE!", -- [1]
+			"Nyalt-Darkspear", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Nyalt-Darkspear", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1642, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4791, -- [11]
+			"Player-120-08285501", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309100,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Nyalt-Darkspear|r",
+			[51] = 1517962299,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [1]
 		{
-			"FUCKIN FREAK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"i will ambush healer ", -- [1]
+			"Selgark-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Selgark-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1644, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4792, -- [11]
+			"Player-1147-079F6F28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309104,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Selgark-KulTiras|r",
+			[51] = 1517962300,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [2]
 		{
-			"do it", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"We shall create a New Pure American Empire.", -- [1]
+			"Numb-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1646, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4794, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309106,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517962310,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [3]
 		{
-			"fukin do it", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"stay in a clump on meet let them come", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1649, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4795, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309111,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962313,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [4]
 		{
-			"koosper", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"First time what we do ? ", -- [1]
+			"Wolfman-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Wolfman-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1650, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4798, -- [11]
+			"Player-1136-07BC12F9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309113,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Wolfman-Aegwynn|r",
+			[51] = 1517962315,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [5]
 		{
-			"FUCK IM ALREADY MAD", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"they always do", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1653, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4799, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309117,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962316,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [6]
 		{
-			"which 2 start?", -- [1]
-			"Jathel-Proudmoore", -- [2]
+			"Death to China.", -- [1]
+			"Numb-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathel", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1655, -- [11]
-			"Player-5-05B3DF47", -- [12]
+			4801, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaJathel|r",
-			[51] = 1513309142,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517962320,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [7]
 		{
-			"noura and asara", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"All rogues lets go and ambush the healers", -- [1]
+			"Selgark-KulTiras", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Selgark-KulTiras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1656, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4802, -- [11]
+			"Player-1147-079F6F28", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309156,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Selgark-KulTiras|r",
+			[51] = 1517962323,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [8]
 		{
-			"ok, does it matter who we hit?", -- [1]
-			"Jathel-Proudmoore", -- [2]
+			"stay on the ping", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathel", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1657, -- [11]
-			"Player-5-05B3DF47", -- [12]
+			4803, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaJathel|r",
-			[51] = 1513309167,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962326,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [9]
 		{
-			"sorry, dont really know this fight", -- [1]
-			"Jathel-Proudmoore", -- [2]
+			"merk and twerk", -- [1]
+			"Ligëia-Tichondrius", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathel", -- [5]
+			"Ligëia-Tichondrius", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1658, -- [11]
-			"Player-5-05B3DF47", -- [12]
+			4804, -- [11]
+			"Player-11-06C25F93", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaJathel|r",
-			[51] = 1513309173,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaLigëia-Tichondrius|r",
+			[51] = 1517962327,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [10]
 		{
-			"jathel just stay away from people", -- [1]
-			"Jathël-Proudmoore", -- [2]
+			"dk yankie doodie dandy", -- [1]
+			"Mütt-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathël", -- [5]
+			"Mütt-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1660, -- [11]
-			"Player-5-0AB56DE8", -- [12]
+			4805, -- [11]
+			"Player-1136-07D700AF", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513309192,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dMütt-Aegwynn|r",
+			[51] = 1517962328,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [11]
 		{
-			"and dont hit the wall", -- [1]
-			"Jathël-Proudmoore", -- [2]
+			"I'm gonna ride on my biggest mount into battle", -- [1]
+			"Keidsai-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathël", -- [5]
+			"Keidsai-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1661, -- [11]
-			"Player-5-0AB56DE8", -- [12]
+			4806, -- [11]
+			"Player-104-0928883F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513309195,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dKeidsai-Malygos|r",
+			[51] = 1517962331,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [12]
 		{
-			"of aadds", -- [1]
-			"Jathël-Proudmoore", -- [2]
+			"Let's fucking go", -- [1]
+			"Keidsai-Malygos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathël", -- [5]
+			"Keidsai-Malygos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1662, -- [11]
-			"Player-5-0AB56DE8", -- [12]
+			4807, -- [11]
+			"Player-104-0928883F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513309197,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dKeidsai-Malygos|r",
+			[51] = 1517962334,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [13]
 		{
-			"f", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"focus the markers if u see one.", -- [1]
+			"Numb-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1679, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4815, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309444,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517962369,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [14]
 		{
-			"f", -- [1]
-			"Adamwèst-Proudmoore", -- [2]
+			"HOLD", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adamwèst", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1680, -- [11]
-			"Player-5-0A8CA4BB", -- [12]
+			4816, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Adamwèst|r",
-			[51] = 1513309447,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962372,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [15]
 		{
-			"f", -- [1]
-			"Leviasmod-Proudmoore", -- [2]
+			"HOLD", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Leviasmod", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1681, -- [11]
-			"Player-5-0AB812E3", -- [12]
+			4817, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Leviasmod|r",
-			[51] = 1513309448,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962375,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [16]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:8538:Player-5-0AA63E7A:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Unlimited Potential]|h|r!", -- [1]
-			"Mithrayah-Proudmoore", -- [2]
+			"DO NOT PUSH", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Mithrayah", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1689, -- [11]
-			"Player-5-0AA63E7A", -- [12]
+			4827, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaMithrayah|r",
-			[51] = 1513309569,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962421,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [17]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-5-0AE233F2:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Forbidden Descent]|h|r!", -- [1]
-			"Daayla-Proudmoore", -- [2]
+			"HOLD", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Daayla", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1693, -- [11]
-			"Player-5-0AE233F2", -- [12]
+			4828, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffffffffDaayla|r",
-			[51] = 1513309588,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962424,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [18]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-5-0AB812E3:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Forbidden Descent]|h|r!", -- [1]
-			"Leviasmod-Proudmoore", -- [2]
+			"THIS IS INSANE", -- [1]
+			"Karlliah-Tichondrius", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Leviasmod", -- [5]
+			"Karlliah-Tichondrius", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1694, -- [11]
-			"Player-5-0AB812E3", -- [12]
+			4836, -- [11]
+			"Player-11-0A3DEEAC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Leviasmod|r",
-			[51] = 1513309588,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffff468Karlliah-Tichondrius|r",
+			[51] = 1517962479,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [19]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-5-0AE7B2A6:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Forbidden Descent]|h|r!", -- [1]
-			"Lcpl-Proudmoore", -- [2]
+			"IM GETTING HORRIBLE FPS", -- [1]
+			"Karlliah-Tichondrius", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lcpl", -- [5]
+			"Karlliah-Tichondrius", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1695, -- [11]
-			"Player-5-0AE7B2A6", -- [12]
+			4838, -- [11]
+			"Player-11-0A3DEEAC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff48cbaLcpl|r",
-			[51] = 1513309588,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffff468Karlliah-Tichondrius|r",
+			[51] = 1517962482,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [20]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-5-05B3DF47:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Forbidden Descent]|h|r!", -- [1]
-			"Jathel-Proudmoore", -- [2]
+			"HOLD", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathel", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1696, -- [11]
-			"Player-5-05B3DF47", -- [12]
+			4842, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaJathel|r",
-			[51] = 1513309588,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962505,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [21]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-5-0ADAAED8:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Forbidden Descent]|h|r!", -- [1]
-			"Gadzookz-Proudmoore", -- [2]
+			"daily heroic?", -- [1]
+			"Lilsqueek-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gadzookz", -- [5]
+			"Lilsqueek", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1697, -- [11]
-			"Player-5-0ADAAED8", -- [12]
+			4844, -- [11]
+			"Player-5-0AD253F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Gadzookz|r",
-			[51] = 1513309588,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffaad372Lilsqueek|r",
+			[51] = 1517962515,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [22]
 		{
-			"WOOOOO", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"HOL!@#$%^D and kill t123456he extende123456rs", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1704, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4853, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309596,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962561,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [23]
 		{
-			"FUCK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"lol hold and kill extenders", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1706, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4855, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309596,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962570,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [24]
 		{
-			"GRATS", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"do not push", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1707, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4856, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309597,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962573,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [25]
 		{
-			"FUCK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"grip them in", -- [1]
+			"Bloodbeak-Frostmourne", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Bloodbeak-Frostmourne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1708, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4870, -- [11]
+			"Player-3725-0936C61E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309598,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffff7c0aBloodbeak-Frostmourne|r",
+			[51] = 1517962668,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [26]
 		{
-			"FUCK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"steal there heals...", -- [1]
+			"Numb-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1710, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4872, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309599,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517962672,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [27]
 		{
-			"FUCK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"dispell the heals.", -- [1]
+			"Numb-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1711, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4873, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309601,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517962677,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [28]
 		{
-			"brb", -- [1]
-			"Gadzookz-Proudmoore", -- [2]
+			"HOLD ROAD STAY TIGHT", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gadzookz", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1722, -- [11]
-			"Player-5-0ADAAED8", -- [12]
+			4877, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa330c9Gadzookz|r",
-			[51] = 1513309645,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962680,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [29]
 		{
-			"FUCKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"doing daily then i get a leggo", -- [1]
+			"Lilsqueek-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Lilsqueek", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1723, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4880, -- [11]
+			"Player-5-0AD253F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309654,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Lilsqueek|r",
+			[51] = 1517962692,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [30]
 		{
-			"3", -- [1]
-			"Falcó-Korgath", -- [2]
-			"Common", -- [3]
+			"anyone else got weird lag?", -- [1]
+			"Zen-Gul'dan", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Falcó-Korgath", -- [5]
+			"Zen-Gul'dan", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1727, -- [11]
-			"Player-1146-070F5C94", -- [12]
+			4885, -- [11]
+			"Player-74-0B5D02B9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Falcó-Korgath|r",
-			[51] = 1513309669,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Zen-Gul'dan|r",
+			[51] = 1517962715,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [31]
 		{
-			"2", -- [1]
-			"Falcó-Korgath", -- [2]
-			"Common", -- [3]
+			"in b4 kjs :-P", -- [1]
+			"Thiccaf-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Falcó-Korgath", -- [5]
+			"Thiccaf", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1728, -- [11]
-			"Player-1146-070F5C94", -- [12]
+			4886, -- [11]
+			"Player-5-0AEE550D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Falcó-Korgath|r",
-			[51] = 1513309670,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff3fc6eaThiccaf|r",
+			[51] = 1517962723,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [32]
 		{
-			"FFFFF", -- [1]
-			"Renisis-Proudmoore", -- [2]
+			"probably most of us", -- [1]
+			"Zekk-BoreanTundra", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Renisis", -- [5]
+			"Zekk-BoreanTundra", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1730, -- [11]
-			"Player-5-0AC96673", -- [12]
+			4887, -- [11]
+			"Player-85-06880D7E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Renisis|r",
-			[51] = 1513309679,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dZekk-BoreanTundra|r",
+			[51] = 1517962730,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [33]
 		{
-			"ffff", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
+			"too much pew pew", -- [1]
+			"Ligëia-Tichondrius", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Ligëia-Tichondrius", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1738, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4888, -- [11]
+			"Player-11-06C25F93", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309694,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaLigëia-Tichondrius|r",
+			[51] = 1517962732,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [34]
 		{
-			"not even gunna help with trash", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"kj was first leggo on this toon", -- [1]
+			"Lilsqueek-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Lilsqueek", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1750, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4889, -- [11]
+			"Player-5-0AD253F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309756,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Lilsqueek|r",
+			[51] = 1517962733,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [35]
 		{
-			"i want some fried chicken", -- [1]
-			"Jathël-Proudmoore", -- [2]
+			"lol", -- [1]
+			"Lilsqueek-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jathël", -- [5]
+			"Lilsqueek", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1751, -- [11]
-			"Player-5-0AB56DE8", -- [12]
+			4891, -- [11]
+			"Player-5-0AD253F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513309756,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffaad372Lilsqueek|r",
+			[51] = 1517962737,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [36]
 		{
-			"too fuckin mad", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"you are gunna get a 2nd", -- [1]
+			"Thiccaf-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Thiccaf", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1752, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4893, -- [11]
+			"Player-5-0AEE550D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513309758,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff3fc6eaThiccaf|r",
+			[51] = 1517962739,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [37]
 		{
-			"SAME", -- [1]
-			"Papapat-Proudmoore", -- [2]
+			"its awful in this one", -- [1]
+			"Zekk-BoreanTundra", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Papapat", -- [5]
+			"Zekk-BoreanTundra", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1753, -- [11]
-			"Player-5-0AA91A07", -- [12]
+			4894, -- [11]
+			"Player-85-06880D7E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dPapapat|r",
-			[51] = 1513309764,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dZekk-BoreanTundra|r",
+			[51] = 1517962740,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [38]
 		{
-			"summon back when ready", -- [1]
+			"oo i hope", -- [1]
 			"Lilsqueek-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -870,7 +870,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1790, -- [11]
+			4896, -- [11]
 			"Player-5-0AD253F3", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -878,1495 +878,1165 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513309991,
-			[50] = "CHAT_MSG_RAID",
+			[51] = 1517962749,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [39]
 		{
-			"summons please", -- [1]
-			"Crease-Proudmoore", -- [2]
+			"KIll extenders stay close", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Crease", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1802, -- [11]
-			"Player-5-0A057655", -- [12]
+			4897, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffff468Crease|r",
-			[51] = 1513310030,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962753,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [40]
 		{
-			"what is life?", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"death grip them in", -- [1]
+			"Bloodbeak-Frostmourne", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Bloodbeak-Frostmourne", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1809, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4905, -- [11]
+			"Player-3725-0936C61E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513310063,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffff7c0aBloodbeak-Frostmourne|r",
+			[51] = 1517962809,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [41]
 		{
-			"exsistence is pain", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"we're losing quick", -- [1]
+			"Phiil-Stonemaul", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Phiil-Stonemaul", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1810, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			4907, -- [11]
+			"Player-119-07AD0FCB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513310071,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aPhiil-Stonemaul|r",
+			[51] = 1517962814,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [42]
 		{
-			"|cffe6cc80|Hitem:128862::152042:133768:142185::::110:64:16777472:9:1:731:885:1:3:3611:1487:3528:3:3536:1612:3337:3:3418:1577:3337|h[Ebonchill]|h|r", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
+			"we have one shot", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1811, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			4912, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513310076,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962824,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [43]
 		{
-			"summon please", -- [1]
-			"Falcó-Korgath", -- [2]
+			"one chance", -- [1]
+			"Phiil-Stonemaul", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Falcó-Korgath", -- [5]
+			"Phiil-Stonemaul", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1812, -- [11]
-			"Player-1146-070F5C94", -- [12]
+			4913, -- [11]
+			"Player-119-07AD0FCB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Falcó-Korgath|r",
-			[51] = 1513310085,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aPhiil-Stonemaul|r",
+			[51] = 1517962829,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [44]
 		{
-			"zanklin needs to summon his skill so he will do higher than a 9 percent parse", -- [1]
-			"Jadequility-Proudmoore", -- [2]
+			"push into there center and hold", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadequility", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1814, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
+			4914, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513310152,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962829,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [45]
 		{
-			"1", -- [1]
-			"Papapat-Proudmoore", -- [2]
+			"do it now", -- [1]
+			"Ira-Aegwynn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Papapat", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1822, -- [11]
-			"Player-5-0AA91A07", -- [12]
+			4916, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dPapapat|r",
-			[51] = 1513310188,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517962834,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [46]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"down by 20points now", -- [1]
+			"Phiil-Stonemaul", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Phiil-Stonemaul", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1835, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			4917, -- [11]
+			"Player-119-07AD0FCB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310274,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc41e3aPhiil-Stonemaul|r",
+			[51] = 1517962845,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [47]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"yo im cape rich |cffa335ee|Hitem:151937::::::::110:253::5:4:3611:1808:1497:3336:::|h[Cloak of the Burning Vanguard]|h|r|cffa335ee|Hitem:151325::::::::110:253::35:3:3535:1607:3337:::|h[Void-Linked Robe]|h|r|cffa335ee|Hitem:137531::::::::110:253::35:3:3536:1617:3337:::|h[Cloak of Enthralling Darkness]|h|r", -- [1]
+			"Lilsqueek-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Lilsqueek", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1842, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			4922, -- [11]
+			"Player-5-0AD253F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310289,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Lilsqueek|r",
+			[51] = 1517962854,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [48]
 		{
-			"Wake of Flame on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Skin them alive....", -- [1]
+			"Numb-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1850, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			4924, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310300,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517962870,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [49]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Stop fighting the pets.", -- [1]
+			"Touku-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Touku", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1861, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			4944, -- [11]
+			"Player-5-0AF5D565", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310342,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff0070ddTouku|r",
+			[51] = 1517962968,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [50]
 		{
-			"Scorching Blaze on Falcó", -- [1]
-			"Falcó-Korgath", -- [2]
-			"Common", -- [3]
+			"Kill the god dam horde not there fucking pets.", -- [1]
+			"Numb-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Falcó-Korgath", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1862, -- [11]
-			"Player-1146-070F5C94", -- [12]
+			4945, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Falcó-Korgath|r",
-			[51] = 1513310342,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517962970,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [51]
 		{
-			"Scorching Blaze on Jathël", -- [1]
-			"Jathël-Proudmoore", -- [2]
-			"Common", -- [3]
+			"POUSH ", -- [1]
+			"Numb-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jathël", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1863, -- [11]
-			"Player-5-0AB56DE8", -- [12]
+			4959, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513310342,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517963045,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [52]
 		{
-			"Scorching Blaze on Lilsqueek", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
-			"Common", -- [3]
+			"push", -- [1]
+			"Numb-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1864, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			4960, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513310342,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517963047,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [53]
 		{
-			"Scorching Blaze on Jadequility", -- [1]
-			"Jadequility-Proudmoore", -- [2]
-			"Common", -- [3]
+			"lmao who was fighting a pet?", -- [1]
+			"Phiil-Stonemaul", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jadequility", -- [5]
+			"Phiil-Stonemaul", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1866, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
+			4964, -- [11]
+			"Player-119-07AD0FCB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513310351,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc41e3aPhiil-Stonemaul|r",
+			[51] = 1517963051,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [54]
 		{
-			"Scorching Blaze on Jathel", -- [1]
-			"Jathel-Proudmoore", -- [2]
-			"Common", -- [3]
+			"you do realise we are loseing right? lol", -- [1]
+			"Malkiea-WyrmrestAccord", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jathel", -- [5]
+			"Malkiea-WyrmrestAccord", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1867, -- [11]
-			"Player-5-05B3DF47", -- [12]
+			4988, -- [11]
+			"Player-1171-07D589B4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaJathel|r",
-			[51] = 1513310351,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aMalkiea-WyrmrestAccord|r",
+			[51] = 1517963206,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [55]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"We need to regroup", -- [1]
+			"Keellah-Nemesis", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Keellah-Nemesis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1869, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			4990, -- [11]
+			"Player-3208-09382002", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310359,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc69b6dKeellah-Nemesis|r",
+			[51] = 1517963221,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [56]
 		{
-			"Scorching Blaze on Falcó", -- [1]
-			"Falcó-Korgath", -- [2]
-			"Common", -- [3]
+			"lol by 60 points now", -- [1]
+			"Phiil-Stonemaul", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Falcó-Korgath", -- [5]
+			"Phiil-Stonemaul", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1870, -- [11]
-			"Player-1146-070F5C94", -- [12]
+			4991, -- [11]
+			"Player-119-07AD0FCB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Falcó-Korgath|r",
-			[51] = 1513310359,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc41e3aPhiil-Stonemaul|r",
+			[51] = 1517963222,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [57]
 		{
-			"Scorching Blaze on Lootvacuum", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
-			"Common", -- [3]
+			"Fall back to town to get the guards on our side.", -- [1]
+			"Touku-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Touku", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1874, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			5001, -- [11]
+			"Player-5-0AF5D565", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513310367,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff0070ddTouku|r",
+			[51] = 1517963243,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [58]
 		{
-			"Scorching Blaze on Jathel", -- [1]
-			"Jathel-Proudmoore", -- [2]
-			"Common", -- [3]
+			"this fight itsa all about range", -- [1]
+			"Whocare-Stormrage", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jathel", -- [5]
+			"Whocare-Stormrage", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1875, -- [11]
-			"Player-5-05B3DF47", -- [12]
+			5004, -- [11]
+			"Player-60-077DB09F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaJathel|r",
-			[51] = 1513310367,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaWhocare-Stormrage|r",
+			[51] = 1517963248,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [59]
 		{
-			"Scorching Blaze on Renisis", -- [1]
-			"Renisis-Proudmoore", -- [2]
-			"Common", -- [3]
+			"its 100% about NOT leaving group", -- [1]
+			"Ira-Aegwynn", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Renisis", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1886, -- [11]
-			"Player-5-0AC96673", -- [12]
+			5006, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Renisis|r",
-			[51] = 1513310409,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517963265,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [60]
 		{
-			"Scorching Blaze on Falcó", -- [1]
-			"Falcó-Korgath", -- [2]
-			"Common", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:10561:Player-5-0AFC5E26:1:2:6:18:4294967295:4294967295:4294967295:4294967295|h[Honorable Medallion]|h|r!", -- [1]
+			"Chratis-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Falcó-Korgath", -- [5]
+			"Chratis", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1887, -- [11]
-			"Player-1146-070F5C94", -- [12]
+			5007, -- [11]
+			"Player-5-0AFC5E26", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Falcó-Korgath|r",
-			[51] = 1513310409,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffffffffChratis|r",
+			[51] = 1517963268,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [61]
 		{
-			"Scorching Blaze on Jathël", -- [1]
-			"Jathël-Proudmoore", -- [2]
-			"Common", -- [3]
+			"we lost the 1st minuter when 12 people extended into them and died", -- [1]
+			"Ira-Aegwynn", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jathël", -- [5]
+			"Ira-Aegwynn", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1888, -- [11]
-			"Player-5-0AB56DE8", -- [12]
+			5009, -- [11]
+			"Player-1136-07D3CEBB", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513310409,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaIra-Aegwynn|r",
+			[51] = 1517963277,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [62]
 		{
-			"Scorching Blaze on Lootvacuum", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
-			"Common", -- [3]
+			"U failed the German Empire.", -- [1]
+			"Numb-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Numb", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1889, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			5010, -- [11]
+			"Player-5-0AFA614E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513310409,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Numb|r",
+			[51] = 1517963278,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [63]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"C A N C E R", -- [1]
+			"Jawasman-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Jawasman", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1891, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			5029, -- [11]
+			"Player-5-0AEE7BE4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310416,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff0070ddJawasman|r",
+			[51] = 1517963303,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [64]
 		{
-			"Scorching Blaze on Jadequility", -- [1]
-			"Jadequility-Proudmoore", -- [2]
-			"Common", -- [3]
+			"here we go", -- [1]
+			"Lilsqueek-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jadequility", -- [5]
+			"Lilsqueek", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1892, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
+			5073, -- [11]
+			"Player-5-0AD253F3", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513310416,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Lilsqueek|r",
+			[51] = 1517963751,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [65]
 		{
-			"Scorching Blaze on Falcó", -- [1]
-			"Falcó-Korgath", -- [2]
-			"Common", -- [3]
+			"HERE WE GO", -- [1]
+			"Krispykremez-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Falcó-Korgath", -- [5]
+			"Krispykremez", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1893, -- [11]
-			"Player-1146-070F5C94", -- [12]
+			5249, -- [11]
+			"Player-5-0ACD326C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Falcó-Korgath|r",
-			[51] = 1513310424,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Krispykremez|r",
+			[51] = 1517964843,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [66]
 		{
-			"Scorching Blaze on Jathël", -- [1]
-			"Jathël-Proudmoore", -- [2]
-			"Common", -- [3]
+			"good or bad", -- [1]
+			"Krispykremez-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jathël", -- [5]
+			"Krispykremez", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1894, -- [11]
-			"Player-5-0AB56DE8", -- [12]
+			5253, -- [11]
+			"Player-5-0ACD326C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513310424,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Krispykremez|r",
+			[51] = 1517964857,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [67]
 		{
-			"Scorching Blaze on Lootvacuum", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
-			"Common", -- [3]
+			"here it goes", -- [1]
+			"Gwenith-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1895, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			5266, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513310424,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517964955,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [68]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"LOL", -- [1]
+			"Krispykremez-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Krispykremez", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1902, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			5270, -- [11]
+			"Player-5-0ACD326C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310467,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Krispykremez|r",
+			[51] = 1517964967,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [69]
 		{
-			"Scorching Blaze on Jadequility", -- [1]
-			"Jadequility-Proudmoore", -- [2]
-			"Common", -- [3]
+			"rip", -- [1]
+			"Haridas-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jadequility", -- [5]
+			"Haridas", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1903, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
+			5271, -- [11]
+			"Player-5-0AFD8C33", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513310467,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc69b6dHaridas|r",
+			[51] = 1517964970,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [70]
 		{
-			"Scorching Blaze on Lilsqueek", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
-			"Common", -- [3]
+			":U", -- [1]
+			"Gwenith-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1904, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			5273, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513310467,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517964971,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [71]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"oh well", -- [1]
+			"Gwenith-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1908, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			5277, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310482,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517964976,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [72]
 		{
-			"Scorching Blaze on Lilsqueek", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
-			"Common", -- [3]
+			"GL", -- [1]
+			"Krispykremez-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lilsqueek", -- [5]
+			"Krispykremez", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1909, -- [11]
-			"Player-5-0AD253F3", -- [12]
+			5279, -- [11]
+			"Player-5-0ACD326C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513310482,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Krispykremez|r",
+			[51] = 1517964977,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [73]
 		{
-			"Scorching Blaze on Jadequility", -- [1]
-			"Jadequility-Proudmoore", -- [2]
-			"Common", -- [3]
+			"got it out of the way", -- [1]
+			"Gwenith-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Jadequility", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1910, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
+			5281, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513310482,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517964980,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [74]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"now i only need 1 more mistweaving leggo and im done with that spec", -- [1]
+			"Gwenith-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1918, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			5282, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310533,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517964991,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [75]
 		{
-			"Scorching Blaze on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"also krispy hate to break it to you but that leggo is pretty shiddy", -- [1]
+			"Gwenith-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1920, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			5284, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310549,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517965019,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [76]
 		{
-			"Scorching Blaze on Lootvacuum", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
-			"Common", -- [3]
+			"it just makes soothing mist give a bigger absorb to life cocoon", -- [1]
+			"Gwenith-Proudmoore", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1921, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			5294, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513310549,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517965078,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [77]
 		{
-			"GOD FUCKIN DAMN IT I DONT NEED THIS", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"which has a 3 minute cooldown...", -- [1]
+			"Gwenith-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Gwenith", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1952, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			5297, -- [11]
+			"Player-5-0AC40B06", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513310565,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff00ff96Gwenith|r",
+			[51] = 1517965089,
+			[50] = "CHAT_MSG_GUILD",
 		}, -- [78]
 		{
-			"I NEED THE GOD DAMN SHOULDERS", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"need 1 more at stone", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1960, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			102, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513310579,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518015471,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [79]
 		{
-			"FUCK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
+			"give you half up front, half before last boss :)", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Krispykremez", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1961, -- [11]
-			"Player-5-0ACD326C", -- [12]
+			106, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513310580,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518015538,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [80]
 		{
-			"|cffa335ee|Hitem:152026::::::::110:64::3:3:3610:1482:3336:::|h[Prototype Titan-Disc]|h|r roll for it", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
+			"sure :)", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1963, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			107, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513310589,
-			[50] = "CHAT_MSG_RAID_LEADER",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518015549,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [81]
 		{
-			"did anyone need this btw ", -- [1]
-			"Jadequility-Proudmoore", -- [2]
+			"just gotta grab a flask, So summon me inside when warlock is here", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadequility", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2013, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
+			108, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513310766,
-			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518015569,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [82]
 		{
-			"|cffa335ee|Hitem:151979::::::::110:105::3:3:3610:1472:3528:::|h[Vest of Unfathomable Anguish]|h|r", -- [1]
-			"Jadequility-Proudmoore", -- [2]
+			"put a stone down pls", -- [1]
+			"Boyfriends-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Jadequility", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2017, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513310771,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [83]
-		{
-			"3", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2055, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310881,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
-		{
-			"2", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2056, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310882,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
-		{
-			"1", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2057, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513310883,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
-		{
-			"Interrupted Constellar Designate's |cff71d5ff|Hspell:252616:0|h[Cosmic Beacon]|h|r!", -- [1]
-			"Zánklin-Thrall", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zánklin-Thrall", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2114, -- [11]
-			"Player-3678-09A58755", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dZánklin-Thrall|r",
-			[51] = 1513311055,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [87]
-		{
-			"Soulburst on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2135, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513311170,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
-		{
-			"Soulbomb on Lcpl", -- [1]
-			"Lcpl-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Lcpl", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2136, -- [11]
-			"Player-5-0AE7B2A6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLcpl|r",
-			[51] = 1513311170,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
-		{
-			"3", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2137, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513311182,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
-		{
-			"2", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2138, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513311183,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
-		{
-			"1", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2139, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513311184,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
-		{
-			"Soulburst 3 on {rt3}Jadequility{rt3}", -- [1]
-			"Jadequility-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jadequility", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2141, -- [11]
-			"Player-5-0AEAC5F6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aJadequility|r",
-			[51] = 1513311211,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
-		{
-			"3", -- [1]
-			"Jathël-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jathël", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2157, -- [11]
-			"Player-5-0AB56DE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513311263,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
-		{
-			"2", -- [1]
-			"Jathël-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jathël", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2159, -- [11]
-			"Player-5-0AB56DE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513311264,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
-		{
-			"1", -- [1]
-			"Jathël-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Jathël", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2160, -- [11]
-			"Player-5-0AB56DE8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edJathël|r",
-			[51] = 1513311265,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11991:Player-5-0AE233F2:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Seat of the Pantheon]|h|r!", -- [1]
-			"Daayla-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Daayla", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2161, -- [11]
-			"Player-5-0AE233F2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffffffffDaayla|r",
-			[51] = 1513311274,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [97]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11991:Player-5-0AE7B2A6:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Seat of the Pantheon]|h|r!", -- [1]
-			"Lcpl-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lcpl", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2162, -- [11]
-			"Player-5-0AE7B2A6", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff48cbaLcpl|r",
-			[51] = 1513311274,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [98]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11991:Player-5-05B3DF47:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Seat of the Pantheon]|h|r!", -- [1]
-			"Jathel-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Jathel", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2163, -- [11]
-			"Player-5-05B3DF47", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3fc6eaJathel|r",
-			[51] = 1513311274,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [99]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11991:Player-5-0AD253F3:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Seat of the Pantheon]|h|r!", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lilsqueek", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2164, -- [11]
-			"Player-5-0AD253F3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513311274,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [100]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11991:Player-5-0ADAAED8:1:12:14:17:4294967295:4294967295:4294967295:4294967295|h[Seat of the Pantheon]|h|r!", -- [1]
-			"Gadzookz-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gadzookz", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2165, -- [11]
-			"Player-5-0ADAAED8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Gadzookz|r",
-			[51] = 1513311274,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [101]
-		{
-			"THE FUCK", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Krispykremez", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2175, -- [11]
-			"Player-5-0ACD326C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513311285,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [102]
-		{
-			"GIMME KROOSPY", -- [1]
-			"Lilsqueek-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lilsqueek", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2178, -- [11]
-			"Player-5-0AD253F3", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffaad372Lilsqueek|r",
-			[51] = 1513311296,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [103]
-		{
-			"Broll..", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Krispykremez", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2181, -- [11]
-			"Player-5-0ACD326C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513311319,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [104]
-		{
-			":(", -- [1]
-			"Krispykremez-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Krispykremez", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2182, -- [11]
-			"Player-5-0ACD326C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Krispykremez|r",
-			[51] = 1513311320,
-			[50] = "CHAT_MSG_RAID",
-		}, -- [105]
-		{
-			"this. build. is. dumb.", -- [1]
-			"Adamwèst-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Adamwèst", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2187, -- [11]
-			"Player-5-0A8CA4BB", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa330c9Adamwèst|r",
-			[51] = 1513311390,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [106]
-		{
-			"fuck you", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
+			"Boyfriends", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			113, -- [11]
+			"Player-5-0AB76805", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aBoyfriends|r",
+			[51] = 1518015674,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [83]
+		{
+			"good for a summon back", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518015682,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [84]
+		{
+			"ty", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			118, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518015748,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [85]
+		{
+			"Heads up im decently undergeared on this toon, So shit has to die asap haha", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			147, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016089,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [86]
+		{
+			"got smacked", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			149, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016094,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [87]
+		{
+			":P", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			150, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016096,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [88]
+		{
+			"I got the taunts homie", -- [1]
+			"Boyfriends-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Boyfriends", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			152, -- [11]
+			"Player-5-0AB76805", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc41e3aBoyfriends|r",
+			[51] = 1518016101,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [89]
+		{
+			"top me off", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			158, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016218,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [90]
+		{
+			"I know you wanna get this done asap haha", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			165, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016237,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [91]
+		{
+			"sorry", -- [1]
+			"Hootzpah-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hootzpah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			166, -- [11]
 			"Player-5-0ADF66D9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2374,75 +2044,581 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513437607,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1518016238,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [92]
+		{
+			"but i cant pull if i have 5 stacks", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			167, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016241,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [93]
+		{
+			"just use to chain pulling", -- [1]
+			"Hootzpah-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hootzpah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-5-0ADF66D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aHootzpah|r",
+			[51] = 1518016245,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [94]
+		{
+			"I'll watch your health this time ;)", -- [1]
+			"Hootzpah-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hootzpah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			169, -- [11]
+			"Player-5-0ADF66D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aHootzpah|r",
+			[51] = 1518016259,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [95]
+		{
+			"with grieve its hard on healer", -- [1]
+			"Ashtamouph-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashtamouph-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			170, -- [11]
+			"Player-76-0987CE13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAshtamouph-Sargeras|r",
+			[51] = 1518016262,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [96]
+		{
+			"just let tank pull", -- [1]
+			"Ashtamouph-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashtamouph-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			171, -- [11]
+			"Player-76-0987CE13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAshtamouph-Sargeras|r",
+			[51] = 1518016265,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [97]
+		{
+			"yeah, druid is not ideal with an under geared tank", -- [1]
+			"Hootzpah-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hootzpah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			172, -- [11]
+			"Player-5-0ADF66D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aHootzpah|r",
+			[51] = 1518016283,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [98]
+		{
+			"lets goo", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			173, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016286,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [99]
+		{
+			"jesus", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			182, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016423,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [100]
+		{
+			"interupt skull", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			188, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016474,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [101]
+		{
+			"if lock has sac, we can kite this", -- [1]
+			"Hootzpah-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Hootzpah", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			189, -- [11]
+			"Player-5-0ADF66D9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aHootzpah|r",
+			[51] = 1518016488,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [102]
+		{
+			"healer", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			192, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016665,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [103]
+		{
+			"your just like chillin", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			193, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016669,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [104]
+		{
+			"top me off", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			194, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016671,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [105]
+		{
+			"sorry was fixing wa", -- [1]
+			"Aviendhe-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aviendhe-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			195, -- [11]
+			"Player-3693-08ED3D00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAviendhe-Kel'Thuzad|r",
+			[51] = 1518016679,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [106]
+		{
+			"leggo", -- [1]
+			"Aviendhe-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aviendhe-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			196, -- [11]
+			"Player-3693-08ED3D00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAviendhe-Kel'Thuzad|r",
+			[51] = 1518016686,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [107]
 		{
-			"Toxic Wound on Hootzpah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"Common", -- [3]
+			"top him off", -- [1]
+			"Ashtamouph-Sargeras", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Ashtamouph-Sargeras", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			473, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			197, -- [11]
+			"Player-76-0987CE13", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513441916,
-			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff8787edAshtamouph-Sargeras|r",
+			[51] = 1518016690,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [108]
 		{
-			"sorry hah", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
+			"I have 5 stacks", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			478, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			198, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513441972,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016691,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [109]
 		{
-			"dispel", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
+			"heal me up", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			498, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			200, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513442182,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016693,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 		}, -- [110]
+		{
+			"can i get more cookies", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016856,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [111]
+		{
+			"please", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			210, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016857,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [112]
+		{
+			"Doing this at under like 950", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			221, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016988,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [113]
+		{
+			"is cancer", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			222, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518016989,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [114]
+		{
+			"my bad", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			244, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017314,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [115]
+		{
+			"ty all", -- [1]
+			"Ashtamouph-Sargeras", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashtamouph-Sargeras", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			264, -- [11]
+			"Player-76-0987CE13", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8787edAshtamouph-Sargeras|r",
+			[51] = 1518017370,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [116]
+		{
+			"ty all", -- [1]
+			"Padany-Proudmoore", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Padany", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			269, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017375,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+		}, -- [117]
+		{
+			"Yw", -- [1]
+			"Aviendhe-Kel'Thuzad", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Aviendhe-Kel'Thuzad", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			273, -- [11]
+			"Player-3693-08ED3D00", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffff7c0aAviendhe-Kel'Thuzad|r",
+			[51] = 1518017378,
+			[50] = "CHAT_MSG_PARTY",
+		}, -- [118]
 		{
 			"ty", -- [1]
 			"Hootzpah-Proudmoore", -- [2]
@@ -2454,7 +2630,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			518, -- [11]
+			275, -- [11]
 			"Player-5-0ADF66D9", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -2462,360 +2638,184 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513442219,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [111]
-		{
-			"That moment you random bg for artifact appearance", -- [1]
-			"|Kf41|k0000000|k", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			798, -- [11]
-			false, -- [12]
-			43, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7d0aWastoid|r",
-			[51] = 1513444767,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-		}, -- [112]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:513:Player-5-0ADF66D9:1:12:16:17:4294967295:4294967295:4294967295:4294967295|h[100 Honorable Kills]|h|r!", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			836, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513444956,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [113]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:229:Player-5-0ADF66D9:1:12:16:17:4294967295:4294967295:4294967295:4294967295|h[The Grim Reaper]|h|r!", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Hootzpah", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			842, -- [11]
-			"Player-5-0ADF66D9", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513444970,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [114]
-		{
-			"top", -- [1]
-			"Lockrockinya-Aegwynn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lockrockinya-Aegwynn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			846, -- [11]
-			"Player-1136-07BD1AB8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edLockrockinya-Aegwynn|r",
-			[51] = 1513444981,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [115]
-		{
-			"pwned Denorlena(Arena)(BG)! Streak of 2!", -- [1]
-			"Disterbedo-EmeraldDream", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Disterbedo-EmeraldDream", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			863, -- [11]
-			"Player-162-09946CB5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc69b6dDisterbedo-EmeraldDream|r",
-			[51] = 1513445051,
-			[50] = "CHAT_MSG_EMOTE",
-		}, -- [116]
-		{
-			"lava", -- [1]
-			"Lockrockinya-Aegwynn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Lockrockinya-Aegwynn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			870, -- [11]
-			"Player-1136-07BD1AB8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8787edLockrockinya-Aegwynn|r",
-			[51] = 1513445103,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [117]
-		{
-			"noooo i got to stage 7", -- [1]
-			"Gwenith-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gwenith", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			888, -- [11]
-			"Player-5-0AC40B06", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Gwenith|r",
-			[51] = 1513445178,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [118]
-		{
-			"almost", -- [1]
-			"Gwenith-Proudmoore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Gwenith", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			889, -- [11]
-			"Player-5-0AC40B06", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00ff96Gwenith|r",
-			[51] = 1513445184,
-			[50] = "CHAT_MSG_GUILD",
+			[51] = 1518017380,
+			[50] = "CHAT_MSG_PARTY",
 		}, -- [119]
 		{
-			";__;", -- [1]
-			"Gwenith-Proudmoore", -- [2]
+			"If you want an actual carry, my group can sell you one here about 11am server", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Gwenith", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			890, -- [11]
-			"Player-5-0AC40B06", -- [12]
+			281, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff00ff96Gwenith|r",
-			[51] = 1513445191,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017432,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [120]
 		{
-			"pwned Pictishnoble(Arena)(BG)! Streak of 1!", -- [1]
-			"Disterbedo-EmeraldDream", -- [2]
+			"Eh now that i got the key, I can just get guildies to do the 15 for there weekly :)", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Disterbedo-EmeraldDream", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			912, -- [11]
-			"Player-162-09946CB5", -- [12]
+			285, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dDisterbedo-EmeraldDream|r",
-			[51] = 1513445306,
-			[50] = "CHAT_MSG_EMOTE",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017472,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [121]
 		{
-			"defend carts", -- [1]
-			"Disterbedo-EmeraldDream", -- [2]
+			"ahh ok ;)", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Disterbedo-EmeraldDream", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			917, -- [11]
-			"Player-162-09946CB5", -- [12]
+			286, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dDisterbedo-EmeraldDream|r",
-			[51] = 1513445319,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017486,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [122]
 		{
-			"pwned Denorlena(Arena)(BG)! Streak of 2!", -- [1]
-			"Disterbedo-EmeraldDream", -- [2]
+			"thanks tho :)", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Disterbedo-EmeraldDream", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			923, -- [11]
-			"Player-162-09946CB5", -- [12]
+			288, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc69b6dDisterbedo-EmeraldDream|r",
-			[51] = 1513445341,
-			[50] = "CHAT_MSG_EMOTE",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017492,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [123]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6739:Player-5-0ADF66D9:1:12:16:17:4294967295:4294967295:4294967295:4294967295|h[Silvershard Mines Victory]|h|r!", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
+			"np!", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			938, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			289, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513445423,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017496,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [124]
 		{
-			"aa", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
+			"Not to bad for a boosted toon 2 days ago tho", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1256, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			294, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513447358,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017511,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [125]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:686:Player-5-0ADF66D9:1:12:16:17:4294967295:4294967295:4294967295:4294967295|h[Molten Core]|h|r!", -- [1]
-			"Hootzpah-Proudmoore", -- [2]
+			":P", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Hootzpah", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1289, -- [11]
-			"Player-5-0ADF66D9", -- [12]
+			295, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffff7c0aHootzpah|r",
-			[51] = 1513447668,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017512,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [126]
 		{
-			"discord hootyboi?", -- [1]
-			"Lootvacuum-Proudmoore", -- [2]
+			"That's pretty solid!", -- [1]
+			"Padany-Proudmoore", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Lootvacuum", -- [5]
+			"Padany", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1304, -- [11]
-			"Player-5-0AC4CF34", -- [12]
+			310, -- [11]
+			"Player-5-0AFBE1F5", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3fc6eaLootvacuum|r",
-			[51] = 1513447773,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dPadany|r",
+			[51] = 1518017554,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
 		}, -- [127]
 	},
 }

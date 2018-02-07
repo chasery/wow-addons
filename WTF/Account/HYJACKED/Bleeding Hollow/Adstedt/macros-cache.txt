@@ -1,0 +1,20 @@
+VER 3 0100000000000004 "Innervate" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help]Innervate;Innervate
+END
+VER 3 0100000000000002 "Moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm][] Moonfire
+END
+VER 3 0100000000000001 "Rebirth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help]Rebirth;Rebirth
+END
+VER 3 0100000000000005 "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help]Regrowth;Regrowth
+END
+VER 3 0100000000000003 "Sunfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm][] Sunfire
+END

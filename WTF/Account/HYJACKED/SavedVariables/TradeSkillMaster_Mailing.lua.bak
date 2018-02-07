@@ -1,50 +1,73 @@
 
 TradeSkillMaster_MailingDB = {
 	["g@ @sendDelay"] = 0.5,
-	["g@ @sendItemsIndividually"] = false,
+	["g@ @helpPlatesShown"] = {
+		["inbox"] = true,
+	},
+	["_hash"] = 3711258,
+	["c@Closet - Proudmoore@goldMailTarget"] = "",
+	["c@Vonyc - Proudmoore@goldMailTarget"] = "",
+	["c@Anjüna - Proudmoore@goldMailTarget"] = "",
+	["g@ @deleteEmptyNPCMail"] = false,
+	["g@ @displayMoneyCollected"] = true,
+	["f@Alliance - Proudmoore@deMailTarget"] = "",
+	["g@ @deMaxQuality"] = 2,
+	["_version"] = 1,
+	["g@ @showReloadBtn"] = true,
 	["c@Hootzpah - Proudmoore@goldMailTarget"] = "",
 	["_scopeKeys"] = {
 		["char"] = {
 			"Vonyc - Proudmoore", -- [1]
 			"Amethizz - Proudmoore", -- [2]
 			"Hootzpah - Proudmoore", -- [3]
+			"Adstedt - Bleeding Hollow", -- [4]
+			"Anjüna - Proudmoore", -- [5]
+			"Furiousgash - Proudmoore", -- [6]
+			"Amethizz - Bleeding Hollow", -- [7]
+			"Closet - Proudmoore", -- [8]
 		},
 		["factionrealm"] = {
 			"Alliance - Proudmoore", -- [1]
+			"Horde - Bleeding Hollow", -- [2]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
 		["realm"] = {
 			"Proudmoore", -- [1]
+			"Bleeding Hollow", -- [2]
 		},
 	},
-	["g@ @helpPlatesShown"] = {
-		["inbox"] = true,
-	},
-	["_hash"] = 3711258,
+	["f@Horde - Bleeding Hollow@deMailTarget"] = "",
 	["g@ @inboxMessages"] = true,
+	["c@Closet - Proudmoore@goldKeepAmount"] = 1000000,
 	["g@ @defaultMailTab"] = true,
-	["c@Vonyc - Proudmoore@goldMailTarget"] = "",
+	["c@Adstedt - Bleeding Hollow@goldMailTarget"] = "",
+	["c@Vonyc - Proudmoore@goldKeepAmount"] = 1000000,
 	["_currentProfile"] = {
 		["Hootzpah - Proudmoore"] = "Default",
-		["Vonyc - Proudmoore"] = "Default",
+		["Adstedt - Bleeding Hollow"] = "Default",
+		["Amethizz - Bleeding Hollow"] = "Default",
 		["Amethizz - Proudmoore"] = "Default",
+		["Furiousgash - Proudmoore"] = "Default",
+		["Vonyc - Proudmoore"] = "Default",
+		["Anjüna - Proudmoore"] = "Default",
+		["Closet - Proudmoore"] = "Default",
 	},
 	["g@ @resendDelay"] = 1,
-	["c@Amethizz - Proudmoore@goldKeepAmount"] = 1000000,
-	["c@Amethizz - Proudmoore@goldMailTarget"] = "",
+	["g@ @autoCheck"] = true,
+	["c@Adstedt - Bleeding Hollow@goldKeepAmount"] = 1000000,
 	["c@Hootzpah - Proudmoore@goldKeepAmount"] = 1000000,
+	["g@ @openMailSound"] = "TSM_NO_SOUND",
+	["c@Furiousgash - Proudmoore@goldMailTarget"] = "",
+	["c@Amethizz - Proudmoore@goldMailTarget"] = "",
+	["c@Anjüna - Proudmoore@goldKeepAmount"] = 1000000,
+	["g@ @keepMailSpace"] = 0,
 	["g@ @sendMessages"] = true,
 	["g@ @defaultPage"] = 1,
-	["g@ @deleteEmptyNPCMail"] = false,
-	["g@ @openMailSound"] = "TSM_NO_SOUND",
-	["g@ @displayMoneyCollected"] = true,
-	["f@Alliance - Proudmoore@deMailTarget"] = "",
-	["g@ @keepMailSpace"] = 0,
-	["g@ @showReloadBtn"] = true,
-	["g@ @autoCheck"] = true,
-	["g@ @deMaxQuality"] = 2,
-	["_version"] = 1,
-	["c@Vonyc - Proudmoore@goldKeepAmount"] = 1000000,
+	["c@Amethizz - Proudmoore@goldKeepAmount"] = 1000000,
+	["g@ @sendItemsIndividually"] = false,
+	["c@Furiousgash - Proudmoore@goldKeepAmount"] = 1000000,
+	["c@Amethizz - Bleeding Hollow@goldMailTarget"] = "",
+	["c@Amethizz - Bleeding Hollow@goldKeepAmount"] = 1000000,
 }

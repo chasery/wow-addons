@@ -1,4 +1,4 @@
-﻿local E, L, V, P, G = unpack(select(2, ...)); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
+﻿local E, L, V, P, G = unpack(select(2, ...)); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 
 --Global Settings
 G['general'] = {
@@ -15,6 +15,7 @@ G['general'] = {
 		["yOffset"] = 0,
 	},
 	["disableTutorialButtons"] = true,
+	["showMissingTalentAlert"] = false,
 	["commandBarSetting"] = "ENABLED_RESIZEPARENT",
 }
 
